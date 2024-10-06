@@ -435,7 +435,7 @@ const layoutJA = new Map<string, Translation>([
         "Z-Index",
         {
             entry: "Zインデックス",
-            description: "要素の高さを指定する",
+            description: "要素の重なり順を指定する",
             detail: null,
         },
     ],
