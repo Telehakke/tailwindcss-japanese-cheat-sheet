@@ -1,5 +1,10 @@
 import { CategoryEnum } from "./category";
-import { DetailedDocumentation, Documentation, Translation } from "./types";
+import {
+    CheatSheetData,
+    DetailedDocumentation,
+    Documentation,
+    Translation,
+} from "./types";
 import { documentations as layout } from "../data/Layout_v3.4.13";
 import { documentations as flexboxAndGrid } from "../data/Flexbox & Grid_v3.4.13";
 import { documentations as spacing } from "../data/Spacing_v3.4.13";
@@ -32,12 +37,7 @@ import svgJA from "../translations/svgJA";
 import accessibilityJA from "../translations/accessibilityJA";
 
 abstract class Translator {
-    protected cache:
-        | {
-              detailedDocumentations: DetailedDocumentation[];
-              category: string;
-          }[]
-        | null = null;
+    protected cache: CheatSheetData[] | null = null;
 
     protected abstract documentationsTriple: [
         string,
@@ -48,10 +48,7 @@ abstract class Translator {
     /**
      * 翻訳されたカテゴリー名と詳細な説明書を返す
      */
-    getTranslations = (): {
-        category: string;
-        detailedDocumentations: DetailedDocumentation[];
-    }[] => {
+    getTranslations = (): CheatSheetData[] => {
         if (this.cache == null) {
             this.cache = this.documentationsTriple //
                 .map(([category, documentations, translations]) => {

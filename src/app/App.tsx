@@ -4,26 +4,60 @@ import { CheatSheet } from "./views/cheatSheet";
 import { Close, Search, UnfoldLess, UnfoldMore } from "./views/icons";
 import RoundedButton from "./views/roundedButton";
 import { version } from "./data/Layout_v3.4.13";
-import { DetailedDocumentation } from "./models/types";
+import { CheatSheetData, DetailedDocumentation } from "./models/types";
 import { TranslatorEN, TranslatorJA } from "./models/translator";
 import DelayAction from "./models/delayAction";
 import githubMark from "./assets/github-mark.png";
 import githubMarkWhite from "./assets/github-mark-white.png";
+import {
+    BreakpointPrefix,
+    getBreakpointPrefix,
+} from "./models/breakpointPrefix";
+import CheatSheetDataSlicer from "./models/cheatSheetDataSlicer";
 
 const translatorJA = new TranslatorJA();
 const translatorEN = new TranslatorEN();
 
 const App = (): JSX.Element => {
-    const [translations, setTranslations] = useState(
+    const [cheatSheetData, setCheatSheetData] = useState(
         translatorJA.getTranslations(),
     );
     const [isJapanese, setIsJapanese] = useState(true);
+    const [firstRow, setFirstRow] = useState<CheatSheetData[]>([]);
+    const [secondRow, setSecondRow] = useState<CheatSheetData[]>([]);
+    const [thirdRow, setThirdRow] = useState<CheatSheetData[]>([]);
+    const [fourthRow, setFourthRow] = useState<CheatSheetData[]>([]);
 
-    // 開発モードで実行中、翻訳文の修正をホットリロードで反映させるために、
-    // useEffectで初期化する
+    // レスポンシブデザインによるレイアウト変更に合わせて、
+    // チートシートの列ごとの配分を変更する
     useEffect(() => {
-        setTranslations(translatorJA.getTranslations());
+        let beforePrefix: BreakpointPrefix | null = null;
+        window.addEventListener("resize", () => {
+            const prefix = getBreakpointPrefix(window.innerWidth);
+            if (beforePrefix === prefix) return;
+
+            beforePrefix = prefix;
+            const slicer = CheatSheetDataSlicer.get(prefix);
+            const sliced = slicer.sliced(cheatSheetData);
+            setFirstRow(sliced.firstRow);
+            setSecondRow(sliced.secondRow);
+            setThirdRow(sliced.thirdRow);
+            setFourthRow(sliced.fourthRow);
+        });
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
+
+    // 初回、または言語切り替え時のレンダリング
+    useEffect(() => {
+        const prefix = getBreakpointPrefix(window.innerWidth);
+        const slicer = CheatSheetDataSlicer.get(prefix);
+        const sliced = slicer.sliced(cheatSheetData);
+        setFirstRow(sliced.firstRow);
+        setSecondRow(sliced.secondRow);
+        setThirdRow(sliced.thirdRow);
+        setFourthRow(sliced.fourthRow);
+    }, [cheatSheetData]);
 
     return (
         <ContextProvider>
@@ -40,7 +74,7 @@ const App = (): JSX.Element => {
                         setIsJapanese={setIsJapanese}
                         translatorJA={translatorJA}
                         translatorEN={translatorEN}
-                        setTranslations={setTranslations}
+                        setTranslations={setCheatSheetData}
                     />
                 </div>
             </div>
@@ -52,20 +86,53 @@ const App = (): JSX.Element => {
                             ? translatorJA.getTranslations()
                             : translatorEN.getTranslations()
                     }
-                    setTranslations={setTranslations}
+                    setTranslations={setCheatSheetData}
                 />
-                <div className="sm:columns-1 md:columns-2 lg:columns-3 xl:columns-4">
-                    {translations.map((translation) => {
-                        return (
+                <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <div className="flex flex-col">
+                        {firstRow.map((v) => (
                             <CheatSheet
-                                key={translation.category}
-                                category={translation.category}
+                                key={v.category}
+                                category={v.category}
                                 detailedDocumentations={
-                                    translation.detailedDocumentations
+                                    v.detailedDocumentations
                                 }
                             />
-                        );
-                    })}
+                        ))}
+                    </div>
+                    <div className="flex flex-col">
+                        {secondRow.map((v) => (
+                            <CheatSheet
+                                key={v.category}
+                                category={v.category}
+                                detailedDocumentations={
+                                    v.detailedDocumentations
+                                }
+                            />
+                        ))}
+                    </div>
+                    <div className="flex flex-col">
+                        {thirdRow.map((v) => (
+                            <CheatSheet
+                                key={v.category}
+                                category={v.category}
+                                detailedDocumentations={
+                                    v.detailedDocumentations
+                                }
+                            />
+                        ))}
+                    </div>
+                    <div className="flex flex-col">
+                        {fourthRow.map((v) => (
+                            <CheatSheet
+                                key={v.category}
+                                category={v.category}
+                                detailedDocumentations={
+                                    v.detailedDocumentations
+                                }
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
             <div className="flex justify-center gap-2 pb-4">

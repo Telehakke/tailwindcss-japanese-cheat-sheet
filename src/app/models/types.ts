@@ -23,3 +23,8 @@ export type Translation = {
     description: string;
     detail: JSX.Element | null;
 };
+
+export type CheatSheetData = {
+    category: string;
+    detailedDocumentations: DetailedDocumentation[];
+};

@@ -15,7 +15,7 @@ export const CheatSheet = ({
     detailedDocumentations: DetailedDocumentation[];
 }): JSX.Element => {
     return (
-        <div className="mb-8 inline-block w-full">
+        <div className="mb-8">
             <FloatingCard>
                 <CategoryBar category={category} />
                 {detailedDocumentations.map((doc) => {
