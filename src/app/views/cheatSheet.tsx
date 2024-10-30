@@ -1,4 +1,12 @@
-import { ReactNode, useContext, useEffect, useRef, useState } from "react";
+import {
+    memo,
+    ReactNode,
+    useContext,
+    useEffect,
+    useLayoutEffect,
+    useRef,
+    useState,
+} from "react";
 import { DetailedDocumentation } from "../models/types";
 import { KeyboardArrowDown, KeyboardArrowUp, Link } from "./icons";
 import { AppContext } from "./contextProvider";
@@ -15,19 +23,17 @@ export const CheatSheet = ({
     detailedDocumentations: DetailedDocumentation[];
 }): JSX.Element => {
     return (
-        <div className="mb-8">
-            <FloatingCard>
-                <CategoryBar category={category} />
-                {detailedDocumentations.map((doc) => {
-                    return (
-                        <DocumentationGroupBox
-                            key={doc.entry}
-                            detailedDocumentation={doc}
-                        />
-                    );
-                })}
-            </FloatingCard>
-        </div>
+        <FloatingCard>
+            <CategoryBar category={category} />
+            {detailedDocumentations.map((doc) => {
+                return (
+                    <DocumentationGroupBox
+                        key={doc.entry}
+                        detailedDocumentation={doc}
+                    />
+                );
+            })}
+        </FloatingCard>
     );
 };
 
@@ -36,7 +42,7 @@ export const CheatSheet = ({
  */
 const FloatingCard = ({ children }: { children?: ReactNode }): JSX.Element => {
     return (
-        <div className="rounded-xl bg-neutral-50 shadow-md shadow-neutral-400 dark:bg-neutral-700 dark:shadow-neutral-950">
+        <div className="mb-8 rounded-xl bg-neutral-50 shadow-md shadow-neutral-400 dark:bg-neutral-700 dark:shadow-neutral-950">
             {children}
         </div>
     );
@@ -78,28 +84,25 @@ const DocumentationGroupBox = ({
     };
 
     return (
-        <div>
+        <div className="space-y-2 px-2 pb-2">
             <EntryAndLinkBar
                 detailedDocumentation={detailedDocumentation}
                 handleEntryClick={handleEntryClick}
             />
-            <div className="space-y-2 p-2">
-                <DescriptionBox detailedDocumentation={detailedDocumentation} />
-                {shouldExpand && (
-                    <>
-                        {detailedDocumentation.detail}
-                        <ParametersTable
-                            detailedDocumentation={detailedDocumentation}
-                        />
-                    </>
-                )}
+            <DescriptionBar detailedDocumentation={detailedDocumentation} />
+            <div className={`${shouldExpand ? "" : "hidden"}`}>
+                {detailedDocumentation.detail}
             </div>
+            <ParametersTable
+                detailedDocumentation={detailedDocumentation}
+                outerShouldExpand={shouldExpand}
+            />
         </div>
     );
 };
 
 /**
- * 項目とリンクを表示する
+ * 項目とリンクを表示するバー
  */
 const EntryAndLinkBar = ({
     detailedDocumentation,
@@ -110,72 +113,100 @@ const EntryAndLinkBar = ({
 }): JSX.Element => {
     return (
         <div
-            className="flex cursor-pointer justify-between whitespace-pre-line border-t-2 border-neutral-500 bg-neutral-200 p-2 transition hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-600"
+            className="-mx-2 flex cursor-pointer justify-between whitespace-pre-line border-t-2 border-neutral-500 bg-neutral-200 p-2 transition hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-600"
             onClick={handleEntryClick}
         >
-            <h3>{detailedDocumentation.entry}</h3>
-            <a
-                className="content-center"
-                href={detailedDocumentation.url}
-                target="_blank"
-                onClick={(event) => {
-                    // handleEntryClick()が呼び出されないよう、
-                    // クリックイベントの伝播を止める
-                    event.stopPropagation();
-                }}
-            >
-                <Link className="w-10 rounded-full fill-neutral-500 transition hover:bg-neutral-200 hover:fill-sky-400 dark:hover:bg-neutral-500" />
-            </a>
+            <EntryAndLink detailedDocumentation={detailedDocumentation} />
         </div>
     );
 };
 
 /**
+ * 項目とリンクを表示する
+ */
+const EntryAndLink = memo(
+    ({
+        detailedDocumentation,
+    }: {
+        detailedDocumentation: DetailedDocumentation;
+    }): JSX.Element => {
+        return (
+            <>
+                <h3>{detailedDocumentation.entry}</h3>
+                <a
+                    className="my-auto w-10 content-center rounded-full fill-neutral-500 hover:bg-neutral-200 hover:fill-sky-400 dark:hover:bg-neutral-500"
+                    href={detailedDocumentation.url}
+                    target="_blank"
+                    aria-label="公式ドキュメントに移動して詳細を確認する"
+                    onClick={(event) => {
+                        // handleEntryClick()が呼び出されないよう、
+                        // クリックイベントの伝播を止める
+                        event.stopPropagation();
+                    }}
+                >
+                    <Link className="mx-auto" />
+                </a>
+            </>
+        );
+    },
+);
+
+/**
  * 説明を表示する
  */
-const DescriptionBox = ({
-    detailedDocumentation,
-}: {
-    detailedDocumentation: DetailedDocumentation;
-}): JSX.Element => {
-    return (
-        <p className="whitespace-pre-line text-sm">
-            {detailedDocumentation.description}
-        </p>
-    );
-};
+const DescriptionBar = memo(
+    ({
+        detailedDocumentation,
+    }: {
+        detailedDocumentation: DetailedDocumentation;
+    }): JSX.Element => {
+        return (
+            <p className="whitespace-pre-line text-sm">
+                {detailedDocumentation.description}
+            </p>
+        );
+    },
+);
 
 /**
  * クラス名とそれに対応するCSSを表示する\
- * 高さが192pxを超える場合、コンパクトに表示する
+ * 高さが144pxを超える場合、コンパクトに表示する
  */
 const ParametersTable = ({
     detailedDocumentation,
+    outerShouldExpand,
 }: {
     detailedDocumentation: DetailedDocumentation;
+    outerShouldExpand: boolean;
 }): JSX.Element => {
-    const [shouldExpand, setShouldExpand] = useState(false);
+    const [innerShouldExpand, innerSetShouldExpand] = useState(false);
     const [shouldShowButton, setShouldShowButton] = useState(false);
     const tableElement = useRef<HTMLTableElement>(null);
 
     // レンダリング直後に<table>要素の高さを取得する
-    useEffect(() => {
+    useLayoutEffect(() => {
+        if (!outerShouldExpand) {
+            innerSetShouldExpand(false);
+            setShouldShowButton(false);
+            return;
+        }
+
         const tableHeight =
             tableElement.current?.getBoundingClientRect().height;
         if (tableHeight == null) return;
 
-        if (tableHeight > 192) {
+        if (tableHeight > 144) {
             setShouldShowButton(true);
         }
-    }, []);
+    }, [outerShouldExpand]);
 
     return (
         <>
             <div
-                className={`overflow-clip ${shouldExpand ? "" : "max-h-[192px]"}`}
+                className={`overflow-clip ${innerShouldExpand ? "" : "max-h-[144px]"} ${outerShouldExpand ? "" : "hidden"}`}
             >
                 <table
-                    className={`w-full table-fixed border-collapse overflow-clip whitespace-pre-line rounded-lg outline outline-2 -outline-offset-2 outline-stone-400 dark:outline-stone-500`}
+                    className="w-full table-fixed border-collapse overflow-clip whitespace-pre-line rounded-lg outline outline-2 -outline-offset-2 outline-stone-400 dark:outline-stone-500"
                     ref={tableElement}
                 >
                     {detailedDocumentation.entry.includes("Container") ? (
@@ -187,25 +218,23 @@ const ParametersTable = ({
                         // それ以外で使用する<tbody>要素
                         <TbodyOfParameters
                             documentation={detailedDocumentation}
-                            shouldExpand={shouldExpand}
+                            shouldExpand={innerShouldExpand}
                         />
                     )}
                 </table>
             </div>
-            {shouldShowButton && (
-                <RoundedButton
-                    className="w-full"
-                    Icon={
-                        shouldExpand ? (
-                            <KeyboardArrowUp className="fill-neutral-500" />
-                        ) : (
-                            <KeyboardArrowDown className="fill-neutral-500" />
-                        )
-                    }
-                    text=""
-                    onClick={() => setShouldExpand(!shouldExpand)}
-                />
-            )}
+            <RoundedButton
+                className={`w-full ${shouldShowButton ? "" : "hidden"}`}
+                Icon={
+                    innerShouldExpand ? (
+                        <KeyboardArrowUp className="fill-neutral-500" />
+                    ) : (
+                        <KeyboardArrowDown className="fill-neutral-500" />
+                    )
+                }
+                text=""
+                onClick={() => innerSetShouldExpand(!innerShouldExpand)}
+            />
         </>
     );
 };
@@ -213,35 +242,75 @@ const ParametersTable = ({
 /**
  * Parameterの値を表示するための<tbody>要素
  */
-const TbodyOfParameters = ({
-    documentation,
-    shouldExpand,
-}: {
-    documentation: DetailedDocumentation;
-    shouldExpand: boolean;
-}): JSX.Element => {
-    return (
-        <tbody>
-            {documentation.parameters
-                .filter((_, i) => {
-                    // 描画コストを減らすために折りたたみ時は9行分まで表示する
-                    if (!shouldExpand) {
-                        return i < 9;
-                    }
+const TbodyOfParameters = memo(
+    ({
+        documentation,
+        shouldExpand,
+    }: {
+        documentation: DetailedDocumentation;
+        shouldExpand: boolean;
+    }): JSX.Element => {
+        return (
+            <tbody>
+                {documentation.parameters
+                    .filter((_, i) => {
+                        // 描画コストを減らすために折りたたみ時は7行分まで表示する
+                        if (!shouldExpand) {
+                            return i < 7;
+                        }
 
-                    return true;
-                })
-                .map((parameters, i) => {
+                        return true;
+                    })
+                    .map((parameters, i) => {
+                        return (
+                            <tr
+                                key={i}
+                                className="odd:bg-stone-100 even:bg-stone-200 dark:odd:bg-stone-700 dark:even:bg-stone-800"
+                            >
+                                {parameters.map((parameter) => {
+                                    return (
+                                        <td
+                                            key={parameter}
+                                            className="px-2 py-1 text-xs text-neutral-700 first:text-blue-700 last:text-green-700 dark:text-neutral-300 dark:first:text-blue-300 dark:last:text-green-300"
+                                        >
+                                            {parameter}
+                                        </td>
+                                    );
+                                })}
+                            </tr>
+                        );
+                    })}
+            </tbody>
+        );
+    },
+);
+
+/**
+ * 「Layout > Container」のみで使用する<tbody>要素
+ */
+const TbodyUsedOnlyForContainer = memo(
+    ({
+        documentation,
+    }: {
+        documentation: DetailedDocumentation;
+    }): JSX.Element => {
+        return (
+            <tbody>
+                {documentation.parameters.map((parameters, i) => {
                     return (
                         <tr
                             key={i}
-                            className="odd:bg-stone-100 even:bg-stone-200 dark:odd:bg-stone-700 dark:even:bg-stone-800"
+                            className="odd:bg-neutral-100 even:bg-stone-200 dark:odd:bg-stone-700 dark:even:bg-stone-800"
                         >
-                            {parameters.map((parameter) => {
+                            {parameters.map((parameter, j) => {
                                 return (
                                     <td
                                         key={parameter}
-                                        className="px-2 py-1 text-xs text-neutral-700 first:text-blue-700 last:text-green-700 dark:text-neutral-300 dark:first:text-blue-300 dark:last:text-green-300"
+                                        className={`px-2 py-1 text-xs text-neutral-700 last:text-green-700 dark:text-neutral-300 dark:last:text-green-300 ${i === 0 ? "first:text-blue-700 dark:first:text-blue-300" : ""}`}
+                                        // 最初のセルだけ縦方向に連結する
+                                        rowSpan={
+                                            i === 0 && j === 0 ? 6 : undefined
+                                        }
                                     >
                                         {parameter}
                                     </td>
@@ -250,41 +319,7 @@ const TbodyOfParameters = ({
                         </tr>
                     );
                 })}
-        </tbody>
-    );
-};
-
-/**
- * 「Layout > Container」のみで使用する<tbody>要素
- */
-const TbodyUsedOnlyForContainer = ({
-    documentation,
-}: {
-    documentation: DetailedDocumentation;
-}): JSX.Element => {
-    return (
-        <tbody>
-            {documentation.parameters.map((parameters, i) => {
-                return (
-                    <tr
-                        key={i}
-                        className="odd:bg-neutral-100 even:bg-stone-200 dark:odd:bg-stone-700 dark:even:bg-stone-800"
-                    >
-                        {parameters.map((parameter, j) => {
-                            return (
-                                <td
-                                    key={parameter}
-                                    className={`px-2 py-1 text-xs text-neutral-700 last:text-green-700 dark:text-neutral-300 dark:last:text-green-300 ${i === 0 ? "first:text-blue-700 dark:first:text-blue-300" : ""}`}
-                                    // 最初のセルだけ縦方向に連結する
-                                    rowSpan={i === 0 && j === 0 ? 6 : undefined}
-                                >
-                                    {parameter}
-                                </td>
-                            );
-                        })}
-                    </tr>
-                );
-            })}
-        </tbody>
-    );
-};
+            </tbody>
+        );
+    },
+);
