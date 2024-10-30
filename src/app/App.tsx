@@ -144,10 +144,12 @@ const App = (): JSX.Element => {
                     <img
                         className="absolute inset-0 inline-block dark:hidden"
                         src={githubMark}
+                        alt="GitHub Mark"
                     />
                     <img
                         className="absolute inset-0 hidden dark:inline-block"
                         src={githubMarkWhite}
+                        alt="GitHub Mark"
                     />
                 </a>
                 <small className="my-auto text-neutral-950 dark:text-neutral-100">
@@ -326,6 +328,9 @@ const SearchTextBox = ({
 
     return (
         <div className="relative mx-auto max-w-80">
+            <label className="sr-only" htmlFor="search">
+                クラス名の検索
+            </label>
             <input
                 className="h-8 w-full rounded-md bg-transparent px-2"
                 id="search"
@@ -334,6 +339,7 @@ const SearchTextBox = ({
                 value={inputString}
                 ref={inputElement}
             />
+
             <div className="absolute inset-0 -z-10 rounded-md bg-neutral-50 dark:bg-neutral-700">
                 {!isFocus && inputString.length === 0 ? (
                     <Search className="absolute inset-y-0 left-2 my-auto fill-neutral-500" />
