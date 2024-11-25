@@ -5,8 +5,6 @@ import RoundedButton from "./views/roundedButton";
 import { version } from "./data/Layout_v3.4.13";
 import { CheatSheetData, DetailedDocumentation } from "./models/types";
 import DelayAction from "./models/delayAction";
-import githubMark from "./assets/github-mark.png";
-import githubMarkWhite from "./assets/github-mark-white.png";
 import {
     BreakpointPrefix,
     getBreakpointPrefix,
@@ -20,6 +18,8 @@ import {
     translatorJA,
     isJapaneseAtom,
 } from "./appStates";
+import githubMarkSVG from "./assets/github-mark.svg";
+import githubMarkWhiteSVG from "./assets/github-mark-white.svg";
 
 const App = (): JSX.Element => {
     const translations = useAtomValue(translationsAtom);
@@ -122,24 +122,20 @@ const App = (): JSX.Element => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center gap-2 pb-4">
+            <div className="flex items-center justify-center gap-2 pb-4">
                 <a
-                    className="relative h-6 w-6 opacity-70 transition hover:opacity-100"
                     href="https://github.com/Telehakke/tailwindcss-japanese-cheat-sheet"
                     target="_blank"
                 >
-                    <img
-                        className="absolute inset-0 inline-block dark:hidden"
-                        src={githubMark}
-                        alt="GitHub Mark"
-                    />
-                    <img
-                        className="absolute inset-0 hidden dark:inline-block"
-                        src={githubMarkWhite}
-                        alt="GitHub Mark"
-                    />
+                    <picture className="transition hover:opacity-70">
+                        <source
+                            srcSet={githubMarkWhiteSVG}
+                            media="(prefers-color-scheme: dark)"
+                        />
+                        <img src={githubMarkSVG} className="h-6 w-6" />
+                    </picture>
                 </a>
-                <small className="my-auto text-neutral-950 dark:text-neutral-100">
+                <small className="text-neutral-950 dark:text-neutral-100">
                     © 2024 Telehakke
                 </small>
             </div>
