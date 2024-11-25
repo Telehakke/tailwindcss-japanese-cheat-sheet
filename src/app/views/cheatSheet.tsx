@@ -1,7 +1,6 @@
 import {
     memo,
     ReactNode,
-    useContext,
     useEffect,
     useLayoutEffect,
     useRef,
@@ -9,8 +8,9 @@ import {
 } from "react";
 import { DetailedDocumentation } from "../models/types";
 import { KeyboardArrowDown, KeyboardArrowUp, Link } from "./icons";
-import { AppContext } from "./contextProvider";
 import RoundedButton from "./roundedButton";
+import { useAtom } from "jotai";
+import { shouldExpandAllAtom } from "../appStates";
 
 /**
  * カテゴリー名とその項目の説明を表示する
@@ -68,7 +68,7 @@ const DocumentationGroupBox = ({
     detailedDocumentation: DetailedDocumentation;
 }): JSX.Element => {
     const [shouldExpand, setShouldExpand] = useState(false);
-    const { shouldExpandAll, setShouldExpandAll } = useContext(AppContext);
+    const [shouldExpandAll, setShouldExpandAll] = useAtom(shouldExpandAllAtom);
 
     // 「全て展開」「全て折りたたむ」が押された状態に合わせて詳細エリアを開閉する
     useEffect(() => {

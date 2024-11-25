@@ -1,11 +1,9 @@
-import { useContext, useEffect, useRef, useState } from "react";
-import { AppContext, ContextProvider } from "./views/contextProvider";
+import { useEffect, useRef, useState } from "react";
 import { CheatSheet } from "./views/cheatSheet";
 import { Close, Search, UnfoldLess, UnfoldMore } from "./views/icons";
 import RoundedButton from "./views/roundedButton";
 import { version } from "./data/Layout_v3.4.13";
 import { CheatSheetData, DetailedDocumentation } from "./models/types";
-import { TranslatorEN, TranslatorJA } from "./models/translator";
 import DelayAction from "./models/delayAction";
 import githubMark from "./assets/github-mark.png";
 import githubMarkWhite from "./assets/github-mark-white.png";
@@ -14,15 +12,17 @@ import {
     getBreakpointPrefix,
 } from "./models/breakpointPrefix";
 import CheatSheetDataSlicer from "./models/cheatSheetDataSlicer";
-
-const translatorJA = new TranslatorJA();
-const translatorEN = new TranslatorEN();
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import {
+    translationsAtom,
+    shouldExpandAllAtom,
+    translatorEN,
+    translatorJA,
+    isJapaneseAtom,
+} from "./appStates";
 
 const App = (): JSX.Element => {
-    const [cheatSheetData, setCheatSheetData] = useState(
-        translatorJA.getTranslations(),
-    );
-    const [isJapanese, setIsJapanese] = useState(true);
+    const translations = useAtomValue(translationsAtom);
     const [firstRow, setFirstRow] = useState<CheatSheetData[]>([]);
     const [secondRow, setSecondRow] = useState<CheatSheetData[]>([]);
     const [thirdRow, setThirdRow] = useState<CheatSheetData[]>([]);
@@ -38,7 +38,7 @@ const App = (): JSX.Element => {
 
             beforePrefix = prefix;
             const slicer = CheatSheetDataSlicer.get(prefix);
-            const sliced = slicer.sliced(cheatSheetData);
+            const sliced = slicer.sliced(translations);
             setFirstRow(sliced.firstRow);
             setSecondRow(sliced.secondRow);
             setThirdRow(sliced.thirdRow);
@@ -52,15 +52,15 @@ const App = (): JSX.Element => {
     useEffect(() => {
         const prefix = getBreakpointPrefix(window.innerWidth);
         const slicer = CheatSheetDataSlicer.get(prefix);
-        const sliced = slicer.sliced(cheatSheetData);
+        const sliced = slicer.sliced(translations);
         setFirstRow(sliced.firstRow);
         setSecondRow(sliced.secondRow);
         setThirdRow(sliced.thirdRow);
         setFourthRow(sliced.fourthRow);
-    }, [cheatSheetData]);
+    }, [translations]);
 
     return (
-        <ContextProvider>
+        <>
             <div className="space-y-4 bg-gray-800 py-4 text-neutral-100">
                 <h1 className="break-keep text-center text-2xl font-bold drop-shadow-[0_0_5px_rgba(0,255,255,0.75)]">
                     Tailwind CSS 日本語チートシート
@@ -69,25 +69,12 @@ const App = (): JSX.Element => {
                     <p className="my-auto -ml-4 bg-gradient-to-r from-purple-500 to-transparent px-4 text-sm">
                         {`Documentation ${version}`}
                     </p>
-                    <LanguageSelectionButton
-                        isJapanese={isJapanese}
-                        setIsJapanese={setIsJapanese}
-                        translatorJA={translatorJA}
-                        translatorEN={translatorEN}
-                        setTranslations={setCheatSheetData}
-                    />
+                    <LanguageSelectionButton />
                 </div>
             </div>
             <div className="space-y-4 p-4 text-neutral-950 dark:text-neutral-100">
-                <ExpandAndCollapseButtons isJapanese={isJapanese} />
-                <SearchTextBox
-                    translations={
-                        isJapanese
-                            ? translatorJA.getTranslations()
-                            : translatorEN.getTranslations()
-                    }
-                    setTranslations={setCheatSheetData}
-                />
+                <ExpandAndCollapseButtons />
+                <SearchTextBox />
                 <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     <div className="flex flex-col">
                         {firstRow.map((v) => (
@@ -156,7 +143,7 @@ const App = (): JSX.Element => {
                     © 2024 Telehakke
                 </small>
             </div>
-        </ContextProvider>
+        </>
     );
 };
 
@@ -165,33 +152,17 @@ export default App;
 /**
  * 日本語、英語を切り替えるボタン
  */
-const LanguageSelectionButton = ({
-    isJapanese,
-    setIsJapanese,
-    translatorJA,
-    translatorEN,
-    setTranslations,
-}: {
-    isJapanese: boolean;
-    setIsJapanese: React.Dispatch<React.SetStateAction<boolean>>;
-    translatorJA: TranslatorJA;
-    translatorEN: TranslatorEN;
-    setTranslations: React.Dispatch<
-        React.SetStateAction<
-            {
-                detailedDocumentations: DetailedDocumentation[];
-                category: string;
-            }[]
-        >
-    >;
-}): JSX.Element => {
+const LanguageSelectionButton = (): JSX.Element => {
+    const setTranslations = useSetAtom(translationsAtom);
+    const [isJapanese, setIsJapanese] = useAtom(isJapaneseAtom);
+
     return (
         <div>
             <button
                 className={`rounded-l-full border-y-2 border-l-2 border-purple-500 px-2 transition ${isJapanese ? "bg-purple-500" : "hover:bg-white/20"}`}
                 onClick={() => {
-                    setIsJapanese(true);
                     setTranslations(translatorJA.getTranslations());
+                    setIsJapanese(true);
                 }}
             >
                 日本語
@@ -199,8 +170,8 @@ const LanguageSelectionButton = ({
             <button
                 className={`rounded-r-full border-y-2 border-r-2 border-purple-500 px-2 transition ${isJapanese ? "hover:bg-white/20" : "bg-purple-500"}`}
                 onClick={() => {
-                    setIsJapanese(false);
                     setTranslations(translatorEN.getTranslations());
+                    setIsJapanese(false);
                 }}
             >
                 English
@@ -212,12 +183,9 @@ const LanguageSelectionButton = ({
 /**
  * 全て展開、全て折りたたむボタン
  */
-const ExpandAndCollapseButtons = ({
-    isJapanese,
-}: {
-    isJapanese: boolean;
-}): JSX.Element => {
-    const { setShouldExpandAll } = useContext(AppContext);
+const ExpandAndCollapseButtons = (): JSX.Element => {
+    const isJapanese = useAtomValue(isJapaneseAtom);
+    const setShouldExpandAll = useSetAtom(shouldExpandAllAtom);
 
     return (
         <div className="flex justify-center gap-4">
@@ -240,23 +208,9 @@ const ExpandAndCollapseButtons = ({
 /**
  * 検索テキストボックス
  */
-const SearchTextBox = ({
-    translations,
-    setTranslations,
-}: {
-    translations: {
-        category: string;
-        detailedDocumentations: DetailedDocumentation[];
-    }[];
-    setTranslations: React.Dispatch<
-        React.SetStateAction<
-            {
-                category: string;
-                detailedDocumentations: DetailedDocumentation[];
-            }[]
-        >
-    >;
-}): JSX.Element => {
+const SearchTextBox = (): JSX.Element => {
+    const setTranslations = useSetAtom(translationsAtom);
+    const isJapanese = useAtomValue(isJapaneseAtom);
     const [isFocus, setIsFocus] = useState(false);
     const [inputString, setInputString] = useState("");
     const inputElement = useRef<HTMLInputElement>(null);
@@ -306,6 +260,9 @@ const SearchTextBox = ({
         };
 
         DelayAction.run(() => {
+            const translations = isJapanese
+                ? translatorJA.getTranslations()
+                : translatorEN.getTranslations();
             const result = translations.map((translation) => {
                 const documentations = FilterOutNonMatchingDocumentations(
                     translation.detailedDocumentations,
@@ -323,7 +280,11 @@ const SearchTextBox = ({
     // 入力ボックスを空にしてフィルタリングを解除する
     const handleCloseClick: React.MouseEventHandler<HTMLButtonElement> = () => {
         setInputString("");
-        setTranslations(translations);
+        setTranslations(
+            isJapanese
+                ? translatorJA.getTranslations()
+                : translatorEN.getTranslations(),
+        );
     };
 
     return (
