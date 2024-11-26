@@ -10,7 +10,7 @@ import {
 
 const Header = (): JSX.Element => {
     return (
-        <div className={`space-y-4 py-4 ${Bg.gray800} ${TextColor.neutral100}`}>
+        <div className={`space-y-4 pt-4 ${TextColor.neutral900_dark100}`}>
             <Title />
             <div className="flex items-center justify-between px-4">
                 <DocumentationVersion />
@@ -24,9 +24,7 @@ export default Header;
 
 const Title = (): JSX.Element => {
     return (
-        <h1
-            className={`break-keep text-center font-bold drop-shadow-[0_0_5px_rgba(0,255,255,0.75)] ${FontSize.text2xl}`}
-        >
+        <h1 className={`break-keep text-center font-bold ${FontSize.text2xl}`}>
             Tailwind CSS 日本語チートシート
         </h1>
     );
@@ -35,7 +33,7 @@ const Title = (): JSX.Element => {
 const DocumentationVersion = (): JSX.Element => {
     return (
         <p
-            className={`-ml-4 bg-gradient-to-r from-purple-500 to-transparent px-4 ${FontSize.textSm}`}
+            className={`-ml-4 px-4 ${FontSize.textSm} ${Bg.purpleToTransparentGradation}`}
         >
             {`Documentation ${version}`}
         </p>
@@ -52,7 +50,7 @@ const LanguageSelectionButton = (): JSX.Element => {
     return (
         <div>
             <button
-                className={`rounded-l-full border-y-2 border-l-2 px-2 transition ${Border.purple500} ${isJapanese ? Bg.purple500 : Bg.hoverWhiteAlpha20}`}
+                className={`rounded-l-full border-y-2 border-l-2 px-2 transition ${Border.purple300_dark800} ${isJapanese ? Bg.purple300_dark800 : Bg.hoverNeutral200_dark800}`}
                 onClick={() => {
                     setCheatSheetData(translatorJA.getCheatSheetData());
                     setIsJapanese(true);
@@ -61,7 +59,7 @@ const LanguageSelectionButton = (): JSX.Element => {
                 日本語
             </button>
             <button
-                className={`rounded-r-full border-y-2 border-r-2 px-2 transition ${Border.purple500} ${isJapanese ? Bg.hoverWhiteAlpha20 : Bg.purple500}`}
+                className={`rounded-r-full border-y-2 border-r-2 px-2 transition ${Border.purple300_dark800} ${isJapanese ? Bg.hoverNeutral200_dark800 : Bg.purple300_dark800}`}
                 onClick={() => {
                     setCheatSheetData(translatorEN.getCheatSheetData());
                     setIsJapanese(false);

@@ -9,7 +9,7 @@ import { useEffect, useRef, useState } from "react";
 import { DetailedDocumentation } from "../../../models/types";
 import DelayAction from "../../../models/delayAction";
 import { Close, Search } from "../../common/icons";
-import { Bg, Fill } from "../../common/classNames";
+import { Bg, Border, Fill } from "../../common/classNames";
 
 /**
  * 検索テキストボックス
@@ -95,33 +95,35 @@ const SearchTextBox = (): JSX.Element => {
     };
 
     return (
-        <div className="relative mx-auto max-w-80">
-            <label className="sr-only" htmlFor="search">
-                クラス名の検索
-            </label>
-            <input
-                className={`h-8 w-full rounded-md px-2 ${Bg.transparent}`}
-                id="search"
-                type="text"
-                onChange={handleInputChange}
-                value={inputString}
-                ref={inputElement}
-            />
-            <div
-                className={`absolute inset-0 -z-10 rounded-md ${Bg.neutral50_dark700}`}
-            ></div>
-            {!isFocus && inputString.length === 0 ? (
-                <Search
-                    className={`absolute inset-y-0 left-2 my-auto ${Fill.neutral500}`}
+        <div className="flex justify-center">
+            <div className="relative w-screen max-w-72">
+                <label className="sr-only" htmlFor="search">
+                    クラス名の検索
+                </label>
+                <input
+                    className={`h-8 w-full rounded-md px-2 ${Bg.transparent}`}
+                    id="search"
+                    type="text"
+                    onChange={handleInputChange}
+                    value={inputString}
+                    ref={inputElement}
                 />
-            ) : null}
-            {inputString.length > 0 && (
-                <button onClick={handleCloseClick}>
-                    <Close
-                        className={`absolute inset-y-0 right-2 my-auto rounded-full transition ${Fill.neutral500_hover300} }`}
+                <div
+                    className={`absolute inset-0 -z-10 rounded-md border-2 ${Bg.neutral50_dark800} ${isFocus ? "border-transparent" : Border.neutral400_dark700}`}
+                ></div>
+                {!isFocus && inputString.length === 0 ? (
+                    <Search
+                        className={`absolute inset-y-0 left-2 my-auto ${Fill.neutral500}`}
                     />
-                </button>
-            )}
+                ) : null}
+                {inputString.length > 0 && (
+                    <button onClick={handleCloseClick}>
+                        <Close
+                            className={`absolute inset-y-0 right-2 my-auto rounded-full transition ${Fill.neutral500_hover400} }`}
+                        />
+                    </button>
+                )}
+            </div>
         </div>
     );
 };

@@ -19,7 +19,7 @@ const DetailTable = ({
                         <tr key={entry}>
                             {sampleView?.type === "td" ? sampleView : null}
                             <td
-                                className={`whitespace-pre ${Bg.neutral200_dark600}`}
+                                className={`whitespace-pre ${Bg.neutral200_dark700}`}
                             >
                                 {entry}
                             </td>

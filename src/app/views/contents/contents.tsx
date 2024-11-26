@@ -58,33 +58,39 @@ const Contents = (): JSX.Element => {
                     />
                 ))}
             </div>
-            <div className="flex flex-col">
-                {secondRow.map((v) => (
-                    <CheatSheet
-                        key={v.category}
-                        category={v.category}
-                        detailedDocumentations={v.detailedDocumentations}
-                    />
-                ))}
-            </div>
-            <div className="flex flex-col">
-                {thirdRow.map((v) => (
-                    <CheatSheet
-                        key={v.category}
-                        category={v.category}
-                        detailedDocumentations={v.detailedDocumentations}
-                    />
-                ))}
-            </div>
-            <div className="flex flex-col">
-                {fourthRow.map((v) => (
-                    <CheatSheet
-                        key={v.category}
-                        category={v.category}
-                        detailedDocumentations={v.detailedDocumentations}
-                    />
-                ))}
-            </div>
+            {secondRow.length > 0 && (
+                <div className="flex flex-col">
+                    {secondRow.map((v) => (
+                        <CheatSheet
+                            key={v.category}
+                            category={v.category}
+                            detailedDocumentations={v.detailedDocumentations}
+                        />
+                    ))}
+                </div>
+            )}
+            {thirdRow.length > 0 && (
+                <div className="flex flex-col">
+                    {thirdRow.map((v) => (
+                        <CheatSheet
+                            key={v.category}
+                            category={v.category}
+                            detailedDocumentations={v.detailedDocumentations}
+                        />
+                    ))}
+                </div>
+            )}
+            {fourthRow.length > 0 && (
+                <div className="flex flex-col">
+                    {fourthRow.map((v) => (
+                        <CheatSheet
+                            key={v.category}
+                            category={v.category}
+                            detailedDocumentations={v.detailedDocumentations}
+                        />
+                    ))}
+                </div>
+            )}
         </div>
     );
 };

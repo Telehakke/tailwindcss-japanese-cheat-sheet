@@ -17,7 +17,7 @@ const Footer = (): JSX.Element => {
                     <img src={githubMarkSVG} className="h-6 w-6" />
                 </picture>
             </a>
-            <small className={`${TextColor.neutral900_Dark100}`}>
+            <small className={`${TextColor.neutral900_dark100}`}>
                 © 2024 Telehakke
             </small>
         </div>

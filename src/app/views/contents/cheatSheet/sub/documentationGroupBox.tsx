@@ -73,7 +73,7 @@ const EntryAndLinkBar = ({
 }): JSX.Element => {
     return (
         <div
-            className={`-mx-2 flex cursor-pointer justify-between whitespace-pre-line border-t-2 p-2 transition ${Border.neutral500} ${Bg.neutral200_dark800} ${Bg.hoverNeutral300_dark600}`}
+            className={`-mx-2 flex cursor-pointer justify-between whitespace-pre-line border-t-2 p-2 transition ${Border.neutral400_dark700} ${Bg.neutral200_dark900} ${Bg.hoverNeutral300_dark700}`}
             onClick={handleEntryClick}
         >
             <EntryAndLink detailedDocumentation={detailedDocumentation} />
@@ -94,7 +94,7 @@ const EntryAndLink = memo(
             <>
                 <h3>{detailedDocumentation.entry}</h3>
                 <a
-                    className={`my-auto w-10 content-center rounded-full ${Fill.neutral500_hoverSky400} ${Bg.hoverNeutral200_dark500}`}
+                    className={`my-auto w-10 content-center rounded-full ${Fill.neutral500_hoverSky500} ${Bg.hoverNeutral50}`}
                     href={detailedDocumentation.url}
                     target="_blank"
                     aria-label="公式ドキュメントに移動して詳細を確認する"
@@ -166,7 +166,7 @@ const ParametersTable = ({
                 className={`overflow-clip ${innerShouldExpand ? "" : "max-h-[144px]"} ${outerShouldExpand ? "" : "hidden"}`}
             >
                 <table
-                    className={`w-full table-fixed border-collapse overflow-clip whitespace-pre-line rounded-lg outline outline-2 -outline-offset-2 ${Outline.stone400_dark500}`}
+                    className={`w-full table-fixed border-collapse overflow-clip whitespace-pre-line rounded-lg outline outline-2 -outline-offset-2 ${Outline.stone400_dark700}`}
                     ref={tableElement}
                 >
                     {detailedDocumentation.entry.includes("Container") ? (
@@ -184,7 +184,7 @@ const ParametersTable = ({
                 </table>
             </div>
             <RoundedButton
-                className={`w-full ${shouldShowButton ? "" : "hidden"}`}
+                className={`w-full ${Bg.hoverNeutral100_dark700} ${shouldShowButton ? "" : "hidden"}`}
                 Icon={
                     innerShouldExpand ? (
                         <KeyboardArrowUp className={Fill.neutral500} />
@@ -225,13 +225,13 @@ const TbodyOfParameters = memo(
                         return (
                             <tr
                                 key={i}
-                                className={`${Bg.oddStone100_dark700} ${Bg.evenStone200_dark800}`}
+                                className={`${Bg.oddStone50_dark800} ${Bg.evenStone200_dark900}`}
                             >
                                 {parameters.map((parameter) => {
                                     return (
                                         <td
                                             key={parameter}
-                                            className={`px-2 py-1 text-xs ${TextColor.firstBlue700_dark300} ${TextColor.neutral700_300} ${TextColor.lastGreen700_dark300}`}
+                                            className={`px-2 py-1 text-xs ${TextColor.firstBlue700_dark300} ${TextColor.neutral500_dark300} ${TextColor.lastGreen700_dark300}`}
                                         >
                                             {parameter}
                                         </td>
@@ -260,13 +260,13 @@ const TbodyUsedOnlyForContainer = memo(
                     return (
                         <tr
                             key={i}
-                            className={`${Bg.oddStone100_dark700} ${Bg.evenStone200_dark800}`}
+                            className={`${Bg.oddStone50_dark800} ${Bg.evenStone200_dark900}`}
                         >
                             {parameters.map((parameter, j) => {
                                 return (
                                     <td
                                         key={parameter}
-                                        className={`px-2 py-1 text-xs ${TextColor.neutral700_300} ${TextColor.lastGreen700_dark300} ${i === 0 ? TextColor.firstBlue700_dark300 : ""}`}
+                                        className={`px-2 py-1 text-xs ${TextColor.neutral500_dark300} ${TextColor.lastGreen700_dark300} ${i === 0 ? TextColor.firstBlue700_dark300 : ""}`}
                                         // 最初のセルだけ縦方向に連結する
                                         rowSpan={
                                             i === 0 && j === 0 ? 6 : undefined

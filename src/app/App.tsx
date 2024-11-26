@@ -8,7 +8,7 @@ const App = (): JSX.Element => {
     return (
         <>
             <Header />
-            <div className={`space-y-4 p-4 ${TextColor.neutral900_Dark100}`}>
+            <div className={`space-y-4 p-4 ${TextColor.neutral900_dark100}`}>
                 <CheatSheetController />
                 <Contents />
             </div>
