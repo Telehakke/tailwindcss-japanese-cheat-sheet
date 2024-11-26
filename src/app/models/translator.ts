@@ -48,7 +48,7 @@ abstract class Translator {
     /**
      * 翻訳されたカテゴリー名と詳細な説明書を返す
      */
-    getTranslations = (): CheatSheetData[] => {
+    getCheatSheetData = (): CheatSheetData[] => {
         if (this.cache == null) {
             this.cache = this.documentationsTriple //
                 .map(([category, documentations, translations]) => {
@@ -73,7 +73,7 @@ abstract class Translator {
     /**
      * カテゴリー名を"Category / カテゴリー" のような形式で返す
      */
-    protected translateCategory = (
+    private translateCategory = (
         category: string,
         translations: Map<string, Translation>,
     ): string => {
@@ -84,7 +84,7 @@ abstract class Translator {
     /**
      *  元の説明書と翻訳文を合成した詳細な説明書を返す
      */
-    protected translateDetailedDocumentations = (
+    private translateDetailedDocumentations = (
         documentations: Documentation[],
         translations: Map<string, Translation>,
     ): DetailedDocumentation[] => {

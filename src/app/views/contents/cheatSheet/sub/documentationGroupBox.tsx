@@ -1,63 +1,21 @@
-import {
-    memo,
-    ReactNode,
-    useEffect,
-    useLayoutEffect,
-    useRef,
-    useState,
-} from "react";
-import { DetailedDocumentation } from "../models/types";
-import { KeyboardArrowDown, KeyboardArrowUp, Link } from "./icons";
-import RoundedButton from "./roundedButton";
+import { memo, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { DetailedDocumentation } from "../../../../models/types";
 import { useAtom } from "jotai";
-import { shouldExpandAllAtom } from "../appStates";
-
-/**
- * カテゴリー名とその項目の説明を表示する
- */
-export const CheatSheet = ({
-    category,
-    detailedDocumentations,
-}: {
-    category: string;
-    detailedDocumentations: DetailedDocumentation[];
-}): JSX.Element => {
-    return (
-        <FloatingCard>
-            <CategoryBar category={category} />
-            {detailedDocumentations.map((doc) => {
-                return (
-                    <DocumentationGroupBox
-                        key={doc.entry}
-                        detailedDocumentation={doc}
-                    />
-                );
-            })}
-        </FloatingCard>
-    );
-};
-
-/**
- * 浮いたように見える角丸のカード
- */
-const FloatingCard = ({ children }: { children?: ReactNode }): JSX.Element => {
-    return (
-        <div className="mb-8 rounded-xl bg-neutral-50 shadow-md shadow-neutral-400 dark:bg-neutral-700 dark:shadow-neutral-950">
-            {children}
-        </div>
-    );
-};
-
-/**
- * 中央揃えでカテゴリー名を表示する
- */
-const CategoryBar = ({ category }: { category: string }): JSX.Element => {
-    return (
-        <h2 className="whitespace-pre-line break-keep p-2 text-center text-xl font-bold text-orange-500">
-            {category}
-        </h2>
-    );
-};
+import { shouldExpandAllAtom } from "../../../../appStates";
+import {
+    KeyboardArrowDown,
+    KeyboardArrowUp,
+    Link,
+} from "../../../common/icons";
+import RoundedButton from "../../../common/roundedButton";
+import {
+    Bg,
+    Border,
+    Fill,
+    FontSize,
+    Outline,
+    TextColor,
+} from "../../../common/classNames";
 
 /**
  * 項目、リンクボタン、説明、詳細、パラメーターを表示する
@@ -101,6 +59,8 @@ const DocumentationGroupBox = ({
     );
 };
 
+export default DocumentationGroupBox;
+
 /**
  * 項目とリンクを表示するバー
  */
@@ -113,7 +73,7 @@ const EntryAndLinkBar = ({
 }): JSX.Element => {
     return (
         <div
-            className="-mx-2 flex cursor-pointer justify-between whitespace-pre-line border-t-2 border-neutral-500 bg-neutral-200 p-2 transition hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-600"
+            className={`-mx-2 flex cursor-pointer justify-between whitespace-pre-line border-t-2 p-2 transition ${Border.neutral500} ${Bg.neutral200_dark800} ${Bg.hoverNeutral300_dark600}`}
             onClick={handleEntryClick}
         >
             <EntryAndLink detailedDocumentation={detailedDocumentation} />
@@ -134,7 +94,7 @@ const EntryAndLink = memo(
             <>
                 <h3>{detailedDocumentation.entry}</h3>
                 <a
-                    className="my-auto w-10 content-center rounded-full fill-neutral-500 hover:bg-neutral-200 hover:fill-sky-400 dark:hover:bg-neutral-500"
+                    className={`my-auto w-10 content-center rounded-full ${Fill.neutral500_hoverSky400} ${Bg.hoverNeutral200_dark500}`}
                     href={detailedDocumentation.url}
                     target="_blank"
                     aria-label="公式ドキュメントに移動して詳細を確認する"
@@ -161,7 +121,7 @@ const DescriptionBar = memo(
         detailedDocumentation: DetailedDocumentation;
     }): JSX.Element => {
         return (
-            <p className="whitespace-pre-line text-sm">
+            <p className={`whitespace-pre-line ${FontSize.textSm}`}>
                 {detailedDocumentation.description}
             </p>
         );
@@ -206,7 +166,7 @@ const ParametersTable = ({
                 className={`overflow-clip ${innerShouldExpand ? "" : "max-h-[144px]"} ${outerShouldExpand ? "" : "hidden"}`}
             >
                 <table
-                    className="w-full table-fixed border-collapse overflow-clip whitespace-pre-line rounded-lg outline outline-2 -outline-offset-2 outline-stone-400 dark:outline-stone-500"
+                    className={`w-full table-fixed border-collapse overflow-clip whitespace-pre-line rounded-lg outline outline-2 -outline-offset-2 ${Outline.stone400_dark500}`}
                     ref={tableElement}
                 >
                     {detailedDocumentation.entry.includes("Container") ? (
@@ -227,9 +187,9 @@ const ParametersTable = ({
                 className={`w-full ${shouldShowButton ? "" : "hidden"}`}
                 Icon={
                     innerShouldExpand ? (
-                        <KeyboardArrowUp className="fill-neutral-500" />
+                        <KeyboardArrowUp className={Fill.neutral500} />
                     ) : (
-                        <KeyboardArrowDown className="fill-neutral-500" />
+                        <KeyboardArrowDown className={Fill.neutral500} />
                     )
                 }
                 text=""
@@ -265,13 +225,13 @@ const TbodyOfParameters = memo(
                         return (
                             <tr
                                 key={i}
-                                className="odd:bg-stone-100 even:bg-stone-200 dark:odd:bg-stone-700 dark:even:bg-stone-800"
+                                className={`${Bg.oddStone100_dark700} ${Bg.evenStone200_dark800}`}
                             >
                                 {parameters.map((parameter) => {
                                     return (
                                         <td
                                             key={parameter}
-                                            className="px-2 py-1 text-xs text-neutral-700 first:text-blue-700 last:text-green-700 dark:text-neutral-300 dark:first:text-blue-300 dark:last:text-green-300"
+                                            className={`px-2 py-1 text-xs ${TextColor.firstBlue700_dark300} ${TextColor.neutral700_300} ${TextColor.lastGreen700_dark300}`}
                                         >
                                             {parameter}
                                         </td>
@@ -300,13 +260,13 @@ const TbodyUsedOnlyForContainer = memo(
                     return (
                         <tr
                             key={i}
-                            className="odd:bg-neutral-100 even:bg-stone-200 dark:odd:bg-stone-700 dark:even:bg-stone-800"
+                            className={`${Bg.oddStone100_dark700} ${Bg.evenStone200_dark800}`}
                         >
                             {parameters.map((parameter, j) => {
                                 return (
                                     <td
                                         key={parameter}
-                                        className={`px-2 py-1 text-xs text-neutral-700 last:text-green-700 dark:text-neutral-300 dark:last:text-green-300 ${i === 0 ? "first:text-blue-700 dark:first:text-blue-300" : ""}`}
+                                        className={`px-2 py-1 text-xs ${TextColor.neutral700_300} ${TextColor.lastGreen700_dark300} ${i === 0 ? TextColor.firstBlue700_dark300 : ""}`}
                                         // 最初のセルだけ縦方向に連結する
                                         rowSpan={
                                             i === 0 && j === 0 ? 6 : undefined
