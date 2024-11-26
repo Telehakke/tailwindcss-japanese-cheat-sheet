@@ -63,6 +63,7 @@ abstract class Translator {
                         );
                     return {
                         category: newCategory,
+                        categoryEN: category,
                         detailedDocumentations: detailedDocumentations,
                     };
                 });

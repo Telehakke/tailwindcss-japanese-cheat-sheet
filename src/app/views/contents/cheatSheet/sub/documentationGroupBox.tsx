@@ -184,7 +184,7 @@ const ParametersTable = ({
                 </table>
             </div>
             <RoundedButton
-                className={`w-full ${Bg.hoverNeutral100_dark700} ${shouldShowButton ? "" : "hidden"}`}
+                className={`w-full border-2 ${Border.neutral400_dark700} ${Bg.hoverNeutral100_dark700} ${shouldShowButton ? "" : "hidden"}`}
                 Icon={
                     innerShouldExpand ? (
                         <KeyboardArrowUp className={Fill.neutral500} />

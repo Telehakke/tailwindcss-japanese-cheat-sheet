@@ -26,5 +26,6 @@ export type Translation = {
 
 export type CheatSheetData = {
     category: string;
+    categoryEN: string;
     detailedDocumentations: DetailedDocumentation[];
 };

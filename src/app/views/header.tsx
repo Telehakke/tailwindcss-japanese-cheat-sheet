@@ -1,6 +1,6 @@
 import { useAtom, useSetAtom } from "jotai";
 import { version } from "../data/Layout_v3.4.13";
-import { Bg, Border, FontSize, TextColor } from "./common/classNames";
+import { Bg, Border, FontSize } from "./common/classNames";
 import {
     cheatSheetDataAtom,
     isJapaneseAtom,
@@ -10,7 +10,7 @@ import {
 
 const Header = (): JSX.Element => {
     return (
-        <div className={`space-y-4 pt-4 ${TextColor.neutral900_dark100}`}>
+        <div className="space-y-4 pt-4">
             <Title />
             <div className="flex items-center justify-between px-4">
                 <DocumentationVersion />

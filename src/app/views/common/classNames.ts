@@ -6,15 +6,15 @@ export const FontSize = {
 
 export const TextColor = {
     neutral500_dark300: "text-neutral-500 dark:text-neutral-300",
-    neutral900_dark100: "text-neutral-900 dark:text-neutral-100",
     orange500: "text-orange-500",
+    hoverSky500: "hover:text-sky-500",
     firstBlue700_dark300: "first:text-blue-700 first:dark:text-blue-300",
     lastGreen700_dark300: "last:text-green-700 last:dark:text-green-300",
 } as const;
 
 export const Bg = {
-    gray800: "bg-gray-800",
     neutral50_dark800: "bg-neutral-50 dark:bg-neutral-800",
+    neutral100_70_dark900_70: "bg-neutral-100/70 dark:bg-neutral-900/70",
     neutral200_dark700: "bg-neutral-200 dark:bg-neutral-700",
     neutral200_dark900: "bg-neutral-200 dark:bg-neutral-900",
     hoverNeutral50: "hover:bg-neutral-50",

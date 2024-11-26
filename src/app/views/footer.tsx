@@ -1,6 +1,5 @@
 import githubMarkSVG from "../assets/github-mark.svg";
 import githubMarkWhiteSVG from "../assets/github-mark-white.svg";
-import { TextColor } from "./common/classNames";
 
 const Footer = (): JSX.Element => {
     return (
@@ -17,9 +16,7 @@ const Footer = (): JSX.Element => {
                     <img src={githubMarkSVG} className="h-6 w-6" />
                 </picture>
             </a>
-            <small className={`${TextColor.neutral900_dark100}`}>
-                © 2024 Telehakke
-            </small>
+            <small>© 2024 Telehakke</small>
         </div>
     );
 };

@@ -1,14 +1,20 @@
+import { CheatSheetData } from "../../../../models/types";
 import { FontSize, TextColor } from "../../../common/classNames";
 
 /**
  * 中央揃えでカテゴリー名を表示する
  */
-const CategoryBar = ({ category }: { category: string }): JSX.Element => {
+const CategoryBar = ({
+    cheatSheetData,
+}: {
+    cheatSheetData: CheatSheetData;
+}): JSX.Element => {
     return (
         <h2
-            className={`whitespace-pre-line break-keep p-2 text-center font-bold ${FontSize.textXl} ${TextColor.orange500}`}
+            className={`-mt-[126px] whitespace-pre-line break-keep px-2 pb-2 pt-[134px] text-center font-bold sm:-mt-[80px] sm:pt-[88px] ${FontSize.textXl} ${TextColor.orange500}`}
+            id={cheatSheetData.categoryEN}
         >
-            {category}
+            {cheatSheetData.category}
         </h2>
     );
 };

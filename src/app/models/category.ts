@@ -37,3 +37,21 @@ export const isCategory = (value: any): value is Category => {
     if (value === CategoryEnum.Accessibility) return true;
     return false;
 };
+
+export const categories: string[] = [
+    CategoryEnum.Layout,
+    CategoryEnum.FlexboxAndGrid,
+    CategoryEnum.Spacing,
+    CategoryEnum.Sizing,
+    CategoryEnum.Typography,
+    CategoryEnum.Backgrounds,
+    CategoryEnum.Borders,
+    CategoryEnum.Effects,
+    CategoryEnum.Filters,
+    CategoryEnum.Tables,
+    CategoryEnum.TransitionsAndAnimation,
+    CategoryEnum.Transforms,
+    CategoryEnum.Interactivity,
+    CategoryEnum.SVG,
+    CategoryEnum.Accessibility,
+];

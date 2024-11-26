@@ -77,6 +77,7 @@ const SearchTextBox = (): JSX.Element => {
                 );
                 return {
                     category: data.category,
+                    categoryEN: data.categoryEN,
                     detailedDocumentations: documentations,
                 };
             });
@@ -96,7 +97,7 @@ const SearchTextBox = (): JSX.Element => {
 
     return (
         <div className="flex justify-center">
-            <div className="relative w-screen max-w-72">
+            <div className="relative w-screen max-w-64">
                 <label className="sr-only" htmlFor="search">
                     クラス名の検索
                 </label>
