@@ -14,7 +14,7 @@ const RoundedButton = ({
 }): JSX.Element => {
     return (
         <button
-            className={`flex justify-center rounded-full border-2 border-neutral-500 bg-neutral-50 transition hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 ${className ?? ""}`}
+            className={`flex justify-center rounded-full transition ${className ?? ""}`}
             onClick={onClick}
         >
             {Icon}

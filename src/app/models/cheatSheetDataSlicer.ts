@@ -9,16 +9,16 @@ type CheatSheetGridRow = {
 };
 
 interface ICheatSheetDataSlicer {
-    sliced(translations: CheatSheetData[]): CheatSheetGridRow;
+    sliced(cheatSheetData: CheatSheetData[]): CheatSheetGridRow;
 }
 
 /**
  * チートシートを1列で表示する場合のデータの分割
  */
 class CheatSheetDataSlicerSM implements ICheatSheetDataSlicer {
-    sliced(translations: CheatSheetData[]): CheatSheetGridRow {
+    sliced(cheatSheetData: CheatSheetData[]): CheatSheetGridRow {
         return {
-            firstRow: [...translations],
+            firstRow: [...cheatSheetData],
             secondRow: [],
             thirdRow: [],
             fourthRow: [],
@@ -30,10 +30,10 @@ class CheatSheetDataSlicerSM implements ICheatSheetDataSlicer {
  * チートシートを2列で表示する場合のデータの分割
  */
 class CheatSheetDataSlicerMD implements ICheatSheetDataSlicer {
-    sliced(translations: CheatSheetData[]): CheatSheetGridRow {
+    sliced(cheatSheetData: CheatSheetData[]): CheatSheetGridRow {
         return {
-            firstRow: translations.slice(0, 5),
-            secondRow: translations.slice(5),
+            firstRow: cheatSheetData.slice(0, 5),
+            secondRow: cheatSheetData.slice(5),
             thirdRow: [],
             fourthRow: [],
         };
@@ -44,11 +44,11 @@ class CheatSheetDataSlicerMD implements ICheatSheetDataSlicer {
  * チートシートを3列で表示する場合のデータの分割
  */
 class CheatSheetDataSlicerLG implements ICheatSheetDataSlicer {
-    sliced(translations: CheatSheetData[]): CheatSheetGridRow {
+    sliced(cheatSheetData: CheatSheetData[]): CheatSheetGridRow {
         return {
-            firstRow: translations.slice(0, 4),
-            secondRow: translations.slice(4, 8),
-            thirdRow: translations.slice(8),
+            firstRow: cheatSheetData.slice(0, 4),
+            secondRow: cheatSheetData.slice(4, 8),
+            thirdRow: cheatSheetData.slice(8),
             fourthRow: [],
         };
     }
@@ -58,12 +58,12 @@ class CheatSheetDataSlicerLG implements ICheatSheetDataSlicer {
  * チートシートを4列で表示する場合のデータの分割
  */
 class CheatSheetDataSlicerXL implements ICheatSheetDataSlicer {
-    sliced(translations: CheatSheetData[]): CheatSheetGridRow {
+    sliced(cheatSheetData: CheatSheetData[]): CheatSheetGridRow {
         return {
-            firstRow: translations.slice(0, 2),
-            secondRow: translations.slice(2, 6),
-            thirdRow: translations.slice(6, 10),
-            fourthRow: translations.slice(10),
+            firstRow: cheatSheetData.slice(0, 2),
+            secondRow: cheatSheetData.slice(2, 6),
+            thirdRow: cheatSheetData.slice(6, 10),
+            fourthRow: cheatSheetData.slice(10),
         };
     }
 }
@@ -77,9 +77,7 @@ export default class CheatSheetDataSlicer {
     ]);
 
     static get = (prefix: BreakpointPrefix): ICheatSheetDataSlicer => {
-        const result = this.values.get(prefix);
-        if (result == null) return new CheatSheetDataSlicerSM();
-
+        const result = this.values.get(prefix) ?? new CheatSheetDataSlicerSM();
         return result;
     };
 }

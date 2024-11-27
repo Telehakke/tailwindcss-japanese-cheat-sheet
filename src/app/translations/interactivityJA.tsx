@@ -1,6 +1,6 @@
 import { CategoryEnum } from "../models/category";
 import { Translation } from "../models/types";
-import DetailTable from "../views/detailTable";
+import DetailTable from "../views/common/detailTable";
 
 const interactivityJA = new Map<string, Translation>([
     [

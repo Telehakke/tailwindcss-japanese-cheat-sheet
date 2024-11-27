@@ -1,4 +1,4 @@
-// ©Google Fonts
+// Icons by Google Fonts (https://fonts.google.com/icons)
 
 export const KeyboardArrowUp = ({
     className,
@@ -110,6 +110,20 @@ export const Close = ({ className }: { className?: string }): JSX.Element => {
             width="24px"
         >
             <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+        </svg>
+    );
+};
+
+export const Menu = ({ className }: { className?: string }): JSX.Element => {
+    return (
+        <svg
+            className={className}
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+        >
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
         </svg>
     );
 };
