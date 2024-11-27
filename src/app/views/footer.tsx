@@ -3,7 +3,7 @@ import githubMarkWhiteSVG from "../assets/github-mark-white.svg";
 
 const Footer = (): JSX.Element => {
     return (
-        <div className="flex items-center justify-center gap-2 pb-4">
+        <div className="flex items-center justify-center gap-2">
             <a
                 href="https://github.com/Telehakke/tailwindcss-japanese-cheat-sheet"
                 target="_blank"

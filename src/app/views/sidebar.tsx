@@ -13,7 +13,7 @@ const Sidebar = (): JSX.Element => {
 
     return (
         <div
-            className={`fixed left-0 top-0 h-screen w-64 space-y-2 overflow-scroll overscroll-contain p-4 backdrop-blur transition ${Bg.neutral100_70_dark900_70} ${isOpenSidebar ? "" : "-translate-x-64"}`}
+            className={`fixed left-0 top-0 h-screen w-64 space-y-2 overflow-scroll p-4 backdrop-blur transition ${Bg.neutral100_70_dark900_70} ${isOpenSidebar ? "" : "-translate-x-64"}`}
         >
             <RoundedButton
                 Icon={
@@ -28,6 +28,7 @@ const Sidebar = (): JSX.Element => {
             {cheatSheetData.map((v) => {
                 return (
                     <a
+                        key={v.categoryEN}
                         className={`block ${FontSize.textXl} ${TextColor.hoverSky500}`}
                         href={`#${v.categoryEN}`}
                         onClick={() => setIsOpenSidebar(false)}

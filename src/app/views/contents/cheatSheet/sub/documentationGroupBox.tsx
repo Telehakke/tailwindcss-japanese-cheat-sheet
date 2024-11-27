@@ -1,6 +1,6 @@
-import { memo, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { DetailedDocumentation } from "../../../../models/types";
-import { useAtom } from "jotai";
+import { atom, useAtom, useAtomValue, useSetAtom } from "jotai";
 import { shouldExpandAllAtom } from "../../../../appStates";
 import {
     KeyboardArrowDown,
@@ -16,6 +16,11 @@ import {
     Outline,
     TextColor,
 } from "../../../common/classNames";
+import { PrimitiveAtom } from "jotai";
+
+type WithInitialValue<Value> = {
+    init: Value;
+};
 
 /**
  * 項目、リンクボタン、説明、詳細、パラメーターを表示する
@@ -25,35 +30,18 @@ const DocumentationGroupBox = ({
 }: {
     detailedDocumentation: DetailedDocumentation;
 }): JSX.Element => {
-    const [shouldExpand, setShouldExpand] = useState(false);
-    const [shouldExpandAll, setShouldExpandAll] = useAtom(shouldExpandAllAtom);
-
-    // 「全て展開」「全て折りたたむ」が押された状態に合わせて詳細エリアを開閉する
-    useEffect(() => {
-        if (shouldExpandAll != null) {
-            setShouldExpand(shouldExpandAll);
-        }
-    }, [shouldExpandAll]);
-
-    // 項目エリアをクリックすると詳細エリアを開閉する
-    const handleEntryClick: React.MouseEventHandler<HTMLDivElement> = () => {
-        setShouldExpand(!shouldExpand);
-        setShouldExpandAll(null);
-    };
+    const shouldExpandAtom = useRef(atom(false));
 
     return (
         <div className="space-y-2 px-2 pb-2">
             <EntryAndLinkBar
                 detailedDocumentation={detailedDocumentation}
-                handleEntryClick={handleEntryClick}
+                shouldExpandAtom={shouldExpandAtom.current}
             />
             <DescriptionBar detailedDocumentation={detailedDocumentation} />
-            <div className={`${shouldExpand ? "" : "hidden"}`}>
-                {detailedDocumentation.detail}
-            </div>
-            <ParametersTable
+            <DetailAndParametersBox
                 detailedDocumentation={detailedDocumentation}
-                outerShouldExpand={shouldExpand}
+                shouldExpandAtom={shouldExpandAtom.current}
             />
         </div>
     );
@@ -66,11 +54,19 @@ export default DocumentationGroupBox;
  */
 const EntryAndLinkBar = ({
     detailedDocumentation,
-    handleEntryClick,
+    shouldExpandAtom,
 }: {
     detailedDocumentation: DetailedDocumentation;
-    handleEntryClick: React.MouseEventHandler<HTMLDivElement>;
+    shouldExpandAtom: PrimitiveAtom<boolean> & WithInitialValue<boolean>;
 }): JSX.Element => {
+    const setShouldExpand = useSetAtom(shouldExpandAtom);
+    const setShouldExpandAll = useSetAtom(shouldExpandAllAtom);
+
+    // 項目エリアをクリックすると詳細エリアを開閉する
+    const handleEntryClick: React.MouseEventHandler<HTMLDivElement> = () => {
+        setShouldExpand((v) => !v);
+        setShouldExpandAll(null);
+    };
     return (
         <div
             className={`-mx-2 flex cursor-pointer justify-between whitespace-pre-line border-t-2 p-2 transition ${Border.neutral400_dark700} ${Bg.neutral200_dark900} ${Bg.hoverNeutral300_dark700}`}
@@ -84,49 +80,80 @@ const EntryAndLinkBar = ({
 /**
  * 項目とリンクを表示する
  */
-const EntryAndLink = memo(
-    ({
-        detailedDocumentation,
-    }: {
-        detailedDocumentation: DetailedDocumentation;
-    }): JSX.Element => {
-        return (
-            <>
-                <h3>{detailedDocumentation.entry}</h3>
-                <a
-                    className={`my-auto w-10 content-center rounded-full ${Fill.neutral500_hoverSky500} ${Bg.hoverNeutral50}`}
-                    href={detailedDocumentation.url}
-                    target="_blank"
-                    aria-label="公式ドキュメントに移動して詳細を確認する"
-                    onClick={(event) => {
-                        // handleEntryClick()が呼び出されないよう、
-                        // クリックイベントの伝播を止める
-                        event.stopPropagation();
-                    }}
-                >
-                    <Link className="mx-auto" />
-                </a>
-            </>
-        );
-    },
-);
+const EntryAndLink = ({
+    detailedDocumentation,
+}: {
+    detailedDocumentation: DetailedDocumentation;
+}): JSX.Element => {
+    return (
+        <>
+            <h3>{detailedDocumentation.entry}</h3>
+            <a
+                className={`my-auto w-10 content-center rounded-full ${Fill.neutral500_hoverSky500} ${Bg.hoverNeutral50}`}
+                href={detailedDocumentation.url}
+                target="_blank"
+                aria-label="公式ドキュメントに移動して詳細を確認する"
+                onClick={(event) => {
+                    // handleEntryClick()が呼び出されないよう、
+                    // クリックイベントの伝播を止める
+                    event.stopPropagation();
+                }}
+            >
+                <Link className="mx-auto" />
+            </a>
+        </>
+    );
+};
 
 /**
  * 説明を表示する
  */
-const DescriptionBar = memo(
-    ({
-        detailedDocumentation,
-    }: {
-        detailedDocumentation: DetailedDocumentation;
-    }): JSX.Element => {
-        return (
-            <p className={`whitespace-pre-line ${FontSize.textSm}`}>
-                {detailedDocumentation.description}
-            </p>
-        );
-    },
-);
+const DescriptionBar = ({
+    detailedDocumentation,
+}: {
+    detailedDocumentation: DetailedDocumentation;
+}): JSX.Element => {
+    return (
+        <p className={`whitespace-pre-line ${FontSize.textSm}`}>
+            {detailedDocumentation.description}
+        </p>
+    );
+};
+
+/**
+ * 詳細な説明とパラメータを表示する
+ */
+const DetailAndParametersBox = ({
+    detailedDocumentation,
+    shouldExpandAtom,
+}: {
+    detailedDocumentation: DetailedDocumentation;
+    shouldExpandAtom: PrimitiveAtom<boolean> & WithInitialValue<boolean>;
+}): JSX.Element => {
+    const [shouldExpand, setShouldExpand] = useAtom(shouldExpandAtom);
+    const shouldExpandAll = useAtomValue(shouldExpandAllAtom);
+
+    // 「全て展開」「全て折りたたむ」が押された状態に合わせて詳細エリアを開閉する
+    useEffect(() => {
+        if (shouldExpandAll != null) {
+            setShouldExpand(shouldExpandAll);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [shouldExpandAll]);
+
+    return (
+        <>
+            {shouldExpand && (
+                <>
+                    {detailedDocumentation.detail}
+                    <ParametersTable
+                        detailedDocumentation={detailedDocumentation}
+                    />
+                </>
+            )}
+        </>
+    );
+};
 
 /**
  * クラス名とそれに対応するCSSを表示する\
@@ -134,10 +161,8 @@ const DescriptionBar = memo(
  */
 const ParametersTable = ({
     detailedDocumentation,
-    outerShouldExpand,
 }: {
     detailedDocumentation: DetailedDocumentation;
-    outerShouldExpand: boolean;
 }): JSX.Element => {
     const [innerShouldExpand, innerSetShouldExpand] = useState(false);
     const [shouldShowButton, setShouldShowButton] = useState(false);
@@ -145,12 +170,6 @@ const ParametersTable = ({
 
     // レンダリング直後に<table>要素の高さを取得する
     useLayoutEffect(() => {
-        if (!outerShouldExpand) {
-            innerSetShouldExpand(false);
-            setShouldShowButton(false);
-            return;
-        }
-
         const tableHeight =
             tableElement.current?.getBoundingClientRect().height;
         if (tableHeight == null) return;
@@ -158,12 +177,12 @@ const ParametersTable = ({
         if (tableHeight > 144) {
             setShouldShowButton(true);
         }
-    }, [outerShouldExpand]);
+    }, []);
 
     return (
         <>
             <div
-                className={`overflow-clip ${innerShouldExpand ? "" : "max-h-[144px]"} ${outerShouldExpand ? "" : "hidden"}`}
+                className={`overflow-clip ${innerShouldExpand ? "" : "max-h-[144px]"}`}
             >
                 <table
                     className={`w-full table-fixed border-collapse overflow-clip whitespace-pre-line rounded-lg outline outline-2 -outline-offset-2 ${Outline.stone400_dark700}`}
@@ -202,75 +221,35 @@ const ParametersTable = ({
 /**
  * Parameterの値を表示するための<tbody>要素
  */
-const TbodyOfParameters = memo(
-    ({
-        documentation,
-        shouldExpand,
-    }: {
-        documentation: DetailedDocumentation;
-        shouldExpand: boolean;
-    }): JSX.Element => {
-        return (
-            <tbody>
-                {documentation.parameters
-                    .filter((_, i) => {
-                        // 描画コストを減らすために折りたたみ時は7行分まで表示する
-                        if (!shouldExpand) {
-                            return i < 7;
-                        }
+const TbodyOfParameters = ({
+    documentation,
+    shouldExpand,
+}: {
+    documentation: DetailedDocumentation;
+    shouldExpand: boolean;
+}): JSX.Element => {
+    return (
+        <tbody>
+            {documentation.parameters
+                .filter((_, i) => {
+                    // 描画コストを減らすために折りたたみ時は7行分まで表示する
+                    if (!shouldExpand) {
+                        return i < 7;
+                    }
 
-                        return true;
-                    })
-                    .map((parameters, i) => {
-                        return (
-                            <tr
-                                key={i}
-                                className={`${Bg.oddStone50_dark800} ${Bg.evenStone200_dark900}`}
-                            >
-                                {parameters.map((parameter) => {
-                                    return (
-                                        <td
-                                            key={parameter}
-                                            className={`px-2 py-1 text-xs ${TextColor.firstBlue700_dark300} ${TextColor.neutral500_dark300} ${TextColor.lastGreen700_dark300}`}
-                                        >
-                                            {parameter}
-                                        </td>
-                                    );
-                                })}
-                            </tr>
-                        );
-                    })}
-            </tbody>
-        );
-    },
-);
-
-/**
- * 「Layout > Container」のみで使用する<tbody>要素
- */
-const TbodyUsedOnlyForContainer = memo(
-    ({
-        documentation,
-    }: {
-        documentation: DetailedDocumentation;
-    }): JSX.Element => {
-        return (
-            <tbody>
-                {documentation.parameters.map((parameters, i) => {
+                    return true;
+                })
+                .map((parameters, i) => {
                     return (
                         <tr
                             key={i}
                             className={`${Bg.oddStone50_dark800} ${Bg.evenStone200_dark900}`}
                         >
-                            {parameters.map((parameter, j) => {
+                            {parameters.map((parameter) => {
                                 return (
                                     <td
                                         key={parameter}
-                                        className={`px-2 py-1 text-xs ${TextColor.neutral500_dark300} ${TextColor.lastGreen700_dark300} ${i === 0 ? TextColor.firstBlue700_dark300 : ""}`}
-                                        // 最初のセルだけ縦方向に連結する
-                                        rowSpan={
-                                            i === 0 && j === 0 ? 6 : undefined
-                                        }
+                                        className={`px-2 py-1 text-xs ${TextColor.firstBlue700_dark300} ${TextColor.neutral500_dark300} ${TextColor.lastGreen700_dark300}`}
                                     >
                                         {parameter}
                                     </td>
@@ -279,7 +258,41 @@ const TbodyUsedOnlyForContainer = memo(
                         </tr>
                     );
                 })}
-            </tbody>
-        );
-    },
-);
+        </tbody>
+    );
+};
+
+/**
+ * 「Layout > Container」のみで使用する<tbody>要素
+ */
+const TbodyUsedOnlyForContainer = ({
+    documentation,
+}: {
+    documentation: DetailedDocumentation;
+}): JSX.Element => {
+    return (
+        <tbody>
+            {documentation.parameters.map((parameters, i) => {
+                return (
+                    <tr
+                        key={i}
+                        className={`${Bg.oddStone50_dark800} ${Bg.evenStone200_dark900}`}
+                    >
+                        {parameters.map((parameter, j) => {
+                            return (
+                                <td
+                                    key={parameter}
+                                    className={`px-2 py-1 text-xs ${TextColor.neutral500_dark300} ${TextColor.lastGreen700_dark300} ${i === 0 ? TextColor.firstBlue700_dark300 : ""}`}
+                                    // 最初のセルだけ縦方向に連結する
+                                    rowSpan={i === 0 && j === 0 ? 6 : undefined}
+                                >
+                                    {parameter}
+                                </td>
+                            );
+                        })}
+                    </tr>
+                );
+            })}
+        </tbody>
+    );
+};

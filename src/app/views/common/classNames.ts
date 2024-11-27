@@ -42,5 +42,6 @@ export const Fill = {
 } as const;
 
 export const Outline = {
+    neutral400_dark700: "outline-neutral-400 dark:outline-neutral-700",
     stone400_dark700: "outline-stone-400 dark:outline-stone-700",
 } as const;

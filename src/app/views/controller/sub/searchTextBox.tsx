@@ -9,7 +9,7 @@ import { useEffect, useRef, useState } from "react";
 import { DetailedDocumentation } from "../../../models/types";
 import DelayAction from "../../../models/delayAction";
 import { Close, Search } from "../../common/icons";
-import { Bg, Border, Fill } from "../../common/classNames";
+import { Bg, Fill, Outline } from "../../common/classNames";
 
 /**
  * 検索テキストボックス
@@ -110,7 +110,7 @@ const SearchTextBox = (): JSX.Element => {
                     ref={inputElement}
                 />
                 <div
-                    className={`absolute inset-0 -z-10 rounded-md border-2 ${Bg.neutral50_dark800} ${isFocus ? "border-transparent" : Border.neutral400_dark700}`}
+                    className={`absolute inset-0 -z-10 rounded-md outline outline-2 ${Bg.neutral50_dark800} ${Outline.neutral400_dark700}`}
                 ></div>
                 {!isFocus && inputString.length === 0 ? (
                     <Search

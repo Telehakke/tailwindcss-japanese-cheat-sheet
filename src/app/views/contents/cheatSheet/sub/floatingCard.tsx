@@ -6,9 +6,7 @@ import { Bg } from "../../../common/classNames";
  */
 const FloatingCard = ({ children }: { children?: ReactNode }): JSX.Element => {
     return (
-        <div
-            className={`mb-8 rounded-xl shadow-md shadow-neutral-400 dark:shadow-neutral-950 ${Bg.neutral50_dark800}`}
-        >
+        <div className={`rounded-xl shadow-md ${Bg.neutral50_dark800}`}>
             {children}
         </div>
     );

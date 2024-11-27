@@ -7,12 +7,12 @@ import Sidebar from "./views/sidebar";
 const App = (): JSX.Element => {
     return (
         <>
-            <Header />
             <div className="space-y-4 p-4">
+                <Header />
                 <CheatSheetController />
                 <Contents />
+                <Footer />
             </div>
-            <Footer />
             <Sidebar />
         </>
     );

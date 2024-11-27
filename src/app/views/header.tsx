@@ -10,9 +10,9 @@ import {
 
 const Header = (): JSX.Element => {
     return (
-        <div className="space-y-4 pt-4">
+        <div className="space-y-4">
             <Title />
-            <div className="flex items-center justify-between px-4">
+            <div className="flex items-center justify-between">
                 <DocumentationVersion />
                 <LanguageSelectionButton />
             </div>

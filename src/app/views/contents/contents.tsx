@@ -49,27 +49,27 @@ const Contents = (): JSX.Element => {
 
     return (
         <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-8">
                 {firstRow.map((v) => (
                     <CheatSheet key={v.category} cheatSheetData={v} />
                 ))}
             </div>
             {secondRow.length > 0 && (
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-8">
                     {secondRow.map((v) => (
                         <CheatSheet key={v.category} cheatSheetData={v} />
                     ))}
                 </div>
             )}
             {thirdRow.length > 0 && (
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-8">
                     {thirdRow.map((v) => (
                         <CheatSheet key={v.category} cheatSheetData={v} />
                     ))}
                 </div>
             )}
             {fourthRow.length > 0 && (
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-8">
                     {fourthRow.map((v) => (
                         <CheatSheet key={v.category} cheatSheetData={v} />
                     ))}
