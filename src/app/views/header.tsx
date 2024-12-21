@@ -1,5 +1,5 @@
 import { useAtom, useSetAtom } from "jotai";
-import { version } from "../data/Layout_v3.4.13";
+import { version } from "../data/Layout_v3.4.17";
 import { Bg, Border, FontSize } from "./common/classNames";
 import {
     cheatSheetDataAtom,
@@ -8,7 +8,7 @@ import {
     translatorJA,
 } from "../appStates";
 
-const Header = (): JSX.Element => {
+const Header = () => {
     return (
         <div className="space-y-4">
             <Title />
@@ -22,7 +22,7 @@ const Header = (): JSX.Element => {
 
 export default Header;
 
-const Title = (): JSX.Element => {
+const Title = () => {
     return (
         <h1 className={`break-keep text-center font-bold ${FontSize.text2xl}`}>
             Tailwind CSS 日本語チートシート
@@ -30,7 +30,7 @@ const Title = (): JSX.Element => {
     );
 };
 
-const DocumentationVersion = (): JSX.Element => {
+const DocumentationVersion = () => {
     return (
         <p
             className={`-ml-4 px-4 ${FontSize.textSm} ${Bg.purpleToTransparentGradation}`}
@@ -43,7 +43,7 @@ const DocumentationVersion = (): JSX.Element => {
 /**
  * 日本語、英語を切り替えるボタン
  */
-const LanguageSelectionButton = (): JSX.Element => {
+const LanguageSelectionButton = () => {
     const setCheatSheetData = useSetAtom(cheatSheetDataAtom);
     const [isJapanese, setIsJapanese] = useAtom(isJapaneseAtom);
 

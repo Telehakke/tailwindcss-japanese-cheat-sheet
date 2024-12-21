@@ -1,4 +1,4 @@
-export const version = "v3.4.13";
+export const version = "v3.4.17";
 export const documentations = [
     {
         "url": "https://tailwindcss.com/docs/border-radius",
@@ -756,1222 +756,1222 @@ export const documentations = [
             ],
             [
                 "border-black",
-                "border-color: rgb(0 0 0);\n",
+                "border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-white",
-                "border-color: rgb(255 255 255);\n",
+                "border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-50",
-                "border-color: rgb(248 250 252);\n",
+                "border-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-100",
-                "border-color: rgb(241 245 249);\n",
+                "border-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-200",
-                "border-color: rgb(226 232 240);\n",
+                "border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-300",
-                "border-color: rgb(203 213 225);\n",
+                "border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-400",
-                "border-color: rgb(148 163 184);\n",
+                "border-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-500",
-                "border-color: rgb(100 116 139);\n",
+                "border-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-600",
-                "border-color: rgb(71 85 105);\n",
+                "border-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-700",
-                "border-color: rgb(51 65 85);\n",
+                "border-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-800",
-                "border-color: rgb(30 41 59);\n",
+                "border-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-900",
-                "border-color: rgb(15 23 42);\n",
+                "border-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-slate-950",
-                "border-color: rgb(2 6 23);\n",
+                "border-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-50",
-                "border-color: rgb(249 250 251);\n",
+                "border-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-100",
-                "border-color: rgb(243 244 246);\n",
+                "border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-200",
-                "border-color: rgb(229 231 235);\n",
+                "border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-300",
-                "border-color: rgb(209 213 219);\n",
+                "border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-400",
-                "border-color: rgb(156 163 175);\n",
+                "border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-500",
-                "border-color: rgb(107 114 128);\n",
+                "border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-600",
-                "border-color: rgb(75 85 99);\n",
+                "border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-700",
-                "border-color: rgb(55 65 81);\n",
+                "border-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-800",
-                "border-color: rgb(31 41 55);\n",
+                "border-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-900",
-                "border-color: rgb(17 24 39);\n",
+                "border-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-gray-950",
-                "border-color: rgb(3 7 18);\n",
+                "border-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-50",
-                "border-color: rgb(250 250 250);\n",
+                "border-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-100",
-                "border-color: rgb(244 244 245);\n",
+                "border-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-200",
-                "border-color: rgb(228 228 231);\n",
+                "border-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-300",
-                "border-color: rgb(212 212 216);\n",
+                "border-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-400",
-                "border-color: rgb(161 161 170);\n",
+                "border-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-500",
-                "border-color: rgb(113 113 122);\n",
+                "border-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-600",
-                "border-color: rgb(82 82 91);\n",
+                "border-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-700",
-                "border-color: rgb(63 63 70);\n",
+                "border-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-800",
-                "border-color: rgb(39 39 42);\n",
+                "border-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-900",
-                "border-color: rgb(24 24 27);\n",
+                "border-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-zinc-950",
-                "border-color: rgb(9 9 11);\n",
+                "border-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-50",
-                "border-color: rgb(250 250 250);\n",
+                "border-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-100",
-                "border-color: rgb(245 245 245);\n",
+                "border-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-200",
-                "border-color: rgb(229 229 229);\n",
+                "border-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-300",
-                "border-color: rgb(212 212 212);\n",
+                "border-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-400",
-                "border-color: rgb(163 163 163);\n",
+                "border-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-500",
-                "border-color: rgb(115 115 115);\n",
+                "border-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-600",
-                "border-color: rgb(82 82 82);\n",
+                "border-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-700",
-                "border-color: rgb(64 64 64);\n",
+                "border-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-800",
-                "border-color: rgb(38 38 38);\n",
+                "border-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-900",
-                "border-color: rgb(23 23 23);\n",
+                "border-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-neutral-950",
-                "border-color: rgb(10 10 10);\n",
+                "border-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-50",
-                "border-color: rgb(250 250 249);\n",
+                "border-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-100",
-                "border-color: rgb(245 245 244);\n",
+                "border-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-200",
-                "border-color: rgb(231 229 228);\n",
+                "border-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-300",
-                "border-color: rgb(214 211 209);\n",
+                "border-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-400",
-                "border-color: rgb(168 162 158);\n",
+                "border-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-500",
-                "border-color: rgb(120 113 108);\n",
+                "border-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-600",
-                "border-color: rgb(87 83 78);\n",
+                "border-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-700",
-                "border-color: rgb(68 64 60);\n",
+                "border-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-800",
-                "border-color: rgb(41 37 36);\n",
+                "border-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-900",
-                "border-color: rgb(28 25 23);\n",
+                "border-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-stone-950",
-                "border-color: rgb(12 10 9);\n",
+                "border-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-50",
-                "border-color: rgb(254 242 242);\n",
+                "border-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-100",
-                "border-color: rgb(254 226 226);\n",
+                "border-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-200",
-                "border-color: rgb(254 202 202);\n",
+                "border-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-300",
-                "border-color: rgb(252 165 165);\n",
+                "border-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-400",
-                "border-color: rgb(248 113 113);\n",
+                "border-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-500",
-                "border-color: rgb(239 68 68);\n",
+                "border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-600",
-                "border-color: rgb(220 38 38);\n",
+                "border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-700",
-                "border-color: rgb(185 28 28);\n",
+                "border-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-800",
-                "border-color: rgb(153 27 27);\n",
+                "border-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-900",
-                "border-color: rgb(127 29 29);\n",
+                "border-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-red-950",
-                "border-color: rgb(69 10 10);\n",
+                "border-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-50",
-                "border-color: rgb(255 247 237);\n",
+                "border-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-100",
-                "border-color: rgb(255 237 213);\n",
+                "border-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-200",
-                "border-color: rgb(254 215 170);\n",
+                "border-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-300",
-                "border-color: rgb(253 186 116);\n",
+                "border-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-400",
-                "border-color: rgb(251 146 60);\n",
+                "border-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-500",
-                "border-color: rgb(249 115 22);\n",
+                "border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-600",
-                "border-color: rgb(234 88 12);\n",
+                "border-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-700",
-                "border-color: rgb(194 65 12);\n",
+                "border-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-800",
-                "border-color: rgb(154 52 18);\n",
+                "border-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-900",
-                "border-color: rgb(124 45 18);\n",
+                "border-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-orange-950",
-                "border-color: rgb(67 20 7);\n",
+                "border-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-50",
-                "border-color: rgb(255 251 235);\n",
+                "border-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-100",
-                "border-color: rgb(254 243 199);\n",
+                "border-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-200",
-                "border-color: rgb(253 230 138);\n",
+                "border-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-300",
-                "border-color: rgb(252 211 77);\n",
+                "border-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-400",
-                "border-color: rgb(251 191 36);\n",
+                "border-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-500",
-                "border-color: rgb(245 158 11);\n",
+                "border-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-600",
-                "border-color: rgb(217 119 6);\n",
+                "border-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-700",
-                "border-color: rgb(180 83 9);\n",
+                "border-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-800",
-                "border-color: rgb(146 64 14);\n",
+                "border-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-900",
-                "border-color: rgb(120 53 15);\n",
+                "border-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-amber-950",
-                "border-color: rgb(69 26 3);\n",
+                "border-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-50",
-                "border-color: rgb(254 252 232);\n",
+                "border-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-100",
-                "border-color: rgb(254 249 195);\n",
+                "border-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-200",
-                "border-color: rgb(254 240 138);\n",
+                "border-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-300",
-                "border-color: rgb(253 224 71);\n",
+                "border-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-400",
-                "border-color: rgb(250 204 21);\n",
+                "border-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-500",
-                "border-color: rgb(234 179 8);\n",
+                "border-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-600",
-                "border-color: rgb(202 138 4);\n",
+                "border-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-700",
-                "border-color: rgb(161 98 7);\n",
+                "border-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-800",
-                "border-color: rgb(133 77 14);\n",
+                "border-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-900",
-                "border-color: rgb(113 63 18);\n",
+                "border-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-yellow-950",
-                "border-color: rgb(66 32 6);\n",
+                "border-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-50",
-                "border-color: rgb(247 254 231);\n",
+                "border-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-100",
-                "border-color: rgb(236 252 203);\n",
+                "border-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-200",
-                "border-color: rgb(217 249 157);\n",
+                "border-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-300",
-                "border-color: rgb(190 242 100);\n",
+                "border-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-400",
-                "border-color: rgb(163 230 53);\n",
+                "border-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-500",
-                "border-color: rgb(132 204 22);\n",
+                "border-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-600",
-                "border-color: rgb(101 163 13);\n",
+                "border-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-700",
-                "border-color: rgb(77 124 15);\n",
+                "border-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-800",
-                "border-color: rgb(63 98 18);\n",
+                "border-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-900",
-                "border-color: rgb(54 83 20);\n",
+                "border-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-lime-950",
-                "border-color: rgb(26 46 5);\n",
+                "border-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-50",
-                "border-color: rgb(240 253 244);\n",
+                "border-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-100",
-                "border-color: rgb(220 252 231);\n",
+                "border-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-200",
-                "border-color: rgb(187 247 208);\n",
+                "border-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-300",
-                "border-color: rgb(134 239 172);\n",
+                "border-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-400",
-                "border-color: rgb(74 222 128);\n",
+                "border-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-500",
-                "border-color: rgb(34 197 94);\n",
+                "border-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-600",
-                "border-color: rgb(22 163 74);\n",
+                "border-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-700",
-                "border-color: rgb(21 128 61);\n",
+                "border-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-800",
-                "border-color: rgb(22 101 52);\n",
+                "border-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-900",
-                "border-color: rgb(20 83 45);\n",
+                "border-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-green-950",
-                "border-color: rgb(5 46 22);\n",
+                "border-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-50",
-                "border-color: rgb(236 253 245);\n",
+                "border-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-100",
-                "border-color: rgb(209 250 229);\n",
+                "border-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-200",
-                "border-color: rgb(167 243 208);\n",
+                "border-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-300",
-                "border-color: rgb(110 231 183);\n",
+                "border-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-400",
-                "border-color: rgb(52 211 153);\n",
+                "border-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-500",
-                "border-color: rgb(16 185 129);\n",
+                "border-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-600",
-                "border-color: rgb(5 150 105);\n",
+                "border-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-700",
-                "border-color: rgb(4 120 87);\n",
+                "border-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-800",
-                "border-color: rgb(6 95 70);\n",
+                "border-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-900",
-                "border-color: rgb(6 78 59);\n",
+                "border-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-emerald-950",
-                "border-color: rgb(2 44 34);\n",
+                "border-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-50",
-                "border-color: rgb(240 253 250);\n",
+                "border-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-100",
-                "border-color: rgb(204 251 241);\n",
+                "border-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-200",
-                "border-color: rgb(153 246 228);\n",
+                "border-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-300",
-                "border-color: rgb(94 234 212);\n",
+                "border-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-400",
-                "border-color: rgb(45 212 191);\n",
+                "border-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-500",
-                "border-color: rgb(20 184 166);\n",
+                "border-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-600",
-                "border-color: rgb(13 148 136);\n",
+                "border-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-700",
-                "border-color: rgb(15 118 110);\n",
+                "border-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-800",
-                "border-color: rgb(17 94 89);\n",
+                "border-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-900",
-                "border-color: rgb(19 78 74);\n",
+                "border-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-teal-950",
-                "border-color: rgb(4 47 46);\n",
+                "border-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-50",
-                "border-color: rgb(236 254 255);\n",
+                "border-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-100",
-                "border-color: rgb(207 250 254);\n",
+                "border-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-200",
-                "border-color: rgb(165 243 252);\n",
+                "border-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-300",
-                "border-color: rgb(103 232 249);\n",
+                "border-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-400",
-                "border-color: rgb(34 211 238);\n",
+                "border-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-500",
-                "border-color: rgb(6 182 212);\n",
+                "border-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-600",
-                "border-color: rgb(8 145 178);\n",
+                "border-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-700",
-                "border-color: rgb(14 116 144);\n",
+                "border-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-800",
-                "border-color: rgb(21 94 117);\n",
+                "border-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-900",
-                "border-color: rgb(22 78 99);\n",
+                "border-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-cyan-950",
-                "border-color: rgb(8 51 68);\n",
+                "border-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-50",
-                "border-color: rgb(240 249 255);\n",
+                "border-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-100",
-                "border-color: rgb(224 242 254);\n",
+                "border-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-200",
-                "border-color: rgb(186 230 253);\n",
+                "border-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-300",
-                "border-color: rgb(125 211 252);\n",
+                "border-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-400",
-                "border-color: rgb(56 189 248);\n",
+                "border-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-500",
-                "border-color: rgb(14 165 233);\n",
+                "border-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-600",
-                "border-color: rgb(2 132 199);\n",
+                "border-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-700",
-                "border-color: rgb(3 105 161);\n",
+                "border-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-800",
-                "border-color: rgb(7 89 133);\n",
+                "border-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-900",
-                "border-color: rgb(12 74 110);\n",
+                "border-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-sky-950",
-                "border-color: rgb(8 47 73);\n",
+                "border-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-50",
-                "border-color: rgb(239 246 255);\n",
+                "border-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-100",
-                "border-color: rgb(219 234 254);\n",
+                "border-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-200",
-                "border-color: rgb(191 219 254);\n",
+                "border-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-300",
-                "border-color: rgb(147 197 253);\n",
+                "border-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-400",
-                "border-color: rgb(96 165 250);\n",
+                "border-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-500",
-                "border-color: rgb(59 130 246);\n",
+                "border-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-600",
-                "border-color: rgb(37 99 235);\n",
+                "border-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-700",
-                "border-color: rgb(29 78 216);\n",
+                "border-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-800",
-                "border-color: rgb(30 64 175);\n",
+                "border-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-900",
-                "border-color: rgb(30 58 138);\n",
+                "border-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-blue-950",
-                "border-color: rgb(23 37 84);\n",
+                "border-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-50",
-                "border-color: rgb(238 242 255);\n",
+                "border-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-100",
-                "border-color: rgb(224 231 255);\n",
+                "border-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-200",
-                "border-color: rgb(199 210 254);\n",
+                "border-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-300",
-                "border-color: rgb(165 180 252);\n",
+                "border-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-400",
-                "border-color: rgb(129 140 248);\n",
+                "border-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-500",
-                "border-color: rgb(99 102 241);\n",
+                "border-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-600",
-                "border-color: rgb(79 70 229);\n",
+                "border-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-700",
-                "border-color: rgb(67 56 202);\n",
+                "border-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-800",
-                "border-color: rgb(55 48 163);\n",
+                "border-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-900",
-                "border-color: rgb(49 46 129);\n",
+                "border-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-indigo-950",
-                "border-color: rgb(30 27 75);\n",
+                "border-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-50",
-                "border-color: rgb(245 243 255);\n",
+                "border-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-100",
-                "border-color: rgb(237 233 254);\n",
+                "border-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-200",
-                "border-color: rgb(221 214 254);\n",
+                "border-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-300",
-                "border-color: rgb(196 181 253);\n",
+                "border-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-400",
-                "border-color: rgb(167 139 250);\n",
+                "border-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-500",
-                "border-color: rgb(139 92 246);\n",
+                "border-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-600",
-                "border-color: rgb(124 58 237);\n",
+                "border-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-700",
-                "border-color: rgb(109 40 217);\n",
+                "border-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-800",
-                "border-color: rgb(91 33 182);\n",
+                "border-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-900",
-                "border-color: rgb(76 29 149);\n",
+                "border-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-violet-950",
-                "border-color: rgb(46 16 101);\n",
+                "border-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-50",
-                "border-color: rgb(250 245 255);\n",
+                "border-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-100",
-                "border-color: rgb(243 232 255);\n",
+                "border-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-200",
-                "border-color: rgb(233 213 255);\n",
+                "border-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-300",
-                "border-color: rgb(216 180 254);\n",
+                "border-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-400",
-                "border-color: rgb(192 132 252);\n",
+                "border-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-500",
-                "border-color: rgb(168 85 247);\n",
+                "border-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-600",
-                "border-color: rgb(147 51 234);\n",
+                "border-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-700",
-                "border-color: rgb(126 34 206);\n",
+                "border-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-800",
-                "border-color: rgb(107 33 168);\n",
+                "border-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-900",
-                "border-color: rgb(88 28 135);\n",
+                "border-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-purple-950",
-                "border-color: rgb(59 7 100);\n",
+                "border-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-50",
-                "border-color: rgb(253 244 255);\n",
+                "border-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-100",
-                "border-color: rgb(250 232 255);\n",
+                "border-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-200",
-                "border-color: rgb(245 208 254);\n",
+                "border-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-300",
-                "border-color: rgb(240 171 252);\n",
+                "border-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-400",
-                "border-color: rgb(232 121 249);\n",
+                "border-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-500",
-                "border-color: rgb(217 70 239);\n",
+                "border-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-600",
-                "border-color: rgb(192 38 211);\n",
+                "border-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-700",
-                "border-color: rgb(162 28 175);\n",
+                "border-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-800",
-                "border-color: rgb(134 25 143);\n",
+                "border-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-900",
-                "border-color: rgb(112 26 117);\n",
+                "border-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-fuchsia-950",
-                "border-color: rgb(74 4 78);\n",
+                "border-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-50",
-                "border-color: rgb(253 242 248);\n",
+                "border-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-100",
-                "border-color: rgb(252 231 243);\n",
+                "border-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-200",
-                "border-color: rgb(251 207 232);\n",
+                "border-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-300",
-                "border-color: rgb(249 168 212);\n",
+                "border-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-400",
-                "border-color: rgb(244 114 182);\n",
+                "border-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-500",
-                "border-color: rgb(236 72 153);\n",
+                "border-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-600",
-                "border-color: rgb(219 39 119);\n",
+                "border-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-700",
-                "border-color: rgb(190 24 93);\n",
+                "border-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-800",
-                "border-color: rgb(157 23 77);\n",
+                "border-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-900",
-                "border-color: rgb(131 24 67);\n",
+                "border-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-pink-950",
-                "border-color: rgb(80 7 36);\n",
+                "border-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-50",
-                "border-color: rgb(255 241 242);\n",
+                "border-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-100",
-                "border-color: rgb(255 228 230);\n",
+                "border-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-200",
-                "border-color: rgb(254 205 211);\n",
+                "border-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-300",
-                "border-color: rgb(253 164 175);\n",
+                "border-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-400",
-                "border-color: rgb(251 113 133);\n",
+                "border-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-500",
-                "border-color: rgb(244 63 94);\n",
+                "border-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-600",
-                "border-color: rgb(225 29 72);\n",
+                "border-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-700",
-                "border-color: rgb(190 18 60);\n",
+                "border-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-800",
-                "border-color: rgb(159 18 57);\n",
+                "border-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-900",
-                "border-color: rgb(136 19 55);\n",
+                "border-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-rose-950",
-                "border-color: rgb(76 5 25);\n",
+                "border-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -1991,1222 +1991,1222 @@ export const documentations = [
             ],
             [
                 "border-x-black",
-                "border-left-color: rgb(0 0 0);\nborder-right-color: rgb(0 0 0);\n",
+                "border-left-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-white",
-                "border-left-color: rgb(255 255 255);\nborder-right-color: rgb(255 255 255);\n",
+                "border-left-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-50",
-                "border-left-color: rgb(248 250 252);\nborder-right-color: rgb(248 250 252);\n",
+                "border-left-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-100",
-                "border-left-color: rgb(241 245 249);\nborder-right-color: rgb(241 245 249);\n",
+                "border-left-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-200",
-                "border-left-color: rgb(226 232 240);\nborder-right-color: rgb(226 232 240);\n",
+                "border-left-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-300",
-                "border-left-color: rgb(203 213 225);\nborder-right-color: rgb(203 213 225);\n",
+                "border-left-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-400",
-                "border-left-color: rgb(148 163 184);\nborder-right-color: rgb(148 163 184);\n",
+                "border-left-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-500",
-                "border-left-color: rgb(100 116 139);\nborder-right-color: rgb(100 116 139);\n",
+                "border-left-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-600",
-                "border-left-color: rgb(71 85 105);\nborder-right-color: rgb(71 85 105);\n",
+                "border-left-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-700",
-                "border-left-color: rgb(51 65 85);\nborder-right-color: rgb(51 65 85);\n",
+                "border-left-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-800",
-                "border-left-color: rgb(30 41 59);\nborder-right-color: rgb(30 41 59);\n",
+                "border-left-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-900",
-                "border-left-color: rgb(15 23 42);\nborder-right-color: rgb(15 23 42);\n",
+                "border-left-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-slate-950",
-                "border-left-color: rgb(2 6 23);\nborder-right-color: rgb(2 6 23);\n",
+                "border-left-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-50",
-                "border-left-color: rgb(249 250 251);\nborder-right-color: rgb(249 250 251);\n",
+                "border-left-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-100",
-                "border-left-color: rgb(243 244 246);\nborder-right-color: rgb(243 244 246);\n",
+                "border-left-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-200",
-                "border-left-color: rgb(229 231 235);\nborder-right-color: rgb(229 231 235);\n",
+                "border-left-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-300",
-                "border-left-color: rgb(209 213 219);\nborder-right-color: rgb(209 213 219);\n",
+                "border-left-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-400",
-                "border-left-color: rgb(156 163 175);\nborder-right-color: rgb(156 163 175);\n",
+                "border-left-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-500",
-                "border-left-color: rgb(107 114 128);\nborder-right-color: rgb(107 114 128);\n",
+                "border-left-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-600",
-                "border-left-color: rgb(75 85 99);\nborder-right-color: rgb(75 85 99);\n",
+                "border-left-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-700",
-                "border-left-color: rgb(55 65 81);\nborder-right-color: rgb(55 65 81);\n",
+                "border-left-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-800",
-                "border-left-color: rgb(31 41 55);\nborder-right-color: rgb(31 41 55);\n",
+                "border-left-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-900",
-                "border-left-color: rgb(17 24 39);\nborder-right-color: rgb(17 24 39);\n",
+                "border-left-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-gray-950",
-                "border-left-color: rgb(3 7 18);\nborder-right-color: rgb(3 7 18);\n",
+                "border-left-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-50",
-                "border-left-color: rgb(250 250 250);\nborder-right-color: rgb(250 250 250);\n",
+                "border-left-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-100",
-                "border-left-color: rgb(244 244 245);\nborder-right-color: rgb(244 244 245);\n",
+                "border-left-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-200",
-                "border-left-color: rgb(228 228 231);\nborder-right-color: rgb(228 228 231);\n",
+                "border-left-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-300",
-                "border-left-color: rgb(212 212 216);\nborder-right-color: rgb(212 212 216);\n",
+                "border-left-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-400",
-                "border-left-color: rgb(161 161 170);\nborder-right-color: rgb(161 161 170);\n",
+                "border-left-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-500",
-                "border-left-color: rgb(113 113 122);\nborder-right-color: rgb(113 113 122);\n",
+                "border-left-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-600",
-                "border-left-color: rgb(82 82 91);\nborder-right-color: rgb(82 82 91);\n",
+                "border-left-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-700",
-                "border-left-color: rgb(63 63 70);\nborder-right-color: rgb(63 63 70);\n",
+                "border-left-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-800",
-                "border-left-color: rgb(39 39 42);\nborder-right-color: rgb(39 39 42);\n",
+                "border-left-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-900",
-                "border-left-color: rgb(24 24 27);\nborder-right-color: rgb(24 24 27);\n",
+                "border-left-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-zinc-950",
-                "border-left-color: rgb(9 9 11);\nborder-right-color: rgb(9 9 11);\n",
+                "border-left-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-50",
-                "border-left-color: rgb(250 250 250);\nborder-right-color: rgb(250 250 250);\n",
+                "border-left-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-100",
-                "border-left-color: rgb(245 245 245);\nborder-right-color: rgb(245 245 245);\n",
+                "border-left-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-200",
-                "border-left-color: rgb(229 229 229);\nborder-right-color: rgb(229 229 229);\n",
+                "border-left-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-300",
-                "border-left-color: rgb(212 212 212);\nborder-right-color: rgb(212 212 212);\n",
+                "border-left-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-400",
-                "border-left-color: rgb(163 163 163);\nborder-right-color: rgb(163 163 163);\n",
+                "border-left-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-500",
-                "border-left-color: rgb(115 115 115);\nborder-right-color: rgb(115 115 115);\n",
+                "border-left-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-600",
-                "border-left-color: rgb(82 82 82);\nborder-right-color: rgb(82 82 82);\n",
+                "border-left-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-700",
-                "border-left-color: rgb(64 64 64);\nborder-right-color: rgb(64 64 64);\n",
+                "border-left-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-800",
-                "border-left-color: rgb(38 38 38);\nborder-right-color: rgb(38 38 38);\n",
+                "border-left-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-900",
-                "border-left-color: rgb(23 23 23);\nborder-right-color: rgb(23 23 23);\n",
+                "border-left-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-neutral-950",
-                "border-left-color: rgb(10 10 10);\nborder-right-color: rgb(10 10 10);\n",
+                "border-left-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-50",
-                "border-left-color: rgb(250 250 249);\nborder-right-color: rgb(250 250 249);\n",
+                "border-left-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-100",
-                "border-left-color: rgb(245 245 244);\nborder-right-color: rgb(245 245 244);\n",
+                "border-left-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-200",
-                "border-left-color: rgb(231 229 228);\nborder-right-color: rgb(231 229 228);\n",
+                "border-left-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-300",
-                "border-left-color: rgb(214 211 209);\nborder-right-color: rgb(214 211 209);\n",
+                "border-left-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-400",
-                "border-left-color: rgb(168 162 158);\nborder-right-color: rgb(168 162 158);\n",
+                "border-left-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-500",
-                "border-left-color: rgb(120 113 108);\nborder-right-color: rgb(120 113 108);\n",
+                "border-left-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-600",
-                "border-left-color: rgb(87 83 78);\nborder-right-color: rgb(87 83 78);\n",
+                "border-left-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-700",
-                "border-left-color: rgb(68 64 60);\nborder-right-color: rgb(68 64 60);\n",
+                "border-left-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-800",
-                "border-left-color: rgb(41 37 36);\nborder-right-color: rgb(41 37 36);\n",
+                "border-left-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-900",
-                "border-left-color: rgb(28 25 23);\nborder-right-color: rgb(28 25 23);\n",
+                "border-left-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-stone-950",
-                "border-left-color: rgb(12 10 9);\nborder-right-color: rgb(12 10 9);\n",
+                "border-left-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-50",
-                "border-left-color: rgb(254 242 242);\nborder-right-color: rgb(254 242 242);\n",
+                "border-left-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-100",
-                "border-left-color: rgb(254 226 226);\nborder-right-color: rgb(254 226 226);\n",
+                "border-left-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-200",
-                "border-left-color: rgb(254 202 202);\nborder-right-color: rgb(254 202 202);\n",
+                "border-left-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-300",
-                "border-left-color: rgb(252 165 165);\nborder-right-color: rgb(252 165 165);\n",
+                "border-left-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-400",
-                "border-left-color: rgb(248 113 113);\nborder-right-color: rgb(248 113 113);\n",
+                "border-left-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-500",
-                "border-left-color: rgb(239 68 68);\nborder-right-color: rgb(239 68 68);\n",
+                "border-left-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-600",
-                "border-left-color: rgb(220 38 38);\nborder-right-color: rgb(220 38 38);\n",
+                "border-left-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-700",
-                "border-left-color: rgb(185 28 28);\nborder-right-color: rgb(185 28 28);\n",
+                "border-left-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-800",
-                "border-left-color: rgb(153 27 27);\nborder-right-color: rgb(153 27 27);\n",
+                "border-left-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-900",
-                "border-left-color: rgb(127 29 29);\nborder-right-color: rgb(127 29 29);\n",
+                "border-left-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-red-950",
-                "border-left-color: rgb(69 10 10);\nborder-right-color: rgb(69 10 10);\n",
+                "border-left-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-50",
-                "border-left-color: rgb(255 247 237);\nborder-right-color: rgb(255 247 237);\n",
+                "border-left-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-100",
-                "border-left-color: rgb(255 237 213);\nborder-right-color: rgb(255 237 213);\n",
+                "border-left-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-200",
-                "border-left-color: rgb(254 215 170);\nborder-right-color: rgb(254 215 170);\n",
+                "border-left-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-300",
-                "border-left-color: rgb(253 186 116);\nborder-right-color: rgb(253 186 116);\n",
+                "border-left-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-400",
-                "border-left-color: rgb(251 146 60);\nborder-right-color: rgb(251 146 60);\n",
+                "border-left-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-500",
-                "border-left-color: rgb(249 115 22);\nborder-right-color: rgb(249 115 22);\n",
+                "border-left-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-600",
-                "border-left-color: rgb(234 88 12);\nborder-right-color: rgb(234 88 12);\n",
+                "border-left-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-700",
-                "border-left-color: rgb(194 65 12);\nborder-right-color: rgb(194 65 12);\n",
+                "border-left-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-800",
-                "border-left-color: rgb(154 52 18);\nborder-right-color: rgb(154 52 18);\n",
+                "border-left-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-900",
-                "border-left-color: rgb(124 45 18);\nborder-right-color: rgb(124 45 18);\n",
+                "border-left-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-orange-950",
-                "border-left-color: rgb(67 20 7);\nborder-right-color: rgb(67 20 7);\n",
+                "border-left-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-50",
-                "border-left-color: rgb(255 251 235);\nborder-right-color: rgb(255 251 235);\n",
+                "border-left-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-100",
-                "border-left-color: rgb(254 243 199);\nborder-right-color: rgb(254 243 199);\n",
+                "border-left-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-200",
-                "border-left-color: rgb(253 230 138);\nborder-right-color: rgb(253 230 138);\n",
+                "border-left-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-300",
-                "border-left-color: rgb(252 211 77);\nborder-right-color: rgb(252 211 77);\n",
+                "border-left-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-400",
-                "border-left-color: rgb(251 191 36);\nborder-right-color: rgb(251 191 36);\n",
+                "border-left-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-500",
-                "border-left-color: rgb(245 158 11);\nborder-right-color: rgb(245 158 11);\n",
+                "border-left-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-600",
-                "border-left-color: rgb(217 119 6);\nborder-right-color: rgb(217 119 6);\n",
+                "border-left-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-700",
-                "border-left-color: rgb(180 83 9);\nborder-right-color: rgb(180 83 9);\n",
+                "border-left-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-800",
-                "border-left-color: rgb(146 64 14);\nborder-right-color: rgb(146 64 14);\n",
+                "border-left-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-900",
-                "border-left-color: rgb(120 53 15);\nborder-right-color: rgb(120 53 15);\n",
+                "border-left-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-amber-950",
-                "border-left-color: rgb(69 26 3);\nborder-right-color: rgb(69 26 3);\n",
+                "border-left-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-50",
-                "border-left-color: rgb(254 252 232);\nborder-right-color: rgb(254 252 232);\n",
+                "border-left-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-100",
-                "border-left-color: rgb(254 249 195);\nborder-right-color: rgb(254 249 195);\n",
+                "border-left-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-200",
-                "border-left-color: rgb(254 240 138);\nborder-right-color: rgb(254 240 138);\n",
+                "border-left-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-300",
-                "border-left-color: rgb(253 224 71);\nborder-right-color: rgb(253 224 71);\n",
+                "border-left-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-400",
-                "border-left-color: rgb(250 204 21);\nborder-right-color: rgb(250 204 21);\n",
+                "border-left-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-500",
-                "border-left-color: rgb(234 179 8);\nborder-right-color: rgb(234 179 8);\n",
+                "border-left-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-600",
-                "border-left-color: rgb(202 138 4);\nborder-right-color: rgb(202 138 4);\n",
+                "border-left-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-700",
-                "border-left-color: rgb(161 98 7);\nborder-right-color: rgb(161 98 7);\n",
+                "border-left-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-800",
-                "border-left-color: rgb(133 77 14);\nborder-right-color: rgb(133 77 14);\n",
+                "border-left-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-900",
-                "border-left-color: rgb(113 63 18);\nborder-right-color: rgb(113 63 18);\n",
+                "border-left-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-yellow-950",
-                "border-left-color: rgb(66 32 6);\nborder-right-color: rgb(66 32 6);\n",
+                "border-left-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-50",
-                "border-left-color: rgb(247 254 231);\nborder-right-color: rgb(247 254 231);\n",
+                "border-left-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-100",
-                "border-left-color: rgb(236 252 203);\nborder-right-color: rgb(236 252 203);\n",
+                "border-left-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-200",
-                "border-left-color: rgb(217 249 157);\nborder-right-color: rgb(217 249 157);\n",
+                "border-left-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-300",
-                "border-left-color: rgb(190 242 100);\nborder-right-color: rgb(190 242 100);\n",
+                "border-left-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-400",
-                "border-left-color: rgb(163 230 53);\nborder-right-color: rgb(163 230 53);\n",
+                "border-left-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-500",
-                "border-left-color: rgb(132 204 22);\nborder-right-color: rgb(132 204 22);\n",
+                "border-left-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-600",
-                "border-left-color: rgb(101 163 13);\nborder-right-color: rgb(101 163 13);\n",
+                "border-left-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-700",
-                "border-left-color: rgb(77 124 15);\nborder-right-color: rgb(77 124 15);\n",
+                "border-left-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-800",
-                "border-left-color: rgb(63 98 18);\nborder-right-color: rgb(63 98 18);\n",
+                "border-left-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-900",
-                "border-left-color: rgb(54 83 20);\nborder-right-color: rgb(54 83 20);\n",
+                "border-left-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-lime-950",
-                "border-left-color: rgb(26 46 5);\nborder-right-color: rgb(26 46 5);\n",
+                "border-left-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-50",
-                "border-left-color: rgb(240 253 244);\nborder-right-color: rgb(240 253 244);\n",
+                "border-left-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-100",
-                "border-left-color: rgb(220 252 231);\nborder-right-color: rgb(220 252 231);\n",
+                "border-left-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-200",
-                "border-left-color: rgb(187 247 208);\nborder-right-color: rgb(187 247 208);\n",
+                "border-left-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-300",
-                "border-left-color: rgb(134 239 172);\nborder-right-color: rgb(134 239 172);\n",
+                "border-left-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-400",
-                "border-left-color: rgb(74 222 128);\nborder-right-color: rgb(74 222 128);\n",
+                "border-left-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-500",
-                "border-left-color: rgb(34 197 94);\nborder-right-color: rgb(34 197 94);\n",
+                "border-left-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-600",
-                "border-left-color: rgb(22 163 74);\nborder-right-color: rgb(22 163 74);\n",
+                "border-left-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-700",
-                "border-left-color: rgb(21 128 61);\nborder-right-color: rgb(21 128 61);\n",
+                "border-left-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-800",
-                "border-left-color: rgb(22 101 52);\nborder-right-color: rgb(22 101 52);\n",
+                "border-left-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-900",
-                "border-left-color: rgb(20 83 45);\nborder-right-color: rgb(20 83 45);\n",
+                "border-left-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-green-950",
-                "border-left-color: rgb(5 46 22);\nborder-right-color: rgb(5 46 22);\n",
+                "border-left-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-50",
-                "border-left-color: rgb(236 253 245);\nborder-right-color: rgb(236 253 245);\n",
+                "border-left-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-100",
-                "border-left-color: rgb(209 250 229);\nborder-right-color: rgb(209 250 229);\n",
+                "border-left-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-200",
-                "border-left-color: rgb(167 243 208);\nborder-right-color: rgb(167 243 208);\n",
+                "border-left-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-300",
-                "border-left-color: rgb(110 231 183);\nborder-right-color: rgb(110 231 183);\n",
+                "border-left-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-400",
-                "border-left-color: rgb(52 211 153);\nborder-right-color: rgb(52 211 153);\n",
+                "border-left-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-500",
-                "border-left-color: rgb(16 185 129);\nborder-right-color: rgb(16 185 129);\n",
+                "border-left-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-600",
-                "border-left-color: rgb(5 150 105);\nborder-right-color: rgb(5 150 105);\n",
+                "border-left-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-700",
-                "border-left-color: rgb(4 120 87);\nborder-right-color: rgb(4 120 87);\n",
+                "border-left-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-800",
-                "border-left-color: rgb(6 95 70);\nborder-right-color: rgb(6 95 70);\n",
+                "border-left-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-900",
-                "border-left-color: rgb(6 78 59);\nborder-right-color: rgb(6 78 59);\n",
+                "border-left-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-emerald-950",
-                "border-left-color: rgb(2 44 34);\nborder-right-color: rgb(2 44 34);\n",
+                "border-left-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-50",
-                "border-left-color: rgb(240 253 250);\nborder-right-color: rgb(240 253 250);\n",
+                "border-left-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-100",
-                "border-left-color: rgb(204 251 241);\nborder-right-color: rgb(204 251 241);\n",
+                "border-left-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-200",
-                "border-left-color: rgb(153 246 228);\nborder-right-color: rgb(153 246 228);\n",
+                "border-left-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-300",
-                "border-left-color: rgb(94 234 212);\nborder-right-color: rgb(94 234 212);\n",
+                "border-left-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-400",
-                "border-left-color: rgb(45 212 191);\nborder-right-color: rgb(45 212 191);\n",
+                "border-left-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-500",
-                "border-left-color: rgb(20 184 166);\nborder-right-color: rgb(20 184 166);\n",
+                "border-left-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-600",
-                "border-left-color: rgb(13 148 136);\nborder-right-color: rgb(13 148 136);\n",
+                "border-left-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-700",
-                "border-left-color: rgb(15 118 110);\nborder-right-color: rgb(15 118 110);\n",
+                "border-left-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-800",
-                "border-left-color: rgb(17 94 89);\nborder-right-color: rgb(17 94 89);\n",
+                "border-left-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-900",
-                "border-left-color: rgb(19 78 74);\nborder-right-color: rgb(19 78 74);\n",
+                "border-left-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-teal-950",
-                "border-left-color: rgb(4 47 46);\nborder-right-color: rgb(4 47 46);\n",
+                "border-left-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-50",
-                "border-left-color: rgb(236 254 255);\nborder-right-color: rgb(236 254 255);\n",
+                "border-left-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-100",
-                "border-left-color: rgb(207 250 254);\nborder-right-color: rgb(207 250 254);\n",
+                "border-left-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-200",
-                "border-left-color: rgb(165 243 252);\nborder-right-color: rgb(165 243 252);\n",
+                "border-left-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-300",
-                "border-left-color: rgb(103 232 249);\nborder-right-color: rgb(103 232 249);\n",
+                "border-left-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-400",
-                "border-left-color: rgb(34 211 238);\nborder-right-color: rgb(34 211 238);\n",
+                "border-left-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-500",
-                "border-left-color: rgb(6 182 212);\nborder-right-color: rgb(6 182 212);\n",
+                "border-left-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-600",
-                "border-left-color: rgb(8 145 178);\nborder-right-color: rgb(8 145 178);\n",
+                "border-left-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-700",
-                "border-left-color: rgb(14 116 144);\nborder-right-color: rgb(14 116 144);\n",
+                "border-left-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-800",
-                "border-left-color: rgb(21 94 117);\nborder-right-color: rgb(21 94 117);\n",
+                "border-left-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-900",
-                "border-left-color: rgb(22 78 99);\nborder-right-color: rgb(22 78 99);\n",
+                "border-left-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-cyan-950",
-                "border-left-color: rgb(8 51 68);\nborder-right-color: rgb(8 51 68);\n",
+                "border-left-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-50",
-                "border-left-color: rgb(240 249 255);\nborder-right-color: rgb(240 249 255);\n",
+                "border-left-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-100",
-                "border-left-color: rgb(224 242 254);\nborder-right-color: rgb(224 242 254);\n",
+                "border-left-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-200",
-                "border-left-color: rgb(186 230 253);\nborder-right-color: rgb(186 230 253);\n",
+                "border-left-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-300",
-                "border-left-color: rgb(125 211 252);\nborder-right-color: rgb(125 211 252);\n",
+                "border-left-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-400",
-                "border-left-color: rgb(56 189 248);\nborder-right-color: rgb(56 189 248);\n",
+                "border-left-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-500",
-                "border-left-color: rgb(14 165 233);\nborder-right-color: rgb(14 165 233);\n",
+                "border-left-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-600",
-                "border-left-color: rgb(2 132 199);\nborder-right-color: rgb(2 132 199);\n",
+                "border-left-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-700",
-                "border-left-color: rgb(3 105 161);\nborder-right-color: rgb(3 105 161);\n",
+                "border-left-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-800",
-                "border-left-color: rgb(7 89 133);\nborder-right-color: rgb(7 89 133);\n",
+                "border-left-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-900",
-                "border-left-color: rgb(12 74 110);\nborder-right-color: rgb(12 74 110);\n",
+                "border-left-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-sky-950",
-                "border-left-color: rgb(8 47 73);\nborder-right-color: rgb(8 47 73);\n",
+                "border-left-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-50",
-                "border-left-color: rgb(239 246 255);\nborder-right-color: rgb(239 246 255);\n",
+                "border-left-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-100",
-                "border-left-color: rgb(219 234 254);\nborder-right-color: rgb(219 234 254);\n",
+                "border-left-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-200",
-                "border-left-color: rgb(191 219 254);\nborder-right-color: rgb(191 219 254);\n",
+                "border-left-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-300",
-                "border-left-color: rgb(147 197 253);\nborder-right-color: rgb(147 197 253);\n",
+                "border-left-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-400",
-                "border-left-color: rgb(96 165 250);\nborder-right-color: rgb(96 165 250);\n",
+                "border-left-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-500",
-                "border-left-color: rgb(59 130 246);\nborder-right-color: rgb(59 130 246);\n",
+                "border-left-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-600",
-                "border-left-color: rgb(37 99 235);\nborder-right-color: rgb(37 99 235);\n",
+                "border-left-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-700",
-                "border-left-color: rgb(29 78 216);\nborder-right-color: rgb(29 78 216);\n",
+                "border-left-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-800",
-                "border-left-color: rgb(30 64 175);\nborder-right-color: rgb(30 64 175);\n",
+                "border-left-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-900",
-                "border-left-color: rgb(30 58 138);\nborder-right-color: rgb(30 58 138);\n",
+                "border-left-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-blue-950",
-                "border-left-color: rgb(23 37 84);\nborder-right-color: rgb(23 37 84);\n",
+                "border-left-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-50",
-                "border-left-color: rgb(238 242 255);\nborder-right-color: rgb(238 242 255);\n",
+                "border-left-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-100",
-                "border-left-color: rgb(224 231 255);\nborder-right-color: rgb(224 231 255);\n",
+                "border-left-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-200",
-                "border-left-color: rgb(199 210 254);\nborder-right-color: rgb(199 210 254);\n",
+                "border-left-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-300",
-                "border-left-color: rgb(165 180 252);\nborder-right-color: rgb(165 180 252);\n",
+                "border-left-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-400",
-                "border-left-color: rgb(129 140 248);\nborder-right-color: rgb(129 140 248);\n",
+                "border-left-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-500",
-                "border-left-color: rgb(99 102 241);\nborder-right-color: rgb(99 102 241);\n",
+                "border-left-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-600",
-                "border-left-color: rgb(79 70 229);\nborder-right-color: rgb(79 70 229);\n",
+                "border-left-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-700",
-                "border-left-color: rgb(67 56 202);\nborder-right-color: rgb(67 56 202);\n",
+                "border-left-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-800",
-                "border-left-color: rgb(55 48 163);\nborder-right-color: rgb(55 48 163);\n",
+                "border-left-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-900",
-                "border-left-color: rgb(49 46 129);\nborder-right-color: rgb(49 46 129);\n",
+                "border-left-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-indigo-950",
-                "border-left-color: rgb(30 27 75);\nborder-right-color: rgb(30 27 75);\n",
+                "border-left-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-50",
-                "border-left-color: rgb(245 243 255);\nborder-right-color: rgb(245 243 255);\n",
+                "border-left-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-100",
-                "border-left-color: rgb(237 233 254);\nborder-right-color: rgb(237 233 254);\n",
+                "border-left-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-200",
-                "border-left-color: rgb(221 214 254);\nborder-right-color: rgb(221 214 254);\n",
+                "border-left-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-300",
-                "border-left-color: rgb(196 181 253);\nborder-right-color: rgb(196 181 253);\n",
+                "border-left-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-400",
-                "border-left-color: rgb(167 139 250);\nborder-right-color: rgb(167 139 250);\n",
+                "border-left-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-500",
-                "border-left-color: rgb(139 92 246);\nborder-right-color: rgb(139 92 246);\n",
+                "border-left-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-600",
-                "border-left-color: rgb(124 58 237);\nborder-right-color: rgb(124 58 237);\n",
+                "border-left-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-700",
-                "border-left-color: rgb(109 40 217);\nborder-right-color: rgb(109 40 217);\n",
+                "border-left-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-800",
-                "border-left-color: rgb(91 33 182);\nborder-right-color: rgb(91 33 182);\n",
+                "border-left-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-900",
-                "border-left-color: rgb(76 29 149);\nborder-right-color: rgb(76 29 149);\n",
+                "border-left-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-violet-950",
-                "border-left-color: rgb(46 16 101);\nborder-right-color: rgb(46 16 101);\n",
+                "border-left-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-50",
-                "border-left-color: rgb(250 245 255);\nborder-right-color: rgb(250 245 255);\n",
+                "border-left-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-100",
-                "border-left-color: rgb(243 232 255);\nborder-right-color: rgb(243 232 255);\n",
+                "border-left-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-200",
-                "border-left-color: rgb(233 213 255);\nborder-right-color: rgb(233 213 255);\n",
+                "border-left-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-300",
-                "border-left-color: rgb(216 180 254);\nborder-right-color: rgb(216 180 254);\n",
+                "border-left-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-400",
-                "border-left-color: rgb(192 132 252);\nborder-right-color: rgb(192 132 252);\n",
+                "border-left-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-500",
-                "border-left-color: rgb(168 85 247);\nborder-right-color: rgb(168 85 247);\n",
+                "border-left-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-600",
-                "border-left-color: rgb(147 51 234);\nborder-right-color: rgb(147 51 234);\n",
+                "border-left-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-700",
-                "border-left-color: rgb(126 34 206);\nborder-right-color: rgb(126 34 206);\n",
+                "border-left-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-800",
-                "border-left-color: rgb(107 33 168);\nborder-right-color: rgb(107 33 168);\n",
+                "border-left-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-900",
-                "border-left-color: rgb(88 28 135);\nborder-right-color: rgb(88 28 135);\n",
+                "border-left-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-purple-950",
-                "border-left-color: rgb(59 7 100);\nborder-right-color: rgb(59 7 100);\n",
+                "border-left-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-50",
-                "border-left-color: rgb(253 244 255);\nborder-right-color: rgb(253 244 255);\n",
+                "border-left-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-100",
-                "border-left-color: rgb(250 232 255);\nborder-right-color: rgb(250 232 255);\n",
+                "border-left-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-200",
-                "border-left-color: rgb(245 208 254);\nborder-right-color: rgb(245 208 254);\n",
+                "border-left-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-300",
-                "border-left-color: rgb(240 171 252);\nborder-right-color: rgb(240 171 252);\n",
+                "border-left-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-400",
-                "border-left-color: rgb(232 121 249);\nborder-right-color: rgb(232 121 249);\n",
+                "border-left-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-500",
-                "border-left-color: rgb(217 70 239);\nborder-right-color: rgb(217 70 239);\n",
+                "border-left-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-600",
-                "border-left-color: rgb(192 38 211);\nborder-right-color: rgb(192 38 211);\n",
+                "border-left-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-700",
-                "border-left-color: rgb(162 28 175);\nborder-right-color: rgb(162 28 175);\n",
+                "border-left-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-800",
-                "border-left-color: rgb(134 25 143);\nborder-right-color: rgb(134 25 143);\n",
+                "border-left-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-900",
-                "border-left-color: rgb(112 26 117);\nborder-right-color: rgb(112 26 117);\n",
+                "border-left-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-fuchsia-950",
-                "border-left-color: rgb(74 4 78);\nborder-right-color: rgb(74 4 78);\n",
+                "border-left-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-50",
-                "border-left-color: rgb(253 242 248);\nborder-right-color: rgb(253 242 248);\n",
+                "border-left-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-100",
-                "border-left-color: rgb(252 231 243);\nborder-right-color: rgb(252 231 243);\n",
+                "border-left-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-200",
-                "border-left-color: rgb(251 207 232);\nborder-right-color: rgb(251 207 232);\n",
+                "border-left-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-300",
-                "border-left-color: rgb(249 168 212);\nborder-right-color: rgb(249 168 212);\n",
+                "border-left-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-400",
-                "border-left-color: rgb(244 114 182);\nborder-right-color: rgb(244 114 182);\n",
+                "border-left-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-500",
-                "border-left-color: rgb(236 72 153);\nborder-right-color: rgb(236 72 153);\n",
+                "border-left-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-600",
-                "border-left-color: rgb(219 39 119);\nborder-right-color: rgb(219 39 119);\n",
+                "border-left-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-700",
-                "border-left-color: rgb(190 24 93);\nborder-right-color: rgb(190 24 93);\n",
+                "border-left-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-800",
-                "border-left-color: rgb(157 23 77);\nborder-right-color: rgb(157 23 77);\n",
+                "border-left-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-900",
-                "border-left-color: rgb(131 24 67);\nborder-right-color: rgb(131 24 67);\n",
+                "border-left-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-pink-950",
-                "border-left-color: rgb(80 7 36);\nborder-right-color: rgb(80 7 36);\n",
+                "border-left-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-50",
-                "border-left-color: rgb(255 241 242);\nborder-right-color: rgb(255 241 242);\n",
+                "border-left-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-100",
-                "border-left-color: rgb(255 228 230);\nborder-right-color: rgb(255 228 230);\n",
+                "border-left-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-200",
-                "border-left-color: rgb(254 205 211);\nborder-right-color: rgb(254 205 211);\n",
+                "border-left-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-300",
-                "border-left-color: rgb(253 164 175);\nborder-right-color: rgb(253 164 175);\n",
+                "border-left-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-400",
-                "border-left-color: rgb(251 113 133);\nborder-right-color: rgb(251 113 133);\n",
+                "border-left-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-500",
-                "border-left-color: rgb(244 63 94);\nborder-right-color: rgb(244 63 94);\n",
+                "border-left-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-600",
-                "border-left-color: rgb(225 29 72);\nborder-right-color: rgb(225 29 72);\n",
+                "border-left-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-700",
-                "border-left-color: rgb(190 18 60);\nborder-right-color: rgb(190 18 60);\n",
+                "border-left-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-800",
-                "border-left-color: rgb(159 18 57);\nborder-right-color: rgb(159 18 57);\n",
+                "border-left-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-900",
-                "border-left-color: rgb(136 19 55);\nborder-right-color: rgb(136 19 55);\n",
+                "border-left-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-x-rose-950",
-                "border-left-color: rgb(76 5 25);\nborder-right-color: rgb(76 5 25);\n",
+                "border-left-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\nborder-right-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -3226,1222 +3226,1222 @@ export const documentations = [
             ],
             [
                 "border-y-black",
-                "border-top-color: rgb(0 0 0);\nborder-bottom-color: rgb(0 0 0);\n",
+                "border-top-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-white",
-                "border-top-color: rgb(255 255 255);\nborder-bottom-color: rgb(255 255 255);\n",
+                "border-top-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-50",
-                "border-top-color: rgb(248 250 252);\nborder-bottom-color: rgb(248 250 252);\n",
+                "border-top-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-100",
-                "border-top-color: rgb(241 245 249);\nborder-bottom-color: rgb(241 245 249);\n",
+                "border-top-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-200",
-                "border-top-color: rgb(226 232 240);\nborder-bottom-color: rgb(226 232 240);\n",
+                "border-top-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-300",
-                "border-top-color: rgb(203 213 225);\nborder-bottom-color: rgb(203 213 225);\n",
+                "border-top-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-400",
-                "border-top-color: rgb(148 163 184);\nborder-bottom-color: rgb(148 163 184);\n",
+                "border-top-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-500",
-                "border-top-color: rgb(100 116 139);\nborder-bottom-color: rgb(100 116 139);\n",
+                "border-top-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-600",
-                "border-top-color: rgb(71 85 105);\nborder-bottom-color: rgb(71 85 105);\n",
+                "border-top-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-700",
-                "border-top-color: rgb(51 65 85);\nborder-bottom-color: rgb(51 65 85);\n",
+                "border-top-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-800",
-                "border-top-color: rgb(30 41 59);\nborder-bottom-color: rgb(30 41 59);\n",
+                "border-top-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-900",
-                "border-top-color: rgb(15 23 42);\nborder-bottom-color: rgb(15 23 42);\n",
+                "border-top-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-slate-950",
-                "border-top-color: rgb(2 6 23);\nborder-bottom-color: rgb(2 6 23);\n",
+                "border-top-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-50",
-                "border-top-color: rgb(249 250 251);\nborder-bottom-color: rgb(249 250 251);\n",
+                "border-top-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-100",
-                "border-top-color: rgb(243 244 246);\nborder-bottom-color: rgb(243 244 246);\n",
+                "border-top-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-200",
-                "border-top-color: rgb(229 231 235);\nborder-bottom-color: rgb(229 231 235);\n",
+                "border-top-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-300",
-                "border-top-color: rgb(209 213 219);\nborder-bottom-color: rgb(209 213 219);\n",
+                "border-top-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-400",
-                "border-top-color: rgb(156 163 175);\nborder-bottom-color: rgb(156 163 175);\n",
+                "border-top-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-500",
-                "border-top-color: rgb(107 114 128);\nborder-bottom-color: rgb(107 114 128);\n",
+                "border-top-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-600",
-                "border-top-color: rgb(75 85 99);\nborder-bottom-color: rgb(75 85 99);\n",
+                "border-top-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-700",
-                "border-top-color: rgb(55 65 81);\nborder-bottom-color: rgb(55 65 81);\n",
+                "border-top-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-800",
-                "border-top-color: rgb(31 41 55);\nborder-bottom-color: rgb(31 41 55);\n",
+                "border-top-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-900",
-                "border-top-color: rgb(17 24 39);\nborder-bottom-color: rgb(17 24 39);\n",
+                "border-top-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-gray-950",
-                "border-top-color: rgb(3 7 18);\nborder-bottom-color: rgb(3 7 18);\n",
+                "border-top-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-50",
-                "border-top-color: rgb(250 250 250);\nborder-bottom-color: rgb(250 250 250);\n",
+                "border-top-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-100",
-                "border-top-color: rgb(244 244 245);\nborder-bottom-color: rgb(244 244 245);\n",
+                "border-top-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-200",
-                "border-top-color: rgb(228 228 231);\nborder-bottom-color: rgb(228 228 231);\n",
+                "border-top-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-300",
-                "border-top-color: rgb(212 212 216);\nborder-bottom-color: rgb(212 212 216);\n",
+                "border-top-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-400",
-                "border-top-color: rgb(161 161 170);\nborder-bottom-color: rgb(161 161 170);\n",
+                "border-top-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-500",
-                "border-top-color: rgb(113 113 122);\nborder-bottom-color: rgb(113 113 122);\n",
+                "border-top-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-600",
-                "border-top-color: rgb(82 82 91);\nborder-bottom-color: rgb(82 82 91);\n",
+                "border-top-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-700",
-                "border-top-color: rgb(63 63 70);\nborder-bottom-color: rgb(63 63 70);\n",
+                "border-top-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-800",
-                "border-top-color: rgb(39 39 42);\nborder-bottom-color: rgb(39 39 42);\n",
+                "border-top-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-900",
-                "border-top-color: rgb(24 24 27);\nborder-bottom-color: rgb(24 24 27);\n",
+                "border-top-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-zinc-950",
-                "border-top-color: rgb(9 9 11);\nborder-bottom-color: rgb(9 9 11);\n",
+                "border-top-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-50",
-                "border-top-color: rgb(250 250 250);\nborder-bottom-color: rgb(250 250 250);\n",
+                "border-top-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-100",
-                "border-top-color: rgb(245 245 245);\nborder-bottom-color: rgb(245 245 245);\n",
+                "border-top-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-200",
-                "border-top-color: rgb(229 229 229);\nborder-bottom-color: rgb(229 229 229);\n",
+                "border-top-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-300",
-                "border-top-color: rgb(212 212 212);\nborder-bottom-color: rgb(212 212 212);\n",
+                "border-top-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-400",
-                "border-top-color: rgb(163 163 163);\nborder-bottom-color: rgb(163 163 163);\n",
+                "border-top-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-500",
-                "border-top-color: rgb(115 115 115);\nborder-bottom-color: rgb(115 115 115);\n",
+                "border-top-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-600",
-                "border-top-color: rgb(82 82 82);\nborder-bottom-color: rgb(82 82 82);\n",
+                "border-top-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-700",
-                "border-top-color: rgb(64 64 64);\nborder-bottom-color: rgb(64 64 64);\n",
+                "border-top-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-800",
-                "border-top-color: rgb(38 38 38);\nborder-bottom-color: rgb(38 38 38);\n",
+                "border-top-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-900",
-                "border-top-color: rgb(23 23 23);\nborder-bottom-color: rgb(23 23 23);\n",
+                "border-top-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-neutral-950",
-                "border-top-color: rgb(10 10 10);\nborder-bottom-color: rgb(10 10 10);\n",
+                "border-top-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-50",
-                "border-top-color: rgb(250 250 249);\nborder-bottom-color: rgb(250 250 249);\n",
+                "border-top-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-100",
-                "border-top-color: rgb(245 245 244);\nborder-bottom-color: rgb(245 245 244);\n",
+                "border-top-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-200",
-                "border-top-color: rgb(231 229 228);\nborder-bottom-color: rgb(231 229 228);\n",
+                "border-top-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-300",
-                "border-top-color: rgb(214 211 209);\nborder-bottom-color: rgb(214 211 209);\n",
+                "border-top-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-400",
-                "border-top-color: rgb(168 162 158);\nborder-bottom-color: rgb(168 162 158);\n",
+                "border-top-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-500",
-                "border-top-color: rgb(120 113 108);\nborder-bottom-color: rgb(120 113 108);\n",
+                "border-top-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-600",
-                "border-top-color: rgb(87 83 78);\nborder-bottom-color: rgb(87 83 78);\n",
+                "border-top-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-700",
-                "border-top-color: rgb(68 64 60);\nborder-bottom-color: rgb(68 64 60);\n",
+                "border-top-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-800",
-                "border-top-color: rgb(41 37 36);\nborder-bottom-color: rgb(41 37 36);\n",
+                "border-top-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-900",
-                "border-top-color: rgb(28 25 23);\nborder-bottom-color: rgb(28 25 23);\n",
+                "border-top-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-stone-950",
-                "border-top-color: rgb(12 10 9);\nborder-bottom-color: rgb(12 10 9);\n",
+                "border-top-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-50",
-                "border-top-color: rgb(254 242 242);\nborder-bottom-color: rgb(254 242 242);\n",
+                "border-top-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-100",
-                "border-top-color: rgb(254 226 226);\nborder-bottom-color: rgb(254 226 226);\n",
+                "border-top-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-200",
-                "border-top-color: rgb(254 202 202);\nborder-bottom-color: rgb(254 202 202);\n",
+                "border-top-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-300",
-                "border-top-color: rgb(252 165 165);\nborder-bottom-color: rgb(252 165 165);\n",
+                "border-top-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-400",
-                "border-top-color: rgb(248 113 113);\nborder-bottom-color: rgb(248 113 113);\n",
+                "border-top-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-500",
-                "border-top-color: rgb(239 68 68);\nborder-bottom-color: rgb(239 68 68);\n",
+                "border-top-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-600",
-                "border-top-color: rgb(220 38 38);\nborder-bottom-color: rgb(220 38 38);\n",
+                "border-top-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-700",
-                "border-top-color: rgb(185 28 28);\nborder-bottom-color: rgb(185 28 28);\n",
+                "border-top-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-800",
-                "border-top-color: rgb(153 27 27);\nborder-bottom-color: rgb(153 27 27);\n",
+                "border-top-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-900",
-                "border-top-color: rgb(127 29 29);\nborder-bottom-color: rgb(127 29 29);\n",
+                "border-top-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-red-950",
-                "border-top-color: rgb(69 10 10);\nborder-bottom-color: rgb(69 10 10);\n",
+                "border-top-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-50",
-                "border-top-color: rgb(255 247 237);\nborder-bottom-color: rgb(255 247 237);\n",
+                "border-top-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-100",
-                "border-top-color: rgb(255 237 213);\nborder-bottom-color: rgb(255 237 213);\n",
+                "border-top-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-200",
-                "border-top-color: rgb(254 215 170);\nborder-bottom-color: rgb(254 215 170);\n",
+                "border-top-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-300",
-                "border-top-color: rgb(253 186 116);\nborder-bottom-color: rgb(253 186 116);\n",
+                "border-top-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-400",
-                "border-top-color: rgb(251 146 60);\nborder-bottom-color: rgb(251 146 60);\n",
+                "border-top-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-500",
-                "border-top-color: rgb(249 115 22);\nborder-bottom-color: rgb(249 115 22);\n",
+                "border-top-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-600",
-                "border-top-color: rgb(234 88 12);\nborder-bottom-color: rgb(234 88 12);\n",
+                "border-top-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-700",
-                "border-top-color: rgb(194 65 12);\nborder-bottom-color: rgb(194 65 12);\n",
+                "border-top-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-800",
-                "border-top-color: rgb(154 52 18);\nborder-bottom-color: rgb(154 52 18);\n",
+                "border-top-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-900",
-                "border-top-color: rgb(124 45 18);\nborder-bottom-color: rgb(124 45 18);\n",
+                "border-top-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-orange-950",
-                "border-top-color: rgb(67 20 7);\nborder-bottom-color: rgb(67 20 7);\n",
+                "border-top-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-50",
-                "border-top-color: rgb(255 251 235);\nborder-bottom-color: rgb(255 251 235);\n",
+                "border-top-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-100",
-                "border-top-color: rgb(254 243 199);\nborder-bottom-color: rgb(254 243 199);\n",
+                "border-top-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-200",
-                "border-top-color: rgb(253 230 138);\nborder-bottom-color: rgb(253 230 138);\n",
+                "border-top-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-300",
-                "border-top-color: rgb(252 211 77);\nborder-bottom-color: rgb(252 211 77);\n",
+                "border-top-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-400",
-                "border-top-color: rgb(251 191 36);\nborder-bottom-color: rgb(251 191 36);\n",
+                "border-top-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-500",
-                "border-top-color: rgb(245 158 11);\nborder-bottom-color: rgb(245 158 11);\n",
+                "border-top-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-600",
-                "border-top-color: rgb(217 119 6);\nborder-bottom-color: rgb(217 119 6);\n",
+                "border-top-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-700",
-                "border-top-color: rgb(180 83 9);\nborder-bottom-color: rgb(180 83 9);\n",
+                "border-top-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-800",
-                "border-top-color: rgb(146 64 14);\nborder-bottom-color: rgb(146 64 14);\n",
+                "border-top-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-900",
-                "border-top-color: rgb(120 53 15);\nborder-bottom-color: rgb(120 53 15);\n",
+                "border-top-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-amber-950",
-                "border-top-color: rgb(69 26 3);\nborder-bottom-color: rgb(69 26 3);\n",
+                "border-top-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-50",
-                "border-top-color: rgb(254 252 232);\nborder-bottom-color: rgb(254 252 232);\n",
+                "border-top-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-100",
-                "border-top-color: rgb(254 249 195);\nborder-bottom-color: rgb(254 249 195);\n",
+                "border-top-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-200",
-                "border-top-color: rgb(254 240 138);\nborder-bottom-color: rgb(254 240 138);\n",
+                "border-top-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-300",
-                "border-top-color: rgb(253 224 71);\nborder-bottom-color: rgb(253 224 71);\n",
+                "border-top-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-400",
-                "border-top-color: rgb(250 204 21);\nborder-bottom-color: rgb(250 204 21);\n",
+                "border-top-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-500",
-                "border-top-color: rgb(234 179 8);\nborder-bottom-color: rgb(234 179 8);\n",
+                "border-top-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-600",
-                "border-top-color: rgb(202 138 4);\nborder-bottom-color: rgb(202 138 4);\n",
+                "border-top-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-700",
-                "border-top-color: rgb(161 98 7);\nborder-bottom-color: rgb(161 98 7);\n",
+                "border-top-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-800",
-                "border-top-color: rgb(133 77 14);\nborder-bottom-color: rgb(133 77 14);\n",
+                "border-top-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-900",
-                "border-top-color: rgb(113 63 18);\nborder-bottom-color: rgb(113 63 18);\n",
+                "border-top-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-yellow-950",
-                "border-top-color: rgb(66 32 6);\nborder-bottom-color: rgb(66 32 6);\n",
+                "border-top-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-50",
-                "border-top-color: rgb(247 254 231);\nborder-bottom-color: rgb(247 254 231);\n",
+                "border-top-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-100",
-                "border-top-color: rgb(236 252 203);\nborder-bottom-color: rgb(236 252 203);\n",
+                "border-top-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-200",
-                "border-top-color: rgb(217 249 157);\nborder-bottom-color: rgb(217 249 157);\n",
+                "border-top-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-300",
-                "border-top-color: rgb(190 242 100);\nborder-bottom-color: rgb(190 242 100);\n",
+                "border-top-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-400",
-                "border-top-color: rgb(163 230 53);\nborder-bottom-color: rgb(163 230 53);\n",
+                "border-top-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-500",
-                "border-top-color: rgb(132 204 22);\nborder-bottom-color: rgb(132 204 22);\n",
+                "border-top-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-600",
-                "border-top-color: rgb(101 163 13);\nborder-bottom-color: rgb(101 163 13);\n",
+                "border-top-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-700",
-                "border-top-color: rgb(77 124 15);\nborder-bottom-color: rgb(77 124 15);\n",
+                "border-top-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-800",
-                "border-top-color: rgb(63 98 18);\nborder-bottom-color: rgb(63 98 18);\n",
+                "border-top-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-900",
-                "border-top-color: rgb(54 83 20);\nborder-bottom-color: rgb(54 83 20);\n",
+                "border-top-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-lime-950",
-                "border-top-color: rgb(26 46 5);\nborder-bottom-color: rgb(26 46 5);\n",
+                "border-top-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-50",
-                "border-top-color: rgb(240 253 244);\nborder-bottom-color: rgb(240 253 244);\n",
+                "border-top-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-100",
-                "border-top-color: rgb(220 252 231);\nborder-bottom-color: rgb(220 252 231);\n",
+                "border-top-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-200",
-                "border-top-color: rgb(187 247 208);\nborder-bottom-color: rgb(187 247 208);\n",
+                "border-top-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-300",
-                "border-top-color: rgb(134 239 172);\nborder-bottom-color: rgb(134 239 172);\n",
+                "border-top-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-400",
-                "border-top-color: rgb(74 222 128);\nborder-bottom-color: rgb(74 222 128);\n",
+                "border-top-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-500",
-                "border-top-color: rgb(34 197 94);\nborder-bottom-color: rgb(34 197 94);\n",
+                "border-top-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-600",
-                "border-top-color: rgb(22 163 74);\nborder-bottom-color: rgb(22 163 74);\n",
+                "border-top-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-700",
-                "border-top-color: rgb(21 128 61);\nborder-bottom-color: rgb(21 128 61);\n",
+                "border-top-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-800",
-                "border-top-color: rgb(22 101 52);\nborder-bottom-color: rgb(22 101 52);\n",
+                "border-top-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-900",
-                "border-top-color: rgb(20 83 45);\nborder-bottom-color: rgb(20 83 45);\n",
+                "border-top-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-green-950",
-                "border-top-color: rgb(5 46 22);\nborder-bottom-color: rgb(5 46 22);\n",
+                "border-top-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-50",
-                "border-top-color: rgb(236 253 245);\nborder-bottom-color: rgb(236 253 245);\n",
+                "border-top-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-100",
-                "border-top-color: rgb(209 250 229);\nborder-bottom-color: rgb(209 250 229);\n",
+                "border-top-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-200",
-                "border-top-color: rgb(167 243 208);\nborder-bottom-color: rgb(167 243 208);\n",
+                "border-top-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-300",
-                "border-top-color: rgb(110 231 183);\nborder-bottom-color: rgb(110 231 183);\n",
+                "border-top-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-400",
-                "border-top-color: rgb(52 211 153);\nborder-bottom-color: rgb(52 211 153);\n",
+                "border-top-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-500",
-                "border-top-color: rgb(16 185 129);\nborder-bottom-color: rgb(16 185 129);\n",
+                "border-top-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-600",
-                "border-top-color: rgb(5 150 105);\nborder-bottom-color: rgb(5 150 105);\n",
+                "border-top-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-700",
-                "border-top-color: rgb(4 120 87);\nborder-bottom-color: rgb(4 120 87);\n",
+                "border-top-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-800",
-                "border-top-color: rgb(6 95 70);\nborder-bottom-color: rgb(6 95 70);\n",
+                "border-top-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-900",
-                "border-top-color: rgb(6 78 59);\nborder-bottom-color: rgb(6 78 59);\n",
+                "border-top-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-emerald-950",
-                "border-top-color: rgb(2 44 34);\nborder-bottom-color: rgb(2 44 34);\n",
+                "border-top-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-50",
-                "border-top-color: rgb(240 253 250);\nborder-bottom-color: rgb(240 253 250);\n",
+                "border-top-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-100",
-                "border-top-color: rgb(204 251 241);\nborder-bottom-color: rgb(204 251 241);\n",
+                "border-top-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-200",
-                "border-top-color: rgb(153 246 228);\nborder-bottom-color: rgb(153 246 228);\n",
+                "border-top-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-300",
-                "border-top-color: rgb(94 234 212);\nborder-bottom-color: rgb(94 234 212);\n",
+                "border-top-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-400",
-                "border-top-color: rgb(45 212 191);\nborder-bottom-color: rgb(45 212 191);\n",
+                "border-top-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-500",
-                "border-top-color: rgb(20 184 166);\nborder-bottom-color: rgb(20 184 166);\n",
+                "border-top-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-600",
-                "border-top-color: rgb(13 148 136);\nborder-bottom-color: rgb(13 148 136);\n",
+                "border-top-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-700",
-                "border-top-color: rgb(15 118 110);\nborder-bottom-color: rgb(15 118 110);\n",
+                "border-top-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-800",
-                "border-top-color: rgb(17 94 89);\nborder-bottom-color: rgb(17 94 89);\n",
+                "border-top-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-900",
-                "border-top-color: rgb(19 78 74);\nborder-bottom-color: rgb(19 78 74);\n",
+                "border-top-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-teal-950",
-                "border-top-color: rgb(4 47 46);\nborder-bottom-color: rgb(4 47 46);\n",
+                "border-top-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-50",
-                "border-top-color: rgb(236 254 255);\nborder-bottom-color: rgb(236 254 255);\n",
+                "border-top-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-100",
-                "border-top-color: rgb(207 250 254);\nborder-bottom-color: rgb(207 250 254);\n",
+                "border-top-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-200",
-                "border-top-color: rgb(165 243 252);\nborder-bottom-color: rgb(165 243 252);\n",
+                "border-top-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-300",
-                "border-top-color: rgb(103 232 249);\nborder-bottom-color: rgb(103 232 249);\n",
+                "border-top-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-400",
-                "border-top-color: rgb(34 211 238);\nborder-bottom-color: rgb(34 211 238);\n",
+                "border-top-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-500",
-                "border-top-color: rgb(6 182 212);\nborder-bottom-color: rgb(6 182 212);\n",
+                "border-top-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-600",
-                "border-top-color: rgb(8 145 178);\nborder-bottom-color: rgb(8 145 178);\n",
+                "border-top-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-700",
-                "border-top-color: rgb(14 116 144);\nborder-bottom-color: rgb(14 116 144);\n",
+                "border-top-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-800",
-                "border-top-color: rgb(21 94 117);\nborder-bottom-color: rgb(21 94 117);\n",
+                "border-top-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-900",
-                "border-top-color: rgb(22 78 99);\nborder-bottom-color: rgb(22 78 99);\n",
+                "border-top-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-cyan-950",
-                "border-top-color: rgb(8 51 68);\nborder-bottom-color: rgb(8 51 68);\n",
+                "border-top-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-50",
-                "border-top-color: rgb(240 249 255);\nborder-bottom-color: rgb(240 249 255);\n",
+                "border-top-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-100",
-                "border-top-color: rgb(224 242 254);\nborder-bottom-color: rgb(224 242 254);\n",
+                "border-top-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-200",
-                "border-top-color: rgb(186 230 253);\nborder-bottom-color: rgb(186 230 253);\n",
+                "border-top-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-300",
-                "border-top-color: rgb(125 211 252);\nborder-bottom-color: rgb(125 211 252);\n",
+                "border-top-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-400",
-                "border-top-color: rgb(56 189 248);\nborder-bottom-color: rgb(56 189 248);\n",
+                "border-top-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-500",
-                "border-top-color: rgb(14 165 233);\nborder-bottom-color: rgb(14 165 233);\n",
+                "border-top-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-600",
-                "border-top-color: rgb(2 132 199);\nborder-bottom-color: rgb(2 132 199);\n",
+                "border-top-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-700",
-                "border-top-color: rgb(3 105 161);\nborder-bottom-color: rgb(3 105 161);\n",
+                "border-top-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-800",
-                "border-top-color: rgb(7 89 133);\nborder-bottom-color: rgb(7 89 133);\n",
+                "border-top-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-900",
-                "border-top-color: rgb(12 74 110);\nborder-bottom-color: rgb(12 74 110);\n",
+                "border-top-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-sky-950",
-                "border-top-color: rgb(8 47 73);\nborder-bottom-color: rgb(8 47 73);\n",
+                "border-top-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-50",
-                "border-top-color: rgb(239 246 255);\nborder-bottom-color: rgb(239 246 255);\n",
+                "border-top-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-100",
-                "border-top-color: rgb(219 234 254);\nborder-bottom-color: rgb(219 234 254);\n",
+                "border-top-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-200",
-                "border-top-color: rgb(191 219 254);\nborder-bottom-color: rgb(191 219 254);\n",
+                "border-top-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-300",
-                "border-top-color: rgb(147 197 253);\nborder-bottom-color: rgb(147 197 253);\n",
+                "border-top-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-400",
-                "border-top-color: rgb(96 165 250);\nborder-bottom-color: rgb(96 165 250);\n",
+                "border-top-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-500",
-                "border-top-color: rgb(59 130 246);\nborder-bottom-color: rgb(59 130 246);\n",
+                "border-top-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-600",
-                "border-top-color: rgb(37 99 235);\nborder-bottom-color: rgb(37 99 235);\n",
+                "border-top-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-700",
-                "border-top-color: rgb(29 78 216);\nborder-bottom-color: rgb(29 78 216);\n",
+                "border-top-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-800",
-                "border-top-color: rgb(30 64 175);\nborder-bottom-color: rgb(30 64 175);\n",
+                "border-top-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-900",
-                "border-top-color: rgb(30 58 138);\nborder-bottom-color: rgb(30 58 138);\n",
+                "border-top-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-blue-950",
-                "border-top-color: rgb(23 37 84);\nborder-bottom-color: rgb(23 37 84);\n",
+                "border-top-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-50",
-                "border-top-color: rgb(238 242 255);\nborder-bottom-color: rgb(238 242 255);\n",
+                "border-top-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-100",
-                "border-top-color: rgb(224 231 255);\nborder-bottom-color: rgb(224 231 255);\n",
+                "border-top-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-200",
-                "border-top-color: rgb(199 210 254);\nborder-bottom-color: rgb(199 210 254);\n",
+                "border-top-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-300",
-                "border-top-color: rgb(165 180 252);\nborder-bottom-color: rgb(165 180 252);\n",
+                "border-top-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-400",
-                "border-top-color: rgb(129 140 248);\nborder-bottom-color: rgb(129 140 248);\n",
+                "border-top-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-500",
-                "border-top-color: rgb(99 102 241);\nborder-bottom-color: rgb(99 102 241);\n",
+                "border-top-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-600",
-                "border-top-color: rgb(79 70 229);\nborder-bottom-color: rgb(79 70 229);\n",
+                "border-top-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-700",
-                "border-top-color: rgb(67 56 202);\nborder-bottom-color: rgb(67 56 202);\n",
+                "border-top-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-800",
-                "border-top-color: rgb(55 48 163);\nborder-bottom-color: rgb(55 48 163);\n",
+                "border-top-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-900",
-                "border-top-color: rgb(49 46 129);\nborder-bottom-color: rgb(49 46 129);\n",
+                "border-top-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-indigo-950",
-                "border-top-color: rgb(30 27 75);\nborder-bottom-color: rgb(30 27 75);\n",
+                "border-top-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-50",
-                "border-top-color: rgb(245 243 255);\nborder-bottom-color: rgb(245 243 255);\n",
+                "border-top-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-100",
-                "border-top-color: rgb(237 233 254);\nborder-bottom-color: rgb(237 233 254);\n",
+                "border-top-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-200",
-                "border-top-color: rgb(221 214 254);\nborder-bottom-color: rgb(221 214 254);\n",
+                "border-top-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-300",
-                "border-top-color: rgb(196 181 253);\nborder-bottom-color: rgb(196 181 253);\n",
+                "border-top-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-400",
-                "border-top-color: rgb(167 139 250);\nborder-bottom-color: rgb(167 139 250);\n",
+                "border-top-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-500",
-                "border-top-color: rgb(139 92 246);\nborder-bottom-color: rgb(139 92 246);\n",
+                "border-top-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-600",
-                "border-top-color: rgb(124 58 237);\nborder-bottom-color: rgb(124 58 237);\n",
+                "border-top-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-700",
-                "border-top-color: rgb(109 40 217);\nborder-bottom-color: rgb(109 40 217);\n",
+                "border-top-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-800",
-                "border-top-color: rgb(91 33 182);\nborder-bottom-color: rgb(91 33 182);\n",
+                "border-top-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-900",
-                "border-top-color: rgb(76 29 149);\nborder-bottom-color: rgb(76 29 149);\n",
+                "border-top-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-violet-950",
-                "border-top-color: rgb(46 16 101);\nborder-bottom-color: rgb(46 16 101);\n",
+                "border-top-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-50",
-                "border-top-color: rgb(250 245 255);\nborder-bottom-color: rgb(250 245 255);\n",
+                "border-top-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-100",
-                "border-top-color: rgb(243 232 255);\nborder-bottom-color: rgb(243 232 255);\n",
+                "border-top-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-200",
-                "border-top-color: rgb(233 213 255);\nborder-bottom-color: rgb(233 213 255);\n",
+                "border-top-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-300",
-                "border-top-color: rgb(216 180 254);\nborder-bottom-color: rgb(216 180 254);\n",
+                "border-top-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-400",
-                "border-top-color: rgb(192 132 252);\nborder-bottom-color: rgb(192 132 252);\n",
+                "border-top-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-500",
-                "border-top-color: rgb(168 85 247);\nborder-bottom-color: rgb(168 85 247);\n",
+                "border-top-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-600",
-                "border-top-color: rgb(147 51 234);\nborder-bottom-color: rgb(147 51 234);\n",
+                "border-top-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-700",
-                "border-top-color: rgb(126 34 206);\nborder-bottom-color: rgb(126 34 206);\n",
+                "border-top-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-800",
-                "border-top-color: rgb(107 33 168);\nborder-bottom-color: rgb(107 33 168);\n",
+                "border-top-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-900",
-                "border-top-color: rgb(88 28 135);\nborder-bottom-color: rgb(88 28 135);\n",
+                "border-top-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-purple-950",
-                "border-top-color: rgb(59 7 100);\nborder-bottom-color: rgb(59 7 100);\n",
+                "border-top-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-50",
-                "border-top-color: rgb(253 244 255);\nborder-bottom-color: rgb(253 244 255);\n",
+                "border-top-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-100",
-                "border-top-color: rgb(250 232 255);\nborder-bottom-color: rgb(250 232 255);\n",
+                "border-top-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-200",
-                "border-top-color: rgb(245 208 254);\nborder-bottom-color: rgb(245 208 254);\n",
+                "border-top-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-300",
-                "border-top-color: rgb(240 171 252);\nborder-bottom-color: rgb(240 171 252);\n",
+                "border-top-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-400",
-                "border-top-color: rgb(232 121 249);\nborder-bottom-color: rgb(232 121 249);\n",
+                "border-top-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-500",
-                "border-top-color: rgb(217 70 239);\nborder-bottom-color: rgb(217 70 239);\n",
+                "border-top-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-600",
-                "border-top-color: rgb(192 38 211);\nborder-bottom-color: rgb(192 38 211);\n",
+                "border-top-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-700",
-                "border-top-color: rgb(162 28 175);\nborder-bottom-color: rgb(162 28 175);\n",
+                "border-top-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-800",
-                "border-top-color: rgb(134 25 143);\nborder-bottom-color: rgb(134 25 143);\n",
+                "border-top-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-900",
-                "border-top-color: rgb(112 26 117);\nborder-bottom-color: rgb(112 26 117);\n",
+                "border-top-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-fuchsia-950",
-                "border-top-color: rgb(74 4 78);\nborder-bottom-color: rgb(74 4 78);\n",
+                "border-top-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-50",
-                "border-top-color: rgb(253 242 248);\nborder-bottom-color: rgb(253 242 248);\n",
+                "border-top-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-100",
-                "border-top-color: rgb(252 231 243);\nborder-bottom-color: rgb(252 231 243);\n",
+                "border-top-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-200",
-                "border-top-color: rgb(251 207 232);\nborder-bottom-color: rgb(251 207 232);\n",
+                "border-top-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-300",
-                "border-top-color: rgb(249 168 212);\nborder-bottom-color: rgb(249 168 212);\n",
+                "border-top-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-400",
-                "border-top-color: rgb(244 114 182);\nborder-bottom-color: rgb(244 114 182);\n",
+                "border-top-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-500",
-                "border-top-color: rgb(236 72 153);\nborder-bottom-color: rgb(236 72 153);\n",
+                "border-top-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-600",
-                "border-top-color: rgb(219 39 119);\nborder-bottom-color: rgb(219 39 119);\n",
+                "border-top-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-700",
-                "border-top-color: rgb(190 24 93);\nborder-bottom-color: rgb(190 24 93);\n",
+                "border-top-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-800",
-                "border-top-color: rgb(157 23 77);\nborder-bottom-color: rgb(157 23 77);\n",
+                "border-top-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-900",
-                "border-top-color: rgb(131 24 67);\nborder-bottom-color: rgb(131 24 67);\n",
+                "border-top-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-pink-950",
-                "border-top-color: rgb(80 7 36);\nborder-bottom-color: rgb(80 7 36);\n",
+                "border-top-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-50",
-                "border-top-color: rgb(255 241 242);\nborder-bottom-color: rgb(255 241 242);\n",
+                "border-top-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-100",
-                "border-top-color: rgb(255 228 230);\nborder-bottom-color: rgb(255 228 230);\n",
+                "border-top-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-200",
-                "border-top-color: rgb(254 205 211);\nborder-bottom-color: rgb(254 205 211);\n",
+                "border-top-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-300",
-                "border-top-color: rgb(253 164 175);\nborder-bottom-color: rgb(253 164 175);\n",
+                "border-top-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-400",
-                "border-top-color: rgb(251 113 133);\nborder-bottom-color: rgb(251 113 133);\n",
+                "border-top-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-500",
-                "border-top-color: rgb(244 63 94);\nborder-bottom-color: rgb(244 63 94);\n",
+                "border-top-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-600",
-                "border-top-color: rgb(225 29 72);\nborder-bottom-color: rgb(225 29 72);\n",
+                "border-top-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-700",
-                "border-top-color: rgb(190 18 60);\nborder-bottom-color: rgb(190 18 60);\n",
+                "border-top-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-800",
-                "border-top-color: rgb(159 18 57);\nborder-bottom-color: rgb(159 18 57);\n",
+                "border-top-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-900",
-                "border-top-color: rgb(136 19 55);\nborder-bottom-color: rgb(136 19 55);\n",
+                "border-top-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-y-rose-950",
-                "border-top-color: rgb(76 5 25);\nborder-bottom-color: rgb(76 5 25);\n",
+                "border-top-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\nborder-bottom-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -4461,1222 +4461,1222 @@ export const documentations = [
             ],
             [
                 "border-s-black",
-                "border-inline-start-color: rgb(0 0 0);\n",
+                "border-inline-start-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-white",
-                "border-inline-start-color: rgb(255 255 255);\n",
+                "border-inline-start-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-50",
-                "border-inline-start-color: rgb(248 250 252);\n",
+                "border-inline-start-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-100",
-                "border-inline-start-color: rgb(241 245 249);\n",
+                "border-inline-start-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-200",
-                "border-inline-start-color: rgb(226 232 240);\n",
+                "border-inline-start-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-300",
-                "border-inline-start-color: rgb(203 213 225);\n",
+                "border-inline-start-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-400",
-                "border-inline-start-color: rgb(148 163 184);\n",
+                "border-inline-start-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-500",
-                "border-inline-start-color: rgb(100 116 139);\n",
+                "border-inline-start-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-600",
-                "border-inline-start-color: rgb(71 85 105);\n",
+                "border-inline-start-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-700",
-                "border-inline-start-color: rgb(51 65 85);\n",
+                "border-inline-start-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-800",
-                "border-inline-start-color: rgb(30 41 59);\n",
+                "border-inline-start-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-900",
-                "border-inline-start-color: rgb(15 23 42);\n",
+                "border-inline-start-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-slate-950",
-                "border-inline-start-color: rgb(2 6 23);\n",
+                "border-inline-start-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-50",
-                "border-inline-start-color: rgb(249 250 251);\n",
+                "border-inline-start-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-100",
-                "border-inline-start-color: rgb(243 244 246);\n",
+                "border-inline-start-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-200",
-                "border-inline-start-color: rgb(229 231 235);\n",
+                "border-inline-start-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-300",
-                "border-inline-start-color: rgb(209 213 219);\n",
+                "border-inline-start-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-400",
-                "border-inline-start-color: rgb(156 163 175);\n",
+                "border-inline-start-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-500",
-                "border-inline-start-color: rgb(107 114 128);\n",
+                "border-inline-start-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-600",
-                "border-inline-start-color: rgb(75 85 99);\n",
+                "border-inline-start-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-700",
-                "border-inline-start-color: rgb(55 65 81);\n",
+                "border-inline-start-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-800",
-                "border-inline-start-color: rgb(31 41 55);\n",
+                "border-inline-start-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-900",
-                "border-inline-start-color: rgb(17 24 39);\n",
+                "border-inline-start-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-gray-950",
-                "border-inline-start-color: rgb(3 7 18);\n",
+                "border-inline-start-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-50",
-                "border-inline-start-color: rgb(250 250 250);\n",
+                "border-inline-start-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-100",
-                "border-inline-start-color: rgb(244 244 245);\n",
+                "border-inline-start-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-200",
-                "border-inline-start-color: rgb(228 228 231);\n",
+                "border-inline-start-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-300",
-                "border-inline-start-color: rgb(212 212 216);\n",
+                "border-inline-start-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-400",
-                "border-inline-start-color: rgb(161 161 170);\n",
+                "border-inline-start-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-500",
-                "border-inline-start-color: rgb(113 113 122);\n",
+                "border-inline-start-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-600",
-                "border-inline-start-color: rgb(82 82 91);\n",
+                "border-inline-start-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-700",
-                "border-inline-start-color: rgb(63 63 70);\n",
+                "border-inline-start-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-800",
-                "border-inline-start-color: rgb(39 39 42);\n",
+                "border-inline-start-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-900",
-                "border-inline-start-color: rgb(24 24 27);\n",
+                "border-inline-start-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-zinc-950",
-                "border-inline-start-color: rgb(9 9 11);\n",
+                "border-inline-start-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-50",
-                "border-inline-start-color: rgb(250 250 250);\n",
+                "border-inline-start-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-100",
-                "border-inline-start-color: rgb(245 245 245);\n",
+                "border-inline-start-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-200",
-                "border-inline-start-color: rgb(229 229 229);\n",
+                "border-inline-start-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-300",
-                "border-inline-start-color: rgb(212 212 212);\n",
+                "border-inline-start-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-400",
-                "border-inline-start-color: rgb(163 163 163);\n",
+                "border-inline-start-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-500",
-                "border-inline-start-color: rgb(115 115 115);\n",
+                "border-inline-start-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-600",
-                "border-inline-start-color: rgb(82 82 82);\n",
+                "border-inline-start-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-700",
-                "border-inline-start-color: rgb(64 64 64);\n",
+                "border-inline-start-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-800",
-                "border-inline-start-color: rgb(38 38 38);\n",
+                "border-inline-start-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-900",
-                "border-inline-start-color: rgb(23 23 23);\n",
+                "border-inline-start-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-neutral-950",
-                "border-inline-start-color: rgb(10 10 10);\n",
+                "border-inline-start-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-50",
-                "border-inline-start-color: rgb(250 250 249);\n",
+                "border-inline-start-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-100",
-                "border-inline-start-color: rgb(245 245 244);\n",
+                "border-inline-start-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-200",
-                "border-inline-start-color: rgb(231 229 228);\n",
+                "border-inline-start-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-300",
-                "border-inline-start-color: rgb(214 211 209);\n",
+                "border-inline-start-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-400",
-                "border-inline-start-color: rgb(168 162 158);\n",
+                "border-inline-start-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-500",
-                "border-inline-start-color: rgb(120 113 108);\n",
+                "border-inline-start-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-600",
-                "border-inline-start-color: rgb(87 83 78);\n",
+                "border-inline-start-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-700",
-                "border-inline-start-color: rgb(68 64 60);\n",
+                "border-inline-start-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-800",
-                "border-inline-start-color: rgb(41 37 36);\n",
+                "border-inline-start-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-900",
-                "border-inline-start-color: rgb(28 25 23);\n",
+                "border-inline-start-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-stone-950",
-                "border-inline-start-color: rgb(12 10 9);\n",
+                "border-inline-start-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-50",
-                "border-inline-start-color: rgb(254 242 242);\n",
+                "border-inline-start-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-100",
-                "border-inline-start-color: rgb(254 226 226);\n",
+                "border-inline-start-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-200",
-                "border-inline-start-color: rgb(254 202 202);\n",
+                "border-inline-start-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-300",
-                "border-inline-start-color: rgb(252 165 165);\n",
+                "border-inline-start-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-400",
-                "border-inline-start-color: rgb(248 113 113);\n",
+                "border-inline-start-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-500",
-                "border-inline-start-color: rgb(239 68 68);\n",
+                "border-inline-start-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-600",
-                "border-inline-start-color: rgb(220 38 38);\n",
+                "border-inline-start-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-700",
-                "border-inline-start-color: rgb(185 28 28);\n",
+                "border-inline-start-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-800",
-                "border-inline-start-color: rgb(153 27 27);\n",
+                "border-inline-start-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-900",
-                "border-inline-start-color: rgb(127 29 29);\n",
+                "border-inline-start-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-red-950",
-                "border-inline-start-color: rgb(69 10 10);\n",
+                "border-inline-start-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-50",
-                "border-inline-start-color: rgb(255 247 237);\n",
+                "border-inline-start-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-100",
-                "border-inline-start-color: rgb(255 237 213);\n",
+                "border-inline-start-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-200",
-                "border-inline-start-color: rgb(254 215 170);\n",
+                "border-inline-start-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-300",
-                "border-inline-start-color: rgb(253 186 116);\n",
+                "border-inline-start-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-400",
-                "border-inline-start-color: rgb(251 146 60);\n",
+                "border-inline-start-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-500",
-                "border-inline-start-color: rgb(249 115 22);\n",
+                "border-inline-start-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-600",
-                "border-inline-start-color: rgb(234 88 12);\n",
+                "border-inline-start-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-700",
-                "border-inline-start-color: rgb(194 65 12);\n",
+                "border-inline-start-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-800",
-                "border-inline-start-color: rgb(154 52 18);\n",
+                "border-inline-start-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-900",
-                "border-inline-start-color: rgb(124 45 18);\n",
+                "border-inline-start-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-orange-950",
-                "border-inline-start-color: rgb(67 20 7);\n",
+                "border-inline-start-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-50",
-                "border-inline-start-color: rgb(255 251 235);\n",
+                "border-inline-start-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-100",
-                "border-inline-start-color: rgb(254 243 199);\n",
+                "border-inline-start-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-200",
-                "border-inline-start-color: rgb(253 230 138);\n",
+                "border-inline-start-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-300",
-                "border-inline-start-color: rgb(252 211 77);\n",
+                "border-inline-start-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-400",
-                "border-inline-start-color: rgb(251 191 36);\n",
+                "border-inline-start-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-500",
-                "border-inline-start-color: rgb(245 158 11);\n",
+                "border-inline-start-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-600",
-                "border-inline-start-color: rgb(217 119 6);\n",
+                "border-inline-start-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-700",
-                "border-inline-start-color: rgb(180 83 9);\n",
+                "border-inline-start-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-800",
-                "border-inline-start-color: rgb(146 64 14);\n",
+                "border-inline-start-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-900",
-                "border-inline-start-color: rgb(120 53 15);\n",
+                "border-inline-start-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-amber-950",
-                "border-inline-start-color: rgb(69 26 3);\n",
+                "border-inline-start-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-50",
-                "border-inline-start-color: rgb(254 252 232);\n",
+                "border-inline-start-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-100",
-                "border-inline-start-color: rgb(254 249 195);\n",
+                "border-inline-start-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-200",
-                "border-inline-start-color: rgb(254 240 138);\n",
+                "border-inline-start-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-300",
-                "border-inline-start-color: rgb(253 224 71);\n",
+                "border-inline-start-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-400",
-                "border-inline-start-color: rgb(250 204 21);\n",
+                "border-inline-start-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-500",
-                "border-inline-start-color: rgb(234 179 8);\n",
+                "border-inline-start-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-600",
-                "border-inline-start-color: rgb(202 138 4);\n",
+                "border-inline-start-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-700",
-                "border-inline-start-color: rgb(161 98 7);\n",
+                "border-inline-start-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-800",
-                "border-inline-start-color: rgb(133 77 14);\n",
+                "border-inline-start-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-900",
-                "border-inline-start-color: rgb(113 63 18);\n",
+                "border-inline-start-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-yellow-950",
-                "border-inline-start-color: rgb(66 32 6);\n",
+                "border-inline-start-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-50",
-                "border-inline-start-color: rgb(247 254 231);\n",
+                "border-inline-start-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-100",
-                "border-inline-start-color: rgb(236 252 203);\n",
+                "border-inline-start-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-200",
-                "border-inline-start-color: rgb(217 249 157);\n",
+                "border-inline-start-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-300",
-                "border-inline-start-color: rgb(190 242 100);\n",
+                "border-inline-start-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-400",
-                "border-inline-start-color: rgb(163 230 53);\n",
+                "border-inline-start-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-500",
-                "border-inline-start-color: rgb(132 204 22);\n",
+                "border-inline-start-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-600",
-                "border-inline-start-color: rgb(101 163 13);\n",
+                "border-inline-start-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-700",
-                "border-inline-start-color: rgb(77 124 15);\n",
+                "border-inline-start-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-800",
-                "border-inline-start-color: rgb(63 98 18);\n",
+                "border-inline-start-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-900",
-                "border-inline-start-color: rgb(54 83 20);\n",
+                "border-inline-start-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-lime-950",
-                "border-inline-start-color: rgb(26 46 5);\n",
+                "border-inline-start-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-50",
-                "border-inline-start-color: rgb(240 253 244);\n",
+                "border-inline-start-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-100",
-                "border-inline-start-color: rgb(220 252 231);\n",
+                "border-inline-start-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-200",
-                "border-inline-start-color: rgb(187 247 208);\n",
+                "border-inline-start-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-300",
-                "border-inline-start-color: rgb(134 239 172);\n",
+                "border-inline-start-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-400",
-                "border-inline-start-color: rgb(74 222 128);\n",
+                "border-inline-start-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-500",
-                "border-inline-start-color: rgb(34 197 94);\n",
+                "border-inline-start-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-600",
-                "border-inline-start-color: rgb(22 163 74);\n",
+                "border-inline-start-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-700",
-                "border-inline-start-color: rgb(21 128 61);\n",
+                "border-inline-start-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-800",
-                "border-inline-start-color: rgb(22 101 52);\n",
+                "border-inline-start-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-900",
-                "border-inline-start-color: rgb(20 83 45);\n",
+                "border-inline-start-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-green-950",
-                "border-inline-start-color: rgb(5 46 22);\n",
+                "border-inline-start-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-50",
-                "border-inline-start-color: rgb(236 253 245);\n",
+                "border-inline-start-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-100",
-                "border-inline-start-color: rgb(209 250 229);\n",
+                "border-inline-start-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-200",
-                "border-inline-start-color: rgb(167 243 208);\n",
+                "border-inline-start-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-300",
-                "border-inline-start-color: rgb(110 231 183);\n",
+                "border-inline-start-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-400",
-                "border-inline-start-color: rgb(52 211 153);\n",
+                "border-inline-start-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-500",
-                "border-inline-start-color: rgb(16 185 129);\n",
+                "border-inline-start-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-600",
-                "border-inline-start-color: rgb(5 150 105);\n",
+                "border-inline-start-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-700",
-                "border-inline-start-color: rgb(4 120 87);\n",
+                "border-inline-start-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-800",
-                "border-inline-start-color: rgb(6 95 70);\n",
+                "border-inline-start-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-900",
-                "border-inline-start-color: rgb(6 78 59);\n",
+                "border-inline-start-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-emerald-950",
-                "border-inline-start-color: rgb(2 44 34);\n",
+                "border-inline-start-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-50",
-                "border-inline-start-color: rgb(240 253 250);\n",
+                "border-inline-start-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-100",
-                "border-inline-start-color: rgb(204 251 241);\n",
+                "border-inline-start-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-200",
-                "border-inline-start-color: rgb(153 246 228);\n",
+                "border-inline-start-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-300",
-                "border-inline-start-color: rgb(94 234 212);\n",
+                "border-inline-start-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-400",
-                "border-inline-start-color: rgb(45 212 191);\n",
+                "border-inline-start-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-500",
-                "border-inline-start-color: rgb(20 184 166);\n",
+                "border-inline-start-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-600",
-                "border-inline-start-color: rgb(13 148 136);\n",
+                "border-inline-start-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-700",
-                "border-inline-start-color: rgb(15 118 110);\n",
+                "border-inline-start-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-800",
-                "border-inline-start-color: rgb(17 94 89);\n",
+                "border-inline-start-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-900",
-                "border-inline-start-color: rgb(19 78 74);\n",
+                "border-inline-start-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-teal-950",
-                "border-inline-start-color: rgb(4 47 46);\n",
+                "border-inline-start-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-50",
-                "border-inline-start-color: rgb(236 254 255);\n",
+                "border-inline-start-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-100",
-                "border-inline-start-color: rgb(207 250 254);\n",
+                "border-inline-start-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-200",
-                "border-inline-start-color: rgb(165 243 252);\n",
+                "border-inline-start-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-300",
-                "border-inline-start-color: rgb(103 232 249);\n",
+                "border-inline-start-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-400",
-                "border-inline-start-color: rgb(34 211 238);\n",
+                "border-inline-start-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-500",
-                "border-inline-start-color: rgb(6 182 212);\n",
+                "border-inline-start-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-600",
-                "border-inline-start-color: rgb(8 145 178);\n",
+                "border-inline-start-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-700",
-                "border-inline-start-color: rgb(14 116 144);\n",
+                "border-inline-start-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-800",
-                "border-inline-start-color: rgb(21 94 117);\n",
+                "border-inline-start-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-900",
-                "border-inline-start-color: rgb(22 78 99);\n",
+                "border-inline-start-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-cyan-950",
-                "border-inline-start-color: rgb(8 51 68);\n",
+                "border-inline-start-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-50",
-                "border-inline-start-color: rgb(240 249 255);\n",
+                "border-inline-start-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-100",
-                "border-inline-start-color: rgb(224 242 254);\n",
+                "border-inline-start-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-200",
-                "border-inline-start-color: rgb(186 230 253);\n",
+                "border-inline-start-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-300",
-                "border-inline-start-color: rgb(125 211 252);\n",
+                "border-inline-start-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-400",
-                "border-inline-start-color: rgb(56 189 248);\n",
+                "border-inline-start-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-500",
-                "border-inline-start-color: rgb(14 165 233);\n",
+                "border-inline-start-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-600",
-                "border-inline-start-color: rgb(2 132 199);\n",
+                "border-inline-start-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-700",
-                "border-inline-start-color: rgb(3 105 161);\n",
+                "border-inline-start-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-800",
-                "border-inline-start-color: rgb(7 89 133);\n",
+                "border-inline-start-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-900",
-                "border-inline-start-color: rgb(12 74 110);\n",
+                "border-inline-start-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-sky-950",
-                "border-inline-start-color: rgb(8 47 73);\n",
+                "border-inline-start-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-50",
-                "border-inline-start-color: rgb(239 246 255);\n",
+                "border-inline-start-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-100",
-                "border-inline-start-color: rgb(219 234 254);\n",
+                "border-inline-start-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-200",
-                "border-inline-start-color: rgb(191 219 254);\n",
+                "border-inline-start-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-300",
-                "border-inline-start-color: rgb(147 197 253);\n",
+                "border-inline-start-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-400",
-                "border-inline-start-color: rgb(96 165 250);\n",
+                "border-inline-start-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-500",
-                "border-inline-start-color: rgb(59 130 246);\n",
+                "border-inline-start-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-600",
-                "border-inline-start-color: rgb(37 99 235);\n",
+                "border-inline-start-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-700",
-                "border-inline-start-color: rgb(29 78 216);\n",
+                "border-inline-start-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-800",
-                "border-inline-start-color: rgb(30 64 175);\n",
+                "border-inline-start-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-900",
-                "border-inline-start-color: rgb(30 58 138);\n",
+                "border-inline-start-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-blue-950",
-                "border-inline-start-color: rgb(23 37 84);\n",
+                "border-inline-start-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-50",
-                "border-inline-start-color: rgb(238 242 255);\n",
+                "border-inline-start-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-100",
-                "border-inline-start-color: rgb(224 231 255);\n",
+                "border-inline-start-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-200",
-                "border-inline-start-color: rgb(199 210 254);\n",
+                "border-inline-start-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-300",
-                "border-inline-start-color: rgb(165 180 252);\n",
+                "border-inline-start-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-400",
-                "border-inline-start-color: rgb(129 140 248);\n",
+                "border-inline-start-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-500",
-                "border-inline-start-color: rgb(99 102 241);\n",
+                "border-inline-start-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-600",
-                "border-inline-start-color: rgb(79 70 229);\n",
+                "border-inline-start-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-700",
-                "border-inline-start-color: rgb(67 56 202);\n",
+                "border-inline-start-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-800",
-                "border-inline-start-color: rgb(55 48 163);\n",
+                "border-inline-start-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-900",
-                "border-inline-start-color: rgb(49 46 129);\n",
+                "border-inline-start-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-indigo-950",
-                "border-inline-start-color: rgb(30 27 75);\n",
+                "border-inline-start-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-50",
-                "border-inline-start-color: rgb(245 243 255);\n",
+                "border-inline-start-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-100",
-                "border-inline-start-color: rgb(237 233 254);\n",
+                "border-inline-start-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-200",
-                "border-inline-start-color: rgb(221 214 254);\n",
+                "border-inline-start-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-300",
-                "border-inline-start-color: rgb(196 181 253);\n",
+                "border-inline-start-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-400",
-                "border-inline-start-color: rgb(167 139 250);\n",
+                "border-inline-start-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-500",
-                "border-inline-start-color: rgb(139 92 246);\n",
+                "border-inline-start-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-600",
-                "border-inline-start-color: rgb(124 58 237);\n",
+                "border-inline-start-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-700",
-                "border-inline-start-color: rgb(109 40 217);\n",
+                "border-inline-start-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-800",
-                "border-inline-start-color: rgb(91 33 182);\n",
+                "border-inline-start-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-900",
-                "border-inline-start-color: rgb(76 29 149);\n",
+                "border-inline-start-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-violet-950",
-                "border-inline-start-color: rgb(46 16 101);\n",
+                "border-inline-start-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-50",
-                "border-inline-start-color: rgb(250 245 255);\n",
+                "border-inline-start-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-100",
-                "border-inline-start-color: rgb(243 232 255);\n",
+                "border-inline-start-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-200",
-                "border-inline-start-color: rgb(233 213 255);\n",
+                "border-inline-start-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-300",
-                "border-inline-start-color: rgb(216 180 254);\n",
+                "border-inline-start-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-400",
-                "border-inline-start-color: rgb(192 132 252);\n",
+                "border-inline-start-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-500",
-                "border-inline-start-color: rgb(168 85 247);\n",
+                "border-inline-start-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-600",
-                "border-inline-start-color: rgb(147 51 234);\n",
+                "border-inline-start-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-700",
-                "border-inline-start-color: rgb(126 34 206);\n",
+                "border-inline-start-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-800",
-                "border-inline-start-color: rgb(107 33 168);\n",
+                "border-inline-start-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-900",
-                "border-inline-start-color: rgb(88 28 135);\n",
+                "border-inline-start-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-purple-950",
-                "border-inline-start-color: rgb(59 7 100);\n",
+                "border-inline-start-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-50",
-                "border-inline-start-color: rgb(253 244 255);\n",
+                "border-inline-start-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-100",
-                "border-inline-start-color: rgb(250 232 255);\n",
+                "border-inline-start-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-200",
-                "border-inline-start-color: rgb(245 208 254);\n",
+                "border-inline-start-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-300",
-                "border-inline-start-color: rgb(240 171 252);\n",
+                "border-inline-start-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-400",
-                "border-inline-start-color: rgb(232 121 249);\n",
+                "border-inline-start-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-500",
-                "border-inline-start-color: rgb(217 70 239);\n",
+                "border-inline-start-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-600",
-                "border-inline-start-color: rgb(192 38 211);\n",
+                "border-inline-start-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-700",
-                "border-inline-start-color: rgb(162 28 175);\n",
+                "border-inline-start-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-800",
-                "border-inline-start-color: rgb(134 25 143);\n",
+                "border-inline-start-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-900",
-                "border-inline-start-color: rgb(112 26 117);\n",
+                "border-inline-start-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-fuchsia-950",
-                "border-inline-start-color: rgb(74 4 78);\n",
+                "border-inline-start-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-50",
-                "border-inline-start-color: rgb(253 242 248);\n",
+                "border-inline-start-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-100",
-                "border-inline-start-color: rgb(252 231 243);\n",
+                "border-inline-start-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-200",
-                "border-inline-start-color: rgb(251 207 232);\n",
+                "border-inline-start-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-300",
-                "border-inline-start-color: rgb(249 168 212);\n",
+                "border-inline-start-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-400",
-                "border-inline-start-color: rgb(244 114 182);\n",
+                "border-inline-start-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-500",
-                "border-inline-start-color: rgb(236 72 153);\n",
+                "border-inline-start-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-600",
-                "border-inline-start-color: rgb(219 39 119);\n",
+                "border-inline-start-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-700",
-                "border-inline-start-color: rgb(190 24 93);\n",
+                "border-inline-start-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-800",
-                "border-inline-start-color: rgb(157 23 77);\n",
+                "border-inline-start-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-900",
-                "border-inline-start-color: rgb(131 24 67);\n",
+                "border-inline-start-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-pink-950",
-                "border-inline-start-color: rgb(80 7 36);\n",
+                "border-inline-start-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-50",
-                "border-inline-start-color: rgb(255 241 242);\n",
+                "border-inline-start-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-100",
-                "border-inline-start-color: rgb(255 228 230);\n",
+                "border-inline-start-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-200",
-                "border-inline-start-color: rgb(254 205 211);\n",
+                "border-inline-start-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-300",
-                "border-inline-start-color: rgb(253 164 175);\n",
+                "border-inline-start-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-400",
-                "border-inline-start-color: rgb(251 113 133);\n",
+                "border-inline-start-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-500",
-                "border-inline-start-color: rgb(244 63 94);\n",
+                "border-inline-start-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-600",
-                "border-inline-start-color: rgb(225 29 72);\n",
+                "border-inline-start-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-700",
-                "border-inline-start-color: rgb(190 18 60);\n",
+                "border-inline-start-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-800",
-                "border-inline-start-color: rgb(159 18 57);\n",
+                "border-inline-start-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-900",
-                "border-inline-start-color: rgb(136 19 55);\n",
+                "border-inline-start-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-s-rose-950",
-                "border-inline-start-color: rgb(76 5 25);\n",
+                "border-inline-start-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -5696,1222 +5696,1222 @@ export const documentations = [
             ],
             [
                 "border-e-black",
-                "border-inline-end-color: rgb(0 0 0);\n",
+                "border-inline-end-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-white",
-                "border-inline-end-color: rgb(255 255 255);\n",
+                "border-inline-end-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-50",
-                "border-inline-end-color: rgb(248 250 252);\n",
+                "border-inline-end-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-100",
-                "border-inline-end-color: rgb(241 245 249);\n",
+                "border-inline-end-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-200",
-                "border-inline-end-color: rgb(226 232 240);\n",
+                "border-inline-end-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-300",
-                "border-inline-end-color: rgb(203 213 225);\n",
+                "border-inline-end-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-400",
-                "border-inline-end-color: rgb(148 163 184);\n",
+                "border-inline-end-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-500",
-                "border-inline-end-color: rgb(100 116 139);\n",
+                "border-inline-end-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-600",
-                "border-inline-end-color: rgb(71 85 105);\n",
+                "border-inline-end-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-700",
-                "border-inline-end-color: rgb(51 65 85);\n",
+                "border-inline-end-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-800",
-                "border-inline-end-color: rgb(30 41 59);\n",
+                "border-inline-end-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-900",
-                "border-inline-end-color: rgb(15 23 42);\n",
+                "border-inline-end-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-slate-950",
-                "border-inline-end-color: rgb(2 6 23);\n",
+                "border-inline-end-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-50",
-                "border-inline-end-color: rgb(249 250 251);\n",
+                "border-inline-end-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-100",
-                "border-inline-end-color: rgb(243 244 246);\n",
+                "border-inline-end-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-200",
-                "border-inline-end-color: rgb(229 231 235);\n",
+                "border-inline-end-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-300",
-                "border-inline-end-color: rgb(209 213 219);\n",
+                "border-inline-end-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-400",
-                "border-inline-end-color: rgb(156 163 175);\n",
+                "border-inline-end-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-500",
-                "border-inline-end-color: rgb(107 114 128);\n",
+                "border-inline-end-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-600",
-                "border-inline-end-color: rgb(75 85 99);\n",
+                "border-inline-end-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-700",
-                "border-inline-end-color: rgb(55 65 81);\n",
+                "border-inline-end-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-800",
-                "border-inline-end-color: rgb(31 41 55);\n",
+                "border-inline-end-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-900",
-                "border-inline-end-color: rgb(17 24 39);\n",
+                "border-inline-end-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-gray-950",
-                "border-inline-end-color: rgb(3 7 18);\n",
+                "border-inline-end-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-50",
-                "border-inline-end-color: rgb(250 250 250);\n",
+                "border-inline-end-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-100",
-                "border-inline-end-color: rgb(244 244 245);\n",
+                "border-inline-end-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-200",
-                "border-inline-end-color: rgb(228 228 231);\n",
+                "border-inline-end-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-300",
-                "border-inline-end-color: rgb(212 212 216);\n",
+                "border-inline-end-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-400",
-                "border-inline-end-color: rgb(161 161 170);\n",
+                "border-inline-end-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-500",
-                "border-inline-end-color: rgb(113 113 122);\n",
+                "border-inline-end-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-600",
-                "border-inline-end-color: rgb(82 82 91);\n",
+                "border-inline-end-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-700",
-                "border-inline-end-color: rgb(63 63 70);\n",
+                "border-inline-end-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-800",
-                "border-inline-end-color: rgb(39 39 42);\n",
+                "border-inline-end-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-900",
-                "border-inline-end-color: rgb(24 24 27);\n",
+                "border-inline-end-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-zinc-950",
-                "border-inline-end-color: rgb(9 9 11);\n",
+                "border-inline-end-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-50",
-                "border-inline-end-color: rgb(250 250 250);\n",
+                "border-inline-end-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-100",
-                "border-inline-end-color: rgb(245 245 245);\n",
+                "border-inline-end-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-200",
-                "border-inline-end-color: rgb(229 229 229);\n",
+                "border-inline-end-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-300",
-                "border-inline-end-color: rgb(212 212 212);\n",
+                "border-inline-end-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-400",
-                "border-inline-end-color: rgb(163 163 163);\n",
+                "border-inline-end-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-500",
-                "border-inline-end-color: rgb(115 115 115);\n",
+                "border-inline-end-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-600",
-                "border-inline-end-color: rgb(82 82 82);\n",
+                "border-inline-end-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-700",
-                "border-inline-end-color: rgb(64 64 64);\n",
+                "border-inline-end-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-800",
-                "border-inline-end-color: rgb(38 38 38);\n",
+                "border-inline-end-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-900",
-                "border-inline-end-color: rgb(23 23 23);\n",
+                "border-inline-end-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-neutral-950",
-                "border-inline-end-color: rgb(10 10 10);\n",
+                "border-inline-end-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-50",
-                "border-inline-end-color: rgb(250 250 249);\n",
+                "border-inline-end-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-100",
-                "border-inline-end-color: rgb(245 245 244);\n",
+                "border-inline-end-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-200",
-                "border-inline-end-color: rgb(231 229 228);\n",
+                "border-inline-end-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-300",
-                "border-inline-end-color: rgb(214 211 209);\n",
+                "border-inline-end-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-400",
-                "border-inline-end-color: rgb(168 162 158);\n",
+                "border-inline-end-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-500",
-                "border-inline-end-color: rgb(120 113 108);\n",
+                "border-inline-end-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-600",
-                "border-inline-end-color: rgb(87 83 78);\n",
+                "border-inline-end-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-700",
-                "border-inline-end-color: rgb(68 64 60);\n",
+                "border-inline-end-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-800",
-                "border-inline-end-color: rgb(41 37 36);\n",
+                "border-inline-end-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-900",
-                "border-inline-end-color: rgb(28 25 23);\n",
+                "border-inline-end-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-stone-950",
-                "border-inline-end-color: rgb(12 10 9);\n",
+                "border-inline-end-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-50",
-                "border-inline-end-color: rgb(254 242 242);\n",
+                "border-inline-end-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-100",
-                "border-inline-end-color: rgb(254 226 226);\n",
+                "border-inline-end-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-200",
-                "border-inline-end-color: rgb(254 202 202);\n",
+                "border-inline-end-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-300",
-                "border-inline-end-color: rgb(252 165 165);\n",
+                "border-inline-end-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-400",
-                "border-inline-end-color: rgb(248 113 113);\n",
+                "border-inline-end-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-500",
-                "border-inline-end-color: rgb(239 68 68);\n",
+                "border-inline-end-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-600",
-                "border-inline-end-color: rgb(220 38 38);\n",
+                "border-inline-end-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-700",
-                "border-inline-end-color: rgb(185 28 28);\n",
+                "border-inline-end-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-800",
-                "border-inline-end-color: rgb(153 27 27);\n",
+                "border-inline-end-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-900",
-                "border-inline-end-color: rgb(127 29 29);\n",
+                "border-inline-end-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-red-950",
-                "border-inline-end-color: rgb(69 10 10);\n",
+                "border-inline-end-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-50",
-                "border-inline-end-color: rgb(255 247 237);\n",
+                "border-inline-end-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-100",
-                "border-inline-end-color: rgb(255 237 213);\n",
+                "border-inline-end-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-200",
-                "border-inline-end-color: rgb(254 215 170);\n",
+                "border-inline-end-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-300",
-                "border-inline-end-color: rgb(253 186 116);\n",
+                "border-inline-end-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-400",
-                "border-inline-end-color: rgb(251 146 60);\n",
+                "border-inline-end-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-500",
-                "border-inline-end-color: rgb(249 115 22);\n",
+                "border-inline-end-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-600",
-                "border-inline-end-color: rgb(234 88 12);\n",
+                "border-inline-end-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-700",
-                "border-inline-end-color: rgb(194 65 12);\n",
+                "border-inline-end-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-800",
-                "border-inline-end-color: rgb(154 52 18);\n",
+                "border-inline-end-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-900",
-                "border-inline-end-color: rgb(124 45 18);\n",
+                "border-inline-end-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-orange-950",
-                "border-inline-end-color: rgb(67 20 7);\n",
+                "border-inline-end-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-50",
-                "border-inline-end-color: rgb(255 251 235);\n",
+                "border-inline-end-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-100",
-                "border-inline-end-color: rgb(254 243 199);\n",
+                "border-inline-end-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-200",
-                "border-inline-end-color: rgb(253 230 138);\n",
+                "border-inline-end-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-300",
-                "border-inline-end-color: rgb(252 211 77);\n",
+                "border-inline-end-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-400",
-                "border-inline-end-color: rgb(251 191 36);\n",
+                "border-inline-end-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-500",
-                "border-inline-end-color: rgb(245 158 11);\n",
+                "border-inline-end-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-600",
-                "border-inline-end-color: rgb(217 119 6);\n",
+                "border-inline-end-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-700",
-                "border-inline-end-color: rgb(180 83 9);\n",
+                "border-inline-end-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-800",
-                "border-inline-end-color: rgb(146 64 14);\n",
+                "border-inline-end-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-900",
-                "border-inline-end-color: rgb(120 53 15);\n",
+                "border-inline-end-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-amber-950",
-                "border-inline-end-color: rgb(69 26 3);\n",
+                "border-inline-end-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-50",
-                "border-inline-end-color: rgb(254 252 232);\n",
+                "border-inline-end-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-100",
-                "border-inline-end-color: rgb(254 249 195);\n",
+                "border-inline-end-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-200",
-                "border-inline-end-color: rgb(254 240 138);\n",
+                "border-inline-end-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-300",
-                "border-inline-end-color: rgb(253 224 71);\n",
+                "border-inline-end-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-400",
-                "border-inline-end-color: rgb(250 204 21);\n",
+                "border-inline-end-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-500",
-                "border-inline-end-color: rgb(234 179 8);\n",
+                "border-inline-end-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-600",
-                "border-inline-end-color: rgb(202 138 4);\n",
+                "border-inline-end-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-700",
-                "border-inline-end-color: rgb(161 98 7);\n",
+                "border-inline-end-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-800",
-                "border-inline-end-color: rgb(133 77 14);\n",
+                "border-inline-end-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-900",
-                "border-inline-end-color: rgb(113 63 18);\n",
+                "border-inline-end-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-yellow-950",
-                "border-inline-end-color: rgb(66 32 6);\n",
+                "border-inline-end-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-50",
-                "border-inline-end-color: rgb(247 254 231);\n",
+                "border-inline-end-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-100",
-                "border-inline-end-color: rgb(236 252 203);\n",
+                "border-inline-end-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-200",
-                "border-inline-end-color: rgb(217 249 157);\n",
+                "border-inline-end-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-300",
-                "border-inline-end-color: rgb(190 242 100);\n",
+                "border-inline-end-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-400",
-                "border-inline-end-color: rgb(163 230 53);\n",
+                "border-inline-end-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-500",
-                "border-inline-end-color: rgb(132 204 22);\n",
+                "border-inline-end-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-600",
-                "border-inline-end-color: rgb(101 163 13);\n",
+                "border-inline-end-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-700",
-                "border-inline-end-color: rgb(77 124 15);\n",
+                "border-inline-end-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-800",
-                "border-inline-end-color: rgb(63 98 18);\n",
+                "border-inline-end-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-900",
-                "border-inline-end-color: rgb(54 83 20);\n",
+                "border-inline-end-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-lime-950",
-                "border-inline-end-color: rgb(26 46 5);\n",
+                "border-inline-end-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-50",
-                "border-inline-end-color: rgb(240 253 244);\n",
+                "border-inline-end-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-100",
-                "border-inline-end-color: rgb(220 252 231);\n",
+                "border-inline-end-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-200",
-                "border-inline-end-color: rgb(187 247 208);\n",
+                "border-inline-end-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-300",
-                "border-inline-end-color: rgb(134 239 172);\n",
+                "border-inline-end-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-400",
-                "border-inline-end-color: rgb(74 222 128);\n",
+                "border-inline-end-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-500",
-                "border-inline-end-color: rgb(34 197 94);\n",
+                "border-inline-end-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-600",
-                "border-inline-end-color: rgb(22 163 74);\n",
+                "border-inline-end-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-700",
-                "border-inline-end-color: rgb(21 128 61);\n",
+                "border-inline-end-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-800",
-                "border-inline-end-color: rgb(22 101 52);\n",
+                "border-inline-end-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-900",
-                "border-inline-end-color: rgb(20 83 45);\n",
+                "border-inline-end-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-green-950",
-                "border-inline-end-color: rgb(5 46 22);\n",
+                "border-inline-end-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-50",
-                "border-inline-end-color: rgb(236 253 245);\n",
+                "border-inline-end-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-100",
-                "border-inline-end-color: rgb(209 250 229);\n",
+                "border-inline-end-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-200",
-                "border-inline-end-color: rgb(167 243 208);\n",
+                "border-inline-end-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-300",
-                "border-inline-end-color: rgb(110 231 183);\n",
+                "border-inline-end-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-400",
-                "border-inline-end-color: rgb(52 211 153);\n",
+                "border-inline-end-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-500",
-                "border-inline-end-color: rgb(16 185 129);\n",
+                "border-inline-end-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-600",
-                "border-inline-end-color: rgb(5 150 105);\n",
+                "border-inline-end-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-700",
-                "border-inline-end-color: rgb(4 120 87);\n",
+                "border-inline-end-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-800",
-                "border-inline-end-color: rgb(6 95 70);\n",
+                "border-inline-end-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-900",
-                "border-inline-end-color: rgb(6 78 59);\n",
+                "border-inline-end-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-emerald-950",
-                "border-inline-end-color: rgb(2 44 34);\n",
+                "border-inline-end-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-50",
-                "border-inline-end-color: rgb(240 253 250);\n",
+                "border-inline-end-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-100",
-                "border-inline-end-color: rgb(204 251 241);\n",
+                "border-inline-end-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-200",
-                "border-inline-end-color: rgb(153 246 228);\n",
+                "border-inline-end-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-300",
-                "border-inline-end-color: rgb(94 234 212);\n",
+                "border-inline-end-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-400",
-                "border-inline-end-color: rgb(45 212 191);\n",
+                "border-inline-end-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-500",
-                "border-inline-end-color: rgb(20 184 166);\n",
+                "border-inline-end-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-600",
-                "border-inline-end-color: rgb(13 148 136);\n",
+                "border-inline-end-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-700",
-                "border-inline-end-color: rgb(15 118 110);\n",
+                "border-inline-end-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-800",
-                "border-inline-end-color: rgb(17 94 89);\n",
+                "border-inline-end-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-900",
-                "border-inline-end-color: rgb(19 78 74);\n",
+                "border-inline-end-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-teal-950",
-                "border-inline-end-color: rgb(4 47 46);\n",
+                "border-inline-end-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-50",
-                "border-inline-end-color: rgb(236 254 255);\n",
+                "border-inline-end-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-100",
-                "border-inline-end-color: rgb(207 250 254);\n",
+                "border-inline-end-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-200",
-                "border-inline-end-color: rgb(165 243 252);\n",
+                "border-inline-end-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-300",
-                "border-inline-end-color: rgb(103 232 249);\n",
+                "border-inline-end-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-400",
-                "border-inline-end-color: rgb(34 211 238);\n",
+                "border-inline-end-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-500",
-                "border-inline-end-color: rgb(6 182 212);\n",
+                "border-inline-end-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-600",
-                "border-inline-end-color: rgb(8 145 178);\n",
+                "border-inline-end-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-700",
-                "border-inline-end-color: rgb(14 116 144);\n",
+                "border-inline-end-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-800",
-                "border-inline-end-color: rgb(21 94 117);\n",
+                "border-inline-end-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-900",
-                "border-inline-end-color: rgb(22 78 99);\n",
+                "border-inline-end-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-cyan-950",
-                "border-inline-end-color: rgb(8 51 68);\n",
+                "border-inline-end-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-50",
-                "border-inline-end-color: rgb(240 249 255);\n",
+                "border-inline-end-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-100",
-                "border-inline-end-color: rgb(224 242 254);\n",
+                "border-inline-end-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-200",
-                "border-inline-end-color: rgb(186 230 253);\n",
+                "border-inline-end-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-300",
-                "border-inline-end-color: rgb(125 211 252);\n",
+                "border-inline-end-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-400",
-                "border-inline-end-color: rgb(56 189 248);\n",
+                "border-inline-end-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-500",
-                "border-inline-end-color: rgb(14 165 233);\n",
+                "border-inline-end-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-600",
-                "border-inline-end-color: rgb(2 132 199);\n",
+                "border-inline-end-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-700",
-                "border-inline-end-color: rgb(3 105 161);\n",
+                "border-inline-end-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-800",
-                "border-inline-end-color: rgb(7 89 133);\n",
+                "border-inline-end-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-900",
-                "border-inline-end-color: rgb(12 74 110);\n",
+                "border-inline-end-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-sky-950",
-                "border-inline-end-color: rgb(8 47 73);\n",
+                "border-inline-end-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-50",
-                "border-inline-end-color: rgb(239 246 255);\n",
+                "border-inline-end-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-100",
-                "border-inline-end-color: rgb(219 234 254);\n",
+                "border-inline-end-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-200",
-                "border-inline-end-color: rgb(191 219 254);\n",
+                "border-inline-end-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-300",
-                "border-inline-end-color: rgb(147 197 253);\n",
+                "border-inline-end-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-400",
-                "border-inline-end-color: rgb(96 165 250);\n",
+                "border-inline-end-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-500",
-                "border-inline-end-color: rgb(59 130 246);\n",
+                "border-inline-end-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-600",
-                "border-inline-end-color: rgb(37 99 235);\n",
+                "border-inline-end-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-700",
-                "border-inline-end-color: rgb(29 78 216);\n",
+                "border-inline-end-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-800",
-                "border-inline-end-color: rgb(30 64 175);\n",
+                "border-inline-end-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-900",
-                "border-inline-end-color: rgb(30 58 138);\n",
+                "border-inline-end-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-blue-950",
-                "border-inline-end-color: rgb(23 37 84);\n",
+                "border-inline-end-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-50",
-                "border-inline-end-color: rgb(238 242 255);\n",
+                "border-inline-end-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-100",
-                "border-inline-end-color: rgb(224 231 255);\n",
+                "border-inline-end-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-200",
-                "border-inline-end-color: rgb(199 210 254);\n",
+                "border-inline-end-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-300",
-                "border-inline-end-color: rgb(165 180 252);\n",
+                "border-inline-end-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-400",
-                "border-inline-end-color: rgb(129 140 248);\n",
+                "border-inline-end-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-500",
-                "border-inline-end-color: rgb(99 102 241);\n",
+                "border-inline-end-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-600",
-                "border-inline-end-color: rgb(79 70 229);\n",
+                "border-inline-end-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-700",
-                "border-inline-end-color: rgb(67 56 202);\n",
+                "border-inline-end-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-800",
-                "border-inline-end-color: rgb(55 48 163);\n",
+                "border-inline-end-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-900",
-                "border-inline-end-color: rgb(49 46 129);\n",
+                "border-inline-end-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-indigo-950",
-                "border-inline-end-color: rgb(30 27 75);\n",
+                "border-inline-end-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-50",
-                "border-inline-end-color: rgb(245 243 255);\n",
+                "border-inline-end-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-100",
-                "border-inline-end-color: rgb(237 233 254);\n",
+                "border-inline-end-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-200",
-                "border-inline-end-color: rgb(221 214 254);\n",
+                "border-inline-end-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-300",
-                "border-inline-end-color: rgb(196 181 253);\n",
+                "border-inline-end-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-400",
-                "border-inline-end-color: rgb(167 139 250);\n",
+                "border-inline-end-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-500",
-                "border-inline-end-color: rgb(139 92 246);\n",
+                "border-inline-end-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-600",
-                "border-inline-end-color: rgb(124 58 237);\n",
+                "border-inline-end-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-700",
-                "border-inline-end-color: rgb(109 40 217);\n",
+                "border-inline-end-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-800",
-                "border-inline-end-color: rgb(91 33 182);\n",
+                "border-inline-end-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-900",
-                "border-inline-end-color: rgb(76 29 149);\n",
+                "border-inline-end-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-violet-950",
-                "border-inline-end-color: rgb(46 16 101);\n",
+                "border-inline-end-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-50",
-                "border-inline-end-color: rgb(250 245 255);\n",
+                "border-inline-end-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-100",
-                "border-inline-end-color: rgb(243 232 255);\n",
+                "border-inline-end-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-200",
-                "border-inline-end-color: rgb(233 213 255);\n",
+                "border-inline-end-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-300",
-                "border-inline-end-color: rgb(216 180 254);\n",
+                "border-inline-end-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-400",
-                "border-inline-end-color: rgb(192 132 252);\n",
+                "border-inline-end-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-500",
-                "border-inline-end-color: rgb(168 85 247);\n",
+                "border-inline-end-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-600",
-                "border-inline-end-color: rgb(147 51 234);\n",
+                "border-inline-end-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-700",
-                "border-inline-end-color: rgb(126 34 206);\n",
+                "border-inline-end-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-800",
-                "border-inline-end-color: rgb(107 33 168);\n",
+                "border-inline-end-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-900",
-                "border-inline-end-color: rgb(88 28 135);\n",
+                "border-inline-end-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-purple-950",
-                "border-inline-end-color: rgb(59 7 100);\n",
+                "border-inline-end-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-50",
-                "border-inline-end-color: rgb(253 244 255);\n",
+                "border-inline-end-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-100",
-                "border-inline-end-color: rgb(250 232 255);\n",
+                "border-inline-end-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-200",
-                "border-inline-end-color: rgb(245 208 254);\n",
+                "border-inline-end-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-300",
-                "border-inline-end-color: rgb(240 171 252);\n",
+                "border-inline-end-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-400",
-                "border-inline-end-color: rgb(232 121 249);\n",
+                "border-inline-end-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-500",
-                "border-inline-end-color: rgb(217 70 239);\n",
+                "border-inline-end-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-600",
-                "border-inline-end-color: rgb(192 38 211);\n",
+                "border-inline-end-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-700",
-                "border-inline-end-color: rgb(162 28 175);\n",
+                "border-inline-end-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-800",
-                "border-inline-end-color: rgb(134 25 143);\n",
+                "border-inline-end-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-900",
-                "border-inline-end-color: rgb(112 26 117);\n",
+                "border-inline-end-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-fuchsia-950",
-                "border-inline-end-color: rgb(74 4 78);\n",
+                "border-inline-end-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-50",
-                "border-inline-end-color: rgb(253 242 248);\n",
+                "border-inline-end-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-100",
-                "border-inline-end-color: rgb(252 231 243);\n",
+                "border-inline-end-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-200",
-                "border-inline-end-color: rgb(251 207 232);\n",
+                "border-inline-end-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-300",
-                "border-inline-end-color: rgb(249 168 212);\n",
+                "border-inline-end-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-400",
-                "border-inline-end-color: rgb(244 114 182);\n",
+                "border-inline-end-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-500",
-                "border-inline-end-color: rgb(236 72 153);\n",
+                "border-inline-end-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-600",
-                "border-inline-end-color: rgb(219 39 119);\n",
+                "border-inline-end-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-700",
-                "border-inline-end-color: rgb(190 24 93);\n",
+                "border-inline-end-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-800",
-                "border-inline-end-color: rgb(157 23 77);\n",
+                "border-inline-end-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-900",
-                "border-inline-end-color: rgb(131 24 67);\n",
+                "border-inline-end-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-pink-950",
-                "border-inline-end-color: rgb(80 7 36);\n",
+                "border-inline-end-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-50",
-                "border-inline-end-color: rgb(255 241 242);\n",
+                "border-inline-end-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-100",
-                "border-inline-end-color: rgb(255 228 230);\n",
+                "border-inline-end-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-200",
-                "border-inline-end-color: rgb(254 205 211);\n",
+                "border-inline-end-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-300",
-                "border-inline-end-color: rgb(253 164 175);\n",
+                "border-inline-end-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-400",
-                "border-inline-end-color: rgb(251 113 133);\n",
+                "border-inline-end-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-500",
-                "border-inline-end-color: rgb(244 63 94);\n",
+                "border-inline-end-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-600",
-                "border-inline-end-color: rgb(225 29 72);\n",
+                "border-inline-end-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-700",
-                "border-inline-end-color: rgb(190 18 60);\n",
+                "border-inline-end-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-800",
-                "border-inline-end-color: rgb(159 18 57);\n",
+                "border-inline-end-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-900",
-                "border-inline-end-color: rgb(136 19 55);\n",
+                "border-inline-end-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-e-rose-950",
-                "border-inline-end-color: rgb(76 5 25);\n",
+                "border-inline-end-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -6931,1222 +6931,1222 @@ export const documentations = [
             ],
             [
                 "border-t-black",
-                "border-top-color: rgb(0 0 0);\n",
+                "border-top-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-white",
-                "border-top-color: rgb(255 255 255);\n",
+                "border-top-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-50",
-                "border-top-color: rgb(248 250 252);\n",
+                "border-top-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-100",
-                "border-top-color: rgb(241 245 249);\n",
+                "border-top-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-200",
-                "border-top-color: rgb(226 232 240);\n",
+                "border-top-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-300",
-                "border-top-color: rgb(203 213 225);\n",
+                "border-top-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-400",
-                "border-top-color: rgb(148 163 184);\n",
+                "border-top-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-500",
-                "border-top-color: rgb(100 116 139);\n",
+                "border-top-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-600",
-                "border-top-color: rgb(71 85 105);\n",
+                "border-top-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-700",
-                "border-top-color: rgb(51 65 85);\n",
+                "border-top-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-800",
-                "border-top-color: rgb(30 41 59);\n",
+                "border-top-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-900",
-                "border-top-color: rgb(15 23 42);\n",
+                "border-top-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-slate-950",
-                "border-top-color: rgb(2 6 23);\n",
+                "border-top-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-50",
-                "border-top-color: rgb(249 250 251);\n",
+                "border-top-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-100",
-                "border-top-color: rgb(243 244 246);\n",
+                "border-top-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-200",
-                "border-top-color: rgb(229 231 235);\n",
+                "border-top-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-300",
-                "border-top-color: rgb(209 213 219);\n",
+                "border-top-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-400",
-                "border-top-color: rgb(156 163 175);\n",
+                "border-top-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-500",
-                "border-top-color: rgb(107 114 128);\n",
+                "border-top-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-600",
-                "border-top-color: rgb(75 85 99);\n",
+                "border-top-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-700",
-                "border-top-color: rgb(55 65 81);\n",
+                "border-top-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-800",
-                "border-top-color: rgb(31 41 55);\n",
+                "border-top-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-900",
-                "border-top-color: rgb(17 24 39);\n",
+                "border-top-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-gray-950",
-                "border-top-color: rgb(3 7 18);\n",
+                "border-top-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-50",
-                "border-top-color: rgb(250 250 250);\n",
+                "border-top-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-100",
-                "border-top-color: rgb(244 244 245);\n",
+                "border-top-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-200",
-                "border-top-color: rgb(228 228 231);\n",
+                "border-top-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-300",
-                "border-top-color: rgb(212 212 216);\n",
+                "border-top-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-400",
-                "border-top-color: rgb(161 161 170);\n",
+                "border-top-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-500",
-                "border-top-color: rgb(113 113 122);\n",
+                "border-top-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-600",
-                "border-top-color: rgb(82 82 91);\n",
+                "border-top-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-700",
-                "border-top-color: rgb(63 63 70);\n",
+                "border-top-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-800",
-                "border-top-color: rgb(39 39 42);\n",
+                "border-top-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-900",
-                "border-top-color: rgb(24 24 27);\n",
+                "border-top-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-zinc-950",
-                "border-top-color: rgb(9 9 11);\n",
+                "border-top-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-50",
-                "border-top-color: rgb(250 250 250);\n",
+                "border-top-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-100",
-                "border-top-color: rgb(245 245 245);\n",
+                "border-top-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-200",
-                "border-top-color: rgb(229 229 229);\n",
+                "border-top-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-300",
-                "border-top-color: rgb(212 212 212);\n",
+                "border-top-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-400",
-                "border-top-color: rgb(163 163 163);\n",
+                "border-top-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-500",
-                "border-top-color: rgb(115 115 115);\n",
+                "border-top-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-600",
-                "border-top-color: rgb(82 82 82);\n",
+                "border-top-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-700",
-                "border-top-color: rgb(64 64 64);\n",
+                "border-top-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-800",
-                "border-top-color: rgb(38 38 38);\n",
+                "border-top-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-900",
-                "border-top-color: rgb(23 23 23);\n",
+                "border-top-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-neutral-950",
-                "border-top-color: rgb(10 10 10);\n",
+                "border-top-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-50",
-                "border-top-color: rgb(250 250 249);\n",
+                "border-top-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-100",
-                "border-top-color: rgb(245 245 244);\n",
+                "border-top-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-200",
-                "border-top-color: rgb(231 229 228);\n",
+                "border-top-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-300",
-                "border-top-color: rgb(214 211 209);\n",
+                "border-top-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-400",
-                "border-top-color: rgb(168 162 158);\n",
+                "border-top-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-500",
-                "border-top-color: rgb(120 113 108);\n",
+                "border-top-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-600",
-                "border-top-color: rgb(87 83 78);\n",
+                "border-top-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-700",
-                "border-top-color: rgb(68 64 60);\n",
+                "border-top-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-800",
-                "border-top-color: rgb(41 37 36);\n",
+                "border-top-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-900",
-                "border-top-color: rgb(28 25 23);\n",
+                "border-top-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-stone-950",
-                "border-top-color: rgb(12 10 9);\n",
+                "border-top-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-50",
-                "border-top-color: rgb(254 242 242);\n",
+                "border-top-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-100",
-                "border-top-color: rgb(254 226 226);\n",
+                "border-top-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-200",
-                "border-top-color: rgb(254 202 202);\n",
+                "border-top-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-300",
-                "border-top-color: rgb(252 165 165);\n",
+                "border-top-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-400",
-                "border-top-color: rgb(248 113 113);\n",
+                "border-top-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-500",
-                "border-top-color: rgb(239 68 68);\n",
+                "border-top-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-600",
-                "border-top-color: rgb(220 38 38);\n",
+                "border-top-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-700",
-                "border-top-color: rgb(185 28 28);\n",
+                "border-top-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-800",
-                "border-top-color: rgb(153 27 27);\n",
+                "border-top-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-900",
-                "border-top-color: rgb(127 29 29);\n",
+                "border-top-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-red-950",
-                "border-top-color: rgb(69 10 10);\n",
+                "border-top-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-50",
-                "border-top-color: rgb(255 247 237);\n",
+                "border-top-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-100",
-                "border-top-color: rgb(255 237 213);\n",
+                "border-top-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-200",
-                "border-top-color: rgb(254 215 170);\n",
+                "border-top-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-300",
-                "border-top-color: rgb(253 186 116);\n",
+                "border-top-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-400",
-                "border-top-color: rgb(251 146 60);\n",
+                "border-top-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-500",
-                "border-top-color: rgb(249 115 22);\n",
+                "border-top-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-600",
-                "border-top-color: rgb(234 88 12);\n",
+                "border-top-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-700",
-                "border-top-color: rgb(194 65 12);\n",
+                "border-top-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-800",
-                "border-top-color: rgb(154 52 18);\n",
+                "border-top-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-900",
-                "border-top-color: rgb(124 45 18);\n",
+                "border-top-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-orange-950",
-                "border-top-color: rgb(67 20 7);\n",
+                "border-top-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-50",
-                "border-top-color: rgb(255 251 235);\n",
+                "border-top-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-100",
-                "border-top-color: rgb(254 243 199);\n",
+                "border-top-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-200",
-                "border-top-color: rgb(253 230 138);\n",
+                "border-top-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-300",
-                "border-top-color: rgb(252 211 77);\n",
+                "border-top-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-400",
-                "border-top-color: rgb(251 191 36);\n",
+                "border-top-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-500",
-                "border-top-color: rgb(245 158 11);\n",
+                "border-top-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-600",
-                "border-top-color: rgb(217 119 6);\n",
+                "border-top-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-700",
-                "border-top-color: rgb(180 83 9);\n",
+                "border-top-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-800",
-                "border-top-color: rgb(146 64 14);\n",
+                "border-top-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-900",
-                "border-top-color: rgb(120 53 15);\n",
+                "border-top-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-amber-950",
-                "border-top-color: rgb(69 26 3);\n",
+                "border-top-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-50",
-                "border-top-color: rgb(254 252 232);\n",
+                "border-top-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-100",
-                "border-top-color: rgb(254 249 195);\n",
+                "border-top-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-200",
-                "border-top-color: rgb(254 240 138);\n",
+                "border-top-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-300",
-                "border-top-color: rgb(253 224 71);\n",
+                "border-top-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-400",
-                "border-top-color: rgb(250 204 21);\n",
+                "border-top-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-500",
-                "border-top-color: rgb(234 179 8);\n",
+                "border-top-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-600",
-                "border-top-color: rgb(202 138 4);\n",
+                "border-top-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-700",
-                "border-top-color: rgb(161 98 7);\n",
+                "border-top-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-800",
-                "border-top-color: rgb(133 77 14);\n",
+                "border-top-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-900",
-                "border-top-color: rgb(113 63 18);\n",
+                "border-top-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-yellow-950",
-                "border-top-color: rgb(66 32 6);\n",
+                "border-top-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-50",
-                "border-top-color: rgb(247 254 231);\n",
+                "border-top-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-100",
-                "border-top-color: rgb(236 252 203);\n",
+                "border-top-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-200",
-                "border-top-color: rgb(217 249 157);\n",
+                "border-top-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-300",
-                "border-top-color: rgb(190 242 100);\n",
+                "border-top-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-400",
-                "border-top-color: rgb(163 230 53);\n",
+                "border-top-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-500",
-                "border-top-color: rgb(132 204 22);\n",
+                "border-top-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-600",
-                "border-top-color: rgb(101 163 13);\n",
+                "border-top-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-700",
-                "border-top-color: rgb(77 124 15);\n",
+                "border-top-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-800",
-                "border-top-color: rgb(63 98 18);\n",
+                "border-top-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-900",
-                "border-top-color: rgb(54 83 20);\n",
+                "border-top-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-lime-950",
-                "border-top-color: rgb(26 46 5);\n",
+                "border-top-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-50",
-                "border-top-color: rgb(240 253 244);\n",
+                "border-top-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-100",
-                "border-top-color: rgb(220 252 231);\n",
+                "border-top-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-200",
-                "border-top-color: rgb(187 247 208);\n",
+                "border-top-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-300",
-                "border-top-color: rgb(134 239 172);\n",
+                "border-top-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-400",
-                "border-top-color: rgb(74 222 128);\n",
+                "border-top-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-500",
-                "border-top-color: rgb(34 197 94);\n",
+                "border-top-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-600",
-                "border-top-color: rgb(22 163 74);\n",
+                "border-top-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-700",
-                "border-top-color: rgb(21 128 61);\n",
+                "border-top-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-800",
-                "border-top-color: rgb(22 101 52);\n",
+                "border-top-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-900",
-                "border-top-color: rgb(20 83 45);\n",
+                "border-top-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-green-950",
-                "border-top-color: rgb(5 46 22);\n",
+                "border-top-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-50",
-                "border-top-color: rgb(236 253 245);\n",
+                "border-top-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-100",
-                "border-top-color: rgb(209 250 229);\n",
+                "border-top-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-200",
-                "border-top-color: rgb(167 243 208);\n",
+                "border-top-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-300",
-                "border-top-color: rgb(110 231 183);\n",
+                "border-top-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-400",
-                "border-top-color: rgb(52 211 153);\n",
+                "border-top-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-500",
-                "border-top-color: rgb(16 185 129);\n",
+                "border-top-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-600",
-                "border-top-color: rgb(5 150 105);\n",
+                "border-top-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-700",
-                "border-top-color: rgb(4 120 87);\n",
+                "border-top-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-800",
-                "border-top-color: rgb(6 95 70);\n",
+                "border-top-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-900",
-                "border-top-color: rgb(6 78 59);\n",
+                "border-top-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-emerald-950",
-                "border-top-color: rgb(2 44 34);\n",
+                "border-top-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-50",
-                "border-top-color: rgb(240 253 250);\n",
+                "border-top-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-100",
-                "border-top-color: rgb(204 251 241);\n",
+                "border-top-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-200",
-                "border-top-color: rgb(153 246 228);\n",
+                "border-top-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-300",
-                "border-top-color: rgb(94 234 212);\n",
+                "border-top-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-400",
-                "border-top-color: rgb(45 212 191);\n",
+                "border-top-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-500",
-                "border-top-color: rgb(20 184 166);\n",
+                "border-top-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-600",
-                "border-top-color: rgb(13 148 136);\n",
+                "border-top-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-700",
-                "border-top-color: rgb(15 118 110);\n",
+                "border-top-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-800",
-                "border-top-color: rgb(17 94 89);\n",
+                "border-top-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-900",
-                "border-top-color: rgb(19 78 74);\n",
+                "border-top-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-teal-950",
-                "border-top-color: rgb(4 47 46);\n",
+                "border-top-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-50",
-                "border-top-color: rgb(236 254 255);\n",
+                "border-top-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-100",
-                "border-top-color: rgb(207 250 254);\n",
+                "border-top-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-200",
-                "border-top-color: rgb(165 243 252);\n",
+                "border-top-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-300",
-                "border-top-color: rgb(103 232 249);\n",
+                "border-top-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-400",
-                "border-top-color: rgb(34 211 238);\n",
+                "border-top-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-500",
-                "border-top-color: rgb(6 182 212);\n",
+                "border-top-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-600",
-                "border-top-color: rgb(8 145 178);\n",
+                "border-top-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-700",
-                "border-top-color: rgb(14 116 144);\n",
+                "border-top-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-800",
-                "border-top-color: rgb(21 94 117);\n",
+                "border-top-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-900",
-                "border-top-color: rgb(22 78 99);\n",
+                "border-top-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-cyan-950",
-                "border-top-color: rgb(8 51 68);\n",
+                "border-top-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-50",
-                "border-top-color: rgb(240 249 255);\n",
+                "border-top-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-100",
-                "border-top-color: rgb(224 242 254);\n",
+                "border-top-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-200",
-                "border-top-color: rgb(186 230 253);\n",
+                "border-top-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-300",
-                "border-top-color: rgb(125 211 252);\n",
+                "border-top-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-400",
-                "border-top-color: rgb(56 189 248);\n",
+                "border-top-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-500",
-                "border-top-color: rgb(14 165 233);\n",
+                "border-top-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-600",
-                "border-top-color: rgb(2 132 199);\n",
+                "border-top-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-700",
-                "border-top-color: rgb(3 105 161);\n",
+                "border-top-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-800",
-                "border-top-color: rgb(7 89 133);\n",
+                "border-top-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-900",
-                "border-top-color: rgb(12 74 110);\n",
+                "border-top-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-sky-950",
-                "border-top-color: rgb(8 47 73);\n",
+                "border-top-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-50",
-                "border-top-color: rgb(239 246 255);\n",
+                "border-top-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-100",
-                "border-top-color: rgb(219 234 254);\n",
+                "border-top-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-200",
-                "border-top-color: rgb(191 219 254);\n",
+                "border-top-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-300",
-                "border-top-color: rgb(147 197 253);\n",
+                "border-top-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-400",
-                "border-top-color: rgb(96 165 250);\n",
+                "border-top-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-500",
-                "border-top-color: rgb(59 130 246);\n",
+                "border-top-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-600",
-                "border-top-color: rgb(37 99 235);\n",
+                "border-top-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-700",
-                "border-top-color: rgb(29 78 216);\n",
+                "border-top-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-800",
-                "border-top-color: rgb(30 64 175);\n",
+                "border-top-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-900",
-                "border-top-color: rgb(30 58 138);\n",
+                "border-top-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-blue-950",
-                "border-top-color: rgb(23 37 84);\n",
+                "border-top-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-50",
-                "border-top-color: rgb(238 242 255);\n",
+                "border-top-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-100",
-                "border-top-color: rgb(224 231 255);\n",
+                "border-top-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-200",
-                "border-top-color: rgb(199 210 254);\n",
+                "border-top-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-300",
-                "border-top-color: rgb(165 180 252);\n",
+                "border-top-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-400",
-                "border-top-color: rgb(129 140 248);\n",
+                "border-top-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-500",
-                "border-top-color: rgb(99 102 241);\n",
+                "border-top-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-600",
-                "border-top-color: rgb(79 70 229);\n",
+                "border-top-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-700",
-                "border-top-color: rgb(67 56 202);\n",
+                "border-top-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-800",
-                "border-top-color: rgb(55 48 163);\n",
+                "border-top-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-900",
-                "border-top-color: rgb(49 46 129);\n",
+                "border-top-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-indigo-950",
-                "border-top-color: rgb(30 27 75);\n",
+                "border-top-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-50",
-                "border-top-color: rgb(245 243 255);\n",
+                "border-top-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-100",
-                "border-top-color: rgb(237 233 254);\n",
+                "border-top-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-200",
-                "border-top-color: rgb(221 214 254);\n",
+                "border-top-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-300",
-                "border-top-color: rgb(196 181 253);\n",
+                "border-top-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-400",
-                "border-top-color: rgb(167 139 250);\n",
+                "border-top-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-500",
-                "border-top-color: rgb(139 92 246);\n",
+                "border-top-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-600",
-                "border-top-color: rgb(124 58 237);\n",
+                "border-top-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-700",
-                "border-top-color: rgb(109 40 217);\n",
+                "border-top-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-800",
-                "border-top-color: rgb(91 33 182);\n",
+                "border-top-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-900",
-                "border-top-color: rgb(76 29 149);\n",
+                "border-top-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-violet-950",
-                "border-top-color: rgb(46 16 101);\n",
+                "border-top-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-50",
-                "border-top-color: rgb(250 245 255);\n",
+                "border-top-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-100",
-                "border-top-color: rgb(243 232 255);\n",
+                "border-top-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-200",
-                "border-top-color: rgb(233 213 255);\n",
+                "border-top-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-300",
-                "border-top-color: rgb(216 180 254);\n",
+                "border-top-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-400",
-                "border-top-color: rgb(192 132 252);\n",
+                "border-top-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-500",
-                "border-top-color: rgb(168 85 247);\n",
+                "border-top-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-600",
-                "border-top-color: rgb(147 51 234);\n",
+                "border-top-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-700",
-                "border-top-color: rgb(126 34 206);\n",
+                "border-top-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-800",
-                "border-top-color: rgb(107 33 168);\n",
+                "border-top-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-900",
-                "border-top-color: rgb(88 28 135);\n",
+                "border-top-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-purple-950",
-                "border-top-color: rgb(59 7 100);\n",
+                "border-top-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-50",
-                "border-top-color: rgb(253 244 255);\n",
+                "border-top-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-100",
-                "border-top-color: rgb(250 232 255);\n",
+                "border-top-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-200",
-                "border-top-color: rgb(245 208 254);\n",
+                "border-top-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-300",
-                "border-top-color: rgb(240 171 252);\n",
+                "border-top-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-400",
-                "border-top-color: rgb(232 121 249);\n",
+                "border-top-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-500",
-                "border-top-color: rgb(217 70 239);\n",
+                "border-top-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-600",
-                "border-top-color: rgb(192 38 211);\n",
+                "border-top-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-700",
-                "border-top-color: rgb(162 28 175);\n",
+                "border-top-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-800",
-                "border-top-color: rgb(134 25 143);\n",
+                "border-top-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-900",
-                "border-top-color: rgb(112 26 117);\n",
+                "border-top-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-fuchsia-950",
-                "border-top-color: rgb(74 4 78);\n",
+                "border-top-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-50",
-                "border-top-color: rgb(253 242 248);\n",
+                "border-top-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-100",
-                "border-top-color: rgb(252 231 243);\n",
+                "border-top-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-200",
-                "border-top-color: rgb(251 207 232);\n",
+                "border-top-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-300",
-                "border-top-color: rgb(249 168 212);\n",
+                "border-top-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-400",
-                "border-top-color: rgb(244 114 182);\n",
+                "border-top-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-500",
-                "border-top-color: rgb(236 72 153);\n",
+                "border-top-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-600",
-                "border-top-color: rgb(219 39 119);\n",
+                "border-top-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-700",
-                "border-top-color: rgb(190 24 93);\n",
+                "border-top-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-800",
-                "border-top-color: rgb(157 23 77);\n",
+                "border-top-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-900",
-                "border-top-color: rgb(131 24 67);\n",
+                "border-top-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-pink-950",
-                "border-top-color: rgb(80 7 36);\n",
+                "border-top-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-50",
-                "border-top-color: rgb(255 241 242);\n",
+                "border-top-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-100",
-                "border-top-color: rgb(255 228 230);\n",
+                "border-top-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-200",
-                "border-top-color: rgb(254 205 211);\n",
+                "border-top-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-300",
-                "border-top-color: rgb(253 164 175);\n",
+                "border-top-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-400",
-                "border-top-color: rgb(251 113 133);\n",
+                "border-top-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-500",
-                "border-top-color: rgb(244 63 94);\n",
+                "border-top-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-600",
-                "border-top-color: rgb(225 29 72);\n",
+                "border-top-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-700",
-                "border-top-color: rgb(190 18 60);\n",
+                "border-top-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-800",
-                "border-top-color: rgb(159 18 57);\n",
+                "border-top-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-900",
-                "border-top-color: rgb(136 19 55);\n",
+                "border-top-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-t-rose-950",
-                "border-top-color: rgb(76 5 25);\n",
+                "border-top-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -8166,1222 +8166,1222 @@ export const documentations = [
             ],
             [
                 "border-r-black",
-                "border-right-color: rgb(0 0 0);\n",
+                "border-right-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-white",
-                "border-right-color: rgb(255 255 255);\n",
+                "border-right-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-50",
-                "border-right-color: rgb(248 250 252);\n",
+                "border-right-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-100",
-                "border-right-color: rgb(241 245 249);\n",
+                "border-right-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-200",
-                "border-right-color: rgb(226 232 240);\n",
+                "border-right-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-300",
-                "border-right-color: rgb(203 213 225);\n",
+                "border-right-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-400",
-                "border-right-color: rgb(148 163 184);\n",
+                "border-right-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-500",
-                "border-right-color: rgb(100 116 139);\n",
+                "border-right-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-600",
-                "border-right-color: rgb(71 85 105);\n",
+                "border-right-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-700",
-                "border-right-color: rgb(51 65 85);\n",
+                "border-right-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-800",
-                "border-right-color: rgb(30 41 59);\n",
+                "border-right-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-900",
-                "border-right-color: rgb(15 23 42);\n",
+                "border-right-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-slate-950",
-                "border-right-color: rgb(2 6 23);\n",
+                "border-right-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-50",
-                "border-right-color: rgb(249 250 251);\n",
+                "border-right-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-100",
-                "border-right-color: rgb(243 244 246);\n",
+                "border-right-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-200",
-                "border-right-color: rgb(229 231 235);\n",
+                "border-right-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-300",
-                "border-right-color: rgb(209 213 219);\n",
+                "border-right-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-400",
-                "border-right-color: rgb(156 163 175);\n",
+                "border-right-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-500",
-                "border-right-color: rgb(107 114 128);\n",
+                "border-right-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-600",
-                "border-right-color: rgb(75 85 99);\n",
+                "border-right-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-700",
-                "border-right-color: rgb(55 65 81);\n",
+                "border-right-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-800",
-                "border-right-color: rgb(31 41 55);\n",
+                "border-right-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-900",
-                "border-right-color: rgb(17 24 39);\n",
+                "border-right-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-gray-950",
-                "border-right-color: rgb(3 7 18);\n",
+                "border-right-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-50",
-                "border-right-color: rgb(250 250 250);\n",
+                "border-right-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-100",
-                "border-right-color: rgb(244 244 245);\n",
+                "border-right-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-200",
-                "border-right-color: rgb(228 228 231);\n",
+                "border-right-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-300",
-                "border-right-color: rgb(212 212 216);\n",
+                "border-right-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-400",
-                "border-right-color: rgb(161 161 170);\n",
+                "border-right-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-500",
-                "border-right-color: rgb(113 113 122);\n",
+                "border-right-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-600",
-                "border-right-color: rgb(82 82 91);\n",
+                "border-right-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-700",
-                "border-right-color: rgb(63 63 70);\n",
+                "border-right-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-800",
-                "border-right-color: rgb(39 39 42);\n",
+                "border-right-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-900",
-                "border-right-color: rgb(24 24 27);\n",
+                "border-right-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-zinc-950",
-                "border-right-color: rgb(9 9 11);\n",
+                "border-right-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-50",
-                "border-right-color: rgb(250 250 250);\n",
+                "border-right-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-100",
-                "border-right-color: rgb(245 245 245);\n",
+                "border-right-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-200",
-                "border-right-color: rgb(229 229 229);\n",
+                "border-right-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-300",
-                "border-right-color: rgb(212 212 212);\n",
+                "border-right-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-400",
-                "border-right-color: rgb(163 163 163);\n",
+                "border-right-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-500",
-                "border-right-color: rgb(115 115 115);\n",
+                "border-right-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-600",
-                "border-right-color: rgb(82 82 82);\n",
+                "border-right-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-700",
-                "border-right-color: rgb(64 64 64);\n",
+                "border-right-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-800",
-                "border-right-color: rgb(38 38 38);\n",
+                "border-right-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-900",
-                "border-right-color: rgb(23 23 23);\n",
+                "border-right-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-neutral-950",
-                "border-right-color: rgb(10 10 10);\n",
+                "border-right-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-50",
-                "border-right-color: rgb(250 250 249);\n",
+                "border-right-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-100",
-                "border-right-color: rgb(245 245 244);\n",
+                "border-right-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-200",
-                "border-right-color: rgb(231 229 228);\n",
+                "border-right-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-300",
-                "border-right-color: rgb(214 211 209);\n",
+                "border-right-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-400",
-                "border-right-color: rgb(168 162 158);\n",
+                "border-right-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-500",
-                "border-right-color: rgb(120 113 108);\n",
+                "border-right-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-600",
-                "border-right-color: rgb(87 83 78);\n",
+                "border-right-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-700",
-                "border-right-color: rgb(68 64 60);\n",
+                "border-right-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-800",
-                "border-right-color: rgb(41 37 36);\n",
+                "border-right-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-900",
-                "border-right-color: rgb(28 25 23);\n",
+                "border-right-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-stone-950",
-                "border-right-color: rgb(12 10 9);\n",
+                "border-right-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-50",
-                "border-right-color: rgb(254 242 242);\n",
+                "border-right-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-100",
-                "border-right-color: rgb(254 226 226);\n",
+                "border-right-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-200",
-                "border-right-color: rgb(254 202 202);\n",
+                "border-right-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-300",
-                "border-right-color: rgb(252 165 165);\n",
+                "border-right-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-400",
-                "border-right-color: rgb(248 113 113);\n",
+                "border-right-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-500",
-                "border-right-color: rgb(239 68 68);\n",
+                "border-right-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-600",
-                "border-right-color: rgb(220 38 38);\n",
+                "border-right-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-700",
-                "border-right-color: rgb(185 28 28);\n",
+                "border-right-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-800",
-                "border-right-color: rgb(153 27 27);\n",
+                "border-right-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-900",
-                "border-right-color: rgb(127 29 29);\n",
+                "border-right-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-red-950",
-                "border-right-color: rgb(69 10 10);\n",
+                "border-right-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-50",
-                "border-right-color: rgb(255 247 237);\n",
+                "border-right-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-100",
-                "border-right-color: rgb(255 237 213);\n",
+                "border-right-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-200",
-                "border-right-color: rgb(254 215 170);\n",
+                "border-right-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-300",
-                "border-right-color: rgb(253 186 116);\n",
+                "border-right-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-400",
-                "border-right-color: rgb(251 146 60);\n",
+                "border-right-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-500",
-                "border-right-color: rgb(249 115 22);\n",
+                "border-right-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-600",
-                "border-right-color: rgb(234 88 12);\n",
+                "border-right-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-700",
-                "border-right-color: rgb(194 65 12);\n",
+                "border-right-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-800",
-                "border-right-color: rgb(154 52 18);\n",
+                "border-right-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-900",
-                "border-right-color: rgb(124 45 18);\n",
+                "border-right-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-orange-950",
-                "border-right-color: rgb(67 20 7);\n",
+                "border-right-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-50",
-                "border-right-color: rgb(255 251 235);\n",
+                "border-right-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-100",
-                "border-right-color: rgb(254 243 199);\n",
+                "border-right-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-200",
-                "border-right-color: rgb(253 230 138);\n",
+                "border-right-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-300",
-                "border-right-color: rgb(252 211 77);\n",
+                "border-right-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-400",
-                "border-right-color: rgb(251 191 36);\n",
+                "border-right-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-500",
-                "border-right-color: rgb(245 158 11);\n",
+                "border-right-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-600",
-                "border-right-color: rgb(217 119 6);\n",
+                "border-right-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-700",
-                "border-right-color: rgb(180 83 9);\n",
+                "border-right-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-800",
-                "border-right-color: rgb(146 64 14);\n",
+                "border-right-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-900",
-                "border-right-color: rgb(120 53 15);\n",
+                "border-right-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-amber-950",
-                "border-right-color: rgb(69 26 3);\n",
+                "border-right-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-50",
-                "border-right-color: rgb(254 252 232);\n",
+                "border-right-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-100",
-                "border-right-color: rgb(254 249 195);\n",
+                "border-right-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-200",
-                "border-right-color: rgb(254 240 138);\n",
+                "border-right-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-300",
-                "border-right-color: rgb(253 224 71);\n",
+                "border-right-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-400",
-                "border-right-color: rgb(250 204 21);\n",
+                "border-right-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-500",
-                "border-right-color: rgb(234 179 8);\n",
+                "border-right-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-600",
-                "border-right-color: rgb(202 138 4);\n",
+                "border-right-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-700",
-                "border-right-color: rgb(161 98 7);\n",
+                "border-right-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-800",
-                "border-right-color: rgb(133 77 14);\n",
+                "border-right-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-900",
-                "border-right-color: rgb(113 63 18);\n",
+                "border-right-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-yellow-950",
-                "border-right-color: rgb(66 32 6);\n",
+                "border-right-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-50",
-                "border-right-color: rgb(247 254 231);\n",
+                "border-right-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-100",
-                "border-right-color: rgb(236 252 203);\n",
+                "border-right-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-200",
-                "border-right-color: rgb(217 249 157);\n",
+                "border-right-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-300",
-                "border-right-color: rgb(190 242 100);\n",
+                "border-right-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-400",
-                "border-right-color: rgb(163 230 53);\n",
+                "border-right-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-500",
-                "border-right-color: rgb(132 204 22);\n",
+                "border-right-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-600",
-                "border-right-color: rgb(101 163 13);\n",
+                "border-right-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-700",
-                "border-right-color: rgb(77 124 15);\n",
+                "border-right-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-800",
-                "border-right-color: rgb(63 98 18);\n",
+                "border-right-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-900",
-                "border-right-color: rgb(54 83 20);\n",
+                "border-right-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-lime-950",
-                "border-right-color: rgb(26 46 5);\n",
+                "border-right-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-50",
-                "border-right-color: rgb(240 253 244);\n",
+                "border-right-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-100",
-                "border-right-color: rgb(220 252 231);\n",
+                "border-right-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-200",
-                "border-right-color: rgb(187 247 208);\n",
+                "border-right-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-300",
-                "border-right-color: rgb(134 239 172);\n",
+                "border-right-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-400",
-                "border-right-color: rgb(74 222 128);\n",
+                "border-right-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-500",
-                "border-right-color: rgb(34 197 94);\n",
+                "border-right-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-600",
-                "border-right-color: rgb(22 163 74);\n",
+                "border-right-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-700",
-                "border-right-color: rgb(21 128 61);\n",
+                "border-right-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-800",
-                "border-right-color: rgb(22 101 52);\n",
+                "border-right-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-900",
-                "border-right-color: rgb(20 83 45);\n",
+                "border-right-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-green-950",
-                "border-right-color: rgb(5 46 22);\n",
+                "border-right-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-50",
-                "border-right-color: rgb(236 253 245);\n",
+                "border-right-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-100",
-                "border-right-color: rgb(209 250 229);\n",
+                "border-right-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-200",
-                "border-right-color: rgb(167 243 208);\n",
+                "border-right-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-300",
-                "border-right-color: rgb(110 231 183);\n",
+                "border-right-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-400",
-                "border-right-color: rgb(52 211 153);\n",
+                "border-right-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-500",
-                "border-right-color: rgb(16 185 129);\n",
+                "border-right-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-600",
-                "border-right-color: rgb(5 150 105);\n",
+                "border-right-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-700",
-                "border-right-color: rgb(4 120 87);\n",
+                "border-right-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-800",
-                "border-right-color: rgb(6 95 70);\n",
+                "border-right-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-900",
-                "border-right-color: rgb(6 78 59);\n",
+                "border-right-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-emerald-950",
-                "border-right-color: rgb(2 44 34);\n",
+                "border-right-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-50",
-                "border-right-color: rgb(240 253 250);\n",
+                "border-right-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-100",
-                "border-right-color: rgb(204 251 241);\n",
+                "border-right-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-200",
-                "border-right-color: rgb(153 246 228);\n",
+                "border-right-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-300",
-                "border-right-color: rgb(94 234 212);\n",
+                "border-right-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-400",
-                "border-right-color: rgb(45 212 191);\n",
+                "border-right-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-500",
-                "border-right-color: rgb(20 184 166);\n",
+                "border-right-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-600",
-                "border-right-color: rgb(13 148 136);\n",
+                "border-right-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-700",
-                "border-right-color: rgb(15 118 110);\n",
+                "border-right-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-800",
-                "border-right-color: rgb(17 94 89);\n",
+                "border-right-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-900",
-                "border-right-color: rgb(19 78 74);\n",
+                "border-right-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-teal-950",
-                "border-right-color: rgb(4 47 46);\n",
+                "border-right-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-50",
-                "border-right-color: rgb(236 254 255);\n",
+                "border-right-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-100",
-                "border-right-color: rgb(207 250 254);\n",
+                "border-right-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-200",
-                "border-right-color: rgb(165 243 252);\n",
+                "border-right-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-300",
-                "border-right-color: rgb(103 232 249);\n",
+                "border-right-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-400",
-                "border-right-color: rgb(34 211 238);\n",
+                "border-right-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-500",
-                "border-right-color: rgb(6 182 212);\n",
+                "border-right-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-600",
-                "border-right-color: rgb(8 145 178);\n",
+                "border-right-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-700",
-                "border-right-color: rgb(14 116 144);\n",
+                "border-right-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-800",
-                "border-right-color: rgb(21 94 117);\n",
+                "border-right-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-900",
-                "border-right-color: rgb(22 78 99);\n",
+                "border-right-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-cyan-950",
-                "border-right-color: rgb(8 51 68);\n",
+                "border-right-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-50",
-                "border-right-color: rgb(240 249 255);\n",
+                "border-right-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-100",
-                "border-right-color: rgb(224 242 254);\n",
+                "border-right-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-200",
-                "border-right-color: rgb(186 230 253);\n",
+                "border-right-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-300",
-                "border-right-color: rgb(125 211 252);\n",
+                "border-right-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-400",
-                "border-right-color: rgb(56 189 248);\n",
+                "border-right-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-500",
-                "border-right-color: rgb(14 165 233);\n",
+                "border-right-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-600",
-                "border-right-color: rgb(2 132 199);\n",
+                "border-right-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-700",
-                "border-right-color: rgb(3 105 161);\n",
+                "border-right-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-800",
-                "border-right-color: rgb(7 89 133);\n",
+                "border-right-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-900",
-                "border-right-color: rgb(12 74 110);\n",
+                "border-right-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-sky-950",
-                "border-right-color: rgb(8 47 73);\n",
+                "border-right-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-50",
-                "border-right-color: rgb(239 246 255);\n",
+                "border-right-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-100",
-                "border-right-color: rgb(219 234 254);\n",
+                "border-right-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-200",
-                "border-right-color: rgb(191 219 254);\n",
+                "border-right-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-300",
-                "border-right-color: rgb(147 197 253);\n",
+                "border-right-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-400",
-                "border-right-color: rgb(96 165 250);\n",
+                "border-right-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-500",
-                "border-right-color: rgb(59 130 246);\n",
+                "border-right-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-600",
-                "border-right-color: rgb(37 99 235);\n",
+                "border-right-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-700",
-                "border-right-color: rgb(29 78 216);\n",
+                "border-right-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-800",
-                "border-right-color: rgb(30 64 175);\n",
+                "border-right-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-900",
-                "border-right-color: rgb(30 58 138);\n",
+                "border-right-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-blue-950",
-                "border-right-color: rgb(23 37 84);\n",
+                "border-right-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-50",
-                "border-right-color: rgb(238 242 255);\n",
+                "border-right-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-100",
-                "border-right-color: rgb(224 231 255);\n",
+                "border-right-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-200",
-                "border-right-color: rgb(199 210 254);\n",
+                "border-right-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-300",
-                "border-right-color: rgb(165 180 252);\n",
+                "border-right-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-400",
-                "border-right-color: rgb(129 140 248);\n",
+                "border-right-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-500",
-                "border-right-color: rgb(99 102 241);\n",
+                "border-right-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-600",
-                "border-right-color: rgb(79 70 229);\n",
+                "border-right-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-700",
-                "border-right-color: rgb(67 56 202);\n",
+                "border-right-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-800",
-                "border-right-color: rgb(55 48 163);\n",
+                "border-right-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-900",
-                "border-right-color: rgb(49 46 129);\n",
+                "border-right-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-indigo-950",
-                "border-right-color: rgb(30 27 75);\n",
+                "border-right-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-50",
-                "border-right-color: rgb(245 243 255);\n",
+                "border-right-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-100",
-                "border-right-color: rgb(237 233 254);\n",
+                "border-right-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-200",
-                "border-right-color: rgb(221 214 254);\n",
+                "border-right-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-300",
-                "border-right-color: rgb(196 181 253);\n",
+                "border-right-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-400",
-                "border-right-color: rgb(167 139 250);\n",
+                "border-right-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-500",
-                "border-right-color: rgb(139 92 246);\n",
+                "border-right-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-600",
-                "border-right-color: rgb(124 58 237);\n",
+                "border-right-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-700",
-                "border-right-color: rgb(109 40 217);\n",
+                "border-right-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-800",
-                "border-right-color: rgb(91 33 182);\n",
+                "border-right-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-900",
-                "border-right-color: rgb(76 29 149);\n",
+                "border-right-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-violet-950",
-                "border-right-color: rgb(46 16 101);\n",
+                "border-right-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-50",
-                "border-right-color: rgb(250 245 255);\n",
+                "border-right-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-100",
-                "border-right-color: rgb(243 232 255);\n",
+                "border-right-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-200",
-                "border-right-color: rgb(233 213 255);\n",
+                "border-right-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-300",
-                "border-right-color: rgb(216 180 254);\n",
+                "border-right-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-400",
-                "border-right-color: rgb(192 132 252);\n",
+                "border-right-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-500",
-                "border-right-color: rgb(168 85 247);\n",
+                "border-right-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-600",
-                "border-right-color: rgb(147 51 234);\n",
+                "border-right-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-700",
-                "border-right-color: rgb(126 34 206);\n",
+                "border-right-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-800",
-                "border-right-color: rgb(107 33 168);\n",
+                "border-right-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-900",
-                "border-right-color: rgb(88 28 135);\n",
+                "border-right-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-purple-950",
-                "border-right-color: rgb(59 7 100);\n",
+                "border-right-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-50",
-                "border-right-color: rgb(253 244 255);\n",
+                "border-right-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-100",
-                "border-right-color: rgb(250 232 255);\n",
+                "border-right-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-200",
-                "border-right-color: rgb(245 208 254);\n",
+                "border-right-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-300",
-                "border-right-color: rgb(240 171 252);\n",
+                "border-right-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-400",
-                "border-right-color: rgb(232 121 249);\n",
+                "border-right-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-500",
-                "border-right-color: rgb(217 70 239);\n",
+                "border-right-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-600",
-                "border-right-color: rgb(192 38 211);\n",
+                "border-right-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-700",
-                "border-right-color: rgb(162 28 175);\n",
+                "border-right-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-800",
-                "border-right-color: rgb(134 25 143);\n",
+                "border-right-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-900",
-                "border-right-color: rgb(112 26 117);\n",
+                "border-right-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-fuchsia-950",
-                "border-right-color: rgb(74 4 78);\n",
+                "border-right-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-50",
-                "border-right-color: rgb(253 242 248);\n",
+                "border-right-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-100",
-                "border-right-color: rgb(252 231 243);\n",
+                "border-right-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-200",
-                "border-right-color: rgb(251 207 232);\n",
+                "border-right-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-300",
-                "border-right-color: rgb(249 168 212);\n",
+                "border-right-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-400",
-                "border-right-color: rgb(244 114 182);\n",
+                "border-right-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-500",
-                "border-right-color: rgb(236 72 153);\n",
+                "border-right-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-600",
-                "border-right-color: rgb(219 39 119);\n",
+                "border-right-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-700",
-                "border-right-color: rgb(190 24 93);\n",
+                "border-right-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-800",
-                "border-right-color: rgb(157 23 77);\n",
+                "border-right-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-900",
-                "border-right-color: rgb(131 24 67);\n",
+                "border-right-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-pink-950",
-                "border-right-color: rgb(80 7 36);\n",
+                "border-right-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-50",
-                "border-right-color: rgb(255 241 242);\n",
+                "border-right-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-100",
-                "border-right-color: rgb(255 228 230);\n",
+                "border-right-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-200",
-                "border-right-color: rgb(254 205 211);\n",
+                "border-right-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-300",
-                "border-right-color: rgb(253 164 175);\n",
+                "border-right-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-400",
-                "border-right-color: rgb(251 113 133);\n",
+                "border-right-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-500",
-                "border-right-color: rgb(244 63 94);\n",
+                "border-right-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-600",
-                "border-right-color: rgb(225 29 72);\n",
+                "border-right-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-700",
-                "border-right-color: rgb(190 18 60);\n",
+                "border-right-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-800",
-                "border-right-color: rgb(159 18 57);\n",
+                "border-right-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-900",
-                "border-right-color: rgb(136 19 55);\n",
+                "border-right-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-r-rose-950",
-                "border-right-color: rgb(76 5 25);\n",
+                "border-right-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -9401,1222 +9401,1222 @@ export const documentations = [
             ],
             [
                 "border-b-black",
-                "border-bottom-color: rgb(0 0 0);\n",
+                "border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-white",
-                "border-bottom-color: rgb(255 255 255);\n",
+                "border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-50",
-                "border-bottom-color: rgb(248 250 252);\n",
+                "border-bottom-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-100",
-                "border-bottom-color: rgb(241 245 249);\n",
+                "border-bottom-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-200",
-                "border-bottom-color: rgb(226 232 240);\n",
+                "border-bottom-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-300",
-                "border-bottom-color: rgb(203 213 225);\n",
+                "border-bottom-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-400",
-                "border-bottom-color: rgb(148 163 184);\n",
+                "border-bottom-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-500",
-                "border-bottom-color: rgb(100 116 139);\n",
+                "border-bottom-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-600",
-                "border-bottom-color: rgb(71 85 105);\n",
+                "border-bottom-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-700",
-                "border-bottom-color: rgb(51 65 85);\n",
+                "border-bottom-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-800",
-                "border-bottom-color: rgb(30 41 59);\n",
+                "border-bottom-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-900",
-                "border-bottom-color: rgb(15 23 42);\n",
+                "border-bottom-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-slate-950",
-                "border-bottom-color: rgb(2 6 23);\n",
+                "border-bottom-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-50",
-                "border-bottom-color: rgb(249 250 251);\n",
+                "border-bottom-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-100",
-                "border-bottom-color: rgb(243 244 246);\n",
+                "border-bottom-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-200",
-                "border-bottom-color: rgb(229 231 235);\n",
+                "border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-300",
-                "border-bottom-color: rgb(209 213 219);\n",
+                "border-bottom-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-400",
-                "border-bottom-color: rgb(156 163 175);\n",
+                "border-bottom-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-500",
-                "border-bottom-color: rgb(107 114 128);\n",
+                "border-bottom-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-600",
-                "border-bottom-color: rgb(75 85 99);\n",
+                "border-bottom-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-700",
-                "border-bottom-color: rgb(55 65 81);\n",
+                "border-bottom-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-800",
-                "border-bottom-color: rgb(31 41 55);\n",
+                "border-bottom-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-900",
-                "border-bottom-color: rgb(17 24 39);\n",
+                "border-bottom-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-gray-950",
-                "border-bottom-color: rgb(3 7 18);\n",
+                "border-bottom-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-50",
-                "border-bottom-color: rgb(250 250 250);\n",
+                "border-bottom-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-100",
-                "border-bottom-color: rgb(244 244 245);\n",
+                "border-bottom-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-200",
-                "border-bottom-color: rgb(228 228 231);\n",
+                "border-bottom-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-300",
-                "border-bottom-color: rgb(212 212 216);\n",
+                "border-bottom-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-400",
-                "border-bottom-color: rgb(161 161 170);\n",
+                "border-bottom-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-500",
-                "border-bottom-color: rgb(113 113 122);\n",
+                "border-bottom-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-600",
-                "border-bottom-color: rgb(82 82 91);\n",
+                "border-bottom-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-700",
-                "border-bottom-color: rgb(63 63 70);\n",
+                "border-bottom-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-800",
-                "border-bottom-color: rgb(39 39 42);\n",
+                "border-bottom-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-900",
-                "border-bottom-color: rgb(24 24 27);\n",
+                "border-bottom-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-zinc-950",
-                "border-bottom-color: rgb(9 9 11);\n",
+                "border-bottom-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-50",
-                "border-bottom-color: rgb(250 250 250);\n",
+                "border-bottom-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-100",
-                "border-bottom-color: rgb(245 245 245);\n",
+                "border-bottom-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-200",
-                "border-bottom-color: rgb(229 229 229);\n",
+                "border-bottom-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-300",
-                "border-bottom-color: rgb(212 212 212);\n",
+                "border-bottom-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-400",
-                "border-bottom-color: rgb(163 163 163);\n",
+                "border-bottom-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-500",
-                "border-bottom-color: rgb(115 115 115);\n",
+                "border-bottom-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-600",
-                "border-bottom-color: rgb(82 82 82);\n",
+                "border-bottom-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-700",
-                "border-bottom-color: rgb(64 64 64);\n",
+                "border-bottom-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-800",
-                "border-bottom-color: rgb(38 38 38);\n",
+                "border-bottom-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-900",
-                "border-bottom-color: rgb(23 23 23);\n",
+                "border-bottom-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-neutral-950",
-                "border-bottom-color: rgb(10 10 10);\n",
+                "border-bottom-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-50",
-                "border-bottom-color: rgb(250 250 249);\n",
+                "border-bottom-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-100",
-                "border-bottom-color: rgb(245 245 244);\n",
+                "border-bottom-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-200",
-                "border-bottom-color: rgb(231 229 228);\n",
+                "border-bottom-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-300",
-                "border-bottom-color: rgb(214 211 209);\n",
+                "border-bottom-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-400",
-                "border-bottom-color: rgb(168 162 158);\n",
+                "border-bottom-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-500",
-                "border-bottom-color: rgb(120 113 108);\n",
+                "border-bottom-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-600",
-                "border-bottom-color: rgb(87 83 78);\n",
+                "border-bottom-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-700",
-                "border-bottom-color: rgb(68 64 60);\n",
+                "border-bottom-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-800",
-                "border-bottom-color: rgb(41 37 36);\n",
+                "border-bottom-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-900",
-                "border-bottom-color: rgb(28 25 23);\n",
+                "border-bottom-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-stone-950",
-                "border-bottom-color: rgb(12 10 9);\n",
+                "border-bottom-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-50",
-                "border-bottom-color: rgb(254 242 242);\n",
+                "border-bottom-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-100",
-                "border-bottom-color: rgb(254 226 226);\n",
+                "border-bottom-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-200",
-                "border-bottom-color: rgb(254 202 202);\n",
+                "border-bottom-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-300",
-                "border-bottom-color: rgb(252 165 165);\n",
+                "border-bottom-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-400",
-                "border-bottom-color: rgb(248 113 113);\n",
+                "border-bottom-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-500",
-                "border-bottom-color: rgb(239 68 68);\n",
+                "border-bottom-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-600",
-                "border-bottom-color: rgb(220 38 38);\n",
+                "border-bottom-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-700",
-                "border-bottom-color: rgb(185 28 28);\n",
+                "border-bottom-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-800",
-                "border-bottom-color: rgb(153 27 27);\n",
+                "border-bottom-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-900",
-                "border-bottom-color: rgb(127 29 29);\n",
+                "border-bottom-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-red-950",
-                "border-bottom-color: rgb(69 10 10);\n",
+                "border-bottom-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-50",
-                "border-bottom-color: rgb(255 247 237);\n",
+                "border-bottom-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-100",
-                "border-bottom-color: rgb(255 237 213);\n",
+                "border-bottom-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-200",
-                "border-bottom-color: rgb(254 215 170);\n",
+                "border-bottom-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-300",
-                "border-bottom-color: rgb(253 186 116);\n",
+                "border-bottom-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-400",
-                "border-bottom-color: rgb(251 146 60);\n",
+                "border-bottom-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-500",
-                "border-bottom-color: rgb(249 115 22);\n",
+                "border-bottom-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-600",
-                "border-bottom-color: rgb(234 88 12);\n",
+                "border-bottom-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-700",
-                "border-bottom-color: rgb(194 65 12);\n",
+                "border-bottom-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-800",
-                "border-bottom-color: rgb(154 52 18);\n",
+                "border-bottom-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-900",
-                "border-bottom-color: rgb(124 45 18);\n",
+                "border-bottom-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-orange-950",
-                "border-bottom-color: rgb(67 20 7);\n",
+                "border-bottom-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-50",
-                "border-bottom-color: rgb(255 251 235);\n",
+                "border-bottom-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-100",
-                "border-bottom-color: rgb(254 243 199);\n",
+                "border-bottom-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-200",
-                "border-bottom-color: rgb(253 230 138);\n",
+                "border-bottom-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-300",
-                "border-bottom-color: rgb(252 211 77);\n",
+                "border-bottom-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-400",
-                "border-bottom-color: rgb(251 191 36);\n",
+                "border-bottom-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-500",
-                "border-bottom-color: rgb(245 158 11);\n",
+                "border-bottom-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-600",
-                "border-bottom-color: rgb(217 119 6);\n",
+                "border-bottom-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-700",
-                "border-bottom-color: rgb(180 83 9);\n",
+                "border-bottom-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-800",
-                "border-bottom-color: rgb(146 64 14);\n",
+                "border-bottom-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-900",
-                "border-bottom-color: rgb(120 53 15);\n",
+                "border-bottom-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-amber-950",
-                "border-bottom-color: rgb(69 26 3);\n",
+                "border-bottom-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-50",
-                "border-bottom-color: rgb(254 252 232);\n",
+                "border-bottom-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-100",
-                "border-bottom-color: rgb(254 249 195);\n",
+                "border-bottom-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-200",
-                "border-bottom-color: rgb(254 240 138);\n",
+                "border-bottom-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-300",
-                "border-bottom-color: rgb(253 224 71);\n",
+                "border-bottom-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-400",
-                "border-bottom-color: rgb(250 204 21);\n",
+                "border-bottom-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-500",
-                "border-bottom-color: rgb(234 179 8);\n",
+                "border-bottom-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-600",
-                "border-bottom-color: rgb(202 138 4);\n",
+                "border-bottom-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-700",
-                "border-bottom-color: rgb(161 98 7);\n",
+                "border-bottom-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-800",
-                "border-bottom-color: rgb(133 77 14);\n",
+                "border-bottom-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-900",
-                "border-bottom-color: rgb(113 63 18);\n",
+                "border-bottom-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-yellow-950",
-                "border-bottom-color: rgb(66 32 6);\n",
+                "border-bottom-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-50",
-                "border-bottom-color: rgb(247 254 231);\n",
+                "border-bottom-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-100",
-                "border-bottom-color: rgb(236 252 203);\n",
+                "border-bottom-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-200",
-                "border-bottom-color: rgb(217 249 157);\n",
+                "border-bottom-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-300",
-                "border-bottom-color: rgb(190 242 100);\n",
+                "border-bottom-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-400",
-                "border-bottom-color: rgb(163 230 53);\n",
+                "border-bottom-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-500",
-                "border-bottom-color: rgb(132 204 22);\n",
+                "border-bottom-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-600",
-                "border-bottom-color: rgb(101 163 13);\n",
+                "border-bottom-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-700",
-                "border-bottom-color: rgb(77 124 15);\n",
+                "border-bottom-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-800",
-                "border-bottom-color: rgb(63 98 18);\n",
+                "border-bottom-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-900",
-                "border-bottom-color: rgb(54 83 20);\n",
+                "border-bottom-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-lime-950",
-                "border-bottom-color: rgb(26 46 5);\n",
+                "border-bottom-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-50",
-                "border-bottom-color: rgb(240 253 244);\n",
+                "border-bottom-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-100",
-                "border-bottom-color: rgb(220 252 231);\n",
+                "border-bottom-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-200",
-                "border-bottom-color: rgb(187 247 208);\n",
+                "border-bottom-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-300",
-                "border-bottom-color: rgb(134 239 172);\n",
+                "border-bottom-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-400",
-                "border-bottom-color: rgb(74 222 128);\n",
+                "border-bottom-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-500",
-                "border-bottom-color: rgb(34 197 94);\n",
+                "border-bottom-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-600",
-                "border-bottom-color: rgb(22 163 74);\n",
+                "border-bottom-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-700",
-                "border-bottom-color: rgb(21 128 61);\n",
+                "border-bottom-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-800",
-                "border-bottom-color: rgb(22 101 52);\n",
+                "border-bottom-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-900",
-                "border-bottom-color: rgb(20 83 45);\n",
+                "border-bottom-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-green-950",
-                "border-bottom-color: rgb(5 46 22);\n",
+                "border-bottom-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-50",
-                "border-bottom-color: rgb(236 253 245);\n",
+                "border-bottom-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-100",
-                "border-bottom-color: rgb(209 250 229);\n",
+                "border-bottom-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-200",
-                "border-bottom-color: rgb(167 243 208);\n",
+                "border-bottom-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-300",
-                "border-bottom-color: rgb(110 231 183);\n",
+                "border-bottom-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-400",
-                "border-bottom-color: rgb(52 211 153);\n",
+                "border-bottom-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-500",
-                "border-bottom-color: rgb(16 185 129);\n",
+                "border-bottom-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-600",
-                "border-bottom-color: rgb(5 150 105);\n",
+                "border-bottom-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-700",
-                "border-bottom-color: rgb(4 120 87);\n",
+                "border-bottom-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-800",
-                "border-bottom-color: rgb(6 95 70);\n",
+                "border-bottom-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-900",
-                "border-bottom-color: rgb(6 78 59);\n",
+                "border-bottom-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-emerald-950",
-                "border-bottom-color: rgb(2 44 34);\n",
+                "border-bottom-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-50",
-                "border-bottom-color: rgb(240 253 250);\n",
+                "border-bottom-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-100",
-                "border-bottom-color: rgb(204 251 241);\n",
+                "border-bottom-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-200",
-                "border-bottom-color: rgb(153 246 228);\n",
+                "border-bottom-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-300",
-                "border-bottom-color: rgb(94 234 212);\n",
+                "border-bottom-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-400",
-                "border-bottom-color: rgb(45 212 191);\n",
+                "border-bottom-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-500",
-                "border-bottom-color: rgb(20 184 166);\n",
+                "border-bottom-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-600",
-                "border-bottom-color: rgb(13 148 136);\n",
+                "border-bottom-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-700",
-                "border-bottom-color: rgb(15 118 110);\n",
+                "border-bottom-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-800",
-                "border-bottom-color: rgb(17 94 89);\n",
+                "border-bottom-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-900",
-                "border-bottom-color: rgb(19 78 74);\n",
+                "border-bottom-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-teal-950",
-                "border-bottom-color: rgb(4 47 46);\n",
+                "border-bottom-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-50",
-                "border-bottom-color: rgb(236 254 255);\n",
+                "border-bottom-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-100",
-                "border-bottom-color: rgb(207 250 254);\n",
+                "border-bottom-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-200",
-                "border-bottom-color: rgb(165 243 252);\n",
+                "border-bottom-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-300",
-                "border-bottom-color: rgb(103 232 249);\n",
+                "border-bottom-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-400",
-                "border-bottom-color: rgb(34 211 238);\n",
+                "border-bottom-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-500",
-                "border-bottom-color: rgb(6 182 212);\n",
+                "border-bottom-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-600",
-                "border-bottom-color: rgb(8 145 178);\n",
+                "border-bottom-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-700",
-                "border-bottom-color: rgb(14 116 144);\n",
+                "border-bottom-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-800",
-                "border-bottom-color: rgb(21 94 117);\n",
+                "border-bottom-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-900",
-                "border-bottom-color: rgb(22 78 99);\n",
+                "border-bottom-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-cyan-950",
-                "border-bottom-color: rgb(8 51 68);\n",
+                "border-bottom-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-50",
-                "border-bottom-color: rgb(240 249 255);\n",
+                "border-bottom-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-100",
-                "border-bottom-color: rgb(224 242 254);\n",
+                "border-bottom-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-200",
-                "border-bottom-color: rgb(186 230 253);\n",
+                "border-bottom-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-300",
-                "border-bottom-color: rgb(125 211 252);\n",
+                "border-bottom-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-400",
-                "border-bottom-color: rgb(56 189 248);\n",
+                "border-bottom-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-500",
-                "border-bottom-color: rgb(14 165 233);\n",
+                "border-bottom-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-600",
-                "border-bottom-color: rgb(2 132 199);\n",
+                "border-bottom-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-700",
-                "border-bottom-color: rgb(3 105 161);\n",
+                "border-bottom-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-800",
-                "border-bottom-color: rgb(7 89 133);\n",
+                "border-bottom-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-900",
-                "border-bottom-color: rgb(12 74 110);\n",
+                "border-bottom-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-sky-950",
-                "border-bottom-color: rgb(8 47 73);\n",
+                "border-bottom-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-50",
-                "border-bottom-color: rgb(239 246 255);\n",
+                "border-bottom-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-100",
-                "border-bottom-color: rgb(219 234 254);\n",
+                "border-bottom-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-200",
-                "border-bottom-color: rgb(191 219 254);\n",
+                "border-bottom-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-300",
-                "border-bottom-color: rgb(147 197 253);\n",
+                "border-bottom-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-400",
-                "border-bottom-color: rgb(96 165 250);\n",
+                "border-bottom-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-500",
-                "border-bottom-color: rgb(59 130 246);\n",
+                "border-bottom-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-600",
-                "border-bottom-color: rgb(37 99 235);\n",
+                "border-bottom-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-700",
-                "border-bottom-color: rgb(29 78 216);\n",
+                "border-bottom-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-800",
-                "border-bottom-color: rgb(30 64 175);\n",
+                "border-bottom-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-900",
-                "border-bottom-color: rgb(30 58 138);\n",
+                "border-bottom-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-blue-950",
-                "border-bottom-color: rgb(23 37 84);\n",
+                "border-bottom-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-50",
-                "border-bottom-color: rgb(238 242 255);\n",
+                "border-bottom-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-100",
-                "border-bottom-color: rgb(224 231 255);\n",
+                "border-bottom-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-200",
-                "border-bottom-color: rgb(199 210 254);\n",
+                "border-bottom-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-300",
-                "border-bottom-color: rgb(165 180 252);\n",
+                "border-bottom-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-400",
-                "border-bottom-color: rgb(129 140 248);\n",
+                "border-bottom-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-500",
-                "border-bottom-color: rgb(99 102 241);\n",
+                "border-bottom-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-600",
-                "border-bottom-color: rgb(79 70 229);\n",
+                "border-bottom-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-700",
-                "border-bottom-color: rgb(67 56 202);\n",
+                "border-bottom-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-800",
-                "border-bottom-color: rgb(55 48 163);\n",
+                "border-bottom-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-900",
-                "border-bottom-color: rgb(49 46 129);\n",
+                "border-bottom-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-indigo-950",
-                "border-bottom-color: rgb(30 27 75);\n",
+                "border-bottom-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-50",
-                "border-bottom-color: rgb(245 243 255);\n",
+                "border-bottom-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-100",
-                "border-bottom-color: rgb(237 233 254);\n",
+                "border-bottom-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-200",
-                "border-bottom-color: rgb(221 214 254);\n",
+                "border-bottom-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-300",
-                "border-bottom-color: rgb(196 181 253);\n",
+                "border-bottom-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-400",
-                "border-bottom-color: rgb(167 139 250);\n",
+                "border-bottom-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-500",
-                "border-bottom-color: rgb(139 92 246);\n",
+                "border-bottom-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-600",
-                "border-bottom-color: rgb(124 58 237);\n",
+                "border-bottom-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-700",
-                "border-bottom-color: rgb(109 40 217);\n",
+                "border-bottom-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-800",
-                "border-bottom-color: rgb(91 33 182);\n",
+                "border-bottom-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-900",
-                "border-bottom-color: rgb(76 29 149);\n",
+                "border-bottom-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-violet-950",
-                "border-bottom-color: rgb(46 16 101);\n",
+                "border-bottom-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-50",
-                "border-bottom-color: rgb(250 245 255);\n",
+                "border-bottom-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-100",
-                "border-bottom-color: rgb(243 232 255);\n",
+                "border-bottom-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-200",
-                "border-bottom-color: rgb(233 213 255);\n",
+                "border-bottom-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-300",
-                "border-bottom-color: rgb(216 180 254);\n",
+                "border-bottom-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-400",
-                "border-bottom-color: rgb(192 132 252);\n",
+                "border-bottom-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-500",
-                "border-bottom-color: rgb(168 85 247);\n",
+                "border-bottom-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-600",
-                "border-bottom-color: rgb(147 51 234);\n",
+                "border-bottom-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-700",
-                "border-bottom-color: rgb(126 34 206);\n",
+                "border-bottom-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-800",
-                "border-bottom-color: rgb(107 33 168);\n",
+                "border-bottom-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-900",
-                "border-bottom-color: rgb(88 28 135);\n",
+                "border-bottom-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-purple-950",
-                "border-bottom-color: rgb(59 7 100);\n",
+                "border-bottom-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-50",
-                "border-bottom-color: rgb(253 244 255);\n",
+                "border-bottom-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-100",
-                "border-bottom-color: rgb(250 232 255);\n",
+                "border-bottom-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-200",
-                "border-bottom-color: rgb(245 208 254);\n",
+                "border-bottom-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-300",
-                "border-bottom-color: rgb(240 171 252);\n",
+                "border-bottom-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-400",
-                "border-bottom-color: rgb(232 121 249);\n",
+                "border-bottom-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-500",
-                "border-bottom-color: rgb(217 70 239);\n",
+                "border-bottom-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-600",
-                "border-bottom-color: rgb(192 38 211);\n",
+                "border-bottom-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-700",
-                "border-bottom-color: rgb(162 28 175);\n",
+                "border-bottom-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-800",
-                "border-bottom-color: rgb(134 25 143);\n",
+                "border-bottom-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-900",
-                "border-bottom-color: rgb(112 26 117);\n",
+                "border-bottom-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-fuchsia-950",
-                "border-bottom-color: rgb(74 4 78);\n",
+                "border-bottom-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-50",
-                "border-bottom-color: rgb(253 242 248);\n",
+                "border-bottom-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-100",
-                "border-bottom-color: rgb(252 231 243);\n",
+                "border-bottom-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-200",
-                "border-bottom-color: rgb(251 207 232);\n",
+                "border-bottom-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-300",
-                "border-bottom-color: rgb(249 168 212);\n",
+                "border-bottom-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-400",
-                "border-bottom-color: rgb(244 114 182);\n",
+                "border-bottom-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-500",
-                "border-bottom-color: rgb(236 72 153);\n",
+                "border-bottom-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-600",
-                "border-bottom-color: rgb(219 39 119);\n",
+                "border-bottom-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-700",
-                "border-bottom-color: rgb(190 24 93);\n",
+                "border-bottom-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-800",
-                "border-bottom-color: rgb(157 23 77);\n",
+                "border-bottom-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-900",
-                "border-bottom-color: rgb(131 24 67);\n",
+                "border-bottom-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-pink-950",
-                "border-bottom-color: rgb(80 7 36);\n",
+                "border-bottom-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-50",
-                "border-bottom-color: rgb(255 241 242);\n",
+                "border-bottom-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-100",
-                "border-bottom-color: rgb(255 228 230);\n",
+                "border-bottom-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-200",
-                "border-bottom-color: rgb(254 205 211);\n",
+                "border-bottom-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-300",
-                "border-bottom-color: rgb(253 164 175);\n",
+                "border-bottom-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-400",
-                "border-bottom-color: rgb(251 113 133);\n",
+                "border-bottom-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-500",
-                "border-bottom-color: rgb(244 63 94);\n",
+                "border-bottom-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-600",
-                "border-bottom-color: rgb(225 29 72);\n",
+                "border-bottom-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-700",
-                "border-bottom-color: rgb(190 18 60);\n",
+                "border-bottom-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-800",
-                "border-bottom-color: rgb(159 18 57);\n",
+                "border-bottom-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-900",
-                "border-bottom-color: rgb(136 19 55);\n",
+                "border-bottom-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-b-rose-950",
-                "border-bottom-color: rgb(76 5 25);\n",
+                "border-bottom-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
@@ -10636,1222 +10636,1222 @@ export const documentations = [
             ],
             [
                 "border-l-black",
-                "border-left-color: rgb(0 0 0);\n",
+                "border-left-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-white",
-                "border-left-color: rgb(255 255 255);\n",
+                "border-left-color: rgb(255 255 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-50",
-                "border-left-color: rgb(248 250 252);\n",
+                "border-left-color: rgb(248 250 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-100",
-                "border-left-color: rgb(241 245 249);\n",
+                "border-left-color: rgb(241 245 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-200",
-                "border-left-color: rgb(226 232 240);\n",
+                "border-left-color: rgb(226 232 240 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-300",
-                "border-left-color: rgb(203 213 225);\n",
+                "border-left-color: rgb(203 213 225 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-400",
-                "border-left-color: rgb(148 163 184);\n",
+                "border-left-color: rgb(148 163 184 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-500",
-                "border-left-color: rgb(100 116 139);\n",
+                "border-left-color: rgb(100 116 139 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-600",
-                "border-left-color: rgb(71 85 105);\n",
+                "border-left-color: rgb(71 85 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-700",
-                "border-left-color: rgb(51 65 85);\n",
+                "border-left-color: rgb(51 65 85 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-800",
-                "border-left-color: rgb(30 41 59);\n",
+                "border-left-color: rgb(30 41 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-900",
-                "border-left-color: rgb(15 23 42);\n",
+                "border-left-color: rgb(15 23 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-slate-950",
-                "border-left-color: rgb(2 6 23);\n",
+                "border-left-color: rgb(2 6 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-50",
-                "border-left-color: rgb(249 250 251);\n",
+                "border-left-color: rgb(249 250 251 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-100",
-                "border-left-color: rgb(243 244 246);\n",
+                "border-left-color: rgb(243 244 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-200",
-                "border-left-color: rgb(229 231 235);\n",
+                "border-left-color: rgb(229 231 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-300",
-                "border-left-color: rgb(209 213 219);\n",
+                "border-left-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-400",
-                "border-left-color: rgb(156 163 175);\n",
+                "border-left-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-500",
-                "border-left-color: rgb(107 114 128);\n",
+                "border-left-color: rgb(107 114 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-600",
-                "border-left-color: rgb(75 85 99);\n",
+                "border-left-color: rgb(75 85 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-700",
-                "border-left-color: rgb(55 65 81);\n",
+                "border-left-color: rgb(55 65 81 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-800",
-                "border-left-color: rgb(31 41 55);\n",
+                "border-left-color: rgb(31 41 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-900",
-                "border-left-color: rgb(17 24 39);\n",
+                "border-left-color: rgb(17 24 39 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-gray-950",
-                "border-left-color: rgb(3 7 18);\n",
+                "border-left-color: rgb(3 7 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-50",
-                "border-left-color: rgb(250 250 250);\n",
+                "border-left-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-100",
-                "border-left-color: rgb(244 244 245);\n",
+                "border-left-color: rgb(244 244 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-200",
-                "border-left-color: rgb(228 228 231);\n",
+                "border-left-color: rgb(228 228 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-300",
-                "border-left-color: rgb(212 212 216);\n",
+                "border-left-color: rgb(212 212 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-400",
-                "border-left-color: rgb(161 161 170);\n",
+                "border-left-color: rgb(161 161 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-500",
-                "border-left-color: rgb(113 113 122);\n",
+                "border-left-color: rgb(113 113 122 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-600",
-                "border-left-color: rgb(82 82 91);\n",
+                "border-left-color: rgb(82 82 91 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-700",
-                "border-left-color: rgb(63 63 70);\n",
+                "border-left-color: rgb(63 63 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-800",
-                "border-left-color: rgb(39 39 42);\n",
+                "border-left-color: rgb(39 39 42 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-900",
-                "border-left-color: rgb(24 24 27);\n",
+                "border-left-color: rgb(24 24 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-zinc-950",
-                "border-left-color: rgb(9 9 11);\n",
+                "border-left-color: rgb(9 9 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-50",
-                "border-left-color: rgb(250 250 250);\n",
+                "border-left-color: rgb(250 250 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-100",
-                "border-left-color: rgb(245 245 245);\n",
+                "border-left-color: rgb(245 245 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-200",
-                "border-left-color: rgb(229 229 229);\n",
+                "border-left-color: rgb(229 229 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-300",
-                "border-left-color: rgb(212 212 212);\n",
+                "border-left-color: rgb(212 212 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-400",
-                "border-left-color: rgb(163 163 163);\n",
+                "border-left-color: rgb(163 163 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-500",
-                "border-left-color: rgb(115 115 115);\n",
+                "border-left-color: rgb(115 115 115 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-600",
-                "border-left-color: rgb(82 82 82);\n",
+                "border-left-color: rgb(82 82 82 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-700",
-                "border-left-color: rgb(64 64 64);\n",
+                "border-left-color: rgb(64 64 64 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-800",
-                "border-left-color: rgb(38 38 38);\n",
+                "border-left-color: rgb(38 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-900",
-                "border-left-color: rgb(23 23 23);\n",
+                "border-left-color: rgb(23 23 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-neutral-950",
-                "border-left-color: rgb(10 10 10);\n",
+                "border-left-color: rgb(10 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-50",
-                "border-left-color: rgb(250 250 249);\n",
+                "border-left-color: rgb(250 250 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-100",
-                "border-left-color: rgb(245 245 244);\n",
+                "border-left-color: rgb(245 245 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-200",
-                "border-left-color: rgb(231 229 228);\n",
+                "border-left-color: rgb(231 229 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-300",
-                "border-left-color: rgb(214 211 209);\n",
+                "border-left-color: rgb(214 211 209 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-400",
-                "border-left-color: rgb(168 162 158);\n",
+                "border-left-color: rgb(168 162 158 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-500",
-                "border-left-color: rgb(120 113 108);\n",
+                "border-left-color: rgb(120 113 108 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-600",
-                "border-left-color: rgb(87 83 78);\n",
+                "border-left-color: rgb(87 83 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-700",
-                "border-left-color: rgb(68 64 60);\n",
+                "border-left-color: rgb(68 64 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-800",
-                "border-left-color: rgb(41 37 36);\n",
+                "border-left-color: rgb(41 37 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-900",
-                "border-left-color: rgb(28 25 23);\n",
+                "border-left-color: rgb(28 25 23 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-stone-950",
-                "border-left-color: rgb(12 10 9);\n",
+                "border-left-color: rgb(12 10 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-50",
-                "border-left-color: rgb(254 242 242);\n",
+                "border-left-color: rgb(254 242 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-100",
-                "border-left-color: rgb(254 226 226);\n",
+                "border-left-color: rgb(254 226 226 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-200",
-                "border-left-color: rgb(254 202 202);\n",
+                "border-left-color: rgb(254 202 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-300",
-                "border-left-color: rgb(252 165 165);\n",
+                "border-left-color: rgb(252 165 165 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-400",
-                "border-left-color: rgb(248 113 113);\n",
+                "border-left-color: rgb(248 113 113 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-500",
-                "border-left-color: rgb(239 68 68);\n",
+                "border-left-color: rgb(239 68 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-600",
-                "border-left-color: rgb(220 38 38);\n",
+                "border-left-color: rgb(220 38 38 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-700",
-                "border-left-color: rgb(185 28 28);\n",
+                "border-left-color: rgb(185 28 28 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-800",
-                "border-left-color: rgb(153 27 27);\n",
+                "border-left-color: rgb(153 27 27 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-900",
-                "border-left-color: rgb(127 29 29);\n",
+                "border-left-color: rgb(127 29 29 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-red-950",
-                "border-left-color: rgb(69 10 10);\n",
+                "border-left-color: rgb(69 10 10 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-50",
-                "border-left-color: rgb(255 247 237);\n",
+                "border-left-color: rgb(255 247 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-100",
-                "border-left-color: rgb(255 237 213);\n",
+                "border-left-color: rgb(255 237 213 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-200",
-                "border-left-color: rgb(254 215 170);\n",
+                "border-left-color: rgb(254 215 170 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-300",
-                "border-left-color: rgb(253 186 116);\n",
+                "border-left-color: rgb(253 186 116 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-400",
-                "border-left-color: rgb(251 146 60);\n",
+                "border-left-color: rgb(251 146 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-500",
-                "border-left-color: rgb(249 115 22);\n",
+                "border-left-color: rgb(249 115 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-600",
-                "border-left-color: rgb(234 88 12);\n",
+                "border-left-color: rgb(234 88 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-700",
-                "border-left-color: rgb(194 65 12);\n",
+                "border-left-color: rgb(194 65 12 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-800",
-                "border-left-color: rgb(154 52 18);\n",
+                "border-left-color: rgb(154 52 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-900",
-                "border-left-color: rgb(124 45 18);\n",
+                "border-left-color: rgb(124 45 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-orange-950",
-                "border-left-color: rgb(67 20 7);\n",
+                "border-left-color: rgb(67 20 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-50",
-                "border-left-color: rgb(255 251 235);\n",
+                "border-left-color: rgb(255 251 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-100",
-                "border-left-color: rgb(254 243 199);\n",
+                "border-left-color: rgb(254 243 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-200",
-                "border-left-color: rgb(253 230 138);\n",
+                "border-left-color: rgb(253 230 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-300",
-                "border-left-color: rgb(252 211 77);\n",
+                "border-left-color: rgb(252 211 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-400",
-                "border-left-color: rgb(251 191 36);\n",
+                "border-left-color: rgb(251 191 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-500",
-                "border-left-color: rgb(245 158 11);\n",
+                "border-left-color: rgb(245 158 11 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-600",
-                "border-left-color: rgb(217 119 6);\n",
+                "border-left-color: rgb(217 119 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-700",
-                "border-left-color: rgb(180 83 9);\n",
+                "border-left-color: rgb(180 83 9 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-800",
-                "border-left-color: rgb(146 64 14);\n",
+                "border-left-color: rgb(146 64 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-900",
-                "border-left-color: rgb(120 53 15);\n",
+                "border-left-color: rgb(120 53 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-amber-950",
-                "border-left-color: rgb(69 26 3);\n",
+                "border-left-color: rgb(69 26 3 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-50",
-                "border-left-color: rgb(254 252 232);\n",
+                "border-left-color: rgb(254 252 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-100",
-                "border-left-color: rgb(254 249 195);\n",
+                "border-left-color: rgb(254 249 195 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-200",
-                "border-left-color: rgb(254 240 138);\n",
+                "border-left-color: rgb(254 240 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-300",
-                "border-left-color: rgb(253 224 71);\n",
+                "border-left-color: rgb(253 224 71 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-400",
-                "border-left-color: rgb(250 204 21);\n",
+                "border-left-color: rgb(250 204 21 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-500",
-                "border-left-color: rgb(234 179 8);\n",
+                "border-left-color: rgb(234 179 8 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-600",
-                "border-left-color: rgb(202 138 4);\n",
+                "border-left-color: rgb(202 138 4 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-700",
-                "border-left-color: rgb(161 98 7);\n",
+                "border-left-color: rgb(161 98 7 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-800",
-                "border-left-color: rgb(133 77 14);\n",
+                "border-left-color: rgb(133 77 14 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-900",
-                "border-left-color: rgb(113 63 18);\n",
+                "border-left-color: rgb(113 63 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-yellow-950",
-                "border-left-color: rgb(66 32 6);\n",
+                "border-left-color: rgb(66 32 6 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-50",
-                "border-left-color: rgb(247 254 231);\n",
+                "border-left-color: rgb(247 254 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-100",
-                "border-left-color: rgb(236 252 203);\n",
+                "border-left-color: rgb(236 252 203 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-200",
-                "border-left-color: rgb(217 249 157);\n",
+                "border-left-color: rgb(217 249 157 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-300",
-                "border-left-color: rgb(190 242 100);\n",
+                "border-left-color: rgb(190 242 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-400",
-                "border-left-color: rgb(163 230 53);\n",
+                "border-left-color: rgb(163 230 53 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-500",
-                "border-left-color: rgb(132 204 22);\n",
+                "border-left-color: rgb(132 204 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-600",
-                "border-left-color: rgb(101 163 13);\n",
+                "border-left-color: rgb(101 163 13 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-700",
-                "border-left-color: rgb(77 124 15);\n",
+                "border-left-color: rgb(77 124 15 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-800",
-                "border-left-color: rgb(63 98 18);\n",
+                "border-left-color: rgb(63 98 18 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-900",
-                "border-left-color: rgb(54 83 20);\n",
+                "border-left-color: rgb(54 83 20 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-lime-950",
-                "border-left-color: rgb(26 46 5);\n",
+                "border-left-color: rgb(26 46 5 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-50",
-                "border-left-color: rgb(240 253 244);\n",
+                "border-left-color: rgb(240 253 244 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-100",
-                "border-left-color: rgb(220 252 231);\n",
+                "border-left-color: rgb(220 252 231 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-200",
-                "border-left-color: rgb(187 247 208);\n",
+                "border-left-color: rgb(187 247 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-300",
-                "border-left-color: rgb(134 239 172);\n",
+                "border-left-color: rgb(134 239 172 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-400",
-                "border-left-color: rgb(74 222 128);\n",
+                "border-left-color: rgb(74 222 128 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-500",
-                "border-left-color: rgb(34 197 94);\n",
+                "border-left-color: rgb(34 197 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-600",
-                "border-left-color: rgb(22 163 74);\n",
+                "border-left-color: rgb(22 163 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-700",
-                "border-left-color: rgb(21 128 61);\n",
+                "border-left-color: rgb(21 128 61 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-800",
-                "border-left-color: rgb(22 101 52);\n",
+                "border-left-color: rgb(22 101 52 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-900",
-                "border-left-color: rgb(20 83 45);\n",
+                "border-left-color: rgb(20 83 45 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-green-950",
-                "border-left-color: rgb(5 46 22);\n",
+                "border-left-color: rgb(5 46 22 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-50",
-                "border-left-color: rgb(236 253 245);\n",
+                "border-left-color: rgb(236 253 245 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-100",
-                "border-left-color: rgb(209 250 229);\n",
+                "border-left-color: rgb(209 250 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-200",
-                "border-left-color: rgb(167 243 208);\n",
+                "border-left-color: rgb(167 243 208 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-300",
-                "border-left-color: rgb(110 231 183);\n",
+                "border-left-color: rgb(110 231 183 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-400",
-                "border-left-color: rgb(52 211 153);\n",
+                "border-left-color: rgb(52 211 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-500",
-                "border-left-color: rgb(16 185 129);\n",
+                "border-left-color: rgb(16 185 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-600",
-                "border-left-color: rgb(5 150 105);\n",
+                "border-left-color: rgb(5 150 105 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-700",
-                "border-left-color: rgb(4 120 87);\n",
+                "border-left-color: rgb(4 120 87 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-800",
-                "border-left-color: rgb(6 95 70);\n",
+                "border-left-color: rgb(6 95 70 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-900",
-                "border-left-color: rgb(6 78 59);\n",
+                "border-left-color: rgb(6 78 59 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-emerald-950",
-                "border-left-color: rgb(2 44 34);\n",
+                "border-left-color: rgb(2 44 34 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-50",
-                "border-left-color: rgb(240 253 250);\n",
+                "border-left-color: rgb(240 253 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-100",
-                "border-left-color: rgb(204 251 241);\n",
+                "border-left-color: rgb(204 251 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-200",
-                "border-left-color: rgb(153 246 228);\n",
+                "border-left-color: rgb(153 246 228 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-300",
-                "border-left-color: rgb(94 234 212);\n",
+                "border-left-color: rgb(94 234 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-400",
-                "border-left-color: rgb(45 212 191);\n",
+                "border-left-color: rgb(45 212 191 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-500",
-                "border-left-color: rgb(20 184 166);\n",
+                "border-left-color: rgb(20 184 166 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-600",
-                "border-left-color: rgb(13 148 136);\n",
+                "border-left-color: rgb(13 148 136 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-700",
-                "border-left-color: rgb(15 118 110);\n",
+                "border-left-color: rgb(15 118 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-800",
-                "border-left-color: rgb(17 94 89);\n",
+                "border-left-color: rgb(17 94 89 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-900",
-                "border-left-color: rgb(19 78 74);\n",
+                "border-left-color: rgb(19 78 74 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-teal-950",
-                "border-left-color: rgb(4 47 46);\n",
+                "border-left-color: rgb(4 47 46 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-50",
-                "border-left-color: rgb(236 254 255);\n",
+                "border-left-color: rgb(236 254 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-100",
-                "border-left-color: rgb(207 250 254);\n",
+                "border-left-color: rgb(207 250 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-200",
-                "border-left-color: rgb(165 243 252);\n",
+                "border-left-color: rgb(165 243 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-300",
-                "border-left-color: rgb(103 232 249);\n",
+                "border-left-color: rgb(103 232 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-400",
-                "border-left-color: rgb(34 211 238);\n",
+                "border-left-color: rgb(34 211 238 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-500",
-                "border-left-color: rgb(6 182 212);\n",
+                "border-left-color: rgb(6 182 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-600",
-                "border-left-color: rgb(8 145 178);\n",
+                "border-left-color: rgb(8 145 178 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-700",
-                "border-left-color: rgb(14 116 144);\n",
+                "border-left-color: rgb(14 116 144 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-800",
-                "border-left-color: rgb(21 94 117);\n",
+                "border-left-color: rgb(21 94 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-900",
-                "border-left-color: rgb(22 78 99);\n",
+                "border-left-color: rgb(22 78 99 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-cyan-950",
-                "border-left-color: rgb(8 51 68);\n",
+                "border-left-color: rgb(8 51 68 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-50",
-                "border-left-color: rgb(240 249 255);\n",
+                "border-left-color: rgb(240 249 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-100",
-                "border-left-color: rgb(224 242 254);\n",
+                "border-left-color: rgb(224 242 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-200",
-                "border-left-color: rgb(186 230 253);\n",
+                "border-left-color: rgb(186 230 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-300",
-                "border-left-color: rgb(125 211 252);\n",
+                "border-left-color: rgb(125 211 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-400",
-                "border-left-color: rgb(56 189 248);\n",
+                "border-left-color: rgb(56 189 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-500",
-                "border-left-color: rgb(14 165 233);\n",
+                "border-left-color: rgb(14 165 233 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-600",
-                "border-left-color: rgb(2 132 199);\n",
+                "border-left-color: rgb(2 132 199 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-700",
-                "border-left-color: rgb(3 105 161);\n",
+                "border-left-color: rgb(3 105 161 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-800",
-                "border-left-color: rgb(7 89 133);\n",
+                "border-left-color: rgb(7 89 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-900",
-                "border-left-color: rgb(12 74 110);\n",
+                "border-left-color: rgb(12 74 110 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-sky-950",
-                "border-left-color: rgb(8 47 73);\n",
+                "border-left-color: rgb(8 47 73 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-50",
-                "border-left-color: rgb(239 246 255);\n",
+                "border-left-color: rgb(239 246 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-100",
-                "border-left-color: rgb(219 234 254);\n",
+                "border-left-color: rgb(219 234 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-200",
-                "border-left-color: rgb(191 219 254);\n",
+                "border-left-color: rgb(191 219 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-300",
-                "border-left-color: rgb(147 197 253);\n",
+                "border-left-color: rgb(147 197 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-400",
-                "border-left-color: rgb(96 165 250);\n",
+                "border-left-color: rgb(96 165 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-500",
-                "border-left-color: rgb(59 130 246);\n",
+                "border-left-color: rgb(59 130 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-600",
-                "border-left-color: rgb(37 99 235);\n",
+                "border-left-color: rgb(37 99 235 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-700",
-                "border-left-color: rgb(29 78 216);\n",
+                "border-left-color: rgb(29 78 216 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-800",
-                "border-left-color: rgb(30 64 175);\n",
+                "border-left-color: rgb(30 64 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-900",
-                "border-left-color: rgb(30 58 138);\n",
+                "border-left-color: rgb(30 58 138 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-blue-950",
-                "border-left-color: rgb(23 37 84);\n",
+                "border-left-color: rgb(23 37 84 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-50",
-                "border-left-color: rgb(238 242 255);\n",
+                "border-left-color: rgb(238 242 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-100",
-                "border-left-color: rgb(224 231 255);\n",
+                "border-left-color: rgb(224 231 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-200",
-                "border-left-color: rgb(199 210 254);\n",
+                "border-left-color: rgb(199 210 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-300",
-                "border-left-color: rgb(165 180 252);\n",
+                "border-left-color: rgb(165 180 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-400",
-                "border-left-color: rgb(129 140 248);\n",
+                "border-left-color: rgb(129 140 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-500",
-                "border-left-color: rgb(99 102 241);\n",
+                "border-left-color: rgb(99 102 241 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-600",
-                "border-left-color: rgb(79 70 229);\n",
+                "border-left-color: rgb(79 70 229 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-700",
-                "border-left-color: rgb(67 56 202);\n",
+                "border-left-color: rgb(67 56 202 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-800",
-                "border-left-color: rgb(55 48 163);\n",
+                "border-left-color: rgb(55 48 163 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-900",
-                "border-left-color: rgb(49 46 129);\n",
+                "border-left-color: rgb(49 46 129 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-indigo-950",
-                "border-left-color: rgb(30 27 75);\n",
+                "border-left-color: rgb(30 27 75 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-50",
-                "border-left-color: rgb(245 243 255);\n",
+                "border-left-color: rgb(245 243 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-100",
-                "border-left-color: rgb(237 233 254);\n",
+                "border-left-color: rgb(237 233 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-200",
-                "border-left-color: rgb(221 214 254);\n",
+                "border-left-color: rgb(221 214 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-300",
-                "border-left-color: rgb(196 181 253);\n",
+                "border-left-color: rgb(196 181 253 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-400",
-                "border-left-color: rgb(167 139 250);\n",
+                "border-left-color: rgb(167 139 250 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-500",
-                "border-left-color: rgb(139 92 246);\n",
+                "border-left-color: rgb(139 92 246 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-600",
-                "border-left-color: rgb(124 58 237);\n",
+                "border-left-color: rgb(124 58 237 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-700",
-                "border-left-color: rgb(109 40 217);\n",
+                "border-left-color: rgb(109 40 217 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-800",
-                "border-left-color: rgb(91 33 182);\n",
+                "border-left-color: rgb(91 33 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-900",
-                "border-left-color: rgb(76 29 149);\n",
+                "border-left-color: rgb(76 29 149 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-violet-950",
-                "border-left-color: rgb(46 16 101);\n",
+                "border-left-color: rgb(46 16 101 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-50",
-                "border-left-color: rgb(250 245 255);\n",
+                "border-left-color: rgb(250 245 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-100",
-                "border-left-color: rgb(243 232 255);\n",
+                "border-left-color: rgb(243 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-200",
-                "border-left-color: rgb(233 213 255);\n",
+                "border-left-color: rgb(233 213 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-300",
-                "border-left-color: rgb(216 180 254);\n",
+                "border-left-color: rgb(216 180 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-400",
-                "border-left-color: rgb(192 132 252);\n",
+                "border-left-color: rgb(192 132 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-500",
-                "border-left-color: rgb(168 85 247);\n",
+                "border-left-color: rgb(168 85 247 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-600",
-                "border-left-color: rgb(147 51 234);\n",
+                "border-left-color: rgb(147 51 234 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-700",
-                "border-left-color: rgb(126 34 206);\n",
+                "border-left-color: rgb(126 34 206 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-800",
-                "border-left-color: rgb(107 33 168);\n",
+                "border-left-color: rgb(107 33 168 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-900",
-                "border-left-color: rgb(88 28 135);\n",
+                "border-left-color: rgb(88 28 135 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-purple-950",
-                "border-left-color: rgb(59 7 100);\n",
+                "border-left-color: rgb(59 7 100 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-50",
-                "border-left-color: rgb(253 244 255);\n",
+                "border-left-color: rgb(253 244 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-100",
-                "border-left-color: rgb(250 232 255);\n",
+                "border-left-color: rgb(250 232 255 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-200",
-                "border-left-color: rgb(245 208 254);\n",
+                "border-left-color: rgb(245 208 254 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-300",
-                "border-left-color: rgb(240 171 252);\n",
+                "border-left-color: rgb(240 171 252 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-400",
-                "border-left-color: rgb(232 121 249);\n",
+                "border-left-color: rgb(232 121 249 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-500",
-                "border-left-color: rgb(217 70 239);\n",
+                "border-left-color: rgb(217 70 239 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-600",
-                "border-left-color: rgb(192 38 211);\n",
+                "border-left-color: rgb(192 38 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-700",
-                "border-left-color: rgb(162 28 175);\n",
+                "border-left-color: rgb(162 28 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-800",
-                "border-left-color: rgb(134 25 143);\n",
+                "border-left-color: rgb(134 25 143 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-900",
-                "border-left-color: rgb(112 26 117);\n",
+                "border-left-color: rgb(112 26 117 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-fuchsia-950",
-                "border-left-color: rgb(74 4 78);\n",
+                "border-left-color: rgb(74 4 78 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-50",
-                "border-left-color: rgb(253 242 248);\n",
+                "border-left-color: rgb(253 242 248 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-100",
-                "border-left-color: rgb(252 231 243);\n",
+                "border-left-color: rgb(252 231 243 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-200",
-                "border-left-color: rgb(251 207 232);\n",
+                "border-left-color: rgb(251 207 232 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-300",
-                "border-left-color: rgb(249 168 212);\n",
+                "border-left-color: rgb(249 168 212 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-400",
-                "border-left-color: rgb(244 114 182);\n",
+                "border-left-color: rgb(244 114 182 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-500",
-                "border-left-color: rgb(236 72 153);\n",
+                "border-left-color: rgb(236 72 153 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-600",
-                "border-left-color: rgb(219 39 119);\n",
+                "border-left-color: rgb(219 39 119 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-700",
-                "border-left-color: rgb(190 24 93);\n",
+                "border-left-color: rgb(190 24 93 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-800",
-                "border-left-color: rgb(157 23 77);\n",
+                "border-left-color: rgb(157 23 77 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-900",
-                "border-left-color: rgb(131 24 67);\n",
+                "border-left-color: rgb(131 24 67 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-pink-950",
-                "border-left-color: rgb(80 7 36);\n",
+                "border-left-color: rgb(80 7 36 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-50",
-                "border-left-color: rgb(255 241 242);\n",
+                "border-left-color: rgb(255 241 242 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-100",
-                "border-left-color: rgb(255 228 230);\n",
+                "border-left-color: rgb(255 228 230 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-200",
-                "border-left-color: rgb(254 205 211);\n",
+                "border-left-color: rgb(254 205 211 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-300",
-                "border-left-color: rgb(253 164 175);\n",
+                "border-left-color: rgb(253 164 175 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-400",
-                "border-left-color: rgb(251 113 133);\n",
+                "border-left-color: rgb(251 113 133 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-500",
-                "border-left-color: rgb(244 63 94);\n",
+                "border-left-color: rgb(244 63 94 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-600",
-                "border-left-color: rgb(225 29 72);\n",
+                "border-left-color: rgb(225 29 72 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-700",
-                "border-left-color: rgb(190 18 60);\n",
+                "border-left-color: rgb(190 18 60 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-800",
-                "border-left-color: rgb(159 18 57);\n",
+                "border-left-color: rgb(159 18 57 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-900",
-                "border-left-color: rgb(136 19 55);\n",
+                "border-left-color: rgb(136 19 55 / var(--tw-border-opacity, 1));\n",
                 ""
             ],
             [
                 "border-l-rose-950",
-                "border-left-color: rgb(76 5 25);\n",
+                "border-left-color: rgb(76 5 25 / var(--tw-border-opacity, 1));\n",
                 ""
             ]
         ]
@@ -11964,1222 +11964,1222 @@ export const documentations = [
             ],
             [
                 "divide-black > * + *",
-                "border-color: rgb(0 0 0);\n",
+                "border-color: rgb(0 0 0 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-white > * + *",
-                "border-color: rgb(255 255 255);\n",
+                "border-color: rgb(255 255 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-50 > * + *",
-                "border-color: rgb(248 250 252);\n",
+                "border-color: rgb(248 250 252 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-100 > * + *",
-                "border-color: rgb(241 245 249);\n",
+                "border-color: rgb(241 245 249 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-200 > * + *",
-                "border-color: rgb(226 232 240);\n",
+                "border-color: rgb(226 232 240 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-300 > * + *",
-                "border-color: rgb(203 213 225);\n",
+                "border-color: rgb(203 213 225 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-400 > * + *",
-                "border-color: rgb(148 163 184);\n",
+                "border-color: rgb(148 163 184 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-500 > * + *",
-                "border-color: rgb(100 116 139);\n",
+                "border-color: rgb(100 116 139 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-600 > * + *",
-                "border-color: rgb(71 85 105);\n",
+                "border-color: rgb(71 85 105 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-700 > * + *",
-                "border-color: rgb(51 65 85);\n",
+                "border-color: rgb(51 65 85 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-800 > * + *",
-                "border-color: rgb(30 41 59);\n",
+                "border-color: rgb(30 41 59 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-900 > * + *",
-                "border-color: rgb(15 23 42);\n",
+                "border-color: rgb(15 23 42 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-slate-950 > * + *",
-                "border-color: rgb(2 6 23);\n",
+                "border-color: rgb(2 6 23 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-50 > * + *",
-                "border-color: rgb(249 250 251);\n",
+                "border-color: rgb(249 250 251 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-100 > * + *",
-                "border-color: rgb(243 244 246);\n",
+                "border-color: rgb(243 244 246 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-200 > * + *",
-                "border-color: rgb(229 231 235);\n",
+                "border-color: rgb(229 231 235 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-300 > * + *",
-                "border-color: rgb(209 213 219);\n",
+                "border-color: rgb(209 213 219 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-400 > * + *",
-                "border-color: rgb(156 163 175);\n",
+                "border-color: rgb(156 163 175 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-500 > * + *",
-                "border-color: rgb(107 114 128);\n",
+                "border-color: rgb(107 114 128 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-600 > * + *",
-                "border-color: rgb(75 85 99);\n",
+                "border-color: rgb(75 85 99 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-700 > * + *",
-                "border-color: rgb(55 65 81);\n",
+                "border-color: rgb(55 65 81 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-800 > * + *",
-                "border-color: rgb(31 41 55);\n",
+                "border-color: rgb(31 41 55 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-900 > * + *",
-                "border-color: rgb(17 24 39);\n",
+                "border-color: rgb(17 24 39 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-gray-950 > * + *",
-                "border-color: rgb(3 7 18);\n",
+                "border-color: rgb(3 7 18 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-50 > * + *",
-                "border-color: rgb(250 250 250);\n",
+                "border-color: rgb(250 250 250 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-100 > * + *",
-                "border-color: rgb(244 244 245);\n",
+                "border-color: rgb(244 244 245 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-200 > * + *",
-                "border-color: rgb(228 228 231);\n",
+                "border-color: rgb(228 228 231 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-300 > * + *",
-                "border-color: rgb(212 212 216);\n",
+                "border-color: rgb(212 212 216 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-400 > * + *",
-                "border-color: rgb(161 161 170);\n",
+                "border-color: rgb(161 161 170 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-500 > * + *",
-                "border-color: rgb(113 113 122);\n",
+                "border-color: rgb(113 113 122 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-600 > * + *",
-                "border-color: rgb(82 82 91);\n",
+                "border-color: rgb(82 82 91 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-700 > * + *",
-                "border-color: rgb(63 63 70);\n",
+                "border-color: rgb(63 63 70 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-800 > * + *",
-                "border-color: rgb(39 39 42);\n",
+                "border-color: rgb(39 39 42 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-900 > * + *",
-                "border-color: rgb(24 24 27);\n",
+                "border-color: rgb(24 24 27 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-zinc-950 > * + *",
-                "border-color: rgb(9 9 11);\n",
+                "border-color: rgb(9 9 11 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-50 > * + *",
-                "border-color: rgb(250 250 250);\n",
+                "border-color: rgb(250 250 250 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-100 > * + *",
-                "border-color: rgb(245 245 245);\n",
+                "border-color: rgb(245 245 245 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-200 > * + *",
-                "border-color: rgb(229 229 229);\n",
+                "border-color: rgb(229 229 229 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-300 > * + *",
-                "border-color: rgb(212 212 212);\n",
+                "border-color: rgb(212 212 212 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-400 > * + *",
-                "border-color: rgb(163 163 163);\n",
+                "border-color: rgb(163 163 163 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-500 > * + *",
-                "border-color: rgb(115 115 115);\n",
+                "border-color: rgb(115 115 115 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-600 > * + *",
-                "border-color: rgb(82 82 82);\n",
+                "border-color: rgb(82 82 82 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-700 > * + *",
-                "border-color: rgb(64 64 64);\n",
+                "border-color: rgb(64 64 64 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-800 > * + *",
-                "border-color: rgb(38 38 38);\n",
+                "border-color: rgb(38 38 38 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-900 > * + *",
-                "border-color: rgb(23 23 23);\n",
+                "border-color: rgb(23 23 23 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-neutral-950 > * + *",
-                "border-color: rgb(10 10 10);\n",
+                "border-color: rgb(10 10 10 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-50 > * + *",
-                "border-color: rgb(250 250 249);\n",
+                "border-color: rgb(250 250 249 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-100 > * + *",
-                "border-color: rgb(245 245 244);\n",
+                "border-color: rgb(245 245 244 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-200 > * + *",
-                "border-color: rgb(231 229 228);\n",
+                "border-color: rgb(231 229 228 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-300 > * + *",
-                "border-color: rgb(214 211 209);\n",
+                "border-color: rgb(214 211 209 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-400 > * + *",
-                "border-color: rgb(168 162 158);\n",
+                "border-color: rgb(168 162 158 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-500 > * + *",
-                "border-color: rgb(120 113 108);\n",
+                "border-color: rgb(120 113 108 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-600 > * + *",
-                "border-color: rgb(87 83 78);\n",
+                "border-color: rgb(87 83 78 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-700 > * + *",
-                "border-color: rgb(68 64 60);\n",
+                "border-color: rgb(68 64 60 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-800 > * + *",
-                "border-color: rgb(41 37 36);\n",
+                "border-color: rgb(41 37 36 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-900 > * + *",
-                "border-color: rgb(28 25 23);\n",
+                "border-color: rgb(28 25 23 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-stone-950 > * + *",
-                "border-color: rgb(12 10 9);\n",
+                "border-color: rgb(12 10 9 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-50 > * + *",
-                "border-color: rgb(254 242 242);\n",
+                "border-color: rgb(254 242 242 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-100 > * + *",
-                "border-color: rgb(254 226 226);\n",
+                "border-color: rgb(254 226 226 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-200 > * + *",
-                "border-color: rgb(254 202 202);\n",
+                "border-color: rgb(254 202 202 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-300 > * + *",
-                "border-color: rgb(252 165 165);\n",
+                "border-color: rgb(252 165 165 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-400 > * + *",
-                "border-color: rgb(248 113 113);\n",
+                "border-color: rgb(248 113 113 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-500 > * + *",
-                "border-color: rgb(239 68 68);\n",
+                "border-color: rgb(239 68 68 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-600 > * + *",
-                "border-color: rgb(220 38 38);\n",
+                "border-color: rgb(220 38 38 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-700 > * + *",
-                "border-color: rgb(185 28 28);\n",
+                "border-color: rgb(185 28 28 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-800 > * + *",
-                "border-color: rgb(153 27 27);\n",
+                "border-color: rgb(153 27 27 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-900 > * + *",
-                "border-color: rgb(127 29 29);\n",
+                "border-color: rgb(127 29 29 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-red-950 > * + *",
-                "border-color: rgb(69 10 10);\n",
+                "border-color: rgb(69 10 10 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-50 > * + *",
-                "border-color: rgb(255 247 237);\n",
+                "border-color: rgb(255 247 237 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-100 > * + *",
-                "border-color: rgb(255 237 213);\n",
+                "border-color: rgb(255 237 213 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-200 > * + *",
-                "border-color: rgb(254 215 170);\n",
+                "border-color: rgb(254 215 170 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-300 > * + *",
-                "border-color: rgb(253 186 116);\n",
+                "border-color: rgb(253 186 116 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-400 > * + *",
-                "border-color: rgb(251 146 60);\n",
+                "border-color: rgb(251 146 60 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-500 > * + *",
-                "border-color: rgb(249 115 22);\n",
+                "border-color: rgb(249 115 22 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-600 > * + *",
-                "border-color: rgb(234 88 12);\n",
+                "border-color: rgb(234 88 12 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-700 > * + *",
-                "border-color: rgb(194 65 12);\n",
+                "border-color: rgb(194 65 12 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-800 > * + *",
-                "border-color: rgb(154 52 18);\n",
+                "border-color: rgb(154 52 18 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-900 > * + *",
-                "border-color: rgb(124 45 18);\n",
+                "border-color: rgb(124 45 18 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-orange-950 > * + *",
-                "border-color: rgb(67 20 7);\n",
+                "border-color: rgb(67 20 7 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-50 > * + *",
-                "border-color: rgb(255 251 235);\n",
+                "border-color: rgb(255 251 235 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-100 > * + *",
-                "border-color: rgb(254 243 199);\n",
+                "border-color: rgb(254 243 199 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-200 > * + *",
-                "border-color: rgb(253 230 138);\n",
+                "border-color: rgb(253 230 138 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-300 > * + *",
-                "border-color: rgb(252 211 77);\n",
+                "border-color: rgb(252 211 77 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-400 > * + *",
-                "border-color: rgb(251 191 36);\n",
+                "border-color: rgb(251 191 36 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-500 > * + *",
-                "border-color: rgb(245 158 11);\n",
+                "border-color: rgb(245 158 11 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-600 > * + *",
-                "border-color: rgb(217 119 6);\n",
+                "border-color: rgb(217 119 6 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-700 > * + *",
-                "border-color: rgb(180 83 9);\n",
+                "border-color: rgb(180 83 9 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-800 > * + *",
-                "border-color: rgb(146 64 14);\n",
+                "border-color: rgb(146 64 14 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-900 > * + *",
-                "border-color: rgb(120 53 15);\n",
+                "border-color: rgb(120 53 15 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-amber-950 > * + *",
-                "border-color: rgb(69 26 3);\n",
+                "border-color: rgb(69 26 3 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-50 > * + *",
-                "border-color: rgb(254 252 232);\n",
+                "border-color: rgb(254 252 232 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-100 > * + *",
-                "border-color: rgb(254 249 195);\n",
+                "border-color: rgb(254 249 195 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-200 > * + *",
-                "border-color: rgb(254 240 138);\n",
+                "border-color: rgb(254 240 138 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-300 > * + *",
-                "border-color: rgb(253 224 71);\n",
+                "border-color: rgb(253 224 71 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-400 > * + *",
-                "border-color: rgb(250 204 21);\n",
+                "border-color: rgb(250 204 21 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-500 > * + *",
-                "border-color: rgb(234 179 8);\n",
+                "border-color: rgb(234 179 8 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-600 > * + *",
-                "border-color: rgb(202 138 4);\n",
+                "border-color: rgb(202 138 4 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-700 > * + *",
-                "border-color: rgb(161 98 7);\n",
+                "border-color: rgb(161 98 7 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-800 > * + *",
-                "border-color: rgb(133 77 14);\n",
+                "border-color: rgb(133 77 14 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-900 > * + *",
-                "border-color: rgb(113 63 18);\n",
+                "border-color: rgb(113 63 18 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-yellow-950 > * + *",
-                "border-color: rgb(66 32 6);\n",
+                "border-color: rgb(66 32 6 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-50 > * + *",
-                "border-color: rgb(247 254 231);\n",
+                "border-color: rgb(247 254 231 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-100 > * + *",
-                "border-color: rgb(236 252 203);\n",
+                "border-color: rgb(236 252 203 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-200 > * + *",
-                "border-color: rgb(217 249 157);\n",
+                "border-color: rgb(217 249 157 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-300 > * + *",
-                "border-color: rgb(190 242 100);\n",
+                "border-color: rgb(190 242 100 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-400 > * + *",
-                "border-color: rgb(163 230 53);\n",
+                "border-color: rgb(163 230 53 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-500 > * + *",
-                "border-color: rgb(132 204 22);\n",
+                "border-color: rgb(132 204 22 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-600 > * + *",
-                "border-color: rgb(101 163 13);\n",
+                "border-color: rgb(101 163 13 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-700 > * + *",
-                "border-color: rgb(77 124 15);\n",
+                "border-color: rgb(77 124 15 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-800 > * + *",
-                "border-color: rgb(63 98 18);\n",
+                "border-color: rgb(63 98 18 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-900 > * + *",
-                "border-color: rgb(54 83 20);\n",
+                "border-color: rgb(54 83 20 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-lime-950 > * + *",
-                "border-color: rgb(26 46 5);\n",
+                "border-color: rgb(26 46 5 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-50 > * + *",
-                "border-color: rgb(240 253 244);\n",
+                "border-color: rgb(240 253 244 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-100 > * + *",
-                "border-color: rgb(220 252 231);\n",
+                "border-color: rgb(220 252 231 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-200 > * + *",
-                "border-color: rgb(187 247 208);\n",
+                "border-color: rgb(187 247 208 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-300 > * + *",
-                "border-color: rgb(134 239 172);\n",
+                "border-color: rgb(134 239 172 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-400 > * + *",
-                "border-color: rgb(74 222 128);\n",
+                "border-color: rgb(74 222 128 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-500 > * + *",
-                "border-color: rgb(34 197 94);\n",
+                "border-color: rgb(34 197 94 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-600 > * + *",
-                "border-color: rgb(22 163 74);\n",
+                "border-color: rgb(22 163 74 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-700 > * + *",
-                "border-color: rgb(21 128 61);\n",
+                "border-color: rgb(21 128 61 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-800 > * + *",
-                "border-color: rgb(22 101 52);\n",
+                "border-color: rgb(22 101 52 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-900 > * + *",
-                "border-color: rgb(20 83 45);\n",
+                "border-color: rgb(20 83 45 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-green-950 > * + *",
-                "border-color: rgb(5 46 22);\n",
+                "border-color: rgb(5 46 22 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-50 > * + *",
-                "border-color: rgb(236 253 245);\n",
+                "border-color: rgb(236 253 245 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-100 > * + *",
-                "border-color: rgb(209 250 229);\n",
+                "border-color: rgb(209 250 229 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-200 > * + *",
-                "border-color: rgb(167 243 208);\n",
+                "border-color: rgb(167 243 208 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-300 > * + *",
-                "border-color: rgb(110 231 183);\n",
+                "border-color: rgb(110 231 183 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-400 > * + *",
-                "border-color: rgb(52 211 153);\n",
+                "border-color: rgb(52 211 153 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-500 > * + *",
-                "border-color: rgb(16 185 129);\n",
+                "border-color: rgb(16 185 129 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-600 > * + *",
-                "border-color: rgb(5 150 105);\n",
+                "border-color: rgb(5 150 105 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-700 > * + *",
-                "border-color: rgb(4 120 87);\n",
+                "border-color: rgb(4 120 87 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-800 > * + *",
-                "border-color: rgb(6 95 70);\n",
+                "border-color: rgb(6 95 70 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-900 > * + *",
-                "border-color: rgb(6 78 59);\n",
+                "border-color: rgb(6 78 59 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-emerald-950 > * + *",
-                "border-color: rgb(2 44 34);\n",
+                "border-color: rgb(2 44 34 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-50 > * + *",
-                "border-color: rgb(240 253 250);\n",
+                "border-color: rgb(240 253 250 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-100 > * + *",
-                "border-color: rgb(204 251 241);\n",
+                "border-color: rgb(204 251 241 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-200 > * + *",
-                "border-color: rgb(153 246 228);\n",
+                "border-color: rgb(153 246 228 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-300 > * + *",
-                "border-color: rgb(94 234 212);\n",
+                "border-color: rgb(94 234 212 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-400 > * + *",
-                "border-color: rgb(45 212 191);\n",
+                "border-color: rgb(45 212 191 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-500 > * + *",
-                "border-color: rgb(20 184 166);\n",
+                "border-color: rgb(20 184 166 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-600 > * + *",
-                "border-color: rgb(13 148 136);\n",
+                "border-color: rgb(13 148 136 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-700 > * + *",
-                "border-color: rgb(15 118 110);\n",
+                "border-color: rgb(15 118 110 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-800 > * + *",
-                "border-color: rgb(17 94 89);\n",
+                "border-color: rgb(17 94 89 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-900 > * + *",
-                "border-color: rgb(19 78 74);\n",
+                "border-color: rgb(19 78 74 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-teal-950 > * + *",
-                "border-color: rgb(4 47 46);\n",
+                "border-color: rgb(4 47 46 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-50 > * + *",
-                "border-color: rgb(236 254 255);\n",
+                "border-color: rgb(236 254 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-100 > * + *",
-                "border-color: rgb(207 250 254);\n",
+                "border-color: rgb(207 250 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-200 > * + *",
-                "border-color: rgb(165 243 252);\n",
+                "border-color: rgb(165 243 252 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-300 > * + *",
-                "border-color: rgb(103 232 249);\n",
+                "border-color: rgb(103 232 249 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-400 > * + *",
-                "border-color: rgb(34 211 238);\n",
+                "border-color: rgb(34 211 238 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-500 > * + *",
-                "border-color: rgb(6 182 212);\n",
+                "border-color: rgb(6 182 212 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-600 > * + *",
-                "border-color: rgb(8 145 178);\n",
+                "border-color: rgb(8 145 178 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-700 > * + *",
-                "border-color: rgb(14 116 144);\n",
+                "border-color: rgb(14 116 144 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-800 > * + *",
-                "border-color: rgb(21 94 117);\n",
+                "border-color: rgb(21 94 117 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-900 > * + *",
-                "border-color: rgb(22 78 99);\n",
+                "border-color: rgb(22 78 99 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-cyan-950 > * + *",
-                "border-color: rgb(8 51 68);\n",
+                "border-color: rgb(8 51 68 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-50 > * + *",
-                "border-color: rgb(240 249 255);\n",
+                "border-color: rgb(240 249 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-100 > * + *",
-                "border-color: rgb(224 242 254);\n",
+                "border-color: rgb(224 242 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-200 > * + *",
-                "border-color: rgb(186 230 253);\n",
+                "border-color: rgb(186 230 253 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-300 > * + *",
-                "border-color: rgb(125 211 252);\n",
+                "border-color: rgb(125 211 252 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-400 > * + *",
-                "border-color: rgb(56 189 248);\n",
+                "border-color: rgb(56 189 248 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-500 > * + *",
-                "border-color: rgb(14 165 233);\n",
+                "border-color: rgb(14 165 233 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-600 > * + *",
-                "border-color: rgb(2 132 199);\n",
+                "border-color: rgb(2 132 199 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-700 > * + *",
-                "border-color: rgb(3 105 161);\n",
+                "border-color: rgb(3 105 161 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-800 > * + *",
-                "border-color: rgb(7 89 133);\n",
+                "border-color: rgb(7 89 133 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-900 > * + *",
-                "border-color: rgb(12 74 110);\n",
+                "border-color: rgb(12 74 110 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-sky-950 > * + *",
-                "border-color: rgb(8 47 73);\n",
+                "border-color: rgb(8 47 73 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-50 > * + *",
-                "border-color: rgb(239 246 255);\n",
+                "border-color: rgb(239 246 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-100 > * + *",
-                "border-color: rgb(219 234 254);\n",
+                "border-color: rgb(219 234 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-200 > * + *",
-                "border-color: rgb(191 219 254);\n",
+                "border-color: rgb(191 219 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-300 > * + *",
-                "border-color: rgb(147 197 253);\n",
+                "border-color: rgb(147 197 253 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-400 > * + *",
-                "border-color: rgb(96 165 250);\n",
+                "border-color: rgb(96 165 250 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-500 > * + *",
-                "border-color: rgb(59 130 246);\n",
+                "border-color: rgb(59 130 246 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-600 > * + *",
-                "border-color: rgb(37 99 235);\n",
+                "border-color: rgb(37 99 235 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-700 > * + *",
-                "border-color: rgb(29 78 216);\n",
+                "border-color: rgb(29 78 216 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-800 > * + *",
-                "border-color: rgb(30 64 175);\n",
+                "border-color: rgb(30 64 175 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-900 > * + *",
-                "border-color: rgb(30 58 138);\n",
+                "border-color: rgb(30 58 138 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-blue-950 > * + *",
-                "border-color: rgb(23 37 84);\n",
+                "border-color: rgb(23 37 84 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-50 > * + *",
-                "border-color: rgb(238 242 255);\n",
+                "border-color: rgb(238 242 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-100 > * + *",
-                "border-color: rgb(224 231 255);\n",
+                "border-color: rgb(224 231 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-200 > * + *",
-                "border-color: rgb(199 210 254);\n",
+                "border-color: rgb(199 210 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-300 > * + *",
-                "border-color: rgb(165 180 252);\n",
+                "border-color: rgb(165 180 252 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-400 > * + *",
-                "border-color: rgb(129 140 248);\n",
+                "border-color: rgb(129 140 248 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-500 > * + *",
-                "border-color: rgb(99 102 241);\n",
+                "border-color: rgb(99 102 241 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-600 > * + *",
-                "border-color: rgb(79 70 229);\n",
+                "border-color: rgb(79 70 229 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-700 > * + *",
-                "border-color: rgb(67 56 202);\n",
+                "border-color: rgb(67 56 202 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-800 > * + *",
-                "border-color: rgb(55 48 163);\n",
+                "border-color: rgb(55 48 163 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-900 > * + *",
-                "border-color: rgb(49 46 129);\n",
+                "border-color: rgb(49 46 129 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-indigo-950 > * + *",
-                "border-color: rgb(30 27 75);\n",
+                "border-color: rgb(30 27 75 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-50 > * + *",
-                "border-color: rgb(245 243 255);\n",
+                "border-color: rgb(245 243 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-100 > * + *",
-                "border-color: rgb(237 233 254);\n",
+                "border-color: rgb(237 233 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-200 > * + *",
-                "border-color: rgb(221 214 254);\n",
+                "border-color: rgb(221 214 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-300 > * + *",
-                "border-color: rgb(196 181 253);\n",
+                "border-color: rgb(196 181 253 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-400 > * + *",
-                "border-color: rgb(167 139 250);\n",
+                "border-color: rgb(167 139 250 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-500 > * + *",
-                "border-color: rgb(139 92 246);\n",
+                "border-color: rgb(139 92 246 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-600 > * + *",
-                "border-color: rgb(124 58 237);\n",
+                "border-color: rgb(124 58 237 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-700 > * + *",
-                "border-color: rgb(109 40 217);\n",
+                "border-color: rgb(109 40 217 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-800 > * + *",
-                "border-color: rgb(91 33 182);\n",
+                "border-color: rgb(91 33 182 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-900 > * + *",
-                "border-color: rgb(76 29 149);\n",
+                "border-color: rgb(76 29 149 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-violet-950 > * + *",
-                "border-color: rgb(46 16 101);\n",
+                "border-color: rgb(46 16 101 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-50 > * + *",
-                "border-color: rgb(250 245 255);\n",
+                "border-color: rgb(250 245 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-100 > * + *",
-                "border-color: rgb(243 232 255);\n",
+                "border-color: rgb(243 232 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-200 > * + *",
-                "border-color: rgb(233 213 255);\n",
+                "border-color: rgb(233 213 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-300 > * + *",
-                "border-color: rgb(216 180 254);\n",
+                "border-color: rgb(216 180 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-400 > * + *",
-                "border-color: rgb(192 132 252);\n",
+                "border-color: rgb(192 132 252 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-500 > * + *",
-                "border-color: rgb(168 85 247);\n",
+                "border-color: rgb(168 85 247 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-600 > * + *",
-                "border-color: rgb(147 51 234);\n",
+                "border-color: rgb(147 51 234 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-700 > * + *",
-                "border-color: rgb(126 34 206);\n",
+                "border-color: rgb(126 34 206 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-800 > * + *",
-                "border-color: rgb(107 33 168);\n",
+                "border-color: rgb(107 33 168 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-900 > * + *",
-                "border-color: rgb(88 28 135);\n",
+                "border-color: rgb(88 28 135 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-purple-950 > * + *",
-                "border-color: rgb(59 7 100);\n",
+                "border-color: rgb(59 7 100 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-50 > * + *",
-                "border-color: rgb(253 244 255);\n",
+                "border-color: rgb(253 244 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-100 > * + *",
-                "border-color: rgb(250 232 255);\n",
+                "border-color: rgb(250 232 255 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-200 > * + *",
-                "border-color: rgb(245 208 254);\n",
+                "border-color: rgb(245 208 254 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-300 > * + *",
-                "border-color: rgb(240 171 252);\n",
+                "border-color: rgb(240 171 252 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-400 > * + *",
-                "border-color: rgb(232 121 249);\n",
+                "border-color: rgb(232 121 249 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-500 > * + *",
-                "border-color: rgb(217 70 239);\n",
+                "border-color: rgb(217 70 239 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-600 > * + *",
-                "border-color: rgb(192 38 211);\n",
+                "border-color: rgb(192 38 211 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-700 > * + *",
-                "border-color: rgb(162 28 175);\n",
+                "border-color: rgb(162 28 175 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-800 > * + *",
-                "border-color: rgb(134 25 143);\n",
+                "border-color: rgb(134 25 143 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-900 > * + *",
-                "border-color: rgb(112 26 117);\n",
+                "border-color: rgb(112 26 117 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-fuchsia-950 > * + *",
-                "border-color: rgb(74 4 78);\n",
+                "border-color: rgb(74 4 78 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-50 > * + *",
-                "border-color: rgb(253 242 248);\n",
+                "border-color: rgb(253 242 248 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-100 > * + *",
-                "border-color: rgb(252 231 243);\n",
+                "border-color: rgb(252 231 243 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-200 > * + *",
-                "border-color: rgb(251 207 232);\n",
+                "border-color: rgb(251 207 232 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-300 > * + *",
-                "border-color: rgb(249 168 212);\n",
+                "border-color: rgb(249 168 212 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-400 > * + *",
-                "border-color: rgb(244 114 182);\n",
+                "border-color: rgb(244 114 182 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-500 > * + *",
-                "border-color: rgb(236 72 153);\n",
+                "border-color: rgb(236 72 153 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-600 > * + *",
-                "border-color: rgb(219 39 119);\n",
+                "border-color: rgb(219 39 119 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-700 > * + *",
-                "border-color: rgb(190 24 93);\n",
+                "border-color: rgb(190 24 93 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-800 > * + *",
-                "border-color: rgb(157 23 77);\n",
+                "border-color: rgb(157 23 77 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-900 > * + *",
-                "border-color: rgb(131 24 67);\n",
+                "border-color: rgb(131 24 67 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-pink-950 > * + *",
-                "border-color: rgb(80 7 36);\n",
+                "border-color: rgb(80 7 36 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-50 > * + *",
-                "border-color: rgb(255 241 242);\n",
+                "border-color: rgb(255 241 242 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-100 > * + *",
-                "border-color: rgb(255 228 230);\n",
+                "border-color: rgb(255 228 230 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-200 > * + *",
-                "border-color: rgb(254 205 211);\n",
+                "border-color: rgb(254 205 211 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-300 > * + *",
-                "border-color: rgb(253 164 175);\n",
+                "border-color: rgb(253 164 175 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-400 > * + *",
-                "border-color: rgb(251 113 133);\n",
+                "border-color: rgb(251 113 133 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-500 > * + *",
-                "border-color: rgb(244 63 94);\n",
+                "border-color: rgb(244 63 94 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-600 > * + *",
-                "border-color: rgb(225 29 72);\n",
+                "border-color: rgb(225 29 72 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-700 > * + *",
-                "border-color: rgb(190 18 60);\n",
+                "border-color: rgb(190 18 60 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-800 > * + *",
-                "border-color: rgb(159 18 57);\n",
+                "border-color: rgb(159 18 57 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-900 > * + *",
-                "border-color: rgb(136 19 55);\n",
+                "border-color: rgb(136 19 55 / var(--tw-divide-opacity, 1));\n",
                 ""
             ],
             [
                 "divide-rose-950 > * + *",
-                "border-color: rgb(76 5 25);\n",
+                "border-color: rgb(76 5 25 / var(--tw-divide-opacity, 1));\n",
                 ""
             ]
         ]
@@ -14341,979 +14341,979 @@ export const documentations = [
             ],
             [
                 "ring-black",
-                "--tw-ring-color: rgb(0 0 0);\n"
+                "--tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-white",
-                "--tw-ring-color: rgb(255 255 255);\n"
+                "--tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-50",
-                "--tw-ring-color: rgb(248 250 252);\n"
+                "--tw-ring-color: rgb(248 250 252 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-100",
-                "--tw-ring-color: rgb(241 245 249);\n"
+                "--tw-ring-color: rgb(241 245 249 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-200",
-                "--tw-ring-color: rgb(226 232 240);\n"
+                "--tw-ring-color: rgb(226 232 240 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-300",
-                "--tw-ring-color: rgb(203 213 225);\n"
+                "--tw-ring-color: rgb(203 213 225 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-400",
-                "--tw-ring-color: rgb(148 163 184);\n"
+                "--tw-ring-color: rgb(148 163 184 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-500",
-                "--tw-ring-color: rgb(100 116 139);\n"
+                "--tw-ring-color: rgb(100 116 139 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-600",
-                "--tw-ring-color: rgb(71 85 105);\n"
+                "--tw-ring-color: rgb(71 85 105 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-700",
-                "--tw-ring-color: rgb(51 65 85);\n"
+                "--tw-ring-color: rgb(51 65 85 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-800",
-                "--tw-ring-color: rgb(30 41 59);\n"
+                "--tw-ring-color: rgb(30 41 59 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-900",
-                "--tw-ring-color: rgb(15 23 42);\n"
+                "--tw-ring-color: rgb(15 23 42 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-slate-950",
-                "--tw-ring-color: rgb(2 6 23);\n"
+                "--tw-ring-color: rgb(2 6 23 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-50",
-                "--tw-ring-color: rgb(249 250 251);\n"
+                "--tw-ring-color: rgb(249 250 251 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-100",
-                "--tw-ring-color: rgb(243 244 246);\n"
+                "--tw-ring-color: rgb(243 244 246 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-200",
-                "--tw-ring-color: rgb(229 231 235);\n"
+                "--tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-300",
-                "--tw-ring-color: rgb(209 213 219);\n"
+                "--tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-400",
-                "--tw-ring-color: rgb(156 163 175);\n"
+                "--tw-ring-color: rgb(156 163 175 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-500",
-                "--tw-ring-color: rgb(107 114 128);\n"
+                "--tw-ring-color: rgb(107 114 128 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-600",
-                "--tw-ring-color: rgb(75 85 99);\n"
+                "--tw-ring-color: rgb(75 85 99 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-700",
-                "--tw-ring-color: rgb(55 65 81);\n"
+                "--tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-800",
-                "--tw-ring-color: rgb(31 41 55);\n"
+                "--tw-ring-color: rgb(31 41 55 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-900",
-                "--tw-ring-color: rgb(17 24 39);\n"
+                "--tw-ring-color: rgb(17 24 39 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-gray-950",
-                "--tw-ring-color: rgb(3 7 18);\n"
+                "--tw-ring-color: rgb(3 7 18 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-50",
-                "--tw-ring-color: rgb(250 250 250);\n"
+                "--tw-ring-color: rgb(250 250 250 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-100",
-                "--tw-ring-color: rgb(244 244 245);\n"
+                "--tw-ring-color: rgb(244 244 245 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-200",
-                "--tw-ring-color: rgb(228 228 231);\n"
+                "--tw-ring-color: rgb(228 228 231 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-300",
-                "--tw-ring-color: rgb(212 212 216);\n"
+                "--tw-ring-color: rgb(212 212 216 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-400",
-                "--tw-ring-color: rgb(161 161 170);\n"
+                "--tw-ring-color: rgb(161 161 170 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-500",
-                "--tw-ring-color: rgb(113 113 122);\n"
+                "--tw-ring-color: rgb(113 113 122 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-600",
-                "--tw-ring-color: rgb(82 82 91);\n"
+                "--tw-ring-color: rgb(82 82 91 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-700",
-                "--tw-ring-color: rgb(63 63 70);\n"
+                "--tw-ring-color: rgb(63 63 70 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-800",
-                "--tw-ring-color: rgb(39 39 42);\n"
+                "--tw-ring-color: rgb(39 39 42 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-900",
-                "--tw-ring-color: rgb(24 24 27);\n"
+                "--tw-ring-color: rgb(24 24 27 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-zinc-950",
-                "--tw-ring-color: rgb(9 9 11);\n"
+                "--tw-ring-color: rgb(9 9 11 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-50",
-                "--tw-ring-color: rgb(250 250 250);\n"
+                "--tw-ring-color: rgb(250 250 250 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-100",
-                "--tw-ring-color: rgb(245 245 245);\n"
+                "--tw-ring-color: rgb(245 245 245 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-200",
-                "--tw-ring-color: rgb(229 229 229);\n"
+                "--tw-ring-color: rgb(229 229 229 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-300",
-                "--tw-ring-color: rgb(212 212 212);\n"
+                "--tw-ring-color: rgb(212 212 212 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-400",
-                "--tw-ring-color: rgb(163 163 163);\n"
+                "--tw-ring-color: rgb(163 163 163 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-500",
-                "--tw-ring-color: rgb(115 115 115);\n"
+                "--tw-ring-color: rgb(115 115 115 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-600",
-                "--tw-ring-color: rgb(82 82 82);\n"
+                "--tw-ring-color: rgb(82 82 82 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-700",
-                "--tw-ring-color: rgb(64 64 64);\n"
+                "--tw-ring-color: rgb(64 64 64 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-800",
-                "--tw-ring-color: rgb(38 38 38);\n"
+                "--tw-ring-color: rgb(38 38 38 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-900",
-                "--tw-ring-color: rgb(23 23 23);\n"
+                "--tw-ring-color: rgb(23 23 23 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-neutral-950",
-                "--tw-ring-color: rgb(10 10 10);\n"
+                "--tw-ring-color: rgb(10 10 10 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-50",
-                "--tw-ring-color: rgb(250 250 249);\n"
+                "--tw-ring-color: rgb(250 250 249 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-100",
-                "--tw-ring-color: rgb(245 245 244);\n"
+                "--tw-ring-color: rgb(245 245 244 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-200",
-                "--tw-ring-color: rgb(231 229 228);\n"
+                "--tw-ring-color: rgb(231 229 228 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-300",
-                "--tw-ring-color: rgb(214 211 209);\n"
+                "--tw-ring-color: rgb(214 211 209 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-400",
-                "--tw-ring-color: rgb(168 162 158);\n"
+                "--tw-ring-color: rgb(168 162 158 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-500",
-                "--tw-ring-color: rgb(120 113 108);\n"
+                "--tw-ring-color: rgb(120 113 108 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-600",
-                "--tw-ring-color: rgb(87 83 78);\n"
+                "--tw-ring-color: rgb(87 83 78 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-700",
-                "--tw-ring-color: rgb(68 64 60);\n"
+                "--tw-ring-color: rgb(68 64 60 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-800",
-                "--tw-ring-color: rgb(41 37 36);\n"
+                "--tw-ring-color: rgb(41 37 36 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-900",
-                "--tw-ring-color: rgb(28 25 23);\n"
+                "--tw-ring-color: rgb(28 25 23 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-stone-950",
-                "--tw-ring-color: rgb(12 10 9);\n"
+                "--tw-ring-color: rgb(12 10 9 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-50",
-                "--tw-ring-color: rgb(254 242 242);\n"
+                "--tw-ring-color: rgb(254 242 242 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-100",
-                "--tw-ring-color: rgb(254 226 226);\n"
+                "--tw-ring-color: rgb(254 226 226 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-200",
-                "--tw-ring-color: rgb(254 202 202);\n"
+                "--tw-ring-color: rgb(254 202 202 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-300",
-                "--tw-ring-color: rgb(252 165 165);\n"
+                "--tw-ring-color: rgb(252 165 165 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-400",
-                "--tw-ring-color: rgb(248 113 113);\n"
+                "--tw-ring-color: rgb(248 113 113 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-500",
-                "--tw-ring-color: rgb(239 68 68);\n"
+                "--tw-ring-color: rgb(239 68 68 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-600",
-                "--tw-ring-color: rgb(220 38 38);\n"
+                "--tw-ring-color: rgb(220 38 38 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-700",
-                "--tw-ring-color: rgb(185 28 28);\n"
+                "--tw-ring-color: rgb(185 28 28 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-800",
-                "--tw-ring-color: rgb(153 27 27);\n"
+                "--tw-ring-color: rgb(153 27 27 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-900",
-                "--tw-ring-color: rgb(127 29 29);\n"
+                "--tw-ring-color: rgb(127 29 29 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-red-950",
-                "--tw-ring-color: rgb(69 10 10);\n"
+                "--tw-ring-color: rgb(69 10 10 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-50",
-                "--tw-ring-color: rgb(255 247 237);\n"
+                "--tw-ring-color: rgb(255 247 237 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-100",
-                "--tw-ring-color: rgb(255 237 213);\n"
+                "--tw-ring-color: rgb(255 237 213 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-200",
-                "--tw-ring-color: rgb(254 215 170);\n"
+                "--tw-ring-color: rgb(254 215 170 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-300",
-                "--tw-ring-color: rgb(253 186 116);\n"
+                "--tw-ring-color: rgb(253 186 116 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-400",
-                "--tw-ring-color: rgb(251 146 60);\n"
+                "--tw-ring-color: rgb(251 146 60 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-500",
-                "--tw-ring-color: rgb(249 115 22);\n"
+                "--tw-ring-color: rgb(249 115 22 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-600",
-                "--tw-ring-color: rgb(234 88 12);\n"
+                "--tw-ring-color: rgb(234 88 12 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-700",
-                "--tw-ring-color: rgb(194 65 12);\n"
+                "--tw-ring-color: rgb(194 65 12 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-800",
-                "--tw-ring-color: rgb(154 52 18);\n"
+                "--tw-ring-color: rgb(154 52 18 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-900",
-                "--tw-ring-color: rgb(124 45 18);\n"
+                "--tw-ring-color: rgb(124 45 18 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-orange-950",
-                "--tw-ring-color: rgb(67 20 7);\n"
+                "--tw-ring-color: rgb(67 20 7 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-50",
-                "--tw-ring-color: rgb(255 251 235);\n"
+                "--tw-ring-color: rgb(255 251 235 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-100",
-                "--tw-ring-color: rgb(254 243 199);\n"
+                "--tw-ring-color: rgb(254 243 199 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-200",
-                "--tw-ring-color: rgb(253 230 138);\n"
+                "--tw-ring-color: rgb(253 230 138 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-300",
-                "--tw-ring-color: rgb(252 211 77);\n"
+                "--tw-ring-color: rgb(252 211 77 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-400",
-                "--tw-ring-color: rgb(251 191 36);\n"
+                "--tw-ring-color: rgb(251 191 36 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-500",
-                "--tw-ring-color: rgb(245 158 11);\n"
+                "--tw-ring-color: rgb(245 158 11 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-600",
-                "--tw-ring-color: rgb(217 119 6);\n"
+                "--tw-ring-color: rgb(217 119 6 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-700",
-                "--tw-ring-color: rgb(180 83 9);\n"
+                "--tw-ring-color: rgb(180 83 9 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-800",
-                "--tw-ring-color: rgb(146 64 14);\n"
+                "--tw-ring-color: rgb(146 64 14 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-900",
-                "--tw-ring-color: rgb(120 53 15);\n"
+                "--tw-ring-color: rgb(120 53 15 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-amber-950",
-                "--tw-ring-color: rgb(69 26 3);\n"
+                "--tw-ring-color: rgb(69 26 3 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-50",
-                "--tw-ring-color: rgb(254 252 232);\n"
+                "--tw-ring-color: rgb(254 252 232 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-100",
-                "--tw-ring-color: rgb(254 249 195);\n"
+                "--tw-ring-color: rgb(254 249 195 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-200",
-                "--tw-ring-color: rgb(254 240 138);\n"
+                "--tw-ring-color: rgb(254 240 138 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-300",
-                "--tw-ring-color: rgb(253 224 71);\n"
+                "--tw-ring-color: rgb(253 224 71 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-400",
-                "--tw-ring-color: rgb(250 204 21);\n"
+                "--tw-ring-color: rgb(250 204 21 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-500",
-                "--tw-ring-color: rgb(234 179 8);\n"
+                "--tw-ring-color: rgb(234 179 8 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-600",
-                "--tw-ring-color: rgb(202 138 4);\n"
+                "--tw-ring-color: rgb(202 138 4 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-700",
-                "--tw-ring-color: rgb(161 98 7);\n"
+                "--tw-ring-color: rgb(161 98 7 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-800",
-                "--tw-ring-color: rgb(133 77 14);\n"
+                "--tw-ring-color: rgb(133 77 14 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-900",
-                "--tw-ring-color: rgb(113 63 18);\n"
+                "--tw-ring-color: rgb(113 63 18 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-yellow-950",
-                "--tw-ring-color: rgb(66 32 6);\n"
+                "--tw-ring-color: rgb(66 32 6 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-50",
-                "--tw-ring-color: rgb(247 254 231);\n"
+                "--tw-ring-color: rgb(247 254 231 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-100",
-                "--tw-ring-color: rgb(236 252 203);\n"
+                "--tw-ring-color: rgb(236 252 203 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-200",
-                "--tw-ring-color: rgb(217 249 157);\n"
+                "--tw-ring-color: rgb(217 249 157 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-300",
-                "--tw-ring-color: rgb(190 242 100);\n"
+                "--tw-ring-color: rgb(190 242 100 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-400",
-                "--tw-ring-color: rgb(163 230 53);\n"
+                "--tw-ring-color: rgb(163 230 53 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-500",
-                "--tw-ring-color: rgb(132 204 22);\n"
+                "--tw-ring-color: rgb(132 204 22 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-600",
-                "--tw-ring-color: rgb(101 163 13);\n"
+                "--tw-ring-color: rgb(101 163 13 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-700",
-                "--tw-ring-color: rgb(77 124 15);\n"
+                "--tw-ring-color: rgb(77 124 15 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-800",
-                "--tw-ring-color: rgb(63 98 18);\n"
+                "--tw-ring-color: rgb(63 98 18 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-900",
-                "--tw-ring-color: rgb(54 83 20);\n"
+                "--tw-ring-color: rgb(54 83 20 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-lime-950",
-                "--tw-ring-color: rgb(26 46 5);\n"
+                "--tw-ring-color: rgb(26 46 5 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-50",
-                "--tw-ring-color: rgb(240 253 244);\n"
+                "--tw-ring-color: rgb(240 253 244 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-100",
-                "--tw-ring-color: rgb(220 252 231);\n"
+                "--tw-ring-color: rgb(220 252 231 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-200",
-                "--tw-ring-color: rgb(187 247 208);\n"
+                "--tw-ring-color: rgb(187 247 208 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-300",
-                "--tw-ring-color: rgb(134 239 172);\n"
+                "--tw-ring-color: rgb(134 239 172 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-400",
-                "--tw-ring-color: rgb(74 222 128);\n"
+                "--tw-ring-color: rgb(74 222 128 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-500",
-                "--tw-ring-color: rgb(34 197 94);\n"
+                "--tw-ring-color: rgb(34 197 94 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-600",
-                "--tw-ring-color: rgb(22 163 74);\n"
+                "--tw-ring-color: rgb(22 163 74 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-700",
-                "--tw-ring-color: rgb(21 128 61);\n"
+                "--tw-ring-color: rgb(21 128 61 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-800",
-                "--tw-ring-color: rgb(22 101 52);\n"
+                "--tw-ring-color: rgb(22 101 52 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-900",
-                "--tw-ring-color: rgb(20 83 45);\n"
+                "--tw-ring-color: rgb(20 83 45 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-green-950",
-                "--tw-ring-color: rgb(5 46 22);\n"
+                "--tw-ring-color: rgb(5 46 22 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-50",
-                "--tw-ring-color: rgb(236 253 245);\n"
+                "--tw-ring-color: rgb(236 253 245 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-100",
-                "--tw-ring-color: rgb(209 250 229);\n"
+                "--tw-ring-color: rgb(209 250 229 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-200",
-                "--tw-ring-color: rgb(167 243 208);\n"
+                "--tw-ring-color: rgb(167 243 208 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-300",
-                "--tw-ring-color: rgb(110 231 183);\n"
+                "--tw-ring-color: rgb(110 231 183 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-400",
-                "--tw-ring-color: rgb(52 211 153);\n"
+                "--tw-ring-color: rgb(52 211 153 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-500",
-                "--tw-ring-color: rgb(16 185 129);\n"
+                "--tw-ring-color: rgb(16 185 129 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-600",
-                "--tw-ring-color: rgb(5 150 105);\n"
+                "--tw-ring-color: rgb(5 150 105 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-700",
-                "--tw-ring-color: rgb(4 120 87);\n"
+                "--tw-ring-color: rgb(4 120 87 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-800",
-                "--tw-ring-color: rgb(6 95 70);\n"
+                "--tw-ring-color: rgb(6 95 70 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-900",
-                "--tw-ring-color: rgb(6 78 59);\n"
+                "--tw-ring-color: rgb(6 78 59 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-emerald-950",
-                "--tw-ring-color: rgb(2 44 34);\n"
+                "--tw-ring-color: rgb(2 44 34 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-50",
-                "--tw-ring-color: rgb(240 253 250);\n"
+                "--tw-ring-color: rgb(240 253 250 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-100",
-                "--tw-ring-color: rgb(204 251 241);\n"
+                "--tw-ring-color: rgb(204 251 241 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-200",
-                "--tw-ring-color: rgb(153 246 228);\n"
+                "--tw-ring-color: rgb(153 246 228 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-300",
-                "--tw-ring-color: rgb(94 234 212);\n"
+                "--tw-ring-color: rgb(94 234 212 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-400",
-                "--tw-ring-color: rgb(45 212 191);\n"
+                "--tw-ring-color: rgb(45 212 191 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-500",
-                "--tw-ring-color: rgb(20 184 166);\n"
+                "--tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-600",
-                "--tw-ring-color: rgb(13 148 136);\n"
+                "--tw-ring-color: rgb(13 148 136 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-700",
-                "--tw-ring-color: rgb(15 118 110);\n"
+                "--tw-ring-color: rgb(15 118 110 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-800",
-                "--tw-ring-color: rgb(17 94 89);\n"
+                "--tw-ring-color: rgb(17 94 89 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-900",
-                "--tw-ring-color: rgb(19 78 74);\n"
+                "--tw-ring-color: rgb(19 78 74 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-teal-950",
-                "--tw-ring-color: rgb(4 47 46);\n"
+                "--tw-ring-color: rgb(4 47 46 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-50",
-                "--tw-ring-color: rgb(236 254 255);\n"
+                "--tw-ring-color: rgb(236 254 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-100",
-                "--tw-ring-color: rgb(207 250 254);\n"
+                "--tw-ring-color: rgb(207 250 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-200",
-                "--tw-ring-color: rgb(165 243 252);\n"
+                "--tw-ring-color: rgb(165 243 252 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-300",
-                "--tw-ring-color: rgb(103 232 249);\n"
+                "--tw-ring-color: rgb(103 232 249 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-400",
-                "--tw-ring-color: rgb(34 211 238);\n"
+                "--tw-ring-color: rgb(34 211 238 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-500",
-                "--tw-ring-color: rgb(6 182 212);\n"
+                "--tw-ring-color: rgb(6 182 212 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-600",
-                "--tw-ring-color: rgb(8 145 178);\n"
+                "--tw-ring-color: rgb(8 145 178 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-700",
-                "--tw-ring-color: rgb(14 116 144);\n"
+                "--tw-ring-color: rgb(14 116 144 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-800",
-                "--tw-ring-color: rgb(21 94 117);\n"
+                "--tw-ring-color: rgb(21 94 117 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-900",
-                "--tw-ring-color: rgb(22 78 99);\n"
+                "--tw-ring-color: rgb(22 78 99 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-cyan-950",
-                "--tw-ring-color: rgb(8 51 68);\n"
+                "--tw-ring-color: rgb(8 51 68 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-50",
-                "--tw-ring-color: rgb(240 249 255);\n"
+                "--tw-ring-color: rgb(240 249 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-100",
-                "--tw-ring-color: rgb(224 242 254);\n"
+                "--tw-ring-color: rgb(224 242 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-200",
-                "--tw-ring-color: rgb(186 230 253);\n"
+                "--tw-ring-color: rgb(186 230 253 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-300",
-                "--tw-ring-color: rgb(125 211 252);\n"
+                "--tw-ring-color: rgb(125 211 252 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-400",
-                "--tw-ring-color: rgb(56 189 248);\n"
+                "--tw-ring-color: rgb(56 189 248 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-500",
-                "--tw-ring-color: rgb(14 165 233);\n"
+                "--tw-ring-color: rgb(14 165 233 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-600",
-                "--tw-ring-color: rgb(2 132 199);\n"
+                "--tw-ring-color: rgb(2 132 199 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-700",
-                "--tw-ring-color: rgb(3 105 161);\n"
+                "--tw-ring-color: rgb(3 105 161 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-800",
-                "--tw-ring-color: rgb(7 89 133);\n"
+                "--tw-ring-color: rgb(7 89 133 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-900",
-                "--tw-ring-color: rgb(12 74 110);\n"
+                "--tw-ring-color: rgb(12 74 110 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-sky-950",
-                "--tw-ring-color: rgb(8 47 73);\n"
+                "--tw-ring-color: rgb(8 47 73 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-50",
-                "--tw-ring-color: rgb(239 246 255);\n"
+                "--tw-ring-color: rgb(239 246 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-100",
-                "--tw-ring-color: rgb(219 234 254);\n"
+                "--tw-ring-color: rgb(219 234 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-200",
-                "--tw-ring-color: rgb(191 219 254);\n"
+                "--tw-ring-color: rgb(191 219 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-300",
-                "--tw-ring-color: rgb(147 197 253);\n"
+                "--tw-ring-color: rgb(147 197 253 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-400",
-                "--tw-ring-color: rgb(96 165 250);\n"
+                "--tw-ring-color: rgb(96 165 250 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-500",
-                "--tw-ring-color: rgb(59 130 246);\n"
+                "--tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-600",
-                "--tw-ring-color: rgb(37 99 235);\n"
+                "--tw-ring-color: rgb(37 99 235 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-700",
-                "--tw-ring-color: rgb(29 78 216);\n"
+                "--tw-ring-color: rgb(29 78 216 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-800",
-                "--tw-ring-color: rgb(30 64 175);\n"
+                "--tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-900",
-                "--tw-ring-color: rgb(30 58 138);\n"
+                "--tw-ring-color: rgb(30 58 138 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-blue-950",
-                "--tw-ring-color: rgb(23 37 84);\n"
+                "--tw-ring-color: rgb(23 37 84 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-50",
-                "--tw-ring-color: rgb(238 242 255);\n"
+                "--tw-ring-color: rgb(238 242 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-100",
-                "--tw-ring-color: rgb(224 231 255);\n"
+                "--tw-ring-color: rgb(224 231 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-200",
-                "--tw-ring-color: rgb(199 210 254);\n"
+                "--tw-ring-color: rgb(199 210 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-300",
-                "--tw-ring-color: rgb(165 180 252);\n"
+                "--tw-ring-color: rgb(165 180 252 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-400",
-                "--tw-ring-color: rgb(129 140 248);\n"
+                "--tw-ring-color: rgb(129 140 248 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-500",
-                "--tw-ring-color: rgb(99 102 241);\n"
+                "--tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-600",
-                "--tw-ring-color: rgb(79 70 229);\n"
+                "--tw-ring-color: rgb(79 70 229 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-700",
-                "--tw-ring-color: rgb(67 56 202);\n"
+                "--tw-ring-color: rgb(67 56 202 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-800",
-                "--tw-ring-color: rgb(55 48 163);\n"
+                "--tw-ring-color: rgb(55 48 163 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-900",
-                "--tw-ring-color: rgb(49 46 129);\n"
+                "--tw-ring-color: rgb(49 46 129 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-indigo-950",
-                "--tw-ring-color: rgb(30 27 75);\n"
+                "--tw-ring-color: rgb(30 27 75 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-50",
-                "--tw-ring-color: rgb(245 243 255);\n"
+                "--tw-ring-color: rgb(245 243 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-100",
-                "--tw-ring-color: rgb(237 233 254);\n"
+                "--tw-ring-color: rgb(237 233 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-200",
-                "--tw-ring-color: rgb(221 214 254);\n"
+                "--tw-ring-color: rgb(221 214 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-300",
-                "--tw-ring-color: rgb(196 181 253);\n"
+                "--tw-ring-color: rgb(196 181 253 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-400",
-                "--tw-ring-color: rgb(167 139 250);\n"
+                "--tw-ring-color: rgb(167 139 250 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-500",
-                "--tw-ring-color: rgb(139 92 246);\n"
+                "--tw-ring-color: rgb(139 92 246 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-600",
-                "--tw-ring-color: rgb(124 58 237);\n"
+                "--tw-ring-color: rgb(124 58 237 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-700",
-                "--tw-ring-color: rgb(109 40 217);\n"
+                "--tw-ring-color: rgb(109 40 217 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-800",
-                "--tw-ring-color: rgb(91 33 182);\n"
+                "--tw-ring-color: rgb(91 33 182 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-900",
-                "--tw-ring-color: rgb(76 29 149);\n"
+                "--tw-ring-color: rgb(76 29 149 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-violet-950",
-                "--tw-ring-color: rgb(46 16 101);\n"
+                "--tw-ring-color: rgb(46 16 101 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-50",
-                "--tw-ring-color: rgb(250 245 255);\n"
+                "--tw-ring-color: rgb(250 245 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-100",
-                "--tw-ring-color: rgb(243 232 255);\n"
+                "--tw-ring-color: rgb(243 232 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-200",
-                "--tw-ring-color: rgb(233 213 255);\n"
+                "--tw-ring-color: rgb(233 213 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-300",
-                "--tw-ring-color: rgb(216 180 254);\n"
+                "--tw-ring-color: rgb(216 180 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-400",
-                "--tw-ring-color: rgb(192 132 252);\n"
+                "--tw-ring-color: rgb(192 132 252 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-500",
-                "--tw-ring-color: rgb(168 85 247);\n"
+                "--tw-ring-color: rgb(168 85 247 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-600",
-                "--tw-ring-color: rgb(147 51 234);\n"
+                "--tw-ring-color: rgb(147 51 234 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-700",
-                "--tw-ring-color: rgb(126 34 206);\n"
+                "--tw-ring-color: rgb(126 34 206 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-800",
-                "--tw-ring-color: rgb(107 33 168);\n"
+                "--tw-ring-color: rgb(107 33 168 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-900",
-                "--tw-ring-color: rgb(88 28 135);\n"
+                "--tw-ring-color: rgb(88 28 135 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-purple-950",
-                "--tw-ring-color: rgb(59 7 100);\n"
+                "--tw-ring-color: rgb(59 7 100 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-50",
-                "--tw-ring-color: rgb(253 244 255);\n"
+                "--tw-ring-color: rgb(253 244 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-100",
-                "--tw-ring-color: rgb(250 232 255);\n"
+                "--tw-ring-color: rgb(250 232 255 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-200",
-                "--tw-ring-color: rgb(245 208 254);\n"
+                "--tw-ring-color: rgb(245 208 254 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-300",
-                "--tw-ring-color: rgb(240 171 252);\n"
+                "--tw-ring-color: rgb(240 171 252 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-400",
-                "--tw-ring-color: rgb(232 121 249);\n"
+                "--tw-ring-color: rgb(232 121 249 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-500",
-                "--tw-ring-color: rgb(217 70 239);\n"
+                "--tw-ring-color: rgb(217 70 239 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-600",
-                "--tw-ring-color: rgb(192 38 211);\n"
+                "--tw-ring-color: rgb(192 38 211 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-700",
-                "--tw-ring-color: rgb(162 28 175);\n"
+                "--tw-ring-color: rgb(162 28 175 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-800",
-                "--tw-ring-color: rgb(134 25 143);\n"
+                "--tw-ring-color: rgb(134 25 143 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-900",
-                "--tw-ring-color: rgb(112 26 117);\n"
+                "--tw-ring-color: rgb(112 26 117 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-fuchsia-950",
-                "--tw-ring-color: rgb(74 4 78);\n"
+                "--tw-ring-color: rgb(74 4 78 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-50",
-                "--tw-ring-color: rgb(253 242 248);\n"
+                "--tw-ring-color: rgb(253 242 248 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-100",
-                "--tw-ring-color: rgb(252 231 243);\n"
+                "--tw-ring-color: rgb(252 231 243 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-200",
-                "--tw-ring-color: rgb(251 207 232);\n"
+                "--tw-ring-color: rgb(251 207 232 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-300",
-                "--tw-ring-color: rgb(249 168 212);\n"
+                "--tw-ring-color: rgb(249 168 212 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-400",
-                "--tw-ring-color: rgb(244 114 182);\n"
+                "--tw-ring-color: rgb(244 114 182 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-500",
-                "--tw-ring-color: rgb(236 72 153);\n"
+                "--tw-ring-color: rgb(236 72 153 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-600",
-                "--tw-ring-color: rgb(219 39 119);\n"
+                "--tw-ring-color: rgb(219 39 119 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-700",
-                "--tw-ring-color: rgb(190 24 93);\n"
+                "--tw-ring-color: rgb(190 24 93 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-800",
-                "--tw-ring-color: rgb(157 23 77);\n"
+                "--tw-ring-color: rgb(157 23 77 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-900",
-                "--tw-ring-color: rgb(131 24 67);\n"
+                "--tw-ring-color: rgb(131 24 67 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-pink-950",
-                "--tw-ring-color: rgb(80 7 36);\n"
+                "--tw-ring-color: rgb(80 7 36 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-50",
-                "--tw-ring-color: rgb(255 241 242);\n"
+                "--tw-ring-color: rgb(255 241 242 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-100",
-                "--tw-ring-color: rgb(255 228 230);\n"
+                "--tw-ring-color: rgb(255 228 230 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-200",
-                "--tw-ring-color: rgb(254 205 211);\n"
+                "--tw-ring-color: rgb(254 205 211 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-300",
-                "--tw-ring-color: rgb(253 164 175);\n"
+                "--tw-ring-color: rgb(253 164 175 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-400",
-                "--tw-ring-color: rgb(251 113 133);\n"
+                "--tw-ring-color: rgb(251 113 133 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-500",
-                "--tw-ring-color: rgb(244 63 94);\n"
+                "--tw-ring-color: rgb(244 63 94 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-600",
-                "--tw-ring-color: rgb(225 29 72);\n"
+                "--tw-ring-color: rgb(225 29 72 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-700",
-                "--tw-ring-color: rgb(190 18 60);\n"
+                "--tw-ring-color: rgb(190 18 60 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-800",
-                "--tw-ring-color: rgb(159 18 57);\n"
+                "--tw-ring-color: rgb(159 18 57 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-900",
-                "--tw-ring-color: rgb(136 19 55);\n"
+                "--tw-ring-color: rgb(136 19 55 / var(--tw-ring-opacity, 1));\n"
             ],
             [
                 "ring-rose-950",
-                "--tw-ring-color: rgb(76 5 25);\n"
+                "--tw-ring-color: rgb(76 5 25 / var(--tw-ring-opacity, 1));\n"
             ]
         ]
     },

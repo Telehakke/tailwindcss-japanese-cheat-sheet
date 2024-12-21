@@ -1,7 +1,7 @@
 import githubMarkSVG from "../assets/github-mark.svg";
 import githubMarkWhiteSVG from "../assets/github-mark-white.svg";
 
-const Footer = (): JSX.Element => {
+const Footer = () => {
     return (
         <div className="flex items-center justify-center gap-2">
             <a

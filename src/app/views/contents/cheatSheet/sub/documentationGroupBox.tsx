@@ -29,7 +29,7 @@ const DocumentationGroupBox = ({
     detailedDocumentation,
 }: {
     detailedDocumentation: DetailedDocumentation;
-}): JSX.Element => {
+}) => {
     const shouldExpandAtom = useRef(atom(false));
 
     return (
@@ -58,7 +58,7 @@ const EntryAndLinkBar = ({
 }: {
     detailedDocumentation: DetailedDocumentation;
     shouldExpandAtom: PrimitiveAtom<boolean> & WithInitialValue<boolean>;
-}): JSX.Element => {
+}) => {
     const setShouldExpand = useSetAtom(shouldExpandAtom);
     const setShouldExpandAll = useSetAtom(shouldExpandAllAtom);
 
@@ -84,7 +84,7 @@ const EntryAndLink = ({
     detailedDocumentation,
 }: {
     detailedDocumentation: DetailedDocumentation;
-}): JSX.Element => {
+}) => {
     return (
         <>
             <h3>{detailedDocumentation.entry}</h3>
@@ -112,7 +112,7 @@ const DescriptionBar = ({
     detailedDocumentation,
 }: {
     detailedDocumentation: DetailedDocumentation;
-}): JSX.Element => {
+}) => {
     return (
         <p className={`whitespace-pre-line ${FontSize.textSm}`}>
             {detailedDocumentation.description}
@@ -129,7 +129,7 @@ const DetailAndParametersBox = ({
 }: {
     detailedDocumentation: DetailedDocumentation;
     shouldExpandAtom: PrimitiveAtom<boolean> & WithInitialValue<boolean>;
-}): JSX.Element => {
+}) => {
     const [shouldExpand, setShouldExpand] = useAtom(shouldExpandAtom);
     const shouldExpandAll = useAtomValue(shouldExpandAllAtom);
 
@@ -163,7 +163,7 @@ const ParametersTable = ({
     detailedDocumentation,
 }: {
     detailedDocumentation: DetailedDocumentation;
-}): JSX.Element => {
+}) => {
     const [innerShouldExpand, innerSetShouldExpand] = useState(false);
     const [shouldShowButton, setShouldShowButton] = useState(false);
     const tableElement = useRef<HTMLTableElement>(null);
@@ -227,7 +227,7 @@ const TbodyOfParameters = ({
 }: {
     documentation: DetailedDocumentation;
     shouldExpand: boolean;
-}): JSX.Element => {
+}) => {
     return (
         <tbody>
             {documentation.parameters
@@ -269,7 +269,7 @@ const TbodyUsedOnlyForContainer = ({
     documentation,
 }: {
     documentation: DetailedDocumentation;
-}): JSX.Element => {
+}) => {
     return (
         <tbody>
             {documentation.parameters.map((parameters, i) => {

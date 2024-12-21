@@ -7,7 +7,7 @@ import { Close } from "./common/icons";
 /**
  * ページ内リンクをまとめたメニュー
  */
-const Sidebar = (): JSX.Element => {
+const Sidebar = () => {
     const [isOpenSidebar, setIsOpenSidebar] = useAtom(isOpenSidebarAtom);
     const cheatSheetData = useAtomValue(cheatSheetDataAtom);
 
