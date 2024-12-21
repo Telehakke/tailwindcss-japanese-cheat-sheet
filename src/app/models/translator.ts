@@ -5,21 +5,21 @@ import {
     Documentation,
     Translation,
 } from "./types";
-import { documentations as layout } from "../data/Layout_v3.4.13";
-import { documentations as flexboxAndGrid } from "../data/Flexbox & Grid_v3.4.13";
-import { documentations as spacing } from "../data/Spacing_v3.4.13";
-import { documentations as sizing } from "../data/Sizing_v3.4.13";
-import { documentations as typography } from "../data/Typography_v3.4.13";
-import { documentations as backgrounds } from "../data/Backgrounds_v3.4.13";
-import { documentations as borders } from "../data/Borders_v3.4.13";
-import { documentations as effects } from "../data/Effects_v3.4.13";
-import { documentations as filters } from "../data/Filters_v3.4.13";
-import { documentations as tables } from "../data/Tables_v3.4.13";
-import { documentations as transitionsAndAnimation } from "../data/Transitions & Animation_v3.4.13";
-import { documentations as transforms } from "../data/Transforms_v3.4.13";
-import { documentations as interactivity } from "../data/Interactivity_v3.4.13";
-import { documentations as svg } from "../data/SVG_v3.4.13";
-import { documentations as accessibility } from "../data/Accessibility_v3.4.13";
+import { documentations as layout } from "../data/Layout_v3.4.17";
+import { documentations as flexboxAndGrid } from "../data/Flexbox & Grid_v3.4.17";
+import { documentations as spacing } from "../data/Spacing_v3.4.17";
+import { documentations as sizing } from "../data/Sizing_v3.4.17";
+import { documentations as typography } from "../data/Typography_v3.4.17";
+import { documentations as backgrounds } from "../data/Backgrounds_v3.4.17";
+import { documentations as borders } from "../data/Borders_v3.4.17";
+import { documentations as effects } from "../data/Effects_v3.4.17";
+import { documentations as filters } from "../data/Filters_v3.4.17";
+import { documentations as tables } from "../data/Tables_v3.4.17";
+import { documentations as transitionsAndAnimation } from "../data/Transitions & Animation_v3.4.17";
+import { documentations as transforms } from "../data/Transforms_v3.4.17";
+import { documentations as interactivity } from "../data/Interactivity_v3.4.17";
+import { documentations as svg } from "../data/SVG_v3.4.17";
+import { documentations as accessibility } from "../data/Accessibility_v3.4.17";
 import layoutJA from "../translations/layoutJA";
 import flexboxAndGridJA from "../translations/flexboxAndGridJA";
 import spacingJA from "../translations/spacingJA";

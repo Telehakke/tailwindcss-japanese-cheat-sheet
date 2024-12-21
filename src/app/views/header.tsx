@@ -1,5 +1,5 @@
 import { useAtom, useSetAtom } from "jotai";
-import { version } from "../data/Layout_v3.4.13";
+import { version } from "../data/Layout_v3.4.17";
 import { Bg, Border, FontSize } from "./common/classNames";
 import {
     cheatSheetDataAtom,

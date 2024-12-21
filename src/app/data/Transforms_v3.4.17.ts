@@ -1,4 +1,4 @@
-export const version = "v3.4.13";
+export const version = "v3.4.17";
 export const documentations = [
     {
         "url": "https://tailwindcss.com/docs/scale",
