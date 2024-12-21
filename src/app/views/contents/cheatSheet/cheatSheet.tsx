@@ -10,7 +10,7 @@ export const CheatSheet = ({
     cheatSheetData,
 }: {
     cheatSheetData: CheatSheetData;
-}): JSX.Element => {
+}) => {
     return (
         <FloatingCard>
             <CategoryBar cheatSheetData={cheatSheetData} />

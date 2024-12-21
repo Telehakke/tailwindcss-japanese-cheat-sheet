@@ -9,7 +9,7 @@ import {
     getBreakpointPrefix,
 } from "../../models/breakpointPrefix";
 
-const Contents = (): JSX.Element => {
+const Contents = () => {
     const cheatSheetData = useAtomValue(cheatSheetDataAtom);
     const [firstRow, setFirstRow] = useState<CheatSheetData[]>([]);
     const [secondRow, setSecondRow] = useState<CheatSheetData[]>([]);

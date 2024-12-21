@@ -4,7 +4,7 @@ import CheatSheetController from "./views/controller/cheatSheetController";
 import Contents from "./views/contents/contents";
 import Sidebar from "./views/sidebar";
 
-const App = (): JSX.Element => {
+const App = () => {
     return (
         <>
             <div className="space-y-4 p-4">

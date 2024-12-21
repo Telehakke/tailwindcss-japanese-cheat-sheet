@@ -14,14 +14,14 @@ export type DetailedDocumentation = {
     url: string;
     entry: string;
     description: string;
-    detail: JSX.Element | null | undefined;
+    detail: React.JSX.Element | null | undefined;
     parameters: string[][];
 };
 
 export type Translation = {
     entry: string;
     description: string;
-    detail: JSX.Element | null;
+    detail: React.JSX.Element | null;
 };
 
 export type CheatSheetData = {

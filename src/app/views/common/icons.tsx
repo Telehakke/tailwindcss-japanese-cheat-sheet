@@ -1,10 +1,6 @@
 // Icons by Google Fonts (https://fonts.google.com/icons)
 
-export const KeyboardArrowUp = ({
-    className,
-}: {
-    className?: string;
-}): JSX.Element => {
+export const KeyboardArrowUp = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}
@@ -18,11 +14,7 @@ export const KeyboardArrowUp = ({
     );
 };
 
-export const KeyboardArrowDown = ({
-    className,
-}: {
-    className?: string;
-}): JSX.Element => {
+export const KeyboardArrowDown = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}
@@ -36,11 +28,7 @@ export const KeyboardArrowDown = ({
     );
 };
 
-export const UnfoldMore = ({
-    className,
-}: {
-    className?: string;
-}): JSX.Element => {
+export const UnfoldMore = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}
@@ -54,11 +42,7 @@ export const UnfoldMore = ({
     );
 };
 
-export const UnfoldLess = ({
-    className,
-}: {
-    className?: string;
-}): JSX.Element => {
+export const UnfoldLess = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}
@@ -72,7 +56,7 @@ export const UnfoldLess = ({
     );
 };
 
-export const Link = ({ className }: { className?: string }): JSX.Element => {
+export const Link = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}
@@ -86,7 +70,7 @@ export const Link = ({ className }: { className?: string }): JSX.Element => {
     );
 };
 
-export const Search = ({ className }: { className?: string }): JSX.Element => {
+export const Search = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}
@@ -100,7 +84,7 @@ export const Search = ({ className }: { className?: string }): JSX.Element => {
     );
 };
 
-export const Close = ({ className }: { className?: string }): JSX.Element => {
+export const Close = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}
@@ -114,7 +98,7 @@ export const Close = ({ className }: { className?: string }): JSX.Element => {
     );
 };
 
-export const Menu = ({ className }: { className?: string }): JSX.Element => {
+export const Menu = ({ className }: { className?: string }) => {
     return (
         <svg
             className={className}

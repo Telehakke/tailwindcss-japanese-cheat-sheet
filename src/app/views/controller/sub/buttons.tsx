@@ -11,7 +11,7 @@ import { Bg, Border, Fill } from "../../common/classNames";
 /**
  * 全て展開、全て折りたたむ、メニューボタン
  */
-const ExpandAndCollapseAndMenuButtons = (): JSX.Element => {
+const ExpandAndCollapseAndMenuButtons = () => {
     const isJapanese = useAtomValue(isJapaneseAtom);
     const setShouldExpandAll = useSetAtom(shouldExpandAllAtom);
     const setIsOpenSidebar = useSetAtom(isOpenSidebarAtom);

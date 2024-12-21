@@ -14,7 +14,7 @@ import { Bg, Fill, Outline } from "../../common/classNames";
 /**
  * 検索テキストボックス
  */
-const SearchTextBox = (): JSX.Element => {
+const SearchTextBox = () => {
     const setCheatSheetData = useSetAtom(cheatSheetDataAtom);
     const isJapanese = useAtomValue(isJapaneseAtom);
     const [isFocus, setIsFocus] = useState(false);

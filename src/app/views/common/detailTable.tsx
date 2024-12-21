@@ -7,8 +7,8 @@ import { Bg, FontSize, TextColor } from "./classNames";
 const DetailTable = ({
     value,
 }: {
-    value: [string, string, JSX.Element?][];
-}): JSX.Element => {
+    value: [string, string, React.JSX.Element?][];
+}) => {
     return (
         <table
             className={`border-separate border-spacing-y-1 leading-4 ${FontSize.textSm} ${TextColor.neutral500_dark300}`}

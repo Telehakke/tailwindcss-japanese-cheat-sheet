@@ -8,7 +8,7 @@ const CategoryBar = ({
     cheatSheetData,
 }: {
     cheatSheetData: CheatSheetData;
-}): JSX.Element => {
+}) => {
     return (
         <h2
             className={`scroll-mt-[126px] whitespace-pre-line break-keep p-2 pb-2 text-center font-bold sm:scroll-mt-[80px] ${FontSize.textXl} ${TextColor.orange500}`}
