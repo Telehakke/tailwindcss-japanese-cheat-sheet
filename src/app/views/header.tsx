@@ -32,11 +32,19 @@ const Title = () => {
 
 const DocumentationVersion = () => {
     return (
-        <p
-            className={`-ml-4 px-4 ${FontSize.textSm} ${Bg.purpleToTransparentGradation}`}
-        >
-            {`Documentation ${version}`}
-        </p>
+        <div>
+            <p
+                className={`-ml-4 px-4 ${FontSize.textSm} ${Bg.purpleToTransparentGradation}`}
+            >
+                {`Documentation ${version}`}
+            </p>
+            <a
+                className="underline"
+                href="https://telehakke.github.io/tailwindcss-japanese-cheat-sheet-v4/"
+            >
+                v4
+            </a>
+        </div>
     );
 };
 

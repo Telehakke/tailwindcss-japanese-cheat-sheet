@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/screen-readers",
+        "url": "https://v3.tailwindcss.com/docs/screen-readers",
         "entry": "Screen Readers",
         "description": "Utilities for improving accessibility with screen readers.",
         "parameters": [
@@ -16,7 +16,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/forced-color-adjust",
+        "url": "https://v3.tailwindcss.com/docs/forced-color-adjust",
         "entry": "Forced Color Adjust",
         "description": "Utilities for opting in and out of forced colors.",
         "parameters": [

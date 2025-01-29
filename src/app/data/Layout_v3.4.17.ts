@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/aspect-ratio",
+        "url": "https://v3.tailwindcss.com/docs/aspect-ratio",
         "entry": "Aspect Ratio",
         "description": "Utilities for controlling the aspect ratio of an element.",
         "parameters": [
@@ -20,7 +20,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/container",
+        "url": "https://v3.tailwindcss.com/docs/container",
         "entry": "Container",
         "description": "A component for fixing an element's width to the current breakpoint.",
         "parameters": [
@@ -52,7 +52,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/columns",
+        "url": "https://v3.tailwindcss.com/docs/columns",
         "entry": "Columns",
         "description": "Utilities for controlling the number of columns within an element.",
         "parameters": [
@@ -163,7 +163,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/break-after",
+        "url": "https://v3.tailwindcss.com/docs/break-after",
         "entry": "Break After",
         "description": "Utilities for controlling how a column or page should break after an element.",
         "parameters": [
@@ -202,7 +202,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/break-before",
+        "url": "https://v3.tailwindcss.com/docs/break-before",
         "entry": "Break Before",
         "description": "Utilities for controlling how a column or page should break before an element.",
         "parameters": [
@@ -241,7 +241,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/break-inside",
+        "url": "https://v3.tailwindcss.com/docs/break-inside",
         "entry": "Break Inside",
         "description": "Utilities for controlling how a column or page should break within an element.",
         "parameters": [
@@ -264,7 +264,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/box-decoration-break",
+        "url": "https://v3.tailwindcss.com/docs/box-decoration-break",
         "entry": "Box Decoration Break",
         "description": "Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.",
         "parameters": [
@@ -279,7 +279,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/box-sizing",
+        "url": "https://v3.tailwindcss.com/docs/box-sizing",
         "entry": "Box Sizing",
         "description": "Utilities for controlling how the browser should calculate an element's total size.",
         "parameters": [
@@ -294,7 +294,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/display",
+        "url": "https://v3.tailwindcss.com/docs/display",
         "entry": "Display",
         "description": "Utilities for controlling the display box type of an element.",
         "parameters": [
@@ -385,7 +385,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/float",
+        "url": "https://v3.tailwindcss.com/docs/float",
         "entry": "Floats",
         "description": "Utilities for controlling the wrapping of content around an element.",
         "parameters": [
@@ -412,7 +412,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/clear",
+        "url": "https://v3.tailwindcss.com/docs/clear",
         "entry": "Clear",
         "description": "Utilities for controlling the wrapping of content around an element.",
         "parameters": [
@@ -443,7 +443,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/isolation",
+        "url": "https://v3.tailwindcss.com/docs/isolation",
         "entry": "Isolation",
         "description": "Utilities for controlling whether an element should explicitly create a new stacking context.",
         "parameters": [
@@ -458,7 +458,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/object-fit",
+        "url": "https://v3.tailwindcss.com/docs/object-fit",
         "entry": "Object Fit",
         "description": "Utilities for controlling how a replaced element's content should be resized.",
         "parameters": [
@@ -485,7 +485,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/object-position",
+        "url": "https://v3.tailwindcss.com/docs/object-position",
         "entry": "Object Position",
         "description": "Utilities for controlling how a replaced element's content should be positioned within its container.",
         "parameters": [
@@ -528,7 +528,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/overflow",
+        "url": "https://v3.tailwindcss.com/docs/overflow",
         "entry": "Overflow",
         "description": "Utilities for controlling how an element handles content that is too large for the container.",
         "parameters": [
@@ -595,7 +595,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/overscroll-behavior",
+        "url": "https://v3.tailwindcss.com/docs/overscroll-behavior",
         "entry": "Overscroll Behavior",
         "description": "Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.",
         "parameters": [
@@ -638,7 +638,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/position",
+        "url": "https://v3.tailwindcss.com/docs/position",
         "entry": "Position",
         "description": "Utilities for controlling how an element is positioned in the DOM.",
         "parameters": [
@@ -665,7 +665,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/top-right-bottom-left",
+        "url": "https://v3.tailwindcss.com/docs/top-right-bottom-left",
         "entry": "Top / Right / Bottom / Left",
         "description": "Utilities for controlling the placement of positioned elements.",
         "parameters": [
@@ -2220,7 +2220,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/visibility",
+        "url": "https://v3.tailwindcss.com/docs/visibility",
         "entry": "Visibility",
         "description": "Utilities for controlling the visibility of an element.",
         "parameters": [
@@ -2239,7 +2239,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/z-index",
+        "url": "https://v3.tailwindcss.com/docs/z-index",
         "entry": "Z-Index",
         "description": "Utilities for controlling the stack order of an element.",
         "parameters": [

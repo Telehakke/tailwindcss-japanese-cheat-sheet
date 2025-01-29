@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/width",
+        "url": "https://v3.tailwindcss.com/docs/width",
         "entry": "Width",
         "description": "Utilities for setting the width of an element.",
         "parameters": [
@@ -288,7 +288,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/min-width",
+        "url": "https://v3.tailwindcss.com/docs/min-width",
         "entry": "Min-Width",
         "description": "Utilities for setting the minimum width of an element.",
         "parameters": [
@@ -451,7 +451,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/max-width",
+        "url": "https://v3.tailwindcss.com/docs/max-width",
         "entry": "Max-Width",
         "description": "Utilities for setting the maximum width of an element.",
         "parameters": [
@@ -686,7 +686,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/height",
+        "url": "https://v3.tailwindcss.com/docs/height",
         "entry": "Height",
         "description": "Utilities for setting the height of an element.",
         "parameters": [
@@ -929,7 +929,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/min-height",
+        "url": "https://v3.tailwindcss.com/docs/min-height",
         "entry": "Min-Height",
         "description": "Utilities for setting the minimum height of an element.",
         "parameters": [
@@ -1108,7 +1108,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/max-height",
+        "url": "https://v3.tailwindcss.com/docs/max-height",
         "entry": "Max-Height",
         "description": "Utilities for setting the maximum height of an element.",
         "parameters": [
@@ -1291,7 +1291,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/size",
+        "url": "https://v3.tailwindcss.com/docs/size",
         "entry": "Size",
         "description": "Utilities for setting the width and height of an element at the same time.",
         "parameters": [

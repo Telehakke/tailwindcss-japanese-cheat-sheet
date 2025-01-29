@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/background-attachment",
+        "url": "https://v3.tailwindcss.com/docs/background-attachment",
         "entry": "Background Attachment",
         "description": "Utilities for controlling how a background image behaves when scrolling.",
         "parameters": [
@@ -20,7 +20,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-clip",
+        "url": "https://v3.tailwindcss.com/docs/background-clip",
         "entry": "Background Clip",
         "description": "Utilities for controlling the bounding box of an element's background.",
         "parameters": [
@@ -43,7 +43,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-color",
+        "url": "https://v3.tailwindcss.com/docs/background-color",
         "entry": "Background Color",
         "description": "Utilities for controlling an element's background color.",
         "parameters": [
@@ -1285,7 +1285,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-origin",
+        "url": "https://v3.tailwindcss.com/docs/background-origin",
         "entry": "Background Origin",
         "description": "Utilities for controlling how an element's background is positioned relative to borders, padding, and content.",
         "parameters": [
@@ -1304,7 +1304,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-position",
+        "url": "https://v3.tailwindcss.com/docs/background-position",
         "entry": "Background Position",
         "description": "Utilities for controlling the position of an element's background image.",
         "parameters": [
@@ -1347,7 +1347,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-repeat",
+        "url": "https://v3.tailwindcss.com/docs/background-repeat",
         "entry": "Background Repeat",
         "description": "Utilities for controlling the repetition of an element's background image.",
         "parameters": [
@@ -1378,7 +1378,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-size",
+        "url": "https://v3.tailwindcss.com/docs/background-size",
         "entry": "Background Size",
         "description": "Utilities for controlling the background size of an element's background image.",
         "parameters": [
@@ -1397,7 +1397,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-image",
+        "url": "https://v3.tailwindcss.com/docs/background-image",
         "entry": "Background Image",
         "description": "Utilities for controlling an element's background image.",
         "parameters": [
@@ -1440,7 +1440,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/gradient-color-stops",
+        "url": "https://v3.tailwindcss.com/docs/gradient-color-stops",
         "entry": "Gradient Color Stops",
         "description": "Utilities for controlling the color stops in background gradients.",
         "parameters": [

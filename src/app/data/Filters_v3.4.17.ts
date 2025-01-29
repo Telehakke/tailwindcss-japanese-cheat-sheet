@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/blur",
+        "url": "https://v3.tailwindcss.com/docs/blur",
         "entry": "Blur",
         "description": "Utilities for applying blur filters to an element.",
         "parameters": [
@@ -40,7 +40,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/brightness",
+        "url": "https://v3.tailwindcss.com/docs/brightness",
         "entry": "Brightness",
         "description": "Utilities for applying brightness filters to an element.",
         "parameters": [
@@ -91,7 +91,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/contrast",
+        "url": "https://v3.tailwindcss.com/docs/contrast",
         "entry": "Contrast",
         "description": "Utilities for applying contrast filters to an element.",
         "parameters": [
@@ -126,7 +126,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/drop-shadow",
+        "url": "https://v3.tailwindcss.com/docs/drop-shadow",
         "entry": "Drop Shadow",
         "description": "Utilities for applying drop-shadow filters to an element.",
         "parameters": [
@@ -161,7 +161,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grayscale",
+        "url": "https://v3.tailwindcss.com/docs/grayscale",
         "entry": "Grayscale",
         "description": "Utilities for applying grayscale filters to an element.",
         "parameters": [
@@ -176,7 +176,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/hue-rotate",
+        "url": "https://v3.tailwindcss.com/docs/hue-rotate",
         "entry": "Hue Rotate",
         "description": "Utilities for applying hue-rotate filters to an element.",
         "parameters": [
@@ -207,7 +207,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/invert",
+        "url": "https://v3.tailwindcss.com/docs/invert",
         "entry": "Invert",
         "description": "Utilities for applying invert filters to an element.",
         "parameters": [
@@ -222,7 +222,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/saturate",
+        "url": "https://v3.tailwindcss.com/docs/saturate",
         "entry": "Saturate",
         "description": "Utilities for applying saturation filters to an element.",
         "parameters": [
@@ -249,7 +249,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/sepia",
+        "url": "https://v3.tailwindcss.com/docs/sepia",
         "entry": "Sepia",
         "description": "Utilities for applying sepia filters to an element.",
         "parameters": [
@@ -264,7 +264,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-blur",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-blur",
         "entry": "Backdrop Blur",
         "description": "Utilities for applying backdrop blur filters to an element.",
         "parameters": [
@@ -303,7 +303,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-brightness",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-brightness",
         "entry": "Backdrop Brightness",
         "description": "Utilities for applying backdrop brightness filters to an element.",
         "parameters": [
@@ -354,7 +354,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-contrast",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-contrast",
         "entry": "Backdrop Contrast",
         "description": "Utilities for applying backdrop contrast filters to an element.",
         "parameters": [
@@ -389,7 +389,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-grayscale",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-grayscale",
         "entry": "Backdrop Grayscale",
         "description": "Utilities for applying backdrop grayscale filters to an element.",
         "parameters": [
@@ -404,7 +404,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-hue-rotate",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-hue-rotate",
         "entry": "Backdrop Hue Rotate",
         "description": "Utilities for applying backdrop hue-rotate filters to an element.",
         "parameters": [
@@ -435,7 +435,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-invert",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-invert",
         "entry": "Backdrop Invert",
         "description": "Utilities for applying backdrop invert filters to an element.",
         "parameters": [
@@ -450,7 +450,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-opacity",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-opacity",
         "entry": "Backdrop Opacity",
         "description": "Utilities for applying backdrop opacity filters to an element.",
         "parameters": [
@@ -541,7 +541,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-saturate",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-saturate",
         "entry": "Backdrop Saturate",
         "description": "Utilities for applying backdrop saturation filters to an element.",
         "parameters": [
@@ -568,7 +568,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/backdrop-sepia",
+        "url": "https://v3.tailwindcss.com/docs/backdrop-sepia",
         "entry": "Backdrop Sepia",
         "description": "Utilities for applying backdrop sepia filters to an element.",
         "parameters": [

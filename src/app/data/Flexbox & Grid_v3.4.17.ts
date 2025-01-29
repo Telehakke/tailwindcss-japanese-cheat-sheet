@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/flex-basis",
+        "url": "https://v3.tailwindcss.com/docs/flex-basis",
         "entry": "Flex Basis",
         "description": "Utilities for controlling the initial size of flex items.",
         "parameters": [
@@ -260,7 +260,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/flex-direction",
+        "url": "https://v3.tailwindcss.com/docs/flex-direction",
         "entry": "Flex Direction",
         "description": "Utilities for controlling the direction of flex items.",
         "parameters": [
@@ -283,7 +283,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/flex-wrap",
+        "url": "https://v3.tailwindcss.com/docs/flex-wrap",
         "entry": "Flex Wrap",
         "description": "Utilities for controlling how flex items wrap.",
         "parameters": [
@@ -302,7 +302,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/flex",
+        "url": "https://v3.tailwindcss.com/docs/flex",
         "entry": "Flex",
         "description": "Utilities for controlling how flex items both grow and shrink.",
         "parameters": [
@@ -325,7 +325,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/flex-grow",
+        "url": "https://v3.tailwindcss.com/docs/flex-grow",
         "entry": "Flex Grow",
         "description": "Utilities for controlling how flex items grow.",
         "parameters": [
@@ -340,7 +340,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/flex-shrink",
+        "url": "https://v3.tailwindcss.com/docs/flex-shrink",
         "entry": "Flex Shrink",
         "description": "Utilities for controlling how flex items shrink.",
         "parameters": [
@@ -355,7 +355,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/order",
+        "url": "https://v3.tailwindcss.com/docs/order",
         "entry": "Order",
         "description": "Utilities for controlling the order of flex and grid items.",
         "parameters": [
@@ -422,7 +422,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grid-template-columns",
+        "url": "https://v3.tailwindcss.com/docs/grid-template-columns",
         "entry": "Grid Template Columns",
         "description": "Utilities for specifying the columns in a grid layout.",
         "parameters": [
@@ -485,7 +485,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grid-column",
+        "url": "https://v3.tailwindcss.com/docs/grid-column",
         "entry": "Grid Column Start / End",
         "description": "Utilities for controlling how elements are sized and placed across grid columns.",
         "parameters": [
@@ -660,7 +660,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grid-template-rows",
+        "url": "https://v3.tailwindcss.com/docs/grid-template-rows",
         "entry": "Grid Template Rows",
         "description": "Utilities for specifying the rows in a grid layout.",
         "parameters": [
@@ -723,7 +723,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grid-row",
+        "url": "https://v3.tailwindcss.com/docs/grid-row",
         "entry": "Grid Row Start / End",
         "description": "Utilities for controlling how elements are sized and placed across grid rows.",
         "parameters": [
@@ -898,7 +898,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grid-auto-flow",
+        "url": "https://v3.tailwindcss.com/docs/grid-auto-flow",
         "entry": "Grid Auto Flow",
         "description": "Utilities for controlling how elements in a grid are auto-placed.",
         "parameters": [
@@ -925,7 +925,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grid-auto-columns",
+        "url": "https://v3.tailwindcss.com/docs/grid-auto-columns",
         "entry": "Grid Auto Columns",
         "description": "Utilities for controlling the size of implicitly-created grid columns.",
         "parameters": [
@@ -948,7 +948,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/grid-auto-rows",
+        "url": "https://v3.tailwindcss.com/docs/grid-auto-rows",
         "entry": "Grid Auto Rows",
         "description": "Utilities for controlling the size of implicitly-created grid rows.",
         "parameters": [
@@ -971,7 +971,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/gap",
+        "url": "https://v3.tailwindcss.com/docs/gap",
         "entry": "Gap",
         "description": "Utilities for controlling gutters between grid and flexbox items.",
         "parameters": [
@@ -1398,7 +1398,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/justify-content",
+        "url": "https://v3.tailwindcss.com/docs/justify-content",
         "entry": "Justify Content",
         "description": "Utilities for controlling how flex and grid items are positioned along a container's main axis.",
         "parameters": [
@@ -1437,7 +1437,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/justify-items",
+        "url": "https://v3.tailwindcss.com/docs/justify-items",
         "entry": "Justify Items",
         "description": "Utilities for controlling how grid items are aligned along their inline axis.",
         "parameters": [
@@ -1460,7 +1460,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/justify-self",
+        "url": "https://v3.tailwindcss.com/docs/justify-self",
         "entry": "Justify Self",
         "description": "Utilities for controlling how an individual grid item is aligned along its inline axis.",
         "parameters": [
@@ -1487,7 +1487,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/align-content",
+        "url": "https://v3.tailwindcss.com/docs/align-content",
         "entry": "Align Content",
         "description": "Utilities for controlling how rows are positioned in multi-row flex and grid containers.",
         "parameters": [
@@ -1530,7 +1530,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/align-items",
+        "url": "https://v3.tailwindcss.com/docs/align-items",
         "entry": "Align Items",
         "description": "Utilities for controlling how flex and grid items are positioned along a container's cross axis.",
         "parameters": [
@@ -1557,7 +1557,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/align-self",
+        "url": "https://v3.tailwindcss.com/docs/align-self",
         "entry": "Align Self",
         "description": "Utilities for controlling how an individual flex or grid item is positioned along its container's cross axis.",
         "parameters": [
@@ -1588,7 +1588,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/place-content",
+        "url": "https://v3.tailwindcss.com/docs/place-content",
         "entry": "Place Content",
         "description": "Utilities for controlling how content is justified and aligned at the same time.",
         "parameters": [
@@ -1627,7 +1627,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/place-items",
+        "url": "https://v3.tailwindcss.com/docs/place-items",
         "entry": "Place Items",
         "description": "Utilities for controlling how items are justified and aligned at the same time.",
         "parameters": [
@@ -1654,7 +1654,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/place-self",
+        "url": "https://v3.tailwindcss.com/docs/place-self",
         "entry": "Place Self",
         "description": "Utilities for controlling how an individual item is justified and aligned at the same time.",
         "parameters": [

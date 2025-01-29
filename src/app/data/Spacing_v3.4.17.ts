@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/padding",
+        "url": "https://v3.tailwindcss.com/docs/padding",
         "entry": "Padding",
         "description": "Utilities for controlling an element's padding.",
         "parameters": [
@@ -1268,7 +1268,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/margin",
+        "url": "https://v3.tailwindcss.com/docs/margin",
         "entry": "Margin",
         "description": "Utilities for controlling an element's margin.",
         "parameters": [
@@ -2571,7 +2571,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/space",
+        "url": "https://v3.tailwindcss.com/docs/space",
         "entry": "Space Between",
         "description": "Utilities for controlling the space between child elements.",
         "parameters": [

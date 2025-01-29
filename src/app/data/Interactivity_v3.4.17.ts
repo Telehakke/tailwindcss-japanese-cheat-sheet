@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/accent-color",
+        "url": "https://v3.tailwindcss.com/docs/accent-color",
         "entry": "Accent Color",
         "description": "Utilities for controlling the accented color of a form control.",
         "parameters": [
@@ -1000,7 +1000,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/appearance",
+        "url": "https://v3.tailwindcss.com/docs/appearance",
         "entry": "Appearance",
         "description": "Utilities for suppressing native form control styling.",
         "parameters": [
@@ -1015,7 +1015,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/cursor",
+        "url": "https://v3.tailwindcss.com/docs/cursor",
         "entry": "Cursor",
         "description": "Utilities for controlling the cursor style when hovering over an element.",
         "parameters": [
@@ -1202,7 +1202,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/caret-color",
+        "url": "https://v3.tailwindcss.com/docs/caret-color",
         "entry": "Caret Color",
         "description": "Utilities for controlling the color of the text input cursor.",
         "parameters": [
@@ -2197,7 +2197,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/pointer-events",
+        "url": "https://v3.tailwindcss.com/docs/pointer-events",
         "entry": "Pointer Events",
         "description": "Utilities for controlling whether an element responds to pointer events.",
         "parameters": [
@@ -2212,7 +2212,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/resize",
+        "url": "https://v3.tailwindcss.com/docs/resize",
         "entry": "Resize",
         "description": "Utilities for controlling how an element can be resized.",
         "parameters": [
@@ -2235,7 +2235,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/scroll-behavior",
+        "url": "https://v3.tailwindcss.com/docs/scroll-behavior",
         "entry": "Scroll Behavior",
         "description": "Utilities for controlling the scroll behavior of an element.",
         "parameters": [
@@ -2250,7 +2250,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/scroll-margin",
+        "url": "https://v3.tailwindcss.com/docs/scroll-margin",
         "entry": "Scroll Margin",
         "description": "Utilities for controlling the scroll offset around items in a snap container.",
         "parameters": [
@@ -3517,7 +3517,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/scroll-padding",
+        "url": "https://v3.tailwindcss.com/docs/scroll-padding",
         "entry": "Scroll Padding",
         "description": "Utilities for controlling an element's scroll offset within a snap container.",
         "parameters": [
@@ -4784,7 +4784,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/scroll-snap-align",
+        "url": "https://v3.tailwindcss.com/docs/scroll-snap-align",
         "entry": "Scroll Snap Align",
         "description": "Utilities for controlling the scroll snap alignment of an element.",
         "parameters": [
@@ -4807,7 +4807,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/scroll-snap-stop",
+        "url": "https://v3.tailwindcss.com/docs/scroll-snap-stop",
         "entry": "Scroll Snap Stop",
         "description": "Utilities for controlling whether you can skip past possible snap positions.",
         "parameters": [
@@ -4822,7 +4822,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/scroll-snap-type",
+        "url": "https://v3.tailwindcss.com/docs/scroll-snap-type",
         "entry": "Scroll Snap Type",
         "description": "Utilities for controlling how strictly snap points are enforced in a snap container.",
         "parameters": [
@@ -4853,7 +4853,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/touch-action",
+        "url": "https://v3.tailwindcss.com/docs/touch-action",
         "entry": "Touch Action",
         "description": "Utilities for controlling how an element can be scrolled and zoomed on touchscreens.",
         "parameters": [
@@ -4900,7 +4900,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/user-select",
+        "url": "https://v3.tailwindcss.com/docs/user-select",
         "entry": "User Select",
         "description": "Utilities for controlling whether the user can select text in an element.",
         "parameters": [
@@ -4923,7 +4923,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/will-change",
+        "url": "https://v3.tailwindcss.com/docs/will-change",
         "entry": "Will Change",
         "description": "Utilities for optimizing upcoming animations of elements that are expected to change.",
         "parameters": [

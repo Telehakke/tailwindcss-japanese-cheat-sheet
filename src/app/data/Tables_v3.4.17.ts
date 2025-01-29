@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/border-collapse",
+        "url": "https://v3.tailwindcss.com/docs/border-collapse",
         "entry": "Border Collapse",
         "description": "Utilities for controlling whether table borders should collapse or be separated.",
         "parameters": [
@@ -16,7 +16,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/border-spacing",
+        "url": "https://v3.tailwindcss.com/docs/border-spacing",
         "entry": "Border Spacing",
         "description": "Utilities for controlling the spacing between table borders.",
         "parameters": [
@@ -443,7 +443,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/table-layout",
+        "url": "https://v3.tailwindcss.com/docs/table-layout",
         "entry": "Table Layout",
         "description": "Utilities for controlling the table layout algorithm.",
         "parameters": [
@@ -458,7 +458,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/caption-side",
+        "url": "https://v3.tailwindcss.com/docs/caption-side",
         "entry": "Caption Side",
         "description": "Utilities for controlling the alignment of a caption element inside of a table.",
         "parameters": [
