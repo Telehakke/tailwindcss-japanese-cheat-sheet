@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/border-radius",
+        "url": "https://v3.tailwindcss.com/docs/border-radius",
         "entry": "Border Radius",
         "description": "Utilities for controlling the border radius of an element.",
         "parameters": [
@@ -548,7 +548,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/border-width",
+        "url": "https://v3.tailwindcss.com/docs/border-width",
         "entry": "Border Width",
         "description": "Utilities for controlling the width of an element's borders.",
         "parameters": [
@@ -735,7 +735,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/border-color",
+        "url": "https://v3.tailwindcss.com/docs/border-color",
         "entry": "Border Color",
         "description": "Utilities for controlling the color of an element's borders.",
         "parameters": [
@@ -11857,7 +11857,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/border-style",
+        "url": "https://v3.tailwindcss.com/docs/border-style",
         "entry": "Border Style",
         "description": "Utilities for controlling the style of an element's borders.",
         "parameters": [
@@ -11888,7 +11888,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/divide-width",
+        "url": "https://v3.tailwindcss.com/docs/divide-width",
         "entry": "Divide Width",
         "description": "Utilities for controlling the border width between elements.",
         "parameters": [
@@ -11943,7 +11943,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/divide-color",
+        "url": "https://v3.tailwindcss.com/docs/divide-color",
         "entry": "Divide Color",
         "description": "Utilities for controlling the border color between elements.",
         "parameters": [
@@ -13185,7 +13185,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/divide-style",
+        "url": "https://v3.tailwindcss.com/docs/divide-style",
         "entry": "Divide Style",
         "description": "Utilities for controlling the border style between elements.",
         "parameters": [
@@ -13212,7 +13212,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/outline-width",
+        "url": "https://v3.tailwindcss.com/docs/outline-width",
         "entry": "Outline Width",
         "description": "Utilities for controlling the width of an element's outline.",
         "parameters": [
@@ -13239,7 +13239,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/outline-color",
+        "url": "https://v3.tailwindcss.com/docs/outline-color",
         "entry": "Outline Color",
         "description": "Utilities for controlling the color of an element's outline.",
         "parameters": [
@@ -14234,7 +14234,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/outline-style",
+        "url": "https://v3.tailwindcss.com/docs/outline-style",
         "entry": "Outline Style",
         "description": "Utilities for controlling the style of an element's outline.",
         "parameters": [
@@ -14261,7 +14261,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/outline-offset",
+        "url": "https://v3.tailwindcss.com/docs/outline-offset",
         "entry": "Outline Offset",
         "description": "Utilities for controlling the offset of an element's outline.",
         "parameters": [
@@ -14288,7 +14288,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/ring-width",
+        "url": "https://v3.tailwindcss.com/docs/ring-width",
         "entry": "Ring Width",
         "description": "Utilities for creating outline rings with box-shadows.",
         "parameters": [
@@ -14323,7 +14323,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/ring-color",
+        "url": "https://v3.tailwindcss.com/docs/ring-color",
         "entry": "Ring Color",
         "description": "Utilities for setting the color of outline rings.",
         "parameters": [
@@ -15318,7 +15318,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/ring-offset-width",
+        "url": "https://v3.tailwindcss.com/docs/ring-offset-width",
         "entry": "Ring Offset Width",
         "description": "Utilities for simulating an offset when adding outline rings.",
         "parameters": [
@@ -15345,7 +15345,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/ring-offset-color",
+        "url": "https://v3.tailwindcss.com/docs/ring-offset-color",
         "entry": "Ring Offset Color",
         "description": "Utilities for setting the color of outline ring offsets.",
         "parameters": [

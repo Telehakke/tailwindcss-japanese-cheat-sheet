@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/transition-property",
+        "url": "https://v3.tailwindcss.com/docs/transition-property",
         "entry": "Transition Property",
         "description": "Utilities for controlling which CSS properties transition.",
         "parameters": [
@@ -36,7 +36,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/transition-duration",
+        "url": "https://v3.tailwindcss.com/docs/transition-duration",
         "entry": "Transition Duration",
         "description": "Utilities for controlling the duration of CSS transitions.",
         "parameters": [
@@ -79,7 +79,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/transition-timing-function",
+        "url": "https://v3.tailwindcss.com/docs/transition-timing-function",
         "entry": "Transition Timing Function",
         "description": "Utilities for controlling the easing of CSS transitions.",
         "parameters": [
@@ -102,7 +102,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/transition-delay",
+        "url": "https://v3.tailwindcss.com/docs/transition-delay",
         "entry": "Transition Delay",
         "description": "Utilities for controlling the delay of CSS transitions.",
         "parameters": [
@@ -145,7 +145,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/animation",
+        "url": "https://v3.tailwindcss.com/docs/animation",
         "entry": "Animation",
         "description": "Utilities for animating elements with CSS animations.",
         "parameters": [

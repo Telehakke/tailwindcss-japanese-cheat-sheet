@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/font-family",
+        "url": "https://v3.tailwindcss.com/docs/font-family",
         "entry": "Font Family",
         "description": "Utilities for controlling the font family of an element.",
         "parameters": [
@@ -20,7 +20,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/font-size",
+        "url": "https://v3.tailwindcss.com/docs/font-size",
         "entry": "Font Size",
         "description": "Utilities for controlling the font size of an element.",
         "parameters": [
@@ -79,7 +79,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/font-smoothing",
+        "url": "https://v3.tailwindcss.com/docs/font-smoothing",
         "entry": "Font Smoothing",
         "description": "Utilities for controlling the font smoothing of an element.",
         "parameters": [
@@ -94,7 +94,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/font-style",
+        "url": "https://v3.tailwindcss.com/docs/font-style",
         "entry": "Font Style",
         "description": "Utilities for controlling the style of text.",
         "parameters": [
@@ -109,7 +109,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/font-weight",
+        "url": "https://v3.tailwindcss.com/docs/font-weight",
         "entry": "Font Weight",
         "description": "Utilities for controlling the font weight of an element.",
         "parameters": [
@@ -152,7 +152,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/font-variant-numeric",
+        "url": "https://v3.tailwindcss.com/docs/font-variant-numeric",
         "entry": "Font Variant Numeric",
         "description": "Utilities for controlling the variant of numbers.",
         "parameters": [
@@ -195,7 +195,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/letter-spacing",
+        "url": "https://v3.tailwindcss.com/docs/letter-spacing",
         "entry": "Letter Spacing",
         "description": "Utilities for controlling the tracking (letter spacing) of an element.",
         "parameters": [
@@ -226,7 +226,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/line-clamp",
+        "url": "https://v3.tailwindcss.com/docs/line-clamp",
         "entry": "Line Clamp",
         "description": "Utilities for clamping text to a specific number of lines.",
         "parameters": [
@@ -261,7 +261,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/line-height",
+        "url": "https://v3.tailwindcss.com/docs/line-height",
         "entry": "Line Height",
         "description": "Utilities for controlling the leading (line height) of an element.",
         "parameters": [
@@ -324,7 +324,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/list-style-image",
+        "url": "https://v3.tailwindcss.com/docs/list-style-image",
         "entry": "List Style Image",
         "description": "Utilities for controlling the marker images for list items.",
         "parameters": [
@@ -335,7 +335,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/list-style-position",
+        "url": "https://v3.tailwindcss.com/docs/list-style-position",
         "entry": "List Style Position",
         "description": "Utilities for controlling the position of bullets/numbers in lists.",
         "parameters": [
@@ -350,7 +350,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/list-style-type",
+        "url": "https://v3.tailwindcss.com/docs/list-style-type",
         "entry": "List Style Type",
         "description": "Utilities for controlling the bullet/number style of a list.",
         "parameters": [
@@ -369,7 +369,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-align",
+        "url": "https://v3.tailwindcss.com/docs/text-align",
         "entry": "Text Align",
         "description": "Utilities for controlling the alignment of text.",
         "parameters": [
@@ -400,7 +400,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-color",
+        "url": "https://v3.tailwindcss.com/docs/text-color",
         "entry": "Text Color",
         "description": "Utilities for controlling the text color of an element.",
         "parameters": [
@@ -1642,7 +1642,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-decoration",
+        "url": "https://v3.tailwindcss.com/docs/text-decoration",
         "entry": "Text Decoration",
         "description": "Utilities for controlling the decoration of text.",
         "parameters": [
@@ -1665,7 +1665,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-decoration-color",
+        "url": "https://v3.tailwindcss.com/docs/text-decoration-color",
         "entry": "Text Decoration Color",
         "description": "Utilities for controlling the color of text decorations.",
         "parameters": [
@@ -2660,7 +2660,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-decoration-style",
+        "url": "https://v3.tailwindcss.com/docs/text-decoration-style",
         "entry": "Text Decoration Style",
         "description": "Utilities for controlling the style of text decorations.",
         "parameters": [
@@ -2687,7 +2687,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-decoration-thickness",
+        "url": "https://v3.tailwindcss.com/docs/text-decoration-thickness",
         "entry": "Text Decoration Thickness",
         "description": "Utilities for controlling the thickness of text decorations.",
         "parameters": [
@@ -2722,7 +2722,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-underline-offset",
+        "url": "https://v3.tailwindcss.com/docs/text-underline-offset",
         "entry": "Text Underline Offset",
         "description": "Utilities for controlling the offset of a text underline.",
         "parameters": [
@@ -2753,7 +2753,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-transform",
+        "url": "https://v3.tailwindcss.com/docs/text-transform",
         "entry": "Text Transform",
         "description": "Utilities for controlling the transformation of text.",
         "parameters": [
@@ -2776,7 +2776,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-overflow",
+        "url": "https://v3.tailwindcss.com/docs/text-overflow",
         "entry": "Text Overflow",
         "description": "Utilities for controlling text overflow in an element.",
         "parameters": [
@@ -2795,7 +2795,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-wrap",
+        "url": "https://v3.tailwindcss.com/docs/text-wrap",
         "entry": "Text Wrap",
         "description": "Utilities for controlling how text wraps within an element.",
         "parameters": [
@@ -2818,7 +2818,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/text-indent",
+        "url": "https://v3.tailwindcss.com/docs/text-indent",
         "entry": "Text Indent",
         "description": "Utilities for controlling the amount of empty space shown before text in a block.",
         "parameters": [
@@ -2965,7 +2965,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/vertical-align",
+        "url": "https://v3.tailwindcss.com/docs/vertical-align",
         "entry": "Vertical Align",
         "description": "Utilities for controlling the vertical alignment of an inline or table-cell box.",
         "parameters": [
@@ -3004,7 +3004,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/whitespace",
+        "url": "https://v3.tailwindcss.com/docs/whitespace",
         "entry": "Whitespace",
         "description": "Utilities for controlling an element's white-space property.",
         "parameters": [
@@ -3035,7 +3035,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/word-break",
+        "url": "https://v3.tailwindcss.com/docs/word-break",
         "entry": "Word Break",
         "description": "Utilities for controlling word breaks in an element.",
         "parameters": [
@@ -3058,7 +3058,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/hyphens",
+        "url": "https://v3.tailwindcss.com/docs/hyphens",
         "entry": "Hyphens",
         "description": "Utilities for controlling how words should be hyphenated.",
         "parameters": [
@@ -3077,7 +3077,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/content",
+        "url": "https://v3.tailwindcss.com/docs/content",
         "entry": "Content",
         "description": "Utilities for controlling the content of the before and after pseudo-elements.",
         "parameters": [

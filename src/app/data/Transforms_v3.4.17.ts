@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/scale",
+        "url": "https://v3.tailwindcss.com/docs/scale",
         "entry": "Scale",
         "description": "Utilities for scaling elements with transform.",
         "parameters": [
@@ -128,7 +128,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/rotate",
+        "url": "https://v3.tailwindcss.com/docs/rotate",
         "entry": "Rotate",
         "description": "Utilities for rotating elements with transform.",
         "parameters": [
@@ -171,7 +171,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/translate",
+        "url": "https://v3.tailwindcss.com/docs/translate",
         "entry": "Translate",
         "description": "Utilities for translating elements with transform.",
         "parameters": [
@@ -514,7 +514,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/skew",
+        "url": "https://v3.tailwindcss.com/docs/skew",
         "entry": "Skew",
         "description": "Utilities for skewing elements with transform.",
         "parameters": [
@@ -569,7 +569,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/transform-origin",
+        "url": "https://v3.tailwindcss.com/docs/transform-origin",
         "entry": "Transform Origin",
         "description": "Utilities for specifying the origin for an element's transformations.",
         "parameters": [

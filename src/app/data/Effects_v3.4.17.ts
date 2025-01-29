@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/box-shadow",
+        "url": "https://v3.tailwindcss.com/docs/box-shadow",
         "entry": "Box Shadow",
         "description": "Utilities for controlling the box shadow of an element.",
         "parameters": [
@@ -40,7 +40,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/box-shadow-color",
+        "url": "https://v3.tailwindcss.com/docs/box-shadow-color",
         "entry": "Box Shadow Color",
         "description": "Utilities for controlling the color of a box shadow.",
         "parameters": [
@@ -1035,7 +1035,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/opacity",
+        "url": "https://v3.tailwindcss.com/docs/opacity",
         "entry": "Opacity",
         "description": "Utilities for controlling the opacity of an element.",
         "parameters": [
@@ -1126,7 +1126,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/mix-blend-mode",
+        "url": "https://v3.tailwindcss.com/docs/mix-blend-mode",
         "entry": "Mix Blend Mode",
         "description": "Utilities for controlling how an element should blend with the background.",
         "parameters": [
@@ -1205,7 +1205,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/background-blend-mode",
+        "url": "https://v3.tailwindcss.com/docs/background-blend-mode",
         "entry": "Background Blend Mode",
         "description": "Utilities for controlling how an element's background image should blend with its background color.",
         "parameters": [

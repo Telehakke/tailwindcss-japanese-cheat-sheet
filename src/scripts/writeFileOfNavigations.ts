@@ -3,7 +3,7 @@ import NavigationExtractor from "./models/navigationExtractor";
 import createDom from "./models/createDom";
 
 // 指定したURLにアクセスしDOMを生成
-const url = "https://tailwindcss.com/docs/installation";
+const url = "https://v3.tailwindcss.com/docs/installation";
 const document = await createDom(url);
 
 // サイドメニューからチートシートに必要な項目を取得

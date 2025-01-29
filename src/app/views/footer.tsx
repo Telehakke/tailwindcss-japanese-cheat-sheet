@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="flex items-center justify-center gap-2">
             <a
-                href="https://github.com/Telehakke/tailwindcss-japanese-cheat-sheet"
+                href="https://github.com/telehakke/tailwindcss-japanese-cheat-sheet"
                 target="_blank"
             >
                 <picture className="transition hover:opacity-70">
@@ -16,7 +16,7 @@ const Footer = () => {
                     <img src={githubMarkSVG} className="h-6 w-6" />
                 </picture>
             </a>
-            <small>© 2024 Telehakke</small>
+            <small>© 2024-2025 Telehakke</small>
         </div>
     );
 };

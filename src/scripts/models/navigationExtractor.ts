@@ -30,7 +30,7 @@ export default class NavigationExtractor {
                 const urls = Array.from<HTMLAnchorElement>(
                     e.querySelectorAll("ul > li > a"),
                 ).map((e) => {
-                    const url = `https://tailwindcss.com${e.href}`;
+                    const url = `https://v3.tailwindcss.com${e.href}`;
                     return url;
                 });
                 const navigation: Navigation = {

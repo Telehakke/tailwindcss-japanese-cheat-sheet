@@ -1,7 +1,7 @@
 export const version = "v3.4.17";
 export const documentations = [
     {
-        "url": "https://tailwindcss.com/docs/fill",
+        "url": "https://v3.tailwindcss.com/docs/fill",
         "entry": "Fill",
         "description": "Utilities for styling the fill of SVG elements.",
         "parameters": [
@@ -1000,7 +1000,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/stroke",
+        "url": "https://v3.tailwindcss.com/docs/stroke",
         "entry": "Stroke",
         "description": "Utilities for styling the stroke of SVG elements.",
         "parameters": [
@@ -1999,7 +1999,7 @@ export const documentations = [
         ]
     },
     {
-        "url": "https://tailwindcss.com/docs/stroke-width",
+        "url": "https://v3.tailwindcss.com/docs/stroke-width",
         "entry": "Stroke Width",
         "description": "Utilities for styling the stroke width of SVG elements.",
         "parameters": [
