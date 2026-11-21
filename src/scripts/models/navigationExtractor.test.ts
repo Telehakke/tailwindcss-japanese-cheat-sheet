@@ -1,7 +1,7 @@
-import { expect, test } from "vitest";
 import { JSDOM } from "jsdom";
+import { expect, test } from "vite-plus/test";
+import type { Navigation } from "../../app/models/types";
 import NavigationExtractor from "./navigationExtractor";
-import { Navigation } from "../../app/models/types";
 
 // prettier-ignore
 const html =
@@ -58,20 +58,20 @@ const { document } = new JSDOM(html).window;
 const navigationExtractor = new NavigationExtractor(document);
 
 test("チートシートに必要な項目だけを取得できているかどうか", () => {
-    const result = navigationExtractor.getNavigations();
-    const expected: Navigation[] = [
-        {
-            category: "Layout",
-            urls: [
-                "https://tailwindcss.com/docs/aspect-ratio",
-                "https://tailwindcss.com/docs/container",
-            ],
-        },
-    ];
-    expect(result).toEqual(expected);
+  const result = navigationExtractor.getNavigations();
+  const expected: Navigation[] = [
+    {
+      category: "Layout",
+      urls: [
+        "https://v3.tailwindcss.com/docs/aspect-ratio",
+        "https://v3.tailwindcss.com/docs/container",
+      ],
+    },
+  ];
+  expect(result).toEqual(expected);
 });
 
 test("ドキュメントのバージョンを取得できているかどうか", () => {
-    const result = navigationExtractor.getVersion();
-    expect(result).toBe("v3.0.0");
+  const result = navigationExtractor.getVersion();
+  expect(result).toBe("v3.0.0");
 });

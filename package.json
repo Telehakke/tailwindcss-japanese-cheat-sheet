@@ -1,42 +1,46 @@
 {
   "name": "tailwindcss-japanese-cheat-sheet",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "vitest",
-    "writeNav": "tsx src/scripts/writeFileOfNavigations.ts",
-    "writeDoc": "tsx src/scripts/writeFileOfDocumentations.ts"
+    "dev": "vp dev",
+    "build": "tsc -b && vp build",
+    "lint": "vp lint .",
+    "preview": "vp preview",
+    "test": "vp test",
+    "writeNav": "vpx src/scripts/writeFileOfNavigations.ts",
+    "writeDoc": "vpx src/scripts/writeFileOfDocumentations.ts"
   },
   "dependencies": {
-    "jotai": "^2.11.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "jotai": "^3.0.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.19.0",
-    "@types/jsdom": "^21.1.7",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "@vitejs/plugin-react-swc": "^3.7.2",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.19.0",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.18",
-    "globals": "^15.14.0",
-    "jsdom": "^26.0.0",
-    "postcss": "^8.5.1",
-    "prettier": "^3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^3.4.17",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "typescript-eslint": "^8.22.0",
-    "vite": "^6.0.11",
-    "vitest": "^3.0.4"
+    "@babel/core": "^8.1.2",
+    "@rolldown/plugin-babel": "^0.3.1",
+    "@types/babel__core": "^7.20.5",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "autoprefixer": "^10.7.0",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "globals": "^17.14.0",
+    "jsdom": "^31.0.1",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~7.0.2",
+    "vite": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.21.0",
+      "onFail": "download"
+    }
   }
 }

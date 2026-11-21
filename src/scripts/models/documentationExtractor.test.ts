@@ -1,5 +1,5 @@
-import { test, expect } from "vitest";
 import { JSDOM } from "jsdom";
+import { expect, test } from "vite-plus/test";
 import DocumentationExtractor from "./documentationExtractor";
 
 // prettier-ignore
@@ -51,29 +51,27 @@ const html =
         </div>
     </div>
 </div>
-`
+`;
 
 const { document } = new JSDOM(html).window;
 const documentationExtractor = new DocumentationExtractor(document);
 
 test("見出しを取得できているかどうか", () => {
-    const result = documentationExtractor.getEntry();
-    expect(result).toBe("Aspect Ratio");
+  const result = documentationExtractor.getEntry();
+  expect(result).toBe("Aspect Ratio");
 });
 
 test("説明を取得できているかどうか", () => {
-    const result = documentationExtractor.getDescription();
-    expect(result).toBe(
-        "Utilities for controlling the aspect ratio of an element.",
-    );
+  const result = documentationExtractor.getDescription();
+  expect(result).toBe("Utilities for controlling the aspect ratio of an element.");
 });
 
 test("パラメーターを取得できているかどうか", () => {
-    const result = documentationExtractor.getParameters();
-    const expected = [
-        ["aspect-auto", "aspect-ratio: auto;"],
-        ["aspect-square", "aspect-ratio: 1 / 1;"],
-        ["aspect-video", "aspect-ratio: 16 / 9;"],
-    ];
-    expect(result).toEqual(expected);
+  const result = documentationExtractor.getParameters();
+  const expected = [
+    ["aspect-auto", "aspect-ratio: auto;"],
+    ["aspect-square", "aspect-ratio: 1 / 1;"],
+    ["aspect-video", "aspect-ratio: 16 / 9;"],
+  ];
+  expect(result).toEqual(expected);
 });
