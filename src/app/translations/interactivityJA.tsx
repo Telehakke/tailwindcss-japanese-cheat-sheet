@@ -425,7 +425,7 @@ const interactivityJA = new Map<string, Translation>([
             ["pan-up", "上方向へのスクロールを可能にする"],
             ["pan-down", "下方向へのスクロールを可能にする"],
             ["pinch-zoom", "ピンチ操作でのズームを可能にする"],
-            ["manipulation", "ダブルタップでのズームを可能にする"],
+            ["manipulation", "ダブルタップでのズームを無効にする"],
           ]}
         />
       ),

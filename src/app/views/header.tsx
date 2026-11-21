@@ -36,7 +36,7 @@ const DocumentationVersion = (): JSX.Element => {
         className="underline"
         href="https://telehakke.github.io/tailwindcss-japanese-cheat-sheet-v4/"
       >
-        v4
+        v4チートシートを開く
       </a>
     </div>
   );
